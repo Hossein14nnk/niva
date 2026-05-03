@@ -1,0 +1,45 @@
+#article .shadow {
+    box-shadow: 0 3px 2px rgba(2, 25, 89, 0.02);
+}
+#article .line-height {
+   line-height: 2rem;
+}
+
+#article .border-bottom {
+  border-bottom: 1px solid var(--border) ;
+}
+
+#article input {
+    border: 1px solid var(--border-fields);
+}
+
+#article textarea {
+    border: 1px solid var(--border-fields);
+}
+
+
+#article .accordion-group .accordion {
+  background-color: white !important;
+}
+.txt-align-justify {
+  text-align: justify;
+}
+////////////////////////////////////////////////////////////////
+
+@media screen and (width < 1400px) {}
+
+@media screen and (width < 1200px) {}
+
+@media screen and (width < 992px) {
+    .flex-lg-column-reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (width < 768px) {
+    .flex-md-column-reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (width < 576px) {}

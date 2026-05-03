@@ -1,0 +1,25 @@
+@use "../../../../sass/kernel/" as *;
+
+.unavailable {
+    @extend .d-flex, .flex-column, .px-8,.bw-1, .border-style-solid, .border-color, .radius-all-medium, .position-sticky, .top-0, .w-100;
+
+    .wrapper-unavailable {
+        @extend .d-flex, .justify-content-space-between, .align-items-center, .bw-1, .bb-style-solid, .border-color, .py-8, .w-100 ;
+
+        .unavailable-text {
+            @extend .text-color, .font-weight-bold, .txt-size-big, .w-70;
+        }
+    }
+
+    
+    .filter {
+        filter: blur(2px);
+        user-select: none;
+
+        @extend .d-flex, .flex-column, .gap-3, .py-6;
+    }
+
+    .login-btn{
+        @extend .d-flex, .justify-content-center, .mt-1, .py-4, .font-weight-bold , .bg-primary-color, .on-primary-color, .w-100, .txt-size-extra-title, .radius-all-small, .mb-10;
+    }
+}

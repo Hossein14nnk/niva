@@ -1,0 +1,148 @@
+//empty page 1.1
+.shop-process {
+    background-image: linear-gradient(to right,#FFA30A 1% , #FFF0D8 1% 100%);
+    height: 6px;
+}
+
+.back-svg {
+    box-shadow: -7px 10px 19px -6px rgba(126, 142, 185, 0.2);
+}
+
+.back-svg svg path {
+    stroke: #CCD1DE;
+}
+
+#process .back-svg.variant {
+    background-color: var(--primary);
+    box-shadow: 0px 0px 8px 0px var(--primary);
+}
+
+.back-svg.variant svg path {
+    stroke: var(--secondary) !important;
+}
+
+.product-count {
+    box-shadow: 4px 0px 7px -2px var(--primary) !important;
+}
+
+.line-height {
+    line-height: 1.2rem;
+}
+
+.txt-header > div {
+    border-top-color: #F5F7F9;
+    border-right-color: #f5f7f9cb;
+    border-left-color: #f5f7f9d4;
+    border-bottom-color: #f5f7f995;
+}
+
+.space svg {
+    transition: all 200ms ;
+}
+
+.space:hover svg {
+    transform: translateX(-6px);
+}
+
+//level 1-full
+input {
+    outline: unset;
+}
+
+.product-img {
+    width: 85px;
+}
+
+.cost-details > div:nth-child(1) .price path {
+    fill: var(--secondary-text);
+}
+
+.cost-details > div:nth-child(2) .price path {
+    fill: black;
+}
+
+.sending-card {
+    top: 10rem;
+}
+
+// level 2
+.wrapper-post{
+    box-shadow: 0px 2px 1px 1px var(--border);
+}
+
+.btn-date {
+    border: 1px solid var(--border);
+    box-shadow: 0px 3px 1px 0px #EEF2F9;
+}
+
+.tick{
+    width: 20px;
+    height: 20px;
+}
+
+#leading-post:checked+label .tick{
+    background-color: var(--primary);
+}
+
+#leading-post:checked+label {
+    background-color: var(--secondary);
+}
+
+#leading-post:checked+label p{
+   color: var(--secondary-text);
+}
+
+#leading-post:checked+label span{
+   color: var(--secondary-text);
+}
+
+#common-post:checked+label .tick{
+    background-color: var(--primary);
+}
+
+#common-post:checked+label {
+    background-color: var(--secondary);
+}
+
+#common-post:checked+label p{
+   color: var(--secondary-text);
+}
+
+#common-post:checked+label span{
+   color: var(--secondary-text);
+}
+
+#online-pay:checked+label {
+    background-color: var(--secondary);
+}
+
+#cash-pay:checked+label {
+    background-color: var(--secondary);
+}
+
+.total-cost svg path{
+    fill: black;
+}
+
+
+
+@media screen and (width < 1400px) {}
+
+@media screen and (width < 1200px) {}
+
+@media screen and (width < 992px) {
+
+    .p-lg-fixed {
+        position: fixed;
+    }
+}
+
+@media screen and (width < 768px) {
+
+
+    .wrapper-phases {
+        top: 10rem;
+    }
+}
+
+@media screen and (width < 576px) {}

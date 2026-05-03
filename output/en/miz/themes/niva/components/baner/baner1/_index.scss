@@ -1,0 +1,63 @@
+@use "../../../../../sass/kernel/" as *;
+
+
+.banner{
+    @extend .w-100,.h-50vh , .position-relative,.bg-primary-color;
+
+    .cantainer-image{
+        @extend .w-100 ;
+
+        img{
+            @extend .position-absolute ;
+        }
+
+        .waterfall{
+            @extend .w-100,  .bottom-0;
+        }
+        
+        .image-product{
+            left:15%;
+
+            @extend .w-20;
+        }
+
+        .red-caver{
+            @extend .w-100, .bottom-0;
+        }
+    }
+
+    .cantainer-text{
+        top: 15%;
+        left:40%;
+        @extend .position-relative ,.right-0,.w-40;
+
+        p{
+            @extend .on-primary-color;
+        }
+
+        .angle-right{
+            @extend .position-absolute, .right-0;
+        }
+
+        .subtitle{
+            top:10px;
+            left: 445px;
+            @extend .position-relative;
+        }
+
+        .title{
+            @extend .font-weight-extra-bold, .txt-size-mega-title;
+        }
+
+        .name-product{
+            left: 10px;
+            @extend .position-relative;
+        }
+
+        .angle-left{
+            @extend .position-absolute, .left-0;
+        }
+    }
+}
+
+

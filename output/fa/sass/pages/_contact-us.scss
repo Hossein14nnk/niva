@@ -1,0 +1,142 @@
+
+#contact-ways input, textarea {
+  outline: none;
+  border-bottom: 1px solid #E6E9EE;
+}
+
+#contact-ways {
+    padding-right: 25rem !important;
+    padding-left: 25rem !important;
+    box-shadow: 0px 1px 1px 0px var(--shadow-color);
+}
+
+#contact-ways .wrapper-form {
+    box-shadow: 0px 1px 1px 0px var(--shadow-color);
+}
+
+#contact-ways input::placeholder {
+  opacity: 0.8;
+  color: #021959;
+}
+
+#contact-ways textarea::placeholder {
+  opacity: 0.8;
+  color: #021959;
+  line-height: 30px;
+}
+
+#contact-ways .icon-arrow-left::before {
+  content: "\e92c";
+  font-family: icomoon;
+  font-style: normal;
+}
+
+
+
+#contact-ways .icon-bookmark::before {
+  content: "\e90f";
+  font-family: icomoon;
+  font-style: normal;
+}
+
+#contact-ways .border-bottom {
+    border-bottom: 1px solid #E6E9EE;
+}
+
+#contact-ways .icon-envelope::before {
+  content: "\e912";
+  font-family: icomoon;
+  font-style: normal;
+}
+
+#contact-ways .icon-phone::before {
+  content: "\e916";
+  font-family: icomoon;
+  font-style: normal;
+}
+
+#contact-ways .icon-calender::before {
+  content: "\e910";
+  font-family: icomoon;
+  font-style: normal;
+}
+
+#contact-ways .icon-twitter::before {
+  content: "\e91c";
+  font-family: icomoon;
+  font-style: normal;
+  color: #66749B;
+}
+
+#contact-ways .icon-whatsapp::before {
+  content: "\e91e";
+  font-family: icomoon;
+  font-style: normal;
+  color: #66749B;
+}
+
+#contact-ways .icon-telegram::before {
+  content: "\e91b";
+  font-family: icomoon;
+  font-style: normal;
+  color: #66749B;
+}
+
+#contact-ways .icon-facebook::before {
+  content: "\e913";
+  font-family: 'icomoon';
+  font-style: normal;
+  color: #66749B;
+}
+
+#contact-ways .vertical-line {
+    background-color: #E6E9EE;
+    width: 1px;
+    height: 3rem;
+}
+
+#contact-ways .txt-logo{
+  font-size: 5rem;
+}
+
+
+
+
+
+@media screen and (width < 1400px) {
+    #contact-ways{
+      padding-left: 8rem !important;
+      padding-right: 8rem !important;
+    }
+}
+
+@media screen and (width < 1200px) {
+    #contact-ways > div {
+      flex-wrap: wrap !important;
+    }
+
+    #contact-ways .wrapper-form {
+      padding-top: 3rem !important;
+    }
+}
+
+@media screen and (width < 992px) {
+   #contact-ways iframe {
+    order: 1 !important;
+   }
+}
+
+
+@media screen and (width < 768px) {
+   #contact-ways iframe {
+    order: 0 !important;
+  }
+}
+
+@media screen and (width < 576px) {
+   #contact-ways{
+      padding-left: 5rem !important;
+      padding-right: 5rem !important;
+    }
+}
+

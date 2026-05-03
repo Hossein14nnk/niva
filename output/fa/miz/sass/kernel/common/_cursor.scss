@@ -1,0 +1,12 @@
+@use "../../config/_dims" as *;
+@use "../../../themes/niva/config/dims" as *;
+
+@mixin generate-cursor($config, $class){
+    @each $value in $config{
+        .#{$class}-#{$value}{
+            cursor:$value;
+        }
+    }
+}
+
+@include generate-cursor($conf-cursor, cursor);

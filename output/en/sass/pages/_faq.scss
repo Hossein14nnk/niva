@@ -1,0 +1,28 @@
+#faq-wrapper .faq-search-form {
+  background-color: #f8f9fb;
+}
+
+.accordion-group .accordion {
+  background-color: #f8f9fb;
+}
+
+
+#faq-wrapper input::placeholder {
+  font-weight: 100;
+}
+
+.outline-unset {
+  outline: unset;
+}
+
+
+
+@media screen and (width < 1400px) {}
+
+@media screen and (width < 1200px) {}
+
+@media screen and (width < 992px) {}
+
+@media screen and (width < 768px) {}
+
+@media screen and (width < 576px) {}

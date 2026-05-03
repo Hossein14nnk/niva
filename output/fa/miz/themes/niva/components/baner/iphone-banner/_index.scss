@@ -1,0 +1,59 @@
+@use "../../../../../sass/kernel/" as *;
+
+
+.iphone-banner {
+    background-image: url('../../assets/media/images/fa/banner/iphone-secondary-banner.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    @extend .position-relative , .w-100 , .overflow-hidden , .radius-all-medium , .d-flex ;
+
+    .product {
+        @extend .d-flex ,.justify-content-space-evenly , .align-items-center , .pr-40 , .flex-row-reverse , .w-80;
+
+        .product-image {
+            @extend .w-25;
+        }
+
+        .text-box {
+            background-image: url('../../assets/media/images/fa/banner/Vector-9.svg');
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position: 100% 0%;
+            white-space: nowrap;
+            @extend .position-relative , .d-flex , .flex-column , .py-2 , .px-3 ;
+
+            .description {
+                font-size:2.5rem;
+                @extend .text-color , .font-weight-black;
+            }
+
+            .name {
+                @extend  .ltr , .text-color , .txt-size-title , .font-weight-medium;
+            }
+
+
+
+        }
+    }
+
+    .contain-button {
+        @extend .w-20 , .d-flex , .align-items-center , .justify-content-center; 
+    }
+
+    &::after {
+        content: '';
+        background-image: url('../../assets/media/images/fa/banner/Vector-12.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        @extend .position-absolute , .w-100 , .h-100 , .z-index-2 ;
+    }
+
+    &::before {
+        content: '';
+        background-image:  url('../../assets/media/images/fa/banner/Vector-15.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 100% 1%;
+        @extend .position-absolute , .w-100 , .h-100 , .z-index-2 ;
+    }
+}

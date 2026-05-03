@@ -1,0 +1,50 @@
+@use "../../../../sass/kernel/" as *;
+
+
+// <!-- .success-dark-color *-->
+// <!-- .success-dark-color *-->
+
+
+.product-qa{
+    @extend .d-flex, .flex-column, .gap-10;
+
+    .question-container{
+        @extend .d-flex, .align-items-center, .justify-content-space-between, .gap-5;
+
+        .text-quesiton{
+            @extend .font-weight-bold, .text-color, .txt-size-normal;
+        }
+
+        .btn{
+            @extend .d-flex, .align-items-center, .gap-3, .py-3, .px-3, .bg-secondary-color, .radius-all-full, .cursor-pointer;
+
+            .count{
+                @extend .font-weight-bold;
+            }
+        }
+    }
+
+    .answer-container{
+        @extend .d-flex, .align-items-start, .gap-3;
+
+        .btn-answer{
+            @extend .bg-success-light-color, .radius-all-small, .font-weight-bold, .txt-size-big;
+        }
+
+        .answer-description{
+            @extend .d-flex, .flex-column,.font-weight-medium, .secondary-text-color, .gap-3;
+
+            .text-answer{
+                @extend .txt-size-mid-title;
+            }
+            
+            .user-name{
+                @extend .d-flex, .align-items-center, .secondary-text-color, .txt-size-big, .gap-1;
+                
+                .user-type{
+                    @extend .bg-disabled-regular-color, .on-primary-color, .radius-all-full, .txt-size-big, .px-1;
+                }
+            }
+        }
+    }
+}
