@@ -279,11 +279,11 @@ footer .top-line {
   bottom: 25px;
 }
 
-#bestsellers-category img:hover {
+#bestsellersCategory img:hover {
   transform: scale(1.05);
 }
 
-#bestsellers-category img {
+#bestsellersCategory img {
   transition: 500ms all;
 }
 
@@ -1840,6 +1840,10 @@ header .megamenu > ul > .submenu-parent:hover > span {
     left: 50%;
     transform: translateX(-50%);
     opacity: 1;
+  }
+  header .secondary-part .hover-box > li:nth-child(6):hover > ul {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
   }
   header form > div:last-child {
     position: fixed;
