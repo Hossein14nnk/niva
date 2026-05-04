@@ -2,7 +2,7 @@
 
 
 .focused-card {
-    background-image: url("../../assets/media/images/category/Vector-7.svg") , radial-gradient(at center , #F6F7F8 1%, #B4CBD8 );
+    background-image: url("../../assets/media/images/fa/category/Vector-7.svg") , radial-gradient(at center , #F6F7F8 1%, #B4CBD8 );
     background-repeat: no-repeat;
     background-size: cover;
     transition: all 300ms;
@@ -22,7 +22,7 @@
 
     &::before {
         content: '';
-        background-image: url("../../assets/media/images/category/Vector-6.svg") ;
+        background-image: url("../../assets/media/images/fa/category/Vector-6.svg") ;
         background-repeat: no-repeat;
         background-size: cover;
         transition: all 300ms;
@@ -31,7 +31,7 @@
 
     &::after {
         content: '';
-        background-image: url("../../assets/media/images/category/Vector-5.svg") ;
+        background-image: url("../../assets/media/images/fa/category/Vector-5.svg") ;
         background-repeat: no-repeat;
         background-size: cover;
         transition: all 300ms;
@@ -53,6 +53,6 @@
     }
 
     &:hover {
-        background-image: url("../../assets/media/images/category/Vector-7.svg") ,  radial-gradient(get-color(primary)) ;
+        background-image: url("../../assets/media/images/fa/category/Vector-7.svg") ,  radial-gradient(get-color(primary)) ;
     }
 }

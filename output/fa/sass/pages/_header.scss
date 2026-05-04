@@ -425,6 +425,11 @@ header .megamenu > ul > .submenu-parent:hover> span{
     opacity: 1;
   }
 
+  header .secondary-part .hover-box>li:nth-child(6):hover>ul {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+}
+
   header form>div:last-child {
     position: fixed;
     width: 80% !important;
