@@ -10,6 +10,10 @@
   bottom: 10px;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .radius-all-full {
   border-radius: 2000px;
 }
@@ -20,10 +24,10 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
- #banner-mobile-air .banner-icon {
+ #bannerProductSecond .banner-icon {
   left: 6%;
 }
-#banner-mobile .banner-icon {
+#bannerProduct .banner-icon {
   left: 6%;
 }
 #box-taste .content{
@@ -181,15 +185,14 @@ padding: 0px !important;
     height: 10px;
   }
 }
-
 #hero .slider-toggles{
   bottom: 25px;
 }
-#bestsellers-category img:hover
+#bestsellersCategory img:hover
 {
 transform: scale(1.05);
 }
-#bestsellers-category img
+#bestsellersCategory img
 {
 transition: 500ms all;
 }

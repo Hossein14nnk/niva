@@ -434,6 +434,11 @@ header .megamenu > ul > .submenu-parent:hover> span{
     max-width: 540px;
   }
 
+  header .secondary-part .hover-box>li:nth-child(6):hover>ul {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+}
+
   .w-lg-0 {
     width: 0;
   }
