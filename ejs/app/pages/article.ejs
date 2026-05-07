@@ -1,0 +1,174 @@
+<%- include('../layouts/page/head.ejs', {pageName: "article"}); -%>
+<%_ 
+    const article = t.pages.article;
+    const contents = article.content;
+    const mostViedBlogs = article.mostViedBlogs;
+    const faqs = article.articlesFaqs;
+    const mostDiscussed = article.mostDiscussed;
+-%>
+<main>
+    <section class="section flex-column align-items-start w-100 gap-8 flex-lg-column">
+        <div class="container flex-row-reverse align-items-start w-100 gap-8 flex-lg-column-reverse">
+            <aside class="container w-25 w-lg-100 gap-10">
+                <h3 class="txt-size-mid-title font-weight-black"><%=article.asideTitle%></h3>
+                <div class="block d-grid grid-1 grid-lg-3 grid-md-2 grid-sm-1 gap-10">
+                    <% for(let blog of mostViedBlogs){ %>
+                        <%- include('../components/weblog-card/newest-column/content.ejs', {
+                            title: blog.title,
+                            description: blog.description,
+                            date: blog.date,
+                            commentCount: blog.commentCount,
+                            image: blog.image,
+                            link: blog.link,
+                            showViewAndReadingTime: blog.showViewAndReadingTime                  
+                        }); -%>
+                    <% } %>
+                </div>
+            </aside>
+            <div class="container w-75 w-lg-100 gap-10">
+                <div class="block justify-content-space-between w-100 flex-sm-column gap-4">
+                    <span class="div gap-3 font-weight-bold txt-size-title align-items-center">
+                        <% const breadcrumbs = article.breadcrumbs || [];
+                        for(let i = 0; i < breadcrumbs.length; i++) { 
+                            let item = breadcrumbs[i]; 
+                        %>
+                            <a class="secondary-text-color" href="<%= item.url %>"><%= item.name %></a>
+                            <i class="icon-arr-left txt-size-small font-weight-bold opacity-5 on-secondary-color"></i>
+                        <% } %>
+                        <span class="text-color"><%= article.currentPageName %></span>
+                    </span>
+                    <div>
+                        <div class="d-flex gap-3">
+                            <p class="txt-size-title font-weight-bold d-md-none"><%= article.shareButtonText %></p>
+                            <i class="icon-share"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <% for(let i = 0; i < contents.length; i++) { %>
+                    <% const article = contents[i]; %>
+                    <div class="block flex-column w-100 pr-md-0 flex-xl-column justify-content-space-between pl-xl-0 gap-5">
+                        <div class="w-100 w-xl-100 d-flex flex-column gap-4">
+                            <% if (i === 0) { %>
+                                <h1 class="title-text-color font-weight-bold txt-size-big-title"><%= article.title %></h1>
+                            <% } else { %>
+                                <h2 class="article-subtitle title-text-color font-weight-bold"><%= article.title %></h2>
+                            <% } %>
+                            
+                            <% if (article.descriptions && article.descriptions.length > 0) { %>
+                                <% for(let j = 0; j < article.descriptions.length; j++) { %>
+                                    <p class="font-weight-bold txt-size-mid-title text-color lh-8 txt-align-justify"><%= article.descriptions[j] %></p>
+                                <% } %>
+                            <% } %>
+                        </div>
+                        <% if (article.image && article.image.src) { %>
+                            <img class="radius-all-small w-xl-100 mb-xl-5 w-100" src="./assets/media/images/<%= article.image.src %>" alt="<%= article.image.alt || 'تصویر مقاله' %>" />
+                        <% } %>
+                    </div>
+                <% } %>
+                
+                
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container w-100 w-lg-100 gap-10">
+            <% for(let i = 0; i < faqs.length; i++) { %>
+                <%- include('../components/faq/content.ejs', {
+                    question: faqs[i].question,
+                    answer :  faqs[i].answer
+                }); -%>
+            <% } %>
+            <div class="block d-flex flex-md-column justify-content-space-between justify-content-lg-center pb-10 w-100 font-weight-bold radius-all-small gap-sm-3">
+                <div class="d-flex gap-4 flex-column w-100 align-items-start">
+                    <h4 class="title-text-color font-weight-bold txt-size-big-title"><%=article.ratingValue%> <span class="txt-size-extra-title secondary-text-color"><%=article.maxRating%></span><span class="text-color txt-size-mid-title mr-2"> <%=article.ratingDesc%> </span></h4>
+                    <div class="d-flex align-items-center txt-size-extra-title title-text-color gap-2">
+                        <div class="d-flex align-items-center gap-2"> 
+                            <i class="icon-star ratingStar"></i>
+                            <i class="icon-star ratingStar"></i>
+                            <i class="icon-star ratingStar"></i>
+                            <i class="icon-star ratingStar"></i>
+                            <i class="icon-star ratingStar"></i>
+                        </div>
+                        <p class="secondary-text txt-size-title"><%=article.rateCount%></p>
+                    </div>
+                </div>
+                <div class="d-flex flex-column gap-4 align-items-end w-100 align-items-end">
+                    <div class="d-flex align-items-center flex-row-reverse gap-6 copy-address">
+                        <div class="alert-toggle d-flex align-items-center cursor-pointer gap-4 font-size-19px text-variantly-color flex-row-reverse copy-item" data-alert-title="<%=article.alertTextCopy%>">
+                            <i class="icon-copy"></i>
+                            <p class="txt-size-extra-title title-text-color txt-nowrap"><%=article.copyAddress%></p>
+                        </div>
+                        <p class="text-color font-weight-100 txt-size-title ltr site-url"></p>
+                    </div>
+
+                    <div class="d-flex align-items-center flex-row-reverse gap-3 secondary-text-color">
+                        <p class="txt-size-title"><%=article.socialMedia%></p>
+                        <div class="wrapper-icons d-flex align-items-end gap-3 txt-size-high-title font-weight-regular flex-row-reverse">
+                            <%  const socialItems = article.socialItems || [];
+                                for(let i = 0; i < socialItems.length; i++) { 
+                                let item = socialItems[i];
+                            %>
+                                <a href="<%= item.url %>" target="_blank" rel="noopener noreferrer">
+                                    <i class="<%= item.iconClass %>"></i>
+                                </a>
+                            <% } %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+        </div>
+        <div class="container w-100 gap-6">
+            <h2 class="text-color txt-size-big-title font-weight-bold"><%=article.userComment%></h2>
+            <div class="block w-100 flex-column gap-5">
+                <div class="w-100">
+                    <label class="txt-size-big mb-1" for=""><%=article.comment%></label>
+                    <textarea cols="60" rows="8" class="w-100 bg-fields-color radius-all-small border-fields-color bw-1 border-style-solid px-2"></textarea>
+                </div>
+                <div class="w-100 d-flex gap-5 flex-sm-column">
+                    <div class="w-50 w-sm-100">
+                        <label class="txt-size-big mb-1" for=""><%=article.userName%></label>
+                        <input type="text" class="w-100 bg-fields-color radius-all-small border-fields-color bw-1 border-style-solid py-3 px-2" />
+                    </div>
+                    <div class="w-50 w-sm-100">
+                        <label class="txt-size-big mb-1" for=""><%=article.userMail%></label>
+                        <input type="text" class="w-100 bg-fields-color radius-all-small border-fields-color bw-1 border-style-solid mb-4 py-3 px-2" />
+                    </div>
+                </div>
+                <input class="div align-items-center bg-btn-variantly py-4 w-100 font-weight-bold radius-all-small on-primary-color bg-btn-hover bg-primary-color border-style-none txt-size-mid-title" type="submit" value="<%=article.commentButton%>" />
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container gap-8">
+            <div class="block w-100 justify-content-space-between align-items-center gap-5">
+                <h2 class="text-color txt-size-big-title font-weight-bold text-nowrap"><%=article.lastSectionTitle%></h2>
+                <div class="border-style-solid border-color w-100 bw-1"></div>
+            </div>
+            <article class="block d-grid grid-4 grid-lg-3 grid-md-2 grid-sm-1 gap-5">
+                <% for(let i = 0; i < mostDiscussed.length; i++) {%>
+                    <%- include('../components/weblog-card/newest-column/content.ejs', {
+                        title: mostDiscussed[i].title,
+                        description: mostDiscussed[i].description,
+                        date: mostDiscussed[i].date,
+                        commentCount: mostDiscussed[i].commentCount,
+                        image: mostDiscussed[i].image,
+                        link: mostDiscussed[i].link,
+                        showViewAndReadingTime: mostDiscussed[i].showViewAndReadingTime                  
+                    }); -%>
+                <% } %>
+            </article>
+        </div>
+    </section>
+</main>
+
+<%- include('../layouts/page/foot.ejs'); %>

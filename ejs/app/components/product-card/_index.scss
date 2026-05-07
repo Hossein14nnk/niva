@@ -1,0 +1,139 @@
+@use "../../../../sass/kernel/" as *;
+@use "sass:map";
+
+
+.product-card{
+    transition: all 0.2s ease-out;
+    @extend .bg-on-primary-color, .position-relative, .w-100, .px-7, .pb-7, .pt-4, .radius-all-medium, .bw-1, .border-color, .border-style-solid;
+
+    .logo-container{
+        @extend .d-flex, .bw-2, .bb-style-solid,.align-items-center , .border-primary-color, .justify-content-center;
+
+        .logo{
+            @extend .w-10;
+        }
+
+        &:has(.countdown){
+            @extend .justify-content-space-between;
+        }
+    }
+    
+    .countdown{
+        @extend .primary-color,.bg-on-primary-color, .font-weight-bold;
+    }
+
+    .product-colors{
+        @extend .position-absolute, .right-0, .mie-3;
+
+        span{
+            width: 8px;
+            @extend .aspect-ratio-1x1, .radius-all-full;
+        }
+    }
+
+    .image-container{
+        @extend .d-flex, .justify-content-center, .position-relative,.pt-7, .pb-5, .px-3;
+
+        .feature{
+            @extend .position-absolute, .left-0;
+    
+        }
+
+        .image-box{
+            @extend .d-flex, .justify-content-center, .w-100;
+
+            img{
+                width: 80%;
+                aspect-ratio: 1;
+            }
+        }
+
+    }
+
+    .card-body{
+        @extend .d-flex, .flex-column, .text-color, .gap-5;
+        
+        .title{
+            @extend .txt-size-extra-title, .font-weight-bold;
+                text-wrap: wrap;
+        }
+        
+        .available-number{
+            @extend .font-weight-bold, .txt-size-mid-title;
+        }
+
+        .fast-shipping{
+            @extend .d-flex, .w-70, .align-items-center;
+
+            span{
+                @extend .txt-size-big;
+            }
+        }
+        
+        .btn-add-to-cart{
+            
+            @extend .position-relative ,.bg-primary-color, .py-3, .px-2, .radius-all-small, .on-primary-color, .font-weight-medium, .txt-size-big, .cursor-pointer;
+
+            .vector,img{
+                @extend .position-absolute, .right-0, .top-0, .w-100, .h-100;
+            }
+
+            span{
+                @extend .position-relative, .z-index-5;
+            }
+
+            .vector-5{
+                top:1px;
+                border-top-right-radius: 7px;
+                border-radius: 9px;
+            }
+        }
+
+        .btn-percent .icon{
+            width: 70%;
+            position: relative;
+            z-index: 5;
+        }
+
+        .btn-percent{
+            width: 42px;
+            height: 42px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .discount-percentage{
+            box-shadow: 2px 3px 4px -3px get-color(primary);
+            @extend .d-flex, .align-items-center, .font-weight-bold, .on-primary-color, .bg-primary-color, .radius-all-small, .font-weight-medium, .px-1, .txt-size-mid-title;
+        }
+
+        .discount-box{
+            @extend .d-flex, .flex-column;
+            
+            .original-price{
+                @extend .txt-decoration-line-through, .secondary-text-color, .font-weight-bold;
+            }
+            
+            .special-price{
+                @extend .font-weight-bold, .text-color, .txt-size-high-title;
+            }
+        }
+
+        .credit-purchase-box{
+            @extend .secondary-text-color, .txt-size-small, .font-weight-bold;
+
+            img{
+                max-width: 45px;
+                @extend .py-1, .px-2, .radius-all-small;
+            }
+        }
+    }
+}
+.feature.checkpay{
+    @extend .cursor-pointer;
+    &.active svg path{
+        stroke: get-color(primary);
+        fill: get-color(primary);
+    }
+}

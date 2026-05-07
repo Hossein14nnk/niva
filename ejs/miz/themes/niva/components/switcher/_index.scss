@@ -1,0 +1,26 @@
+@use "../../../../sass/global-functions" as *;
+
+.switcher {
+    cursor: pointer;
+    border: 2px solid #021959;
+    // transition: border-color 10ms , background-color 300ms;
+    width: 35px;
+    height: 18px;
+
+    .ball {
+        width: 10px;
+        height: 10px;
+        transition: 300ms;
+        transform: translateX(-2px);
+    }
+
+    &.active {
+        background-color: #3EB580;
+        border-color: #3EB580;
+
+        & .ball {
+            background-color: white;
+            transform: translateX(-20px);
+        }
+    }
+}

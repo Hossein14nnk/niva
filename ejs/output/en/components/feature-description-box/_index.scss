@@ -1,0 +1,20 @@
+@use "../../../../sass/kernel/" as *;
+
+
+.feature-description-box.text-type{
+    @extend .d-flex, .flex-column, .gap-3;
+
+    .title{
+        @extend .txt-size-big, .secondary-text-color;
+    }
+
+    .description{
+        @extend .secondary-text-color, .txt-size-big, .font-weight-bold;
+
+        &.ellipsis-4{
+            @extend .cursor-pointer;
+        }
+    }
+}
+
+

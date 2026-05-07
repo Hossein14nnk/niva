@@ -1,0 +1,11 @@
+<%- include('../../layouts/component/head.ejs', {pageName: "product-cart" }); -%>
+
+    <%- include('content.ejs', {
+        name: t.components.productCart[0].name,
+        mainPrice: t.components.productCart[0].mainPrice,
+        discountPrice: t.components.productCart[0].discountPrice,
+        productImg: "1-1-768x768.webp"
+    }); -%>
+
+
+<%- include('../../layouts/component/foot.ejs'); -%>

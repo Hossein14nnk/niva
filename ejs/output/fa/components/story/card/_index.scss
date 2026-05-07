@@ -1,0 +1,141 @@
+@use "../../../../../sass/config/_dims" as *;
+@use "../../../../../sass/kernel/" as *;
+@use 'sass:map';
+
+
+.modal-container.story-modal {
+    min-width: 100%;
+    min-height: 100%;
+    pointer-events: none;
+    @extend .d-none, .position-fixed, .top-0, .left-0, .overflow-hidden,.bg-transparent-color, .justify-content-center, .align-items-center, .z-index-10;
+
+    &.show {
+        pointer-events: all;
+
+        & .modal-content {
+            display: flex;
+            animation: story-modal-open 0.3s ease-out forwards;
+        }
+    }
+
+    &.hide {
+        pointer-events: none;
+
+        & .modal-content {
+            display: flex;
+            animation: story-modal-close 0.3s ease-out forwards;
+        }
+    }
+
+    .modal-content {
+        background-color: rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(5px);
+        @extend .d-none, .position-absolute, .top-0, .left-0, .d-flex, .flex-column, .align-items-center, .overflow-hidden, .w-100, .h-100;
+    }
+
+    .modal-close {
+        pointer-events: all;
+        @extend .cursor-pointer;
+    }
+
+    // .slider-content.active{
+    .slider-content{
+        .story-content{
+            @extend .position-relative, .w-22, .aspect-ratio-1x2, .w-xl-26, .w-lg-34, .w-md-40, .w-sm-60};
+
+            .story-timelines{
+                @extend .d-grid, .gap-1;
+
+                .timeline{
+                    @extend .my-4, .w-100, .radius-all-full, .bw-2, .bt-style-solid;
+                    
+                    &:has(~ .timeline.active){
+                        @extend .border-color;
+                    }
+        
+                    &.active{
+                        @extend .border-color;
+                        // animation: time-line-active var(--timer);
+                    }
+                    
+                    &.active ~ .timeline{
+                        @extend .border-divider-color;
+                    }
+                }
+            }
+
+            .shadow-1, .shadow-2, .shadow-3 {
+                position: absolute;
+                z-index: -1;
+                border-radius: 20px;
+                background: rgba(255, 255, 255, 0.08);
+                
+            }
+
+            .shadow-1 {
+                top: 20px;
+                right: -12px;
+                width: calc(100% - 33px);
+                height: calc(100% - 40px);
+            }
+
+            .shadow-2 {
+                top: 48px;
+                right: -25px;
+                width: calc(100% - 33px);
+                height: calc(100% - 96px);
+            }
+
+            .shadow-3 {
+                top: 20px;
+                left: -12px;
+                width: calc(100% - 25px);
+                height: calc(100% - 40px);
+            }
+
+            .product-name{
+                background-color: rgba(255, 255, 255, 0.10);
+            }
+        }
+        &.active{
+            .timeline.active{
+              
+                animation: timeline-active var(--timer);
+            }
+        }
+    }
+
+
+@keyframes story-modal-open {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes story-modal-close {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+    to {
+        opacity: 0;
+        transform: scale(0);
+    }
+}
+
+@keyframes timeline-active {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}

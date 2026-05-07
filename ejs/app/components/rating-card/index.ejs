@@ -1,0 +1,9 @@
+<%- include('../../layouts/component/head.ejs' , {pageName : "rating-card"}); -%>
+
+<div class="d-grid grid-4">
+       <%- include('content.ejs', {
+              ratingCard: t.components.ratingCard
+       }); -%>  
+</div>
+
+<%- include('../../layouts/component/foot.ejs'); -%>

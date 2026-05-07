@@ -1,0 +1,44 @@
+<%- include('../layouts/page/head.ejs', {pageName: "articles"}); -%>
+
+		<main>
+			<section id="about-us" class="section align-items-start gap-5">
+				<h2 class="title-text-color txt-size-big-title font-weight-bold"><%= t.pages.aboutUs.topic[0].title %></h2>
+				<p class="txt-size-mid-title font-weight-bold on-secondary-color line-height txt-align-justify"><%= t.pages.aboutUs.paragraph %></p>
+			</section>
+
+			<section id="coreteam" class="section w-100 align-items-start gap-7">
+				<h2 class="title-text-color txt-size-big-title font-weight-bold"><%= t.pages.aboutUs.topic[1].title %></h2>
+				<div class="container d-flex flex-row w-100 overflow-x-scroll pb-5">
+					<div class="block flex-row gap-5 w-100">
+						<% for(let i = 0; i < t.components.biography.length; i++) {%>
+							<%- include('../components/biography/content.ejs', {
+								name: t.components.biography[i].name ,
+								designation: t.components.biography[i].designation ,
+								img: t.components.biography[i].img
+							}); -%>
+						<% } %>
+					</div>
+				</div>
+				<p class="txt-size-mid-title font-weight-bold on-secondary-color pt-7 line-height txt-align-justify"><%= t.pages.aboutUs.paragraph %></p>
+			</section>
+			<section id="achievements" class="section w-100 align-items-start gap-5">
+				<h2 class="title-text-color txt-size-big-title font-weight-bold"><%= t.pages.aboutUs.topic[2].title %></h2>
+				<div class="block gap-8 overflow-x-scroll w-100 pb-5">
+					<% for(let i = 0; i < t.components.certificate.length; i++) { %>
+						<%- include('../components/certificate-of-appreciation/content.ejs', {
+							title: t.components.certificate[i].title ,
+							description: t.components.certificate[i].description ,
+							year: t.components.certificate[i].year ,
+							img: t.components.certificate[i].img
+						}); -%>
+					<% } %>
+				</div>
+				<p class="txt-size-mid-title font-weight-bold on-secondary-color pt-7 line-height txt-align-justify"><%= t.pages.aboutUs.paragraph %></p>
+			</section>
+			<section id="proservices" class="section align-items-start gap-5">
+				<h2 class="title-text-color txt-size-big-title font-weight-bold"><%= t.pages.aboutUs.topic[3].title %></h2>
+				<p class="font-weight-bold txt-size-mid-title on-secondary-color line-height txt-align-justify"><%= t.pages.aboutUs.paragraph %></p>
+			</section>
+		</main>
+
+<%- include('../layouts/page/foot.ejs'); %>

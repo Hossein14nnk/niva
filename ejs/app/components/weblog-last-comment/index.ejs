@@ -1,0 +1,10 @@
+<%- include('../../layouts/component/head.ejs' , {pageName : "basic dropdown"}); -%>
+
+    <%- include('./content.ejs', {
+        name: t.components.weblogLastComment.name,
+        description: t.components.weblogLastComment.description,
+        post: t.components.weblogLastComment.post,
+        postLink: t.components.weblogLastComment.postLink
+        }); -%>
+
+<%- include('../../layouts/component/foot.ejs'); -%>

@@ -1,0 +1,31 @@
+<%- include('../layouts/page/head.ejs', {pageName: "articles"}); -%>
+
+		<main class="w-100">
+			<section id="compare-products" class="section w-90 overflow-x-scroll">
+				<div class="d-flex gap-5 w-100 pr-xl-13">
+					<div class="w-14 w-xl-10"></div>
+					<div class="w-27 w-xl-40 w-md-60">
+						
+						<%- include('../components/product-card/full/content.ejs', {productCard: t.components.productCard}); %>
+						
+					</div>
+					<div class="w-27 w-xl-40 w-md-60">
+						<%- include('../components/product-card/full/content.ejs', {productCard: t.components.productCard}); %>
+					</div>
+					<div class="w-25 d-flex justify-content-center align-items-center pr-sm-15">
+						<a href="#">
+							<div class="bg-btn-hover select-btn mr-8 py-5 on-primary-color bg-primary-color txt-size-extra-title font-weight-bold align-self-center radius-all-normal">
+								<p class=""><%= t.pages.compare.compareProducts.button %></p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<%_ for(const productSpecification of t.pages.compare.productSpecifications) { -%>
+					<%- include('../components/product-specifications/content.ejs', {productSpecifications: t.components.productSpecifications}); %>
+				<%_ } -%>
+			</section>
+		</main>
+		
+
+<%- include('../layouts/page/dialog.ejs'); %>
+<%- include('../layouts/page/foot.ejs'); %>

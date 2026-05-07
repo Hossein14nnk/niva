@@ -1,0 +1,5 @@
+@use "../../../../sass/kernel/" as *;
+
+.viewpoint-card{
+  @extend .d-flex, .flex-column, .px-10, .py-10, .bg-color, .gap-1, .radius-all-medium, .w-100, .align-items-center;
+}

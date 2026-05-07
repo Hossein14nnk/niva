@@ -1,0 +1,24 @@
+    <div class="article-banner-weblog">
+        <img src="./assets/media/images/<%= banner.src %>" alt="<%= banner.alt %>" />
+        <div class="banner-content">
+            <h3 class="title"><%-title%></h3>
+            <div class="details">
+                <div class="d-flex gap-2 align-items-center"> 
+                    <i class="icon-user txt-big"></i>
+                    <span class="txt-big font-weight-thin"><%=author%></span>
+                </div>
+                <div class="d-flex gap-2 align-items-center">
+                    <i class="icon-calender txt-big"></i>
+                    <span class="txt-big font-weight-thin"><%=date%></span>
+                </div>
+                <div class="d-flex gap-2 align-items-center">
+                    <i class="icon-comment txt-big"></i>
+                    <span class="txt-big font-weight-thin"><%=commentCount%></span>
+                </div>
+                <div class="d-flex gap-2 align-items-center">
+                    <i class="icon-clock txt-big"></i>
+                    <span class="txt-big font-weight-thin"><%=readingTime%></span>
+                </div>
+            </div>
+        </div>
+    </div>

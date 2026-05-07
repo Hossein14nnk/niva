@@ -1,0 +1,45 @@
+
+    <div class="suggestion-card w-40 radius-all-normal background-color py-8 px-5 d-flex flex-column gap-6 position-relative bw-1 border-style-solid border-color bg-on-primary-color">
+        <div class="header-box pb-6 d-flex align-items-center justify-content-space-between bw-1 bb-style-solid border-on-secondary-color top-0 ">
+            <p class="text-color txt-size-big-title font-weight-bold"><%= suggestion.title %></p>
+            <i class="modal-close fa-solid fa-close d-flex justify-content-center align-items-center py-1 px-2 border-on-secondary-color bw-2 border-style-solid radius-all-full text-color txt-size-big-title font-weight-bold"></i>
+        </div>
+        <div class="w-100 px-4 py-4 d-flex flex-column gap-10 align-items-center overflow-y-scroll">
+            <div class="product-detail w-100 py-10 radius-all-small position-relative justify-content-center align-items-center d-flex">
+                <p class="txt-size-extra-title"><%= suggestion.name %></p>
+                <img class="w-15  top-0 right-0 position-absolute" src="./assets/media/images/<%= suggestion.img %>">
+            </div>
+            <div class="d-flex flex-column gap-6 justify-content-center">
+                <p class="font-weight-black txt-size-extra-title"> <%= suggestion.rating %></p>
+                <div class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-star txt-size-big-title"></i>
+                    <i class="fa-solid fa-star txt-size-big-title"></i>
+                    <i class="fa-solid fa-star txt-size-big-title"></i>
+                    <i class="fa-solid fa-star txt-size-big-title"></i>
+                    <i class="fa-solid fa-star txt-size-big-title"></i>
+                </div>
+            </div>  
+            <div class="form-box w-100 d-flex flex-column gap-10 justify-content-start">
+                <p class="txt-size-high-title font-weight-bold"><%= suggestion.comment %></p>
+                <input type="text" id="suggest" required="" placeholder="<%= suggestion.description %>" class="bw-2 border-color border-style-solid radius-all-small px-6 py-6 txt-size-extra-title font-weight-bold justify-content-start ">
+                <label for="suggest-positive" class="d-flex justify-content-space-between bw-2 border-color border-style-solid radius-all-small px-6 py-6 txt-size-extra-title text-secondary-color">
+                    <input type="text" id="suggest-positive" placeholder="<%= suggestion.posative %>" class="txt-size-extra-title font-weight-bold" style=" border: none ;">
+                    <button class="font-weight-bold secondary-text-color "><%= suggestion.register %></button>
+                </label>
+                <label for="suggest-negetive" class="d-flex justify-content-space-between bw-2 border-color border-style-solid radius-all-small px-6 py-6 txt-size-extra-title text-secondary-color">
+                    <input type="text" id="suggest-negetive" placeholder="<%= suggestion.negative %>" class="txt-size-extra-title font-weight-bold" style=" border: none ;">
+                    <button class="font-weight-bold secondary-text-color"><%= suggestion.register %></button>
+                </label>
+            </div>
+            <div class="d-flex flex-column gap-8 w-100">
+                <div class="d-flex align-items-center gap-2">
+                    <input class="bw-2" type="checkbox" id="unknown">
+                    <p class="txt-size-high-title font-weight-bold"><%= suggestion.user %></p>
+                </div>
+                <p class="txt-size-high-title font-weight-bold"><%= suggestion.description1 %><a href="#" class="txt-decoration-style-solid txt-decoration-underline primary-color"><%= suggestion.low %></a><%= suggestion.description2 %></p>
+            </div>
+            <button class="w-100 bg-primary-color on-primary-color txt-size-extra-title font-weight-bold py-4 radius-all-small txt-align-center cart-button "><%= suggestion.commetregister %></button>
+
+        </div>
+
+    </div>

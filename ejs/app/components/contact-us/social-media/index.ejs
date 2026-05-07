@@ -1,0 +1,11 @@
+<%- include('../../../layouts/component/head.ejs', {pageName: "social-media"}); -%>
+
+<div class="d-grid grid-4">
+       <%- include('content.ejs' , {
+              icon: t.components.contactUs.socialMedia[0].icon ,
+              name: t.components.contactUs.socialMedia[0].name 
+              
+       }); -%>
+</div>
+<%- include('../../../layouts/component/foot.ejs'); -%>
+

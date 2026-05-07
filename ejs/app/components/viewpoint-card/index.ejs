@@ -1,0 +1,10 @@
+<%- include('../../layouts/component/head.ejs', {pageName: "viewpoint-card"}); -%>
+
+<div class="d-grid grid-4">
+       <%- include('./content.ejs', {
+        description: t.components.viewpointCard.description,
+          button: t.components.viewpointCard.button
+    }); -%>
+</div>
+
+<%- include('../../layouts/component/foot.ejs'); -%>

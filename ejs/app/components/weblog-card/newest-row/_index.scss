@@ -1,0 +1,36 @@
+@use "../../../../../sass/kernel/" as *;
+
+
+.weblog-card.newest-row {
+    @extend .d-flex, .font-weight-regular;
+    
+    .cover-image{
+        @extend .w-60, .d-flex, .overflow-hidden, .aspect-ratio-2x1, .position-relative, .w-xl-100, .radius-all-small;
+
+
+        &::after {
+        content: "";
+        background-image: url("../../assets/media/images/component/Group 195.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        @extend .position-absolute, .right-0, .top-0, .w-100, .h-100, .z-index-1;
+    }
+
+        img{
+            @extend .w-100, .object-cover;
+        }
+    }
+
+    
+    & .card-body{
+        @extend .d-flex, .flex-column, .gap-3, .px-6;
+        
+        & .title {
+            @extend .text-color, .txt-extra-title, .font-weight-bold;
+        }
+
+        & .description{
+            @extend .title-text-color, .txt-title;
+        }
+    }
+}

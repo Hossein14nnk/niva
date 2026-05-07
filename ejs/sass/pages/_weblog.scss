@@ -1,0 +1,29 @@
+
+.outline-unset{
+    outline: unset;
+}
+
+.box-shadow-gray {
+  box-shadow: 1px 1px 1px 1px #FAFAFC;
+}
+
+.border-bottom-select{
+    border-bottom: 1px solid var(--border);
+}
+@media screen and (width < 1400px) {}
+
+@media screen and (width < 1200px) {
+
+}
+
+@media screen and (width < 992px) {
+
+}
+
+@media screen and (width < 768px) {
+
+}
+
+@media screen and (width < 576px) {
+ 
+}

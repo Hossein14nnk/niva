@@ -1,0 +1,47 @@
+@use "../../../../sass/kernel/" as *;
+
+
+
+.product-toolbar {
+    @extend .d-flex , .flex-column , .gap-6 , .align-items-center ;
+
+    .rate-box {
+        @extend .d-flex , .flex-column , .gap-2 , .align-items-center , .font-weight-medium , .txt-size-title ;
+
+        &::after {
+            content: "";
+            width: 100%;
+            height: 1px;
+            background: var(--border);
+        }
+    }
+
+    .icons-box {
+        @extend .d-flex , .flex-column , .gap-5 , .align-items-center ;
+
+        .label {
+            transition: all 300ms ;
+            @extend .position-relative ;
+
+            .label-name {
+                white-space: nowrap;
+                right: 35px;
+                bottom: 5px;
+                background-color: get-color(primary) ;
+                @extend .d-none , .position-absolute , .on-primary-color , .right-0 , .txt-size-big , .font-weight-bold , .px-2 , .py-1 , .radius-all-small , .z-index-2; 
+            }
+
+            &:hover .label-name {
+                @extend .d-flex ;
+            }
+        }
+    }
+}
+
+.product-toolbar .label.like.is-active svg path {
+    stroke: get-color(primary);
+
+    &[fill]{
+        fill: get-color(primary);
+    }
+}
