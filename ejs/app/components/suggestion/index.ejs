@@ -1,0 +1,9 @@
+<%- include('../../layouts/component/head.ejs' , {pageName : "articles"}); -%>
+
+<div class="d-grid grid-4">
+       <%- include('content.ejs', {
+              suggestion: t.components.suggestion
+});    -%>
+</div>
+
+<%- include('../../layouts/component/foot.ejs'); -%>

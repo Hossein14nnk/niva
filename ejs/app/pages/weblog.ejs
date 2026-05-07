@@ -1,0 +1,192 @@
+<%- include('../layouts/page/head.ejs', {pageName: "weblog"}); -%>
+
+<%_
+    const weblog = t.pages.weblog;
+    const latestBlogPosts = weblog.latestBlogPosts;
+    const newestBlogs = weblog.newestBlogs;
+    const mostDiscussed = weblog.mostDiscussed;
+    const techNews = weblog.techNews;
+    const SuggestionsBlog = weblog.SuggestionsBlog;
+    const weblogLastComments = weblog.weblogLastComments;
+-%>
+<main>
+    <section class="section">
+        <div class="container gap-8">
+            <div class="block w-100 justify-content-space-between align-items-center">
+                <h2 class="title-text-color txt-size-big-title font-weight-bold"><%= weblog.title1 %></h2>
+                <div class="div radius-all-small box-shadow-gray align-items-center px-6 py-3 px-sm-2">
+                    <input class="outline-unset border-none on-secondary-color font-weight-bold opacity-5" type="text" placeholder="<%= weblog.placeholder %>" />
+                    <i class="icon-search on-secondary-color opacity-5"></i>
+                </div>
+            </div>
+            <img class="radius-all-small w-100" src="./assets/media/images/<%=weblog.banner.src%>" alt="<%=weblog.banner.alt%>" />
+        </div>
+    </section>
+    <section class="section">
+        <div class="container gap-8">
+            <div class="block w-100 justify-content-space-between align-items-center gap-5">
+                <h2 class="text-color txt-size-big-title font-weight-bold text-nowrap"><%= weblog.title2 %></h2>
+                <div class="border-style-solid border-color w-100 bw-1"></div>
+                <a href="#" class="div align-items-center">
+                    <span class="text-color txt-size-subtitle font-weight-bold"><%= weblog.title3 %></span>
+                    <img src="./assets/media/images/<%= t.language %>/weblog/Next-blue -icon.svg" alt="" width="30px" />
+                </a>
+            </div>
+            <div class="block d-grid grid-1 gap-6">
+                <div class="d-grid grid-2 grid-lg-1 gap-6">
+
+                    <%- include('../components/article/banner-weblog/content.ejs', {
+                        title : latestBlogPosts.firstWeblogArticle.title,
+                        author : latestBlogPosts.firstWeblogArticle.author,
+                        date : latestBlogPosts.firstWeblogArticle.date,
+                        commentCount : latestBlogPosts.firstWeblogArticle.commentCount,
+                        readingTime : latestBlogPosts.firstWeblogArticle.readingTime,
+                        banner : latestBlogPosts.firstWeblogArticle.banner
+                    }); -%>
+
+                    <div class="d-grid grid-2 grid-sm-1 gap-6">
+                        <% for(let i = 0; i < 2; i++) {%>
+                            <%- include('../components/weblog-card/newest-column/content.ejs', {
+                                title: latestBlogPosts.latestBlogPost[i].title,
+                                description: latestBlogPosts.latestBlogPost[i].description,
+                                date: latestBlogPosts.latestBlogPost[i].date,
+                                commentCount: latestBlogPosts.latestBlogPost[i].commentCount,
+                                image: latestBlogPosts.latestBlogPost[i].image,
+                                link: latestBlogPosts.latestBlogPost[i].link,
+                                showViewAndReadingTime: latestBlogPosts.latestBlogPost[i].showViewAndReadingTime                  
+                            }); -%>
+                        <% } %>
+                    </div>
+                </div>
+                <div class="d-grid grid-2 grid-lg-1 gap-6">
+                    <div class="d-grid grid-2 grid-sm-1 gap-6">
+                        <% for(let i = 2; i < 4; i++) {%>
+                            <%- include('../components/weblog-card/newest-column/content.ejs', {
+                                title: latestBlogPosts.latestBlogPost[i].title,
+                                description: latestBlogPosts.latestBlogPost[i].description,
+                                date: latestBlogPosts.latestBlogPost[i].date,
+                                commentCount: latestBlogPosts.latestBlogPost[i].commentCount,
+                                image: latestBlogPosts.latestBlogPost[i].image,
+                                link: latestBlogPosts.latestBlogPost[i].link,
+                                showViewAndReadingTime: latestBlogPosts.latestBlogPost[i].showViewAndReadingTime                  
+                            }); -%>
+                        <% } %>
+                    </div>
+                    <%- include('../components/article/banner-weblog/content.ejs', {
+                            title : latestBlogPosts.secondWeblogArticle.title,
+                            author : latestBlogPosts.secondWeblogArticle.author,
+                            date : latestBlogPosts.secondWeblogArticle.date,
+                            commentCount : latestBlogPosts.secondWeblogArticle.commentCount,
+                            readingTime : latestBlogPosts.secondWeblogArticle.readingTime,
+                            banner : latestBlogPosts.secondWeblogArticle.banner
+                    }); -%>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container gap-8">
+            <div class="block w-100 justify-content-space-between align-items-center gap-5">
+                <h2 class="text-color txt-size-big-title font-weight-bold text-nowrap"><%= weblog.title4 %></h2>
+                <div class="border-style-solid border-color w-100 bw-1"></div>
+            </div>
+            <article class="block d-grid grid-2 grid-lg-1 gap-7">
+                
+                <% for(let i = 0; i < newestBlogs.length; i++) {%>
+                    <%- include('../components/weblog-card/newest-row/content.ejs', {
+                        title: newestBlogs[i].title,
+                        description: newestBlogs[i].description,
+                        date: newestBlogs[i].date,
+                        commentCount: newestBlogs[i].commentCount,
+                        postView: newestBlogs[i].postView,
+                        image: newestBlogs[i].image,
+                        readingTime: newestBlogs[i].readingTime,
+                        link: newestBlogs[i].link,
+                        enableBorderBottom: newestBlogs[i].enableBorderBottom
+                    }); -%>
+                <% } %>
+
+            </article>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container gap-8">
+            <div class="block w-100 justify-content-space-between align-items-center gap-5">
+                <h2 class="text-color txt-size-big-title font-weight-bold text-nowrap"><%= weblog.title5 %></h2>
+                <div class="border-style-solid border-color w-100 bw-1"></div>
+            </div>
+            <article class="block d-grid grid-4 grid-lg-3 grid-md-2 grid-sm-1 gap-5">
+                
+                <% for(let i = 0; i < mostDiscussed.length; i++) {%>
+                    <%- include('../components/weblog-card/newest-column/content.ejs', {
+                        title: mostDiscussed[i].title,
+                        description: mostDiscussed[i].description,
+                        date: mostDiscussed[i].date,
+                        commentCount: mostDiscussed[i].commentCount,
+                        image: mostDiscussed[i].image,
+                        link: mostDiscussed[i].link,
+                        showViewAndReadingTime: mostDiscussed[i].showViewAndReadingTime                  
+                    }); -%>
+                <% } %>
+
+            </article>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container d-flex flex-row gap-5 gap-xl-10 flex-xl-column">
+            <div class="block flex-xl-column gap-5 gap-xl-10">
+                <div class="div flex-column gap-6">
+                    <h3 class="text-color txt-size-big-title font-weight-bold"><%= weblog.title6 %></h3>
+                    <div class="div gap-5 flex-column">
+                        <% for(let i = 0; i < techNews.length; i++) {%>
+                            <%- include('../components/weblog-card/newest-row/content.ejs', {
+                                title: techNews[i].title,
+                                description: techNews[i].description,
+                                date: techNews[i].date,
+                                commentCount: techNews[i].commentCount,
+                                postView: techNews[i].postView,
+                                image: techNews[i].image,
+                                readingTime: techNews[i].readingTime,
+                                link: techNews[i].link,
+                                enableBorderBottom: techNews[i].enableBorderBottom 
+                            }); -%>
+                        <% } %>
+                    </div>
+                </div>
+                <div class="d-flex flex-column gap-6">
+                    <h3 class="text-color txt-size-big-title font-weight-bold"><%= weblog.title7 %></h3>
+                    <div class="div gap-5 flex-column">
+                        <% for(let i = 0; i < SuggestionsBlog.length; i++) {%>
+                            <%- include('../components/weblog-card/newest-row/content.ejs', {
+                                title: SuggestionsBlog[i].title,
+                                description: SuggestionsBlog[i].description,
+                                date: SuggestionsBlog[i].date,
+                                commentCount: SuggestionsBlog[i].commentCount,
+                                postView: SuggestionsBlog[i].postView,
+                                image: SuggestionsBlog[i].image,
+                                readingTime: SuggestionsBlog[i].readingTime,
+                                link: SuggestionsBlog[i].link,
+                                enableBorderBottom: SuggestionsBlog[i].enableBorderBottom 
+                            }); -%>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+            <div class="block flex-column gap-6 gap-xl-3 w-50">
+                <h3 class="text-color txt-size-big-title font-weight-bold"><%= weblog.title8 %></h3>
+                <div class=" ">
+                    <% for(let i = 0; i < weblogLastComments.length; i++) {%>
+                        <%- include('../components/weblog-last-comment/content.ejs', {
+                            name: weblogLastComments[i].name,
+                            description: weblogLastComments[i].description,
+                            post: weblogLastComments[i].post,
+                            postLink: weblogLastComments[i].postLink
+                        }); -%>
+                    <% } %>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<%- include('../layouts/page/foot.ejs'); %>

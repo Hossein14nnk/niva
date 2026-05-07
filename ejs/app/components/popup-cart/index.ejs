@@ -1,0 +1,9 @@
+<%- include('../../layouts/component/head.ejs' , {pageName : "popup-cart"}); -%>
+
+<div class="d-grid grid-4">
+       <%- include('content.ejs', {
+              popupCart: t.components.popupCart
+});    -%>
+</div>
+
+<%- include('../../layouts/component/foot.ejs'); -%>

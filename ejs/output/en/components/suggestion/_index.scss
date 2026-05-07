@@ -1,0 +1,25 @@
+@use "../../../../sass/kernel/" as *;
+
+
+.product-detail {
+    box-shadow: 0px 0px 5px 0px var(--shadow);
+}
+
+.product-detail > img {
+    top: 0.5rem;
+    right: 0.25rem;
+}
+
+.suggestion-card input {
+    outline: unset ;
+   
+}
+
+.suggestion-card .form-box button {
+    background-color: transparent;
+}
+
+
+div:has(.product-detail) {
+    height: 600px;
+}

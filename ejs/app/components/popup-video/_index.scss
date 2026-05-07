@@ -1,0 +1,53 @@
+@use "../../../../sass/kernel/" as *;
+
+
+
+.modal-container.video-modal {
+    @extend .modal-container;
+    
+    &.show {
+        & .modal-content {
+            animation: video-modal-open  0.3s ease-out forwards;
+        }
+    }
+
+    &.hide {
+        & .modal-content {
+            animation: video-modal-close  0.3s ease-out forwards;
+        }
+    }
+
+    .modal-content {
+        background-color: rgba(0, 0, 0, 0.07);
+        backdrop-filter: blur(1px);
+        @extend .position-absolute, .top-0, .left-0, .z-index-10, .d-flex, .flex-column, .align-items-center, .overflow-hidden, .w-100, .h-100;
+    }
+
+    .modal-close {
+        @extend .cursor-pointer;
+    }
+}
+
+@keyframes video-modal-open {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes video-modal-close {
+    from {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    
+    to {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}

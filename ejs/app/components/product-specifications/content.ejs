@@ -1,0 +1,24 @@
+
+<div class="table-variantly d-flex flex-column w-100">
+    <div class="d-flex gap-14 align-items-center">
+        <p style="white-space: nowrap;" class="font-weight-bold text-color txt-size-high-title"><%= productSpecifications.title %></p>
+        <div class="border-color bw-2 bt-style-solid w-100 horizental-line"></div>
+    </div>
+    <table style="border-collapse: collapse;" class="w-100 text-start font-weight-600">
+        <tbody class="txt-size-title text-color">
+            <%_ for(let i = 0; i < productSpecifications.features.length; i++){ -%>
+                <%_ if((i + 1) < productSpecifications.features.length){ -%>
+                    <tr class="bw-1 bb-style-solid border-color">
+                        <td class="secondary-text-color font-weight-bold pt-10 pb-4 w-10"><%= productSpecifications.features[i].title %></td>
+                        <td class="py-4 px-6 w-30 font-weight-bold text-color"><%= productSpecifications.features[i].descriptions %></td>
+                    </tr>
+                <%_ } else { -%>
+                    <tr class="bw-1 bb-style-none border-color">
+                        <td class="secondary-text-color font-weight-bold pt-10 pb-4 w-10"><%= productSpecifications.features[i].title %></td>
+                        <td class="py-4 px-6 w-30 font-weight-bold text-color"><%= productSpecifications.features[i].descriptions %></td>
+                    </tr>
+                <%_ } -%>
+            <%_ } -%>
+        </tbody>
+    </table>
+</div>

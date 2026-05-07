@@ -1,0 +1,42 @@
+ <dialog id="sharingProduct" class="modal-container sharing-modal">
+        <div class="modal-content d-flex justify-content-center align-items-center">
+            <div class="d-flex flex-column px-6 radius-all-medium bg-color w-30 w-lg-50 w-sm-75">
+                <div class="d-flex justify-content-space-between align-items-center py-6 border-color bb-style-solid bw-1">
+                    <p class="txt-size-high-title font-weight-semi-bold on-secondary-color">  <%= popupShare.title %></p>
+                    <i class="fa-solid fa-close modal-close secondary-text-color txt-size-big-title"></i>
+                </div>
+                <div class="d-flex flex-column align-items-start gap-2 py-4 border-color bb-style-solid bw-1">
+                    <p class="txt-size-mid-title font-weight-bold on-secondary-color"> <%= popupShare.description %></p>
+                    <div class="d-flex gap-4">
+                        <img class="w-6 aspect-ratio-1x1 object-contain" src="./assets/media/images/component/Group-12.webp" alt="">
+                        <p class="txt-size-big font-weight-medium on-secondary-color"> <%= popupShare.titleProduct %></p>
+                    </div>
+                </div>
+                <div class="d-flex align-items-start gap-2 py-4 border-color bb-style-solid bw-1">
+                    <a href="#" class="d-flex flex-column align-items-center justify-content-center grow-1 gap-2 bw-1 border-color bie-style-solid">
+                        <i class="fa-brands fa-facebook txt-size-high-title on-secondary-color"></i>
+                        <p class="txt-size-title font-weight-medium on-secondary-color"> <%= popupShare.facebook %></p>
+                    </a>
+                    <a href="#" class="d-flex flex-column align-items-center justify-content-center grow-1 gap-2 bw-1 border-color bie-style-solid">
+                        <i class="fa-brands fa-whatsapp txt-size-high-title on-secondary-color"></i>
+                        <p class="txt-size-title font-weight-medium on-secondary-color"> <%= popupShare.whatsapp %></p>
+                    </a>
+                    <a href="#" class="d-flex flex-column align-items-center justify-content-center grow-1 gap-2">
+                        <i class="fa-brands fa-telegram txt-size-high-title on-secondary-color"></i>
+                        <p class="txt-size-title font-weight-medium on-secondary-color"> <%= popupShare.telegram %></p>
+                    </a>
+                </div>
+                <div class="d-flex flex-column align-items-center gap-2 py-6">
+                    <div class="d-flex align-items-center flex-row-reverse gap-6 copy-address">
+                        <div class="d-flex align-items-center cursor-pointer gap-4 font-size-19px text-variantly-color flex-row-reverse copy-item">
+                            <i class="d-flex icon-copy on-secondary-color"></i>
+                            <p class="txt-size-extra-title font-weight-semi-bold on-secondary-color"> <%= popupShare.copylink %></p>
+                        </div>
+                        <p class="text-color font-weight-100 txt-size-title d-none site-url"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </dialog>
+
+  

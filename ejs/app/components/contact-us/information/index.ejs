@@ -1,0 +1,11 @@
+<%- include('../../../layouts/component/head.ejs', {pageName: "information"}); -%>
+
+<div class="d-grid grid-4">
+       <%- include('content.ejs' , {
+              title: t.components.contactUs.information[0].title ,
+              description: t.components.contactUs.information[0].description ,
+              icon: t.components.contactUs.information[0].icon 
+       }); -%>
+</div>
+<%- include('../../../layouts/component/foot.ejs'); -%>
+

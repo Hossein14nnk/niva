@@ -1,0 +1,9 @@
+<%- include('../../layouts/component/head.ejs', {pageName: "order-item"}); -%>
+
+<%- include('content.ejs', {
+    qty: t.components.orderItem[0].qty,
+    productName: t.components.orderItem[0].productName,
+    price: t.components.orderItem[0].price
+}); -%>
+
+<%- include('../../layouts/component/foot.ejs'); -%>

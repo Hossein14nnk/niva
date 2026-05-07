@@ -1,0 +1,37 @@
+@use "../../../sass/config/_typography" as *;
+@use "sass:map";
+
+$conf-fonts-niva: (
+    "fa-primary": (
+        "defaults":"sans-serif, 'Courier New', Courier, monospace",
+        "folder": "fa/yekan-bakh",
+        "font-types": (
+            "heavy": (
+                "Yekan Bakh FaNum 07 Heavy.woff",
+            ),
+            "bold": (
+                "Yekan Bakh FaNum 06 Bold.woff",
+            ),
+            "medium": (
+                "Yekan Bakh FaNum 05 Medium.woff",
+            ),
+            "regular": (
+                "Yekan Bakh FaNum 04 Regular.woff",
+            ),
+        )
+    ),
+    "en-primary": (
+        "defaults":"sans-serif, 'Courier New', Courier, monospace",
+        "folder": "en/product-sans",
+        "font-types": (
+            "bold": (
+                "PTSans-Bold.ttf"
+            ),
+            "regular": (
+                "PTSans-Regular.ttf"
+            ),
+        )
+    )
+);
+
+$conf-fonts:map.merge($conf-fonts , $conf-fonts-niva);

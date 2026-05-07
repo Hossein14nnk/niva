@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html dir="<%= t.direction %>" lang="<%= t.language %>">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= pageName %></title>
+    <link rel="icon" type="image/png" href="./assets/media/images/logo-web3.webp">
+    <base href="../../../">
+    <link rel="stylesheet" href="./assets/vendors/swiper/swiper-bundle-min.css">
+    <link rel="stylesheet" href="./assets/vendors/snap-alert-js-main/snapAlert.min.css">
+    <link rel="stylesheet" href="./assets/icons/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/icons/icomoon/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/miz.min.css">
+    <link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+
+<body class="font-<%= t.language %>-primary">
+<%_ let isHeader = (typeof header !== 'undefined') ? header : true; -%>
+<%_ if(isHeader){ -%>
+    <%- include('../../pages/header.ejs'); %>
+<%_ } -%>

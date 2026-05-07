@@ -1,0 +1,58 @@
+<div class="weblog-card newest-column">
+    <div class="feature-image position-relative">
+        <img class="w-100 h-100"  src="./assets/media/images/<%= image.src %>" alt="<%= image.alt %>">
+    </div>
+    <div class="card-body">
+        <a href="<%= link %>">
+            <h3 class="title"><%= title %></h3>
+        </a>
+        <p class="description">
+            <%= description %>
+        </p>
+
+        <%
+            if(showViewAndReadingTime){
+        %>
+        <div class="d-flex justify-content-space-between pt-1">
+            <div class="d-flex gap-1 align-items-center">
+                <i class="icon-clock txt-size-big text-color"></i>
+                <span class="txt-size-big font-weight-thin text-color"><%= showViewAndReadingTime ? t.components.weblogCard.newestColumn.readingTime : "" %></span>
+            </div>
+            <div class="d-flex gap-1 align-items-center">
+                <i class="icon-comment txt-size-big text-color"></i>
+                <span class="txt-size-big font-weight-thin text-color"> <%= commentCount %></span>
+            </div>
+        </div>
+        <div class="d-flex justify-content-space-between pt-1">
+            <div class="d-flex gap-1 align-items-center">
+                <i class="icon-calender txt-size-big text-color"></i>
+                <span class="txt-size-big font-weight-thin text-color"><%= date %></span>
+            </div>
+            <div class="d-flex gap-1 align-items-center">
+                <i class="icon-view txt-size-big text-color"></i>
+                <span class="txt-size-big font-weight-thin text-color"><%= showViewAndReadingTime ? t.components.weblogCard.newestColumn.view : "" %></span>
+            </div>
+        </div>
+        <%
+            }else{
+        %>
+        <div class="d-flex justify-content-space-between pt-1">
+            <div class="d-flex gap-1 align-items-center">
+                <i class="icon-calender txt-big text-color"></i>
+                <span class="txt-big font-weight-thin text-color"> <%= date %></span>
+            </div>
+
+            <div class="d-flex gap-1 align-items-center">
+                <i class="icon-comment txt-big text-color"></i>
+                <span class="txt-big font-weight-thin text-color"> <%= commentCount %></span>
+            </div>
+        </div> 
+        <%
+            }
+        %>
+    </div>
+</div>
+
+
+
+ 

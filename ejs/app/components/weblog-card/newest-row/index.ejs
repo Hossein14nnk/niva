@@ -1,0 +1,17 @@
+<%- include('../../../layouts/component/head.ejs', {pageName: "newest-Row", level : 1}); -%>
+
+<div class="d-grid grid-2">
+       <%- include('content.ejs', {
+              title: t.components.weblogCard.newestRow.title,
+              description: t.components.weblogCard.newestRow.description,
+              date: t.components.weblogCard.newestRow.date,
+              commentCount: t.components.weblogCard.newestRow.commentCount,
+              postView: t.components.weblogCard.newestRow.postView,
+              image: t.components.weblogCard.newestRow.image,
+              readingTime: t.components.weblogCard.newestRow.readingTime,
+              link: t.components.weblogCard.newestRow.link,
+              enableBorderBottom: t.components.weblogCard.newestRow.enableBorderBottom
+       }); -%>
+</div>
+
+<%- include('../../../layouts/component/foot.ejs' , {level : 1}); -%>

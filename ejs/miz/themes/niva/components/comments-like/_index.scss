@@ -1,0 +1,22 @@
+@use "../../../../sass/config/_dims" as *;
+@use "../../../../sass/config/_typography" as *;
+@use "../../../../sass/kernel" as *;
+@use "../../config" as *;
+@use 'sass:map';
+
+
+.like-box {
+    .positive,.negative{
+        cursor: pointer;  
+    }
+    i{
+        transition: .300ms ease;
+    }
+    .btn.active.positive i {
+        color: #22c55e;
+    }
+
+    .btn.active.negative i {
+        color: #ef4444;
+    }
+}

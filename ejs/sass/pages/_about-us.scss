@@ -1,0 +1,15 @@
+.box-shadow-gray {
+  box-shadow: 1px 1px 1px 1px #FAFAFC;
+}
+.biography {
+min-width: 150px;
+}
+
+#about-us .line-height,#coreteam .line-height, #achievements .line-height, #proservices .line-height {
+line-height: 2.5rem;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+  scrollbar-width: thin;
+}

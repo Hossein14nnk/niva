@@ -1,0 +1,9 @@
+<%- include('../../../layouts/component/head.ejs' , {pageName : "banner", level: 1}); -%>
+
+<div class="d-grid grid-4">
+       <%- include('content.ejs', {
+         banner: t.components.featureDescriptionBox.banner
+});    -%>
+</div>
+
+<%- include('../../../layouts/component/foot.ejs'); -%>
