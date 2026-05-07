@@ -1,0 +1,30 @@
+<%_ enableBorderBottom = enableBorderBottom ? "pb-5 border-bottom-select" : "" -%>
+<div class="weblog-card newest-row <%= enableBorderBottom %>">
+    <a class="cover-image">
+        <img src="./assets/media/images/<%= image.src %>" alt="<%= image.alt %>">
+    </a>
+    <div class="card-body">
+        <a href="<%= link %>">
+            <h3 class="title"><%= title %></h3>
+        </a>
+        <p class="description">
+            <%= description %>
+        </p>
+        <div class="d-flex justify-content-space-between align-items-center">
+            <div class="d-flex gap-1 align-items-center">
+                <i class="icon-clock txt-size-big text-color"></i>
+                <span class="txt-size-big font-weight-thin text-color"><%= readingTime %></span>
+            </div>
+            <div class="d-flex align-items-center gap-6">
+                <div class="d-flex gap-1 align-items-center">
+                    <i class="icon-comment txt-size-big text-color"></i>
+                    <span class="txt-size-big font-weight-thin text-color"><%= commentCount %></span>
+                </div>
+                <div class="d-flex gap-1 align-items-center">
+                    <i class="icon-view txt-size-big text-color"></i>
+                    <span class="txt-size-big font-weight-thin text-color"><%= postView %></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

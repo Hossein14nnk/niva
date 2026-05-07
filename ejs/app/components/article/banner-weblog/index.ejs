@@ -1,0 +1,12 @@
+<%- include('../../../layouts/component/head.ejs', {pageName: "banner-weblog", level : 1}); -%>
+
+    <%- include('./content.ejs', {
+        title : t.components.article.bannerWeblog.title,
+        author : t.components.article.bannerWeblog.author,
+        date : t.components.article.bannerWeblog.date,
+        commentCount : t.components.article.bannerWeblog.commentCount,
+        readingTime : t.components.article.bannerWeblog.readingTime,
+        banner : t.components.article.bannerWeblog.banner
+    }); -%>
+
+<%- include('../../../layouts/component/foot.ejs'); -%>

@@ -1,0 +1,214 @@
+.product-wrapper-sticky {
+    transition: 200ms ease; 
+}
+
+.product-pages .tag-item input[type="radio"]:checked+label {
+    background-color: var(--on-secondary); 
+    color: var(--on-primary);
+}
+
+.product-pages>div:nth-child(1)>div:nth-child(2)>div:nth-child(2) img {
+    width: 27px;
+    height: 27px;
+}
+
+.product-pages .vertical-line {
+    height: 0.5rem;
+    background-color: var(--divider);
+    width: 1px;
+} 
+
+.product-pages {
+    scroll-behavior: smooth;
+}
+
+.product-pages .fa-regular+div {
+    width: 14px;
+    height: 1px;
+    background: var(--secondary-text);
+}
+
+
+.product-pages .ratingbox.question {
+    box-shadow: 4px 3px 12px 0px #eeecec;
+    background-image: linear-gradient(-34deg, white 60%, #EEECEC 100%) !important;
+}
+
+ .shadow-box:hover {
+   
+    box-shadow: 0px 1px 17px -9px rgba(0, 0, 0, 0.49) !important;
+}
+
+ .shadow-box {
+  
+    box-shadow: 0px 1px 17px -12px rgba(0, 0, 0, 0.49) !important;
+    transition: all 200ms linear;
+}
+
+.product-pages .ratingbox.question>div:nth-child(2)>div::before {
+    content: "";
+    width: 2px;
+    background: var(--border);
+}
+.product-pages .ratingbox.question>div:nth-child(2)>div:nth-child(1):before{
+width: unset;
+}
+.product-pages .reviewsubmit {
+    box-shadow: 0px 11px 5px -6px rgba(223, 228, 235, 0.5), 0px 0px 2px 0px rgba(126, 127, 128, 0.5) !important
+}
+
+
+.txt-nowrap {
+    text-wrap: nowrap;
+}
+
+.description-nav-link{
+    transition: all 200ms linear;
+}
+
+.description-nav-item:hover a{
+    color: var(--primary);
+}
+
+//card
+
+.bg-btn-hover{
+    transition: all 200ms linear;
+}
+
+.bg-btn-hover:hover{
+    background-color: var(--button-hover) !important;
+}
+
+#simple-product .special-Offerbox>div:nth-child(2)>div::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: var(--border) !important;
+}
+
+
+#simple-product .special-Offerbox>div:nth-child(4)::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+}
+
+
+.product-pages .divider {
+    width: 2px;
+    background: var(--border);
+}
+
+.product-pages .featurebox img {
+    width: 25px;
+}
+
+.product-pages .product-card {
+    border-radius: 0px !important;
+    border: none;
+    border-left: 1px solid var(--border);
+}
+.product-card .card-body a h2{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.product-pages .product-card:last-child {
+    border: none;
+}
+
+@media screen and (width < 1400px) {
+    .gap-xxl-0 {
+        gap: 0rem !important;
+    }
+
+    .px-xxl-0 {
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+}
+
+@media screen and (width < 1200px) {
+
+    .overflow-x-xl-scroll {
+        overflow-x: scroll;
+    }
+
+    .flex-xl-shrink {
+        flex-shrink: 0;
+    }
+
+    .product-pages .divider {
+        flex-shrink: 0;
+    }
+}
+
+@media screen and (width < 992px) {
+
+    .p-lg-fixed {
+        position: fixed;
+    }
+
+    #simple-product .special-Offerbox>div:nth-child(4)::after {
+        content: '';
+        display: none;
+    }
+
+    .p-lg-relative {
+        position: relative !important;
+    }
+
+    .product-pages .rating-card {
+        box-shadow: 4px 3px 12px 0px #eeecec !important
+    }
+
+    .gap-lg-10 {
+        gap: 2.5rem !important;
+    }
+
+    .product-pages div:has(>.rating-card) {
+        top: 0rem !important;
+    }
+
+    .product-pages div:has(.ratingbox) {
+        top: 0rem !important;
+    }
+}
+
+@media screen and (width < 768px) {
+
+    .product-pages .iconlabel a {
+        transform: translatex(0px) translateY(30px) !important;
+    }
+
+    .product-pages .iconlabel a:hover {
+        transform: translatex(0px) translateY(30px) !important;
+        z-index: 100 !important;
+    }
+
+
+    .product-pages .product-toolbar .rate-box::after {
+        content: '';
+        display: none;
+    }
+
+    .flex-md-row {
+        flex-direction: row !important;
+    }
+
+    .gap-md-8 {
+        gap: 2rem !important;
+    }
+
+    .d-md-none {
+        display: none !important;
+    }
+
+}
+
+@media screen and (width < 576px) {}

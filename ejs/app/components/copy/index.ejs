@@ -1,0 +1,9 @@
+<%- include('../../layouts/component/head.ejs' , {pageName : "copy"}); -%>
+
+<div class="d-grid grid-4">
+       <%- include('content.ejs', {
+              text: t.components.copy.text
+});    -%>
+</div>
+
+<%- include('../../layouts/component/foot.ejs'); -%>

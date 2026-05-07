@@ -1,0 +1,103 @@
+@use "../../../../sass/global-functions/_font" as *;
+@use "../../../../sass/kernel" as *;
+@use "../../../../sass/config/_typography" as *;
+@use "sass:map";
+
+$dropdown-box-transition: 0.2s linear;
+$dropdown-menu-transition: 0.2s linear;
+$dropdown-menu-item-transition: 0.2s linear;
+
+.dropdown {
+    @extend .d-inline-block, .position-relative;
+    user-select: none;
+
+    .dropdown-box {
+        transition: $dropdown-box-transition;
+        @extend .d-flex, .align-items-center, .gap-1, .py-1, .px-2, .cursor-pointer, .bg-primary-color, .secondary-color, .radius-all-small, .#{get-font-prefix()}-size-normal;
+    }
+    .dropdown-menu {
+        transition: $dropdown-menu-transition;
+        @extend .position-absolute, .w-fit-content, .opacity-0, .visibility-hidden, .z-index-10, .bg-secondary-color, .on-secondary-color, .radius-all-small, .#{get-font-prefix()}-size-normal, .border-style-solid, .border-on-primary-color, .bw-1;
+
+        & > li{
+            & > :not(:has(*)), a{
+                transition: $dropdown-menu-item-transition;
+                @extend .d-flex, .py-1, .px-2, .on-secondary-color, .#{get-font-prefix()}-size-normal;
+        
+                &:hover{
+                    @extend .bg-primary-color, .on-primary-color;
+                }
+            }
+            &:first-child:not(.dropdown-submenu){
+                @extend .radius-tr-small, .radius-tl-small, .overflow-hidden;
+            }
+            &:last-child:not(.dropdown-submenu){
+                @extend .radius-br-small, .radius-bl-small, .overflow-hidden;
+            }
+            &:first-child.dropdown-submenu > *:not(.dropdown-menu){
+                @extend .radius-tr-small, .radius-tl-small, .overflow-hidden;
+            }
+            &:last-child.dropdown-submenu > *:not(.dropdown-menu){
+                @extend .radius-br-small, .radius-bl-small, .overflow-hidden;
+            }
+        }
+        &:has(> li:only-child){
+            @extend .overflow-hidden;
+        }
+        .dropdown-submenu {
+            @extend .position-relative;
+
+            .dropdown-submenu-toggle {
+                transition: $dropdown-menu-item-transition;
+                @extend .d-flex, .justify-content-space-between, .align-items-center, .w-100, .py-1, .px-2, .on-secondary-color, .#{get-font-prefix()}-size-normal;
+                
+                &:hover {
+                    @extend .bg-primary-color, .on-primary-color;
+                }
+                i {
+                    transition: transform 0.2s linear;
+                }
+            }
+            &.active > .dropdown-submenu-toggle {
+                @extend .bg-primary-color, .on-primary-color;
+            }
+            &.active > .dropdown-menu {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    &.active > .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+    }
+    & .dropdown-menu.dropdown-bottom{
+        top: 100%;
+        bottom: unset;
+        right: unset;
+        @extend .left-0, .mt-1;
+    }
+    & .dropdown-menu.dropdown-top{
+        top: unset;
+        bottom: 100%;
+        right: unset;
+        @extend .left-0, .mb-1;
+    }
+    & .dropdown-menu.dropdown-right{
+        bottom: unset;
+        left: 100%;
+        right: unset;
+        @extend .top-0, .ml-1, .mt-1;
+    }
+    & .dropdown-menu.dropdown-left{
+        bottom: unset;
+        left: unset;
+        right: 100%;
+        @extend .top-0, .mr-1, .mt-1;
+    }
+    &.dropdown-hover:hover > .dropdown-menu,
+    .dropdown-submenu.dropdown-hover:hover > .dropdown-menu {
+        opacity: 1;
+        @extend .visibility-visible;
+    }
+}

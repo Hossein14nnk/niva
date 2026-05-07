@@ -1,0 +1,28 @@
+<%- include('../layouts/page/head.ejs', {pageName: "faq"}); -%>
+
+<main>
+    <section id="faq-wrapper" class="section gap-15">
+        <div class="container flex-row align-items-center justify-content-space-between align-items-sm-flex-start w-100">
+            <div class="block align-items-center gap-8 flex-sm-column align-items-sm-start gap-sm-2">
+                <h2 class="txt-size-high-title font-weight-bold on-secondary-color">پرتکرار ترین پرسش ها</h2>
+                <div class="faq-search-form radius-all-normal">
+                    <form class="div align-items-center gap-6 px-5 py-2">
+                        <i class="fa-regular fa-magnifying-glass txt-size-high-title on-secondary-color"></i>
+                        <input type="text" placeholder="جستجو پرسش ها..." class="outline-unset txt-size-mid-title py-2 py-sm-1 border-none faq-search-form pl-30 pl-xl-20 pl-lg-15 px-md-10" />
+                    </form>
+                </div>
+            </div>
+            <p class="text-color txt-size-title font-weight-bold"> <%= t.pages.faqs.length %> <span class="on-secondary-color font-weight-bold opacity-5 pr-1">پرسش</span></p>
+        </div>
+        <div class="container  gap-5"> 
+            <% for(let i = 0; i < t.pages.faqs.length; i++) {%>
+                <%- include('../components/faq/content.ejs', {
+                    question: t.pages.faqs[i].question,
+                    answer :  t.pages.faqs[i].answer
+                }); -%>
+            <% } %>
+        </div>
+    </section>
+</main>
+
+<%- include('../layouts/page/foot.ejs'); %>

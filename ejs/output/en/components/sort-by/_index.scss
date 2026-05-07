@@ -1,0 +1,18 @@
+@use "../../../../sass/config/_dims" as *;
+@use "../../../../sass/kernel/" as *;
+@use 'sass:map';
+
+
+.sort-by{
+    & li{
+        @extend .px-2, .radius-all-small;
+        
+        &.active{
+            @extend .bg-on-secondary-color, .on-primary-color;
+        }
+    }
+
+    .vertical-line{
+        @extend .bg-on-secondary-color;
+    }
+}

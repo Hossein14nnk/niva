@@ -1,0 +1,9 @@
+<%- include('../../layouts/component/head.ejs' , {pageName : "featurebox"}); -%>
+
+<div class="d-grid grid-4">
+       <%- include('content.ejs', {
+              featureBox: t.components.featureBox
+});    -%>
+</div>
+
+<%- include('../../layouts/component/foot.ejs'); -%>

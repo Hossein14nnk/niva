@@ -1,0 +1,36 @@
+<%- include('../layouts/page/head.ejs', {pageName: "articles"}); -%>
+<%_ 
+    const articles = t.pages.articles;
+-%>
+
+    <main>
+        <section id="technews" class="section gap-5">
+            <div class="container flex-row justify-content-space-between pt-10 pb-7 px-5 w-100">
+                <div>
+                    <div class="w-100">
+                        <span class="d-flex gap-3 txt-title">
+                            <a class="on-secondary-color font-weight-bold opacity-5" href="../index.html"><%= articles.title1 %></a>
+                            <i class="icon-arr-left txt-small d-flex align-items-center font-weight-bold opacity-5 on-secondary-color"></i>
+                            <a class="" href=""><%= articles.title2 %></a>
+                        </span>
+                    </div>
+                </div>
+                <p class="text-color txt-title font-weight-bold"><%= articles.length %><span class="on-secondary-color font-weight-bold opacity-5 pr-1"><%= articles.resultText %> <%= articles.components.length %></span></p>
+            </div>
+            <article class="container d-grid grid-4 grid-lg-3 grid-md-2 grid-sm-2 gap-5 pb-5 gy-12">
+                <% for(let i = 0; i < articles.components.length; i++) {%>
+                    <%- include('../components/weblog-card/newest-column/content.ejs', {
+                        title: articles.components[i].title,
+                        description: articles.components[i].description,
+                        date: articles.components[i].date,
+                        commentCount: articles.components[i].commentCount,
+                        image: articles.components[i].image,
+                        link: articles.components[i].link,
+                        showViewAndReadingTime: articles.components[i].showViewAndReadingTime                  
+                    }); -%>
+                <% } %>
+            </article>
+        </section>
+    </main>
+
+<%- include('../layouts/page/foot.ejs'); %>

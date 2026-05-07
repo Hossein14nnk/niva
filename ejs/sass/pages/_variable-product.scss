@@ -1,0 +1,149 @@
+
+/*component*/
+
+.special-Offerbox.variable-product>div:nth-child(6)>div:nth-child(1) {
+    background-color: #f2f4fb;
+    opacity: 1;
+}
+
+
+.variable-product select {
+    border: none;
+    background-color: #f2f4fb;
+}
+
+.variable-product label {
+    color: #444;
+}
+
+.variable-product select {
+    color: #444;
+    font-weight: 500;
+}
+
+.special-Offerbox.variable-product>div:nth-child(5)>label+div {
+    background-color: #f2f4fb;
+}
+
+.special-Offerbox.variable-product>div:nth-child(5)>label+div+div+div {
+    background-color: #f2f4fb;
+}
+
+.special-Offerbox.variable-product>div:nth-child(4)>div:nth-child(2) {
+    background-color: #f2f4fb;
+}
+
+.special-Offerbox.variable-product>div:nth-child(4)>div:nth-child(4) {
+    background-color: #f2f4fb;
+}
+
+.special-Offerbox.variable-product>a:nth-child(5) {
+    color: #e80645 !important;
+    background-color: #e806451f !important;
+}
+
+.variable-product.special-Offerbox input+label>div>div>i {
+    color: white;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(1) input+label>div {
+    background-color: #F8EAD3;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(2) input+label>div {
+    background-color: #D8F0E6;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(3) input+label>div {
+    background-color: #CCCCCC;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(4) input+label>div {
+    background-color: #FCD1D6;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(5) input+label>div {
+    background-color: #D0DAF9;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(1) input+label>div>div {
+    background: #db9521;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(2) input+label>div>div {
+    background: #3eb580;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(3) input+label>div>div {
+    background: #000;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(4) input+label>div>div {
+    background: #ee1a34;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(5) input+label>div>div {
+    background: #1544e3;
+}
+
+.variable-product.special-Offerbox input[type="radio"]:checked+label>div>div>i {
+    opacity: 1;
+}
+
+.variable-product.special-Offerbox input[type="radio"]:checked+label>div {
+    opacity: 1;
+    background: #db9521;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(1) input[type="radio"]:checked+label>div {
+    background: #db9521;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(2) input[type="radio"]:checked+label>div {
+    background: #3eb580;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(3) input[type="radio"]:checked+label>div {
+    background: #000;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(4) input[type="radio"]:checked+label>div {
+    background: #ee1a34;
+}
+
+.variable-product.special-Offerbox>div:nth-child(3)>div>div:nth-child(5) input[type="radio"]:checked+label>div {
+    background: #1544e3;
+}
+
+.variable-product.special-Offerbox>div:nth-child(4)::after {
+    display: none;
+}
+
+#variable-product .special-Offerbox {
+  box-shadow: 22px 33px 90px 20px rgba(154, 168, 188, 0.06);
+}
+
+.variable-product.special-Offerbox .fa-solid {
+display: flex;
+justify-content: center;
+}
+
+@media screen and (width < 1400px) {
+
+.variable-product.special-Offerbox input+label>div>div>i {
+    width: 20px;
+    height: 20px;
+}
+
+}
+
+@media screen and (width < 1200px) {}
+
+@media screen and (width < 992px) {}
+
+@media screen and (width < 768px) {}
+
+@media screen and (width < 576px) {}

@@ -1,0 +1,64 @@
+@use "../../../../../sass/kernel/" as *;
+
+.slider{ 
+    @extend .d-flex,.flex-column, .align-items-center;
+
+    .slider-wrapper{
+        cursor: grab;
+        
+        &.dragging {
+            cursor: grabbing;
+
+            & .slider-content {
+                pointer-events: none;
+                user-select: none;
+            }
+        } 
+
+        @extend .overflow-hidden, .w-100;
+        
+        .slider-content{
+            @extend .w-100, .h-100, .d-flex;
+        }
+        
+        &.slider-column{
+            @extend .d-flex, .flex-column;
+        }
+    }
+
+    .slider-arrows{
+        pointer-events: none;
+        @extend .d-flex;
+        
+        .slider-arrow-next{
+            pointer-events: all;
+            @extend .cursor-pointer;
+        }
+        
+        .slider-arrow-prev{
+            pointer-events: all;
+            @extend .cursor-pointer;
+        }
+    }
+
+    .slider-toggles{
+        @extend .d-flex;
+
+        .slider-toggle{
+            @extend .w-100, .cursor-pointer;
+        }
+    }
+
+    &.slider-column .slider-container{
+        @extend .flex-column;
+    }
+
+    .slider-container {
+        @extend .d-flex, .w-100, .h-100, .flex-row;
+        transition:0.5s linear;
+
+        .slider-content{
+            flex-shrink: 0;
+        }
+    }
+}

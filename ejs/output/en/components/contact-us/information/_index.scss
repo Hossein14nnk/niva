@@ -1,0 +1,18 @@
+@use "../../../../../sass/kernel/" as *;
+
+
+.contact-us-information{
+    @extend .d-flex, .flex-row-reverse, .justify-content-space-between,.py-3;
+    
+    .title{
+        @extend .txt-size-title, .font-weight-bold, .title-text-color;
+    }
+    
+    .direction{
+        @extend .txt-size-title, .font-weight-bold, .text-color;
+    }
+
+    i{
+        @extend .txt-size-title, .text-variantly-color, .font-weight-regular;
+    }
+}

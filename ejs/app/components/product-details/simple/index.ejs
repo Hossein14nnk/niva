@@ -1,0 +1,9 @@
+<%- include('../../../layouts/component/head.ejs', {pageName: "product-details-simple", level: 1}); -%>
+
+<div class="d-grid grid-4">
+        <%- include('content.ejs', {
+          simple: t.components.productDetails.simple[0]
+           }); -%>
+</div>
+
+<%- include('../../../layouts/component/foot.ejs'); -%>

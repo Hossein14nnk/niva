@@ -1,0 +1,9 @@
+<%- include('../../layouts/component/head.ejs' , {pageName : "modal-toggle"}); -%>
+
+<div class="d-grid grid-4">
+  <%- include('content.ejs', {
+              modalToggle: t.components.modalToggle
+});    -%>
+</div>
+
+<%- include('../../layouts/component/foot.ejs'); -%>
