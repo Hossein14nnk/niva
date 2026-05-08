@@ -1,0 +1,46 @@
+import _ from "lodash";
+
+// modes: development / production
+let mode = "development";
+
+let globals = {
+	_: _,
+	pathPages: "../../..",
+	pathComponents: "./",
+	basePathPages: function () {
+		switch (mode) {
+			case "production":
+				return "../";
+
+			case "development":
+				return "../../../";
+		}
+	},
+	basePathComponents: function () {
+		switch (mode) {
+			case "production":
+				return "../../";
+
+			case "development":
+				return "../../../../";
+		}
+	},
+	navigation: function (lang, file) {
+		switch (mode) {
+			case "production":
+                return `./pages/${file}`;
+			case "development":
+				return `./output/${lang}/pages/${file}`;
+		}
+	},
+    getMedia: function (lang, file, mediaType){
+        switch (mode) {
+			case "production":
+                return `./assets/media/${mediaType}/${file}`;
+			case "development":
+				return `./assets/media/${mediaType}/${lang}/${file}`;
+		}
+    },
+};
+
+export default globals;
