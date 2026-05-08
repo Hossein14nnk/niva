@@ -95,23 +95,27 @@
 							<div class="megamenu d-none flex-row align-items-stretch">
 								<ul class="d-flex flex-column bg-secondary-color position-relative">
 									<%_ for(let i = 0; i < t.header.menu.categories.length; i++){ -%>
-										<li class="submenu-parent pie-sm-2 pis-sm-2 py-xl-3 d-flex flex-row align-items-center py-4 pie-5 pis-5 gap-2">
-											<%- t.header.menu.categories[i].icon %>
-											<span class="text-color txt-size-mid-title font-weight-bold"><%= t.header.menu.categories[i].title %></span>
-											<div class="submenu d-<%= (i == 0) ? 'flex' : 'none' %> one position-absolute flex-column align-items-stretch gap-6 pie-1 pis-10 py-12">
-												<span class="txt-size-mid-title text-color font-weight-bold line-height-3"><%= t.header.menu.viewAllText %> <%= t.header.menu.categories[i].title %></span>
-												<ul class="h-100 d-flex flex-column flex-wrap gap-3">
-													<%_ for(let j = 0; j < t.header.menu.categories[i].parents.length; j++){ -%>
-														<li class="parent">
-															<a class="txt-size-title font-weight-bold" href="<%= t.header.menu.categories[i].parents[j].link %>"><%= t.header.menu.categories[i].parents[j].title %></a>
-														</li>
-														<%_ for(let k = 0; k < t.header.menu.categories[i].parents[j].items.length; k++){ -%>
-															<li><a class="txt-size-title text-color font-weight-bold" href="<%= t.header.menu.categories[i].parents[j].items[k].link %>"><%= t.header.menu.categories[i].parents[j].items[k].title %></a></li>
+										<a href="<%= navigation(lang, 'shop.html'); %>">
+											<li class="submenu-parent pie-sm-2 pis-sm-2 py-xl-3 d-flex flex-row align-items-center py-4 pie-5 pis-5 gap-2">
+												<%- t.header.menu.categories[i].icon %>
+												<span class="text-color txt-size-mid-title font-weight-bold"><%= t.header.menu.categories[i].title %></span>
+												<div class="submenu d-<%= (i == 0) ? 'flex' : 'none' %> one position-absolute flex-column align-items-stretch gap-6 pie-1 pis-10 py-12">
+													<span class="txt-size-mid-title text-color font-weight-bold line-height-3"><%= t.header.menu.viewAllText %> <%= t.header.menu.categories[i].title %></span>
+													<ul class="h-100 d-flex flex-column flex-wrap gap-3">
+														<%_ for(let j = 0; j < t.header.menu.categories[i].parents.length; j++){ -%>
+															<li class="parent">
+																<a class="txt-size-title font-weight-bold" href="<%= navigation(lang, 'shop.html'); %>"><%= t.header.menu.categories[i].parents[j].title %></a>
+															</li>
+															<%_ for(let k = 0; k < t.header.menu.categories[i].parents[j].items.length; k++){ -%>
+																<li>
+																	<a class="txt-size-title text-color font-weight-bold" href="<%= navigation(lang, 'simple-product.html'); %>"><%= t.header.menu.categories[i].parents[j].items[k].title %></a>
+																</li>
+															<%_ } -%>
 														<%_ } -%>
-													<%_ } -%>
-												</ul>
-											</div>
-										</li>
+													</ul>
+												</div>
+											</li>
+										</a>
 									<%_ } -%>
 								</ul>
 							</div>
