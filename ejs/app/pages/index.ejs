@@ -30,7 +30,7 @@
                         <div class="slider-container">
                         <%_ for(let i = 0; i < t.pages.home.hero.sliders.length; i++){ -%>
                             <div id="<%= t.pages.home.hero.sliders[i].id %>" class="slider-content d-flex flex-column justify-content-center align-items-center">
-                                <img src="./assets/media/images/<%= t.pages.home.hero.sliders[i].image.src %>" alt="<%= t.pages.home.hero.sliders[i].image.alt %>" class="w-100 object-contain" />
+                                <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain" />
                             </div>
                         <%_ } -%>
                         </div>
@@ -50,8 +50,8 @@
                 <div class="block w-100 flex-lg-column align-items-stretch bg-primary-color radius-all-large pie-4 px-lg-4">
                     <div class="w-20 div justify-content-center position-relative px-5" style="width: 350px">
                         <div class="block flex-column flex-lg-row align-items-center h-100 justify-content-center pt-8 gap-8">
-                            <img src="./assets/media/images/<%= t.pages.home.exceptionalOffers.banner.src %>" alt="<%= t.pages.home.exceptionalOffers.banner.alt %>" class="w-90 d-lg-none" />
-                            <img src="./assets/media/images/<%= t.pages.home.exceptionalOffers.banner.src %>" alt="<%= t.pages.home.exceptionalOffers.banner.alt %>" class="w-50 d-none d-lg-block" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-90 d-lg-none" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
                             <a href="<%= t.pages.home.exceptionalOffers.banner.link %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
                                 <%= t.pages.home.exceptionalOffers.banner.title %>
                                 <i class="fas fa-angle-left"></i>
@@ -62,7 +62,7 @@
                         <div class="offer-card-content">
                             <div class="swiper-wrapper">
                                 <%_ for(let i = 0; i < t.pages.home.exceptionalOffers.components.productCards.length; i++) { -%>
-                                    <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.exceptionalOffers.components.productCards[i]}); %>
+                                    <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.exceptionalOffers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
                                 <%_ } -%>
                             </div>
                         </div>
@@ -87,7 +87,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="./assets/media/images/<%= t.company.logoImage.replaceSimple.src %>" alt="<%= t.company.logoImage.replaceSimple.alt %>" width="30px" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.popularCategories.title %></h2>
                     </div>
@@ -118,7 +118,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="./assets/media/images/<%= t.company.logoImage.replaceSimple.src %>" alt="<%= t.company.logoImage.replaceSimple.alt %>" width="30px" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.bestSellers.title %></h2>
                     </div>
@@ -128,7 +128,7 @@
                     <div class="offer-card-content">
                         <div class="swiper-wrapper">
                             <%_ for(let i = 0; i < t.pages.home.bestSellers.components.productCards.length; i++) { -%>
-                                <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.bestSellers.components.productCards[i]}); %>
+                                <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.bestSellers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
                             <%_ } -%>
                         </div>
                     </div>
@@ -152,8 +152,8 @@
                 <div class="block w-100 flex-row-reverse flex-lg-column align-items-stretch bg-primary-color radius-all-large pis-4 px-lg-4">
                     <div class="w-20 div justify-content-center position-relative px-5" style="width: 350px">
                         <div class="block flex-column flex-lg-row align-items-center h-100 justify-content-center pt-8 gap-8">
-                            <img src="./assets/media/images/<%= t.pages.home.laptopOffers.banner.src %>" alt="<%= t.pages.home.laptopOffers.banner.alt %>" class="w-90 d-lg-none" />
-                            <img src="./assets/media/images/<%= t.pages.home.laptopOffers.banner.src %>" alt="<%= t.pages.home.laptopOffers.banner.alt %>" class="w-50 d-none d-lg-block" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-90 d-lg-none" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
                             <a href="<%= t.pages.home.laptopOffers.banner.link %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
                                 <%= t.pages.home.laptopOffers.banner.title %>
                                 <i class="fas fa-angle-left"></i>
@@ -164,7 +164,7 @@
                         <div class="offer-card-content">
                             <div class="swiper-wrapper">
                                 <%_ for(let i = 0; i < t.pages.home.laptopOffers.components.productCards.length; i++) { -%>
-                                    <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.laptopOffers.components.productCards[i]}); %>
+                                    <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.laptopOffers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
                                 <%_ } -%>
                             </div>
                         </div>
@@ -187,13 +187,13 @@
         <section id="bestsellersCategory" class="section">
             <div class="container d-grid grid-3 gap-8 grid-md-1 w-100 px-md-20">
                 <a href="#">
-                    <img class="w-100" src="./assets/media/images/<%= t.language %>/homepage/banner-sale.webp" alt="alt homepage" />
+                    <img class="w-100" src="<%= getMedia(lang, '', 'images'); %>" alt="alt homepage" />
                 </a>
                 <a href="#">
-                    <img class="w-100" src="./assets/media/images/<%= t.language %>/homepage/banner-sale2.webp" alt="alt homepage" />
+                    <img class="w-100" src="<%= getMedia(lang, '', 'images'); %>" alt="alt homepage" />
                 </a>
                 <a href="#">
-                    <img class="w-100" src="./assets/media/images/<%= t.language %>/homepage/banner-sale3.webp" alt="alt homepage" />
+                    <img class="w-100" src="<%= getMedia(lang, '', 'images'); %>" alt="alt homepage" />
                 </a>
             </div>
         </section>
@@ -202,7 +202,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="./assets/media/images/<%= t.company.logoImage.replaceSimple.src %>" alt="<%= t.company.logoImage.replaceSimple.alt %>" width="30px" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.economicalProducts.title %></h2>
                     </div>
@@ -212,7 +212,7 @@
                     <div class="offer-card-content">
                         <div class="swiper-wrapper">
                             <%_ for(let i = 0; i < t.pages.home.economicalProducts.components.productCards.length; i++) { -%>
-                                <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.economicalProducts.components.productCards[i]}); %>
+                                <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.economicalProducts.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
                             <%_ } -%>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="./assets/media/images/<%= t.company.logoImage.replaceSimple.src %>" alt="<%= t.company.logoImage.replaceSimple.alt %>" width="30px" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.creditPurchase.title %></h2>
                     </div>
@@ -279,13 +279,13 @@
                                 <a href="<%= t.pages.home.boxTaste.tasteBoxes[i].category.link %>" class="d-flex flex-column align-items-center gap-1 justify-content-center">
                                     <span class="font-weight-bold text-color"><%= t.pages.home.boxTaste.tasteBoxes[i].category.title %></span>
                                     <span class="txt-size-small secondary-text-color font-weight-bold"><%= t.pages.home.boxTaste.tasteBoxes[i].category.text %></span>
-                                    <img src="./assets/media/images/<%= t.pages.home.boxTaste.tasteBoxes[i].category.image.src %>" alt="<%= t.pages.home.boxTaste.tasteBoxes[i].category.image.alt %>" class="bottom-0 w-100" />
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="bottom-0 w-100" />
                                 </a>
                             </div>
                             <%_ for(let j = 0; j < 2; j++){ -%>
                                 <div class="div w-100 h-100 justify-content-center align-items-center pt-1 radius-all-medium position-relative information-tooltip tooltip-top border-color bw-1 border-style-solid overflow-hidden">
-                                    <!-- <img class="w-70" src="./assets/media/images/<%= t.language %>/homepage/small_product-TLP-167567_9a1d242b-fff0-4aad-b9ca-a4ea17d20f3d.webp" alt="" /> -->
-                                    <img class="w-70" src="./assets/media/images/<%= t.pages.home.boxTaste.tasteBoxes[i].boxes[j].image.src %>" alt="<%= t.pages.home.boxTaste.tasteBoxes[i].boxes[j].image.alt %>" />
+                                    <!-- src="<%= getMedia(lang, '', 'images'); %>" alt="" /> -->
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" />
                                 </div>
                             <%_ } -%>
                             <div class="div w-100 h-100 justify-content-center align-items-center pt-1 radius-all-medium position-relative information-tooltip tooltip-top border-color bw-1 border-style-solid overflow-hidden">
@@ -357,7 +357,7 @@
                 </div>
             </div>
             <div class="w-75 position-relative w-xl-100 aspect-ratio-3x1">
-                <img src="./assets/media/images/<%= t.pages.home.productPackage.banner.src %>" alt="<%= t.pages.home.productPackage.banner.alt %>" class="w-100 h-100 radius-all-medium object-cover" />
+                <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 h-100 radius-all-medium object-cover" />
             </div>
         </section>
         <section id="mobileOffers" class="section w-100 overflow-hidden">
@@ -365,8 +365,8 @@
                 <div class="block w-100 flex-lg-column align-items-stretch bg-primary-color radius-all-large pie-4 px-lg-4">
                     <div class="w-20 div justify-content-center position-relative px-5" style="width: 350px">
                         <div class="block flex-column flex-lg-row align-items-center h-100 justify-content-center pt-8 gap-8">
-                            <img src="./assets/media/images/<%= t.pages.home.mobileOffers.banner.src %>" alt="<%= t.pages.home.mobileOffers.banner.alt %>" class="w-90 d-lg-none" />
-                            <img src="./assets/media/images/<%= t.pages.home.mobileOffers.banner.src %>" alt="<%= t.pages.home.mobileOffers.banner.alt %>" class="w-50 d-none d-lg-block" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-90 d-lg-none" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
                             <a href="<%= t.pages.home.mobileOffers.banner.link %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
                                 <%= t.pages.home.mobileOffers.banner.title %>
                                 <i class="fas fa-angle-left"></i>
@@ -377,7 +377,7 @@
                         <div class="offer-card-content">
                             <div class="swiper-wrapper">
                                 <%_ for(let i = 0; i < t.pages.home.mobileOffers.components.productCards.length; i++) { -%>
-                                    <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.mobileOffers.components.productCards[i]}); %>
+                                    <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.mobileOffers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
                                 <%_ } -%>
                             </div>
                         </div>
@@ -402,7 +402,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="./assets/media/images/<%= t.company.logoImage.replaceSimple.src %>" alt="<%= t.company.logoImage.replaceSimple.alt %>" width="30px" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.bestMobileSellers.title %></h2>
                     </div>
@@ -412,7 +412,7 @@
                     <div class="offer-card-content">
                         <div class="swiper-wrapper">
                             <%_ for(let i = 0; i < t.pages.home.bestMobileSellers.components.productCards.length; i++) { -%>
-                                <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.bestMobileSellers.components.productCards[i]}); %>
+                                <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.bestMobileSellers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
                             <%_ } -%>
                         </div>
                     </div>
@@ -431,9 +431,9 @@
             </div>
         </section>
         <section id="bannerProduct" class="section">
-            <img src="./assets/media/images/<%= t.pages.home.bannerProduct.src %>" alt="<%= t.pages.home.bannerProduct.alt %>" class="w-100 position-relative" />
+            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 position-relative" />
             <a href="<%= t.pages.home.bannerProduct.link %>" class="d-flex position-absolute banner-icon inset-end-20">
-                <img src="./assets/media/images/<%= t.language %>/homepage/Next-blue -icon.svg" alt="" width="35px" />
+                <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="35px" />
             </a>
         </section>
         <section id="suggestionCategories" class="section">
@@ -441,7 +441,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="./assets/media/images/<%= t.company.logoImage.replaceSimple.src %>" alt="<%= t.company.logoImage.replaceSimple.alt %>" width="30px" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.suggestionCategories.title %></h2>
                     </div>
@@ -459,7 +459,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="./assets/media/images/<%= t.company.logoImage.replaceSimple.src %>" alt="<%= t.company.logoImage.replaceSimple.alt %>" width="30px" />
+                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.brandWrapper.title %></h2>
                     </div>
@@ -470,37 +470,37 @@
                         <div class="banner-card-content">
                             <div class="swiper-wrapper">
                                 <div class="logo div px-2 swiper-slide">
-                                    <img src="./assets/media/images/<%= t.language %>/homepage/logo1.webp" alt="alt" class="w-100 object-contain">
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain">
                                 </div>
                                 <div class="logo div px-2 swiper-slide">
-                                    <img src="./assets/media/images/<%= t.language %>/homepage/logo2.webp" alt="alt" class="w-100 object-contain">
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain">
                                 </div>
                                 <div class="logo div px-2 swiper-slide">
-                                    <img src="./assets/media/images/<%= t.language %>/homepage/logo3.webp" alt="alt" class="w-100 object-contain">
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain">
                                 </div>
                                 <div class="logo div px-2 swiper-slide">
-                                    <img src="./assets/media/images/<%= t.language %>/homepage/logo4.webp" alt="alt" class="w-100 object-contain">
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain">
                                 </div>
                                 <div class="logo div px-2 swiper-slide">
-                                    <img src="./assets/media/images/<%= t.language %>/homepage/logo5.webp" alt="alt" class="w-100 object-contain">
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain">
                                 </div>
                                 <div class="logo div px-2 swiper-slide">
-                                    <img src="./assets/media/images/<%= t.language %>/homepage/logo6.webp" alt="alt" class="w-100 object-contain">
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain">
                                 </div>
                                 <div class="logo div px-2 swiper-slide">
-                                    <img src="./assets/media/images/<%= t.language %>/homepage/logo7.webp" alt="alt" class="w-100 object-contain">
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain">
                                 </div>
                                 <div class="logo div px-2 swiper-slide">
-                                    <img src="./assets/media/images/<%= t.language %>/homepage/logo8.webp" alt="alt" class="w-100 object-contain">
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain">
                                 </div>
                                 <div class="logo div px-2 swiper-slide">
-                                    <img src="./assets/media/images/<%= t.language %>/homepage/logo9.webp" alt="alt" class="w-100 object-contain">
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain">
                                 </div>
                                 <div class="logo div px-2 swiper-slide">
-                                    <img src="./assets/media/images/<%= t.language %>/homepage/logo10.webp" alt="alt" class="w-100 object-contain">
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain">
                                 </div>
                                 <div class="logo div px-2 swiper-slide">
-                                    <img src="./assets/media/images/<%= t.language %>/homepage/logo11.webp" alt="alt" class="w-100 object-contain">
+                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain">
                                 </div>
                             </div>
                         </div>
@@ -521,9 +521,9 @@
             </div>
         </section>
         <section id="bannerProductSecond" class="section">
-            <img src="./assets/media/images/<%= t.pages.home.bannerProductSecond.src %>" alt="<%= t.pages.home.bannerProductSecond.alt %>" class="w-100 position-relative" />
+            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 position-relative" />
             <a href="<%= t.pages.home.bannerProductSecond.link %>" class="d-flex position-absolute banner-icon inset-end-20">
-                <img src="./assets/media/images/<%= t.language %>/homepage/Next-blue -icon.svg" alt="" width="35px" />
+                <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="35px" />
             </a>
         </section>
 
@@ -540,12 +540,12 @@
             <div class="container gap-8">
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <!-- <div class="div align-items-center gap-3 horizental-line">
-                        <img src="./assets/media/images/<%= t.language %>/homepage/logo-web-gold.webp" alt="" width="30px" />
+                        <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap">وبلاگ</h2>
                     </div>
                     <a href="./pages/articles.html" class="div align-items-center">
                         <span class="text-color txt-subtitle font-weight-bold">مشاهده‌همه‌</span>
-                        <img src="./assets/media/images/<%= t.language %>/homepage/next-icon.svg" alt="" width="35px" />
+                        <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="35px" />
                     </a> -->
                 </div>
                 <div class="block d-grid grid-2 gap-6 grid-md-1">

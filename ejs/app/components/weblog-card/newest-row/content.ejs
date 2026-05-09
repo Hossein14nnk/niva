@@ -1,7 +1,7 @@
 <%_ enableBorderBottom = enableBorderBottom ? "pb-5 border-bottom-select" : "" -%>
 <div class="weblog-card newest-row <%= enableBorderBottom %>">
     <a class="cover-image">
-        <img src="./assets/media/images/<%= image.src %>" alt="<%= image.alt %>">
+        <img src="<%= getMedia(lang, '', 'images'); %>" alt="">
     </a>
     <div class="card-body">
         <a href="<%= link %>">

@@ -63,8 +63,6 @@
   --unCommon: #FFFFFF;
   --uncommon: #FFFFFF;
   --transparent: rgba(0, 0, 0, 0);
-  --font-primary: "primary";
-  --font-secondary: "secondary";
   --font-fa-primary: "fa-primary";
   --font-en-primary: "en-primary";
 }
@@ -272,54 +270,6 @@ dialog {
 
 .font-weight-thin {
   font-weight: 100;
-}
-
-@font-face {
-  font-family: "primary";
-  font-weight: 900;
-  src: url("../fonts/vazir/Vazir-Black.woff2"),url("../fonts/vazir/Vazir-Black.woff"),url("../fonts/vazir/Vazir-Black.ttf"),url("../fonts/vazir/Vazir-Black.eot"),;
-}
-@font-face {
-  font-family: "primary";
-  font-weight: 700;
-  src: url("../fonts/vazir/Vazir-Bold.woff2"),url("../fonts/vazir/Vazir-Bold.woff"),url("../fonts/vazir/Vazir-Bold.ttf"),url("../fonts/vazir/Vazir-Bold.eot"),;
-}
-@font-face {
-  font-family: "primary";
-  font-weight: 300;
-  src: url("../fonts/vazir/Vazir-Light.woff2"),url("../fonts/vazir/Vazir-Light.woff"),url("../fonts/vazir/Vazir-Light.ttf"),url("../fonts/vazir/Vazir-Light.eot"),;
-}
-@font-face {
-  font-family: "primary";
-  font-weight: 500;
-  src: url("../fonts/vazir/Vazir-Medium.woff2"),url("../fonts/vazir/Vazir-Medium.woff"),url("../fonts/vazir/Vazir-Medium.ttf"),url("../fonts/vazir/Vazir-Medium.eot"),;
-}
-@font-face {
-  font-family: "primary";
-  font-weight: 400;
-  src: url("../fonts/vazir/Vazir-Regular.woff2"),url("../fonts/vazir/Vazir-Regular.woff"),url("../fonts/vazir/Vazir-Regular.ttf"),url("../fonts/vazir/Vazir-Regular.eot"),;
-}
-@font-face {
-  font-family: "primary";
-  font-weight: 100;
-  src: url("../fonts/vazir/Vazir-Thin.woff2"),url("../fonts/vazir/Vazir-Thin.woff"),url("../fonts/vazir/Vazir-Bold.ttf"),url("../fonts/vazir/Vazir-Thin.eot"),;
-}
-.font-primary {
-  font-family: var(--font-primary), sans-serif, 'Courier New', Courier, monospace;
-}
-
-@font-face {
-  font-family: "secondary";
-  font-weight: 700;
-  src: url("../fonts/product-sans/PTSans-Bold.ttf"),;
-}
-@font-face {
-  font-family: "secondary";
-  font-weight: 400;
-  src: url("../fonts/product-sans/PTSans-Regular.ttf"),;
-}
-.font-secondary {
-  font-family: var(--font-secondary), sans-serif, 'Courier New', Courier, monospace;
 }
 
 @font-face {
@@ -31473,7 +31423,7 @@ html {
 
 .article-banner-weblog::after {
   content: "";
-  background-image: url("../../assets/media/images/en/component/Group 195.webp");
+  background-image: url("../../assets/media/images/en/single/Group 195.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -31700,7 +31650,7 @@ html {
 }
 .weblog-card.newest-column .feature-image::after {
   content: "";
-  background-image: url("../../assets/media/images/en/component/Group 195.webp");
+  background-image: url("../../assets/media/images/en/single/Group 195.webp");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -31710,7 +31660,7 @@ html {
 }
 .weblog-card.newest-row .cover-image::after {
   content: "";
-  background-image: url("../../assets/media/images/en/component/Group 195.webp");
+  background-image: url("../../assets/media/images/en/single/Group 195.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -33046,13 +32996,13 @@ div:has(.product-detail) {
 }
 
 .register-comment-box .stars-container .stars-full {
-  background-image: url("../media/images/en/component/star-solid-full.svg");
+  background-image: url("../media/images/en/single/star-solid-full.svg");
   background-size: contain;
   background-repeat: repeat-x;
 }
 
 .register-comment-box .stars-container .stars {
-  background-image: url("../media/images/en/component/star-thin-full.svg");
+  background-image: url("../media/images/en/single/star-thin-full.svg");
   background-size: contain;
   background-repeat: repeat-x;
   background-color: transparent;

@@ -33,7 +33,7 @@
         });
     </script>
     <script>
-        const primaryFont = getComputedStyle(document.body).getPropertyValue("--font-primary").trim();
+        const primaryFont = getComputedStyle(document.body).getPropertyValue("--font<%= lang %>-primary").trim();
 
         function transparentize(color, opacity) {
             if (color.includes("rgb")) {

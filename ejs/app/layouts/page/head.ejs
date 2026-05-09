@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= pageName %></title>
-    <link rel="icon" type="image/png" href="./assets/media/images/logo-web3.webp">
+    <link rel="icon" type="image/png" href="<%= getMedia(lang, 'single/logo-web3.webp', 'images') %>">
     <base href="<%= basePathPages() %>">
     <link rel="stylesheet" href="./assets/vendors/swiper/swiper-bundle-min.css">
     <link rel="stylesheet" href="./assets/vendors/snap-alert-js-main/snapAlert.min.css">
@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./assets/css/style.min.css">
 </head>
 
-<body class="font-<%= t.language %>-primary">
+<body class="font-<%= lang %>-primary">
 <%_ let isHeader = (typeof header !== 'undefined') ? header : true; -%>
 <%_ if(isHeader){ -%>
     <%- include('../../pages/header.ejs'); %>

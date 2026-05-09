@@ -5,12 +5,10 @@
 				<div class="d-flex gap-5 w-100 pr-xl-13">
 					<div class="w-14 w-xl-10"></div>
 					<div class="w-27 w-xl-40 w-md-60">
-						
-						<%- include('../components/product-card/full/content.ejs', {productCard: t.components.productCard}); %>
-						
+						<%- include('../components/product-card/full/content.ejs', {productCard: t.components.productCard, image: getMedia(lang, `products/mobile-10`, "images")}); %>
 					</div>
 					<div class="w-27 w-xl-40 w-md-60">
-						<%- include('../components/product-card/full/content.ejs', {productCard: t.components.productCard}); %>
+						<%- include('../components/product-card/full/content.ejs', {productCard: t.components.productCard, image: getMedia(lang, `products/mobile-10`, "images")}); %>
 					</div>
 					<div class="w-25 d-flex justify-content-center align-items-center pr-sm-15">
 						<a href="#">

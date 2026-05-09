@@ -1,7 +1,7 @@
 <div class="product-card <%= enableSwiper ? 'swiper-slide' : null %>">
 	<div class="logo-container">
 		<a class="logo" href="<%= t.company.logoImage.simple.link %>">
-			<img class="w-100" src="./assets/media/images/<%= t.company.logoImage.simple.src %>" alt="<%= t.company.logoImage.simple.alt %>" />
+			<img class="w-100" src="<%= getMedia(lang, 'single/logo-web3.webp', 'images'); %>" alt="" />
 		</a>
 	</div>
 	<div class="image-container">
@@ -17,18 +17,18 @@
 			<% } %>
 		</div>
 		<a href="<%= productCard.image.link %>" class="image-box">
-			<img src="./assets/media/images/<%= productCard.image.src %>" alt="<%= productCard.image.alt %>" />
+			<img src="<%= getMedia(lang, '', 'images'); %>" alt="" />
 		</a>
 	</div>
 	<div class="card-body">
 		<h2 class="title"><%= productCard.title %></h2>
 		<div class="d-flex justify-content-space-between">
 			<div class="fast-shipping">
-				<img src="./assets/media/images/component/tabler_cube-send.svg" alt="" />
-				<span>ارسال سریع</span>
+				<img src="<%= getMedia(lang, 'single/tabler_cube-send.svg', 'images'); %>" alt="" />
+				<span><%= productCard.send %></span>
 			</div>
 			<span>
-				<img src="./assets/media/images/component/Star 1.svg" alt="" />
+				<img src="<%= getMedia(lang, 'single/Star 1.svg', 'images'); %>" alt="" />
 				<span class="font-weight-bold txt-size-mid-title"><%= productCard.point %></span>
 			</span>
 		</div>
