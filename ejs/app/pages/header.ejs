@@ -3,7 +3,7 @@
 		<div class="container d-grid grid-1 w-100">
 			<div class="primary-part w-100 d-flex pie-4 pis-4 gap-5 gap-sm-2 flex-row align-items-center justify-content-space-between bg-color">
 				<div class="d-flex flex-row align-items-center justify-content-space-between gap-5 gap-sm-2">
-					<a href="<%= t.company.logoImage.original.link %>">
+					<a href="<%- navigation(lang , 'index.html') %>">
 						<img src="./assets/media/images/<%= t.company.logoImage.original.src %>" alt="<%= t.company.logoImage.original.alt %>" class="logo h-75" />
 					</a>
 					<div id="searchBox">
@@ -35,7 +35,7 @@
 						</div>
 					</div>
 					<div class="backdrop"></div>
-					<a href="#" class="location-btn d-sm-flex flex-row align-items-center radius-all-small pie-3 pis-3 py-3">
+					<a href="<%- navigation(lang , 'index.html') %>" class="location-btn d-sm-flex flex-row align-items-center radius-all-small pie-3 pis-3 py-3">
 						<i class="fa-solid fa-location-dot text-color"></i>
 					</a>
 				</div>
@@ -52,7 +52,7 @@
 							</div>
 							<ul class="dropdown-menu dropdown-bottom" style="width: 250px;">
 								<li>
-									<a href="#" class="px-6 radius-tr-small radius-tl-small">
+									<a href="<%- navigation(lang , 'index.html') %>" class="px-6 radius-tr-small radius-tl-small">
 										<div class="w-100 d-flex flex-row-reverse align-items-center justify-content-space-between py-2">
 											<span class="font-weight-medium txt-size-mid-title"><%= t.header.login.name %></span>
 										</div>
@@ -60,7 +60,7 @@
 								</li>
 								<%_ for(let i = 0; i < t.header.login.features.length; i++){ -%>
 									<li>
-										<a href="<%= t.header.login.features[i].link %>" class="px-6">
+										<a href="<%- navigation(lang , 'index.html') %>" class="px-6">
 											<div class="w-100 d-flex flex-row-reverse align-items-center gap-5 py-1">
 												<%- t.header.login.features[i].icon %>
 			
@@ -74,7 +74,7 @@
 							</ul>
 						</div>
 					<%_ } else { -%>
-						<a href="#" class="d-flex flex-row align-items-center gap-2 gap-md-3 py-3 py-sm-3 pie-4 pis-4 bg-secondary-color radius-all-small">
+						<a href="<%- navigation(lang , 'my-account.html') %>" class="d-flex flex-row align-items-center gap-2 gap-md-3 py-3 py-sm-3 pie-4 pis-4 bg-secondary-color radius-all-small">
 							<i class="fa-solid fa-arrow-right-to-bracket text-color d-sm-none"></i>
 							<span class="font-weight-bold text-color"><%= t.header.login.title %></span>
 						</a>
