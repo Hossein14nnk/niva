@@ -7,12 +7,11 @@
                     <div class="story-container px-4">
                         <div class="swiper-wrapper">
                             <% for(let i = 0; i < t.pages.home.storyBox.components.stories.length; i++){ -%>
-                                <%- include('../components/story/content.ejs', {story: t.pages.home.storyBox.components.stories[i]}); %>
+                                <%- include('../components/story/content.ejs', {story: t.pages.home.storyBox.components.stories[i], enableSwiper: true, image: getMedia(lang, `stories/show-${i + 1}.webp`, 'images')}); %>
                             <%_ } -%>
                         </div>
                     </div>
 
-                    <!-- Navigation Buttons -->
                     <div class="swiper-button-next">
                         <i class="fa-solid fa-chevron-right on-secondary-color"></i>
                     </div>
@@ -29,8 +28,8 @@
                     <div class="slider-wrapper w-100">
                         <div class="slider-container">
                         <%_ for(let i = 0; i < t.pages.home.hero.sliders.length; i++){ -%>
-                            <div id="<%= t.pages.home.hero.sliders[i].id %>" class="slider-content d-flex flex-column justify-content-center align-items-center">
-                                <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 object-contain" />
+                            <div id="<%= `slider-${i + 1}.webp` %>" class="slider-content d-flex flex-column justify-content-center align-items-center">
+                                <img src="<%= getMedia(lang, `sliders/hero-${i + 1}.webp`, 'images'); %>" alt="" class="w-100 object-contain" />
                             </div>
                         <%_ } -%>
                         </div>
@@ -38,7 +37,7 @@
                     <%_ if(t.pages.home.hero.enableSliderToggles){ -%>
                     <div class="slider-toggles position-absolute gap-2 justify-content-start">
                         <%_ for(let i = 0; i < t.pages.home.hero.sliders.length; i++){ -%>
-                            <div data-slider-id="<%= t.pages.home.hero.sliders[i].id %>" class="pagination slider-toggle aspect-ratio-1x1 radius-all-full"></div>
+                            <div data-slider-id="<%= `slider-${i + 1}.webp` %>" class="pagination slider-toggle aspect-ratio-1x1 radius-all-full"></div>
                         <%_ } -%>
                     </div>
                     <%_ } -%>
@@ -50,8 +49,8 @@
                 <div class="block w-100 flex-lg-column align-items-stretch bg-primary-color radius-all-large pie-4 px-lg-4">
                     <div class="w-20 div justify-content-center position-relative px-5" style="width: 350px">
                         <div class="block flex-column flex-lg-row align-items-center h-100 justify-content-center pt-8 gap-8">
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-90 d-lg-none" />
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
+                            <img src="<%= getMedia(lang, 'single/offerpic-1.webp', 'images'); %>" alt="" class="w-90 d-lg-none" />
+                            <img src="<%= getMedia(lang, 'single/amazing-text.svg', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
                             <a href="<%= t.pages.home.exceptionalOffers.banner.link %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
                                 <%= t.pages.home.exceptionalOffers.banner.title %>
                                 <i class="fas fa-angle-left"></i>
@@ -67,7 +66,7 @@
                             </div>
                         </div>
 
-                        <!-- Navigation Buttons -->
+                        
                         <div class="swiper-button-next">
                             <i class="fa-solid fa-chevron-right on-secondary-color"></i>
                         </div>
@@ -76,8 +75,8 @@
                             <i class="fa-solid fa-chevron-left on-secondary-color"></i>
                         </div>
 
-                        <!-- Pagination -->
-                        <!-- <div class="swiper-pagination"></div> -->
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -87,7 +86,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
+                            <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.popularCategories.title %></h2>
                     </div>
@@ -95,19 +94,19 @@
                 </div>
                 <div class="d-grid grid-6 grid-xl-3 grid-sm-2 gap-4 w-100">
                     <%_ for(let i = 0; i < 3; i++){ %>
-                        <%- include('../components/category-card/focused-card/content.ejs', {focusedCard: t.pages.home.popularCategories.components.focusedCards[i], width: "100px"}); %>
+                        <%- include('../components/category-card/focused-card/content.ejs', {focusedCard: t.pages.home.popularCategories.components.focusedCards[i], image:getMedia(lang, `categories/category-${i + 1}.webp`, 'images') , width: "100px"}); %>
                     <%_ } %>
                     <div class="block gap-4 flex-column">
                         <%_ for(let i = 3; i < 5; i++){ %>
-                            <%- include('../components/category-card/focused-card/content.ejs', {focusedCard: t.pages.home.popularCategories.components.focusedCards[i], width: "60px"}); %>
+                            <%- include('../components/category-card/focused-card/content.ejs', {focusedCard: t.pages.home.popularCategories.components.focusedCards[i], image:getMedia(lang, `categories/category-${i + 1}.webp`, 'images') , width: "60px"}); %>
                         <%_ } %>
                     </div>
                     <%_ for(let i = 5; i < 6; i++){ %>
-                        <%- include('../components/category-card/focused-card/content.ejs', {focusedCard: t.pages.home.popularCategories.components.focusedCards[i], width: "100px"}); %>
+                        <%- include('../components/category-card/focused-card/content.ejs', {focusedCard: t.pages.home.popularCategories.components.focusedCards[i], image:getMedia(lang, `categories/category-${i + 1}.webp`, 'images') , width: "100px"}); %>
                     <%_ } %>
                     <div class="d-grid grid-2 gap-4">
                         <%_ for(let i = 6; i < 10; i++){ %>
-                            <%- include('../components/category-card/focused-card/content.ejs', {focusedCard: t.pages.home.popularCategories.components.focusedCards[i], width: "50px"}); %>
+                            <%- include('../components/category-card/focused-card/content.ejs', {focusedCard: t.pages.home.popularCategories.components.focusedCards[i], image:getMedia(lang, `categories/category-${i + 1}.webp`, 'images') , width: "50px"}); %>
                         <%_ } %>
                     </div>
                 </div>
@@ -118,7 +117,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
+                            <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.bestSellers.title %></h2>
                     </div>
@@ -132,18 +131,12 @@
                             <%_ } -%>
                         </div>
                     </div>
-
-                    <!-- Navigation Buttons -->
                     <div class="swiper-button-next">
                         <i class="fa-solid fa-chevron-right on-secondary-color"></i>
                     </div>
-
                     <div class="swiper-button-prev">
                         <i class="fa-solid fa-chevron-left on-secondary-color"></i>
                     </div>
-
-                    <!-- Pagination -->
-                    <!-- <div class="swiper-pagination"></div> -->
                 </div>
             </div>
         </section>
@@ -152,8 +145,8 @@
                 <div class="block w-100 flex-row-reverse flex-lg-column align-items-stretch bg-primary-color radius-all-large pis-4 px-lg-4">
                     <div class="w-20 div justify-content-center position-relative px-5" style="width: 350px">
                         <div class="block flex-column flex-lg-row align-items-center h-100 justify-content-center pt-8 gap-8">
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-90 d-lg-none" />
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
+                            <img src="<%= getMedia(lang, 'single/offerpic-1.webp', 'images'); %>" alt="" class="w-90 d-lg-none" />
+                            <img src="<%= getMedia(lang, 'single/amazing-text.svg', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
                             <a href="<%= t.pages.home.laptopOffers.banner.link %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
                                 <%= t.pages.home.laptopOffers.banner.title %>
                                 <i class="fas fa-angle-left"></i>
@@ -169,7 +162,7 @@
                             </div>
                         </div>
 
-                        <!-- Navigation Buttons -->
+                        
                         <div class="swiper-button-next">
                             <i class="fa-solid fa-chevron-right on-secondary-color"></i>
                         </div>
@@ -178,8 +171,8 @@
                             <i class="fa-solid fa-chevron-left on-secondary-color"></i>
                         </div>
 
-                        <!-- Pagination -->
-                        <!-- <div class="swiper-pagination"></div> -->
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -187,13 +180,13 @@
         <section id="bestsellersCategory" class="section">
             <div class="container d-grid grid-3 gap-8 grid-md-1 w-100 px-md-20">
                 <a href="#">
-                    <img class="w-100" src="<%= getMedia(lang, '', 'images'); %>" alt="alt homepage" />
+                    <img class="w-100" src="<%= getMedia(lang, 'categories/category-banner-1.webp', 'images'); %>" alt="alt homepage" />
                 </a>
                 <a href="#">
-                    <img class="w-100" src="<%= getMedia(lang, '', 'images'); %>" alt="alt homepage" />
+                    <img class="w-100" src="<%= getMedia(lang, 'categories/category-banner-2.webp', 'images'); %>" alt="alt homepage" />
                 </a>
                 <a href="#">
-                    <img class="w-100" src="<%= getMedia(lang, '', 'images'); %>" alt="alt homepage" />
+                    <img class="w-100" src="<%= getMedia(lang, 'categories/category-banner-3.webp', 'images'); %>" alt="alt homepage" />
                 </a>
             </div>
         </section>
@@ -202,7 +195,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
+                            <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.economicalProducts.title %></h2>
                     </div>
@@ -216,18 +209,12 @@
                             <%_ } -%>
                         </div>
                     </div>
-
-                    <!-- Navigation Buttons -->
                     <div class="swiper-button-next">
                         <i class="fa-solid fa-chevron-right on-secondary-color"></i>
                     </div>
-
                     <div class="swiper-button-prev">
                         <i class="fa-solid fa-chevron-left on-secondary-color"></i>
                     </div>
-
-                    <!-- Pagination -->
-                    <!-- <div class="swiper-pagination"></div> -->
                 </div>
             </div>
         </section>
@@ -236,7 +223,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
+                            <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.creditPurchase.title %></h2>
                     </div>
@@ -245,7 +232,7 @@
                 <div class="block flex-row w-100 overflow-x-scroll">
                     <div class="div d-grid grid-5 gap-4">
                         <%_ for(let i = 0; i < t.pages.home.creditPurchase.components.deviceBanners.length; i++) { -%>
-                            <%- include('../components/devicebanner/content.ejs', {deviceBanner: t.pages.home.creditPurchase.components.deviceBanners[i]}); %>
+                            <%- include('../components/devicebanner/content.ejs', {deviceBanner: t.pages.home.creditPurchase.components.deviceBanners[i], image: getMedia(lang, `categories/category-${i + 9}.webp`, 'images')}); %>
                         <%_ } -%>
                     </div>
                 </div>
@@ -266,9 +253,7 @@
                             <path d="M98.1875 28.1875L98.1875 13.4194" stroke="#e80645" stroke-width="3" stroke-linecap="round"></path>
                         </svg>
                         <div class="line-horizental h-100"></div>
-                        <p class="font-weight-bold secondary-text-color txt-size-big lh-5">
-                            <%- t.pages.home.boxTaste.descriptions %>
-                        </p>
+                        <p class="font-weight-bold secondary-text-color txt-size-big lh-5"><%- t.pages.home.boxTaste.descriptions %></p>
                     </div>
                     <%- include('../components/see-all/content.ejs', {seeAll: t.pages.home.boxTaste.components.seeAll}); %>
                 </div>
@@ -279,13 +264,13 @@
                                 <a href="<%= t.pages.home.boxTaste.tasteBoxes[i].category.link %>" class="d-flex flex-column align-items-center gap-1 justify-content-center">
                                     <span class="font-weight-bold text-color"><%= t.pages.home.boxTaste.tasteBoxes[i].category.title %></span>
                                     <span class="txt-size-small secondary-text-color font-weight-bold"><%= t.pages.home.boxTaste.tasteBoxes[i].category.text %></span>
-                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="bottom-0 w-100" />
+                                    <img src="<%= getMedia(lang, `categories/taste-category-${i + 1}.webp`, 'images'); %>" alt="" class="bottom-0 w-100" />
                                 </a>
                             </div>
-                            <%_ for(let j = 0; j < 2; j++){ -%>
-                                <div class="div w-100 h-100 justify-content-center align-items-center pt-1 radius-all-medium position-relative information-tooltip tooltip-top border-color bw-1 border-style-solid overflow-hidden">
-                                    <!-- src="<%= getMedia(lang, '', 'images'); %>" alt="" /> -->
-                                    <img src="<%= getMedia(lang, '', 'images'); %>" alt="" />
+                            <%_ let boxCount = 2; -%>
+                            <%_ for(let j = 0; j < boxCount; j++){ -%>
+                                <div class="div w-100 aspect-ratio-1x1 p-7 justify-content-center align-items-center radius-all-medium position-relative information-tooltip tooltip-top border-color bw-1 border-style-solid overflow-hidden">
+                                    <img class="w-100" src="<%= getMedia(lang, `categories/category-${(i * boxCount) + (j + 1)}.webp`, 'images'); %>" alt="" />
                                 </div>
                             <%_ } -%>
                             <div class="div w-100 h-100 justify-content-center align-items-center pt-1 radius-all-medium position-relative information-tooltip tooltip-top border-color bw-1 border-style-solid overflow-hidden">
@@ -312,7 +297,7 @@
                         <%_ lastCount += t.pages.home.productPackage.components.commodityPacks[i].count; -%>
                         <%_ lastDiscountPercentage += discountPercentage; -%>
                         
-                        <%- include('../components/commodity-pack/content.ejs', {commodityPack: t.pages.home.productPackage.components.commodityPacks[i], numberItem: i + 1}); %>
+                        <%- include('../components/commodity-pack/content.ejs', {commodityPack: t.pages.home.productPackage.components.commodityPacks[i], numberItem: i + 1, image: getMedia(lang, `products/mobile-${i + 1}.webp`, 'images')}); %>
                         
                         <%_ if (lastDiscountPercentage > 100) { -%>
                             <% throw new Error(`Error: The number ${lastDiscountPercentage} is greater than 100.\n`);%>
@@ -357,7 +342,7 @@
                 </div>
             </div>
             <div class="w-75 position-relative w-xl-100 aspect-ratio-3x1">
-                <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 h-100 radius-all-medium object-cover" />
+                <img src="<%= getMedia(lang, 'single/IMG_20260128_180735_728.webp', 'images'); %>" alt="" class="w-100 h-100 radius-all-medium object-cover" />
             </div>
         </section>
         <section id="mobileOffers" class="section w-100 overflow-hidden">
@@ -365,8 +350,8 @@
                 <div class="block w-100 flex-lg-column align-items-stretch bg-primary-color radius-all-large pie-4 px-lg-4">
                     <div class="w-20 div justify-content-center position-relative px-5" style="width: 350px">
                         <div class="block flex-column flex-lg-row align-items-center h-100 justify-content-center pt-8 gap-8">
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-90 d-lg-none" />
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
+                            <img src="<%= getMedia(lang, 'single/offerpic-1.webp', 'images'); %>" alt="" class="w-90 d-lg-none" />
+                            <img src="<%= getMedia(lang, 'single/amazing-text.svg', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
                             <a href="<%= t.pages.home.mobileOffers.banner.link %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
                                 <%= t.pages.home.mobileOffers.banner.title %>
                                 <i class="fas fa-angle-left"></i>
@@ -382,7 +367,7 @@
                             </div>
                         </div>
 
-                        <!-- Navigation Buttons -->
+                        
                         <div class="swiper-button-next">
                             <i class="fa-solid fa-chevron-right on-secondary-color"></i>
                         </div>
@@ -391,8 +376,8 @@
                             <i class="fa-solid fa-chevron-left on-secondary-color"></i>
                         </div>
 
-                        <!-- Pagination -->
-                        <!-- <div class="swiper-pagination"></div> -->
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -402,7 +387,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
+                            <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.bestMobileSellers.title %></h2>
                     </div>
@@ -416,7 +401,7 @@
                             <%_ } -%>
                         </div>
                     </div>
-                    <!-- Navigation Buttons -->
+                    
                     <div class="swiper-button-next">
                         <i class="fa-solid fa-chevron-right on-secondary-color"></i>
                     </div>
@@ -425,15 +410,15 @@
                         <i class="fa-solid fa-chevron-left on-secondary-color"></i>
                     </div>
 
-                    <!-- Pagination -->
-                    <!-- <div class="swiper-pagination"></div> -->
+                    
+                    
                 </div>
             </div>
         </section>
         <section id="bannerProduct" class="section">
-            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 position-relative" />
+            <img src="<%= getMedia(lang, 'single/banner-mobile.webp', 'images'); %>" alt="" class="w-100 position-relative" />
             <a href="<%= t.pages.home.bannerProduct.link %>" class="d-flex position-absolute banner-icon inset-end-20">
-                <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="35px" />
+                <img src="<%= getMedia(lang, 'single/Next-blue -icon.svg', 'images'); %>" alt="" width="35px" />
             </a>
         </section>
         <section id="suggestionCategories" class="section">
@@ -441,7 +426,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
+                            <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.suggestionCategories.title %></h2>
                     </div>
@@ -449,7 +434,7 @@
                 </div>
                 <div class="block d-grid grid-3 gap-7 grid-lg-2 grid-sm-1 w-100 px-sm-20">
                     <%_ for(let i = 0; i < t.pages.home.suggestionCategories.components.topsellers.length; i++){ -%>
-                        <%- include('../components/topseller/content.ejs', {topseller: t.pages.home.suggestionCategories.components.topsellers[i], numberItem: i + 1}); %>
+                        <%- include('../components/topseller/content.ejs', {topseller: t.pages.home.suggestionCategories.components.topsellers[i], numberItem: i + 1, image: getMedia(lang, `categories/category-${i + 1}.webp`, 'images')}); %>
                     <%_ } -%>
                 </div>
             </div>
@@ -459,7 +444,7 @@
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
                         <a href="<%= t.company.logoImage.replaceSimple.link %>">
-                            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
+                            <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.brandWrapper.title %></h2>
                     </div>
@@ -505,7 +490,7 @@
                             </div>
                         </div>
 
-                        <!-- Navigation Buttons -->
+                        
                         <div class="swiper-button-next" style="top: 65%">
                             <i class="fa-solid fa-chevron-right on-secondary-color"></i>
                         </div>
@@ -514,19 +499,18 @@
                             <i class="fa-solid fa-chevron-left on-secondary-color"></i>
                         </div>
 
-                        <!-- Pagination -->
-                        <!-- <div class="swiper-pagination"></div> -->
+                        
+                        
                     </div>
                 </div>
             </div>
         </section>
         <section id="bannerProductSecond" class="section">
-            <img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 position-relative" />
-            <a href="<%= t.pages.home.bannerProductSecond.link %>" class="d-flex position-absolute banner-icon inset-end-20">
-                <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="35px" />
+            <img src="<%= getMedia(lang, 'single/banner-mobile.webp', 'images'); %>" alt="" class="w-100 position-relative" />
+            <a href="<%= t.pages.home.bannerProduct.link %>" class="d-flex position-absolute banner-icon inset-end-20">
+                <img src="<%= getMedia(lang, 'single/Next-blue -icon.svg', 'images'); %>" alt="" width="35px" />
             </a>
         </section>
-
         <section id="weblog" class="section">
             <%_
                 const weblog = t.pages.home.weblog.components;
@@ -539,14 +523,13 @@
             -%>
             <div class="container gap-8">
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
-                    <!-- <div class="div align-items-center gap-3 horizental-line">
-                        <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="30px" />
-                        <h2 class="text-color txt-big-title font-weight-bold text-nowrap">وبلاگ</h2>
+                    <div class="div align-items-center gap-3 horizental-line">
+                        <a href="<%= t.company.logoImage.replaceSimple.link %>">
+                            <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
+                        </a>
+                        <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.weblog.title %></h2>
                     </div>
-                    <a href="./pages/articles.html" class="div align-items-center">
-                        <span class="text-color txt-subtitle font-weight-bold">مشاهده‌همه‌</span>
-                        <img src="<%= getMedia(lang, '', 'images'); %>" alt="" width="35px" />
-                    </a> -->
+                    <%- include('../components/see-all/content.ejs', {seeAll: t.pages.home.suggestionCategories.components.seeAll}); %>
                 </div>
                 <div class="block d-grid grid-2 gap-6 grid-md-1">
                     <div class="div flex-column justify-content-space-between gap-5">
@@ -557,7 +540,7 @@
                                 date: techNews[i].date,
                                 commentCount: techNews[i].commentCount,
                                 postView: techNews[i].postView,
-                                image: techNews[i].image,
+                                image: getMedia(lang, `articles/article-${i + 1}.webp`, 'images'),
                                 readingTime: techNews[i].readingTime,
                                 link: techNews[i].link,
                                 enableBorderBottom: techNews[i].enableBorderBottom 
@@ -570,7 +553,7 @@
                         date : latestBlogPosts.firstWeblogArticle.date,
                         commentCount : latestBlogPosts.firstWeblogArticle.commentCount,
                         readingTime : latestBlogPosts.firstWeblogArticle.readingTime,
-                        banner : latestBlogPosts.firstWeblogArticle.banner
+                        banner : getMedia(lang, `weblogs/weblog-${i + 1}.webp`, 'images'),
                     }); -%>
                 </div>
             </div>

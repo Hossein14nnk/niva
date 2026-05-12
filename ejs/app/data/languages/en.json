@@ -57,8 +57,7 @@
 				"send": "Free Shipping for this product",
 				"btnView": "View Guide",
 				"pay": "Installment purchase of this product up to 4 installments",
-				"snappay": "Installment purchase with Snappay",
-				"img":"en/component/snappay.webp"
+				"snappay": "Installment purchase with Snappay"
 			},
 			"text": {
 				"title": "View Product Features",
@@ -125,8 +124,7 @@
 			"commetregister": "Submit Review",
 			"posative": "Positive Points",
 			"negative": "Negative Points",
-			"description": "Description",
-			"img": "products/1-3.webp"
+			"description": "Description"
 		},
 		"productButtonFeature": {
 			"buyByCheque": "Purchasable by Cheque",
@@ -139,146 +137,66 @@
 		"productGallerySlider": {
 			"sliderContents": [
 				{
-					"id": "slider1",
-					"image": {
-						"src": "fa/component/8.webp",
-						"alt": "alt"
-					}
+					"id": "slider1"
 				},
 				{
-					"id": "slider2",
-					"image": {
-						"src": "fa/component/2.webp",
-						"alt": "alt"
-					}
+					"id": "slider2"
 				},
 				{
-					"id": "slider3",
-					"image": {
-						"src": "fa/component/3.webp",
-						"alt": "alt"
-					}
+					"id": "slider3"
 				},
 				{
-					"id": "slider4",
-					"image": {
-						"src": "fa/component/4.webp",
-						"alt": "alt"
-					}
+					"id": "slider4"
 				},
 				{
-					"id": "slider5",
-					"image": {
-						"src": "fa/component/5.webp",
-						"alt": "alt"
-					}
+					"id": "slider5"
 				},
 				{
-					"id": "slider6",
-					"image": {
-						"src": "fa/component/6.webp",
-						"alt": "alt"
-					}
+					"id": "slider6"
 				},
 				{
-					"id": "slider7",
-					"image": {
-						"src": "fa/component/7.webp",
-						"alt": "alt"
-					}
+					"id": "slider7"
 				},
 				{
-					"id": "slider8",
-					"image": {
-						"src": "fa/component/8.webp",
-						"alt": "alt"
-					}
+					"id": "slider8"
 				},
 				{
-					"id": "slider9",
-					"image": {
-						"src": "fa/component/9.webp",
-						"alt": "alt"
-					}
+					"id": "slider9"
 				},
 				{
-					"id": "slider10",
-					"image": {
-						"src": "fa/component/10.webp",
-						"alt": "alt"
-					}
+					"id": "slider10"
 				}
 			],
 			"sliderToggles": [
 				{
-					"id": "slider1",
-					"image": {
-						"src": "fa/component/8.webp",
-						"alt": "alt"
-					}
+					"id": "slider1"
 				},
 				{
-					"id": "slider2",
-					"image": {
-						"src": "fa/component/2.webp",
-						"alt": "alt"
-					}
+					"id": "slider2"
 				},
 				{
-					"id": "slider3",
-					"image": {
-						"src": "fa/component/3.webp",
-						"alt": "alt"
-					}
+					"id": "slider3"
 				},
 				{
-					"id": "slider4",
-					"image": {
-						"src": "fa/component/4.webp",
-						"alt": "alt"
-					}
+					"id": "slider4"
 				},
 				{
-					"id": "slider5",
-					"image": {
-						"src": "fa/component/5.webp",
-						"alt": "alt"
-					}
+					"id": "slider5"
 				},
 				{
-					"id": "slider6",
-					"image": {
-						"src": "fa/component/6.webp",
-						"alt": "alt"
-					}
+					"id": "slider6"
 				},
 				{
-					"id": "slider7",
-					"image": {
-						"src": "fa/component/7.webp",
-						"alt": "alt"
-					}
+					"id": "slider7"
 				},
 				{
-					"id": "slider8",
-					"image": {
-						"src": "fa/component/8.webp",
-						"alt": "alt"
-					}
+					"id": "slider8"
 				},
 				{
-					"id": "slider9",
-					"image": {
-						"src": "fa/component/9.webp",
-						"alt": "alt"
-					}
+					"id": "slider9"
 				},
 				{
-					"id": "slider10",
-					"image": {
-						"src": "fa/component/10.webp",
-						"alt": "alt"
-					}
+					"id": "slider10"
 				}
 			]
 		},
@@ -290,12 +208,6 @@
 				"commentCount": 1,
 				"readingTime": "15 Minutes",
 				"view": 15534,
-				"image": {
-					"src": "fa/component/Rectangle 1036.webp",
-					"alt": "",
-					"link": "./output/fa/pages/article.html"
-				},
-				"link": "./output/fa/pages/article.html",
 				"showViewAndReadingTime": true
 			},
 			"newestRow": {
@@ -305,12 +217,6 @@
 				"commentCount": 1,
 				"readingTime": "15 Minutes",
 				"postView": 1553,
-				"image": {
-					"src": "fa/component/Rectangle 1037 (1).webp",
-					"alt": "",
-					"link": "./output/fa/pages/article.html"
-				},
-				"link": "./output/fa/pages/article.html",
 				"enableBorderBottom": true
 			}
 		},
@@ -322,10 +228,7 @@
 			"basic": [
 				{
 					"title": "Title",
-					"items": [
-						"Active",
-						"Inactive"
-					]
+					"items": ["Active", "Inactive"]
 				}
 			]
 		},
@@ -430,8 +333,7 @@
 			"price": "Price :",
 			"cost": "83,000,000",
 			"buttonShow": "Show",
-			"buttonFinish": "Done",
-			"img": "fa/component/Group-12.webp"
+			"buttonFinish": "Done"
 		},
 		"contactUs": {
 			"socialMedia": [
@@ -484,85 +386,48 @@
 			"title": "Sir, do not buy!!!",
 			"userName": "hosseinKazemi",
 			"enableSwiper": false,
-			"image": {
-				"src": "fa/homepage/a942c03093c3bbd3e912dba2832e03a18a9d5ecc_1765790363.webp",
-				"alt": "story image"
-			},
+
 			"contents": [
 				{
 					"profile": {
 						"title": {
 							"text": "hossein kazemi 1",
 							"link": "#"
-						},
-						"image": {
-							"src": "fa/homepage/Frame-19-300x300.webp",
-							"link": "#",
-							"alt": "alt Frame-19-300x300.webp"
 						}
 					},
 					"likeCount": "10",
-					"commentCount": "3",
-					"image": {
-						"src": "fa/homepage/14.webp",
-						"alt": "alt 14.webp"
-					}
+					"commentCount": "3"
 				},
 				{
 					"profile": {
 						"title": {
 							"text": "hossein kazemi 2",
 							"link": "#"
-						},
-						"image": {
-							"src": "fa/homepage/Frame-19-300x300.webp",
-							"link": "#",
-							"alt": "alt1"
 						}
 					},
 					"likeCount": "50",
-					"commentCount": "3",
-					"image": {
-						"src": "fa/homepage/14.webp",
-						"alt": "alt 14.webp"
-					}
+					"commentCount": "3"
 				}
 			]
 		},
 		"deviceBanner": {
 			"link": "#",
-			"title": "watch",
-			"image": {
-				"src": "fa/homepage/Apple_watch-series7_hero_09142021@1.5x 1.webp",
-				"alt": "alt Apple_watch-series7_hero_09142021@1.5x 1.webp"
-			}
+			"title": "watch"
 		},
 		"commodityPack": {
 			"link": "#",
 			"count": 2,
 			"title": "Sony Slim Camouflage PULSE Elite Wireless PlayStation Headset",
 			"price": "80,000,000",
-			"discountPercentage": "10",
-			"image": {
-				"src": "fa/homepage/Apple_watch-series7_hero_09142021@1.5x 1.webp",
-				"alt": "alt Apple_watch-series7_hero_09142021@1.5x 1.webp"
-			}
+			"discountPercentage": "10"
 		},
 		"categoryCard": {
 			"focusedCard": {
-				"link": "#",
-				"image": {
-					"src": "fa/category/powerbank.svg",
-					"alt": "alt powerbank.svg"
-				}
+				"link": "#"
 			},
 			"labeledCard": {
 				"link": "#",
-				"title": "Powerbank",
-				"image": {
-					"src": "fa/category/powerbank.svg",
-					"alt": "alt powerbank.svg"
-				}
+				"title": "Powerbank"
 			}
 		},
 		"productCard": {
@@ -574,11 +439,6 @@
 			"price": "80,000,000",
 			"discountPercentage": "10",
 			"dataCountdown": "5:43:50",
-			"image": {
-				"link": "./output/fa/pages/variable-product.html",
-				"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-				"alt": "product image"
-			},
 			"colors": [
 				{
 					"color": "#1544E3",
@@ -604,11 +464,7 @@
 		},
 		"topseller": {
 			"title": "Biva Gaming Headphones",
-			"link": "#",
-			"image": {
-				"src": "fa/component/8-300x300.webp",
-				"alt": "alt 8-300x300.webp"
-			}
+			"link": "#"
 		},
 		"reportBtn": {
 			"text": "Report this review",
@@ -710,57 +566,47 @@
 		"biography": [
 			{
 				"name": "Mojtaba Heydari",
-				"designation": "Human Resources Management",
-				"img": "fa/component/3-5.webp"
+				"designation": "Human Resources Management"
 			},
 			{
 				"name": "Mojtaba Heydari",
-				"designation": "Human Resources Management",
-				"img": "fa/about-us/4-5.webp"
+				"designation": "Human Resources Management"
 			},
 			{
 				"name": "Mojtaba Heydari",
-				"designation": "Human Resources Management",
-				"img": "fa/about-us/5-5.webp"
+				"designation": "Human Resources Management"
 			},
 			{
 				"name": "Mojtaba Heydari",
-				"designation": "Human Resources Management",
-				"img": "fa/about-us/2-6.webp"
+				"designation": "Human Resources Management"
 			},
 			{
 				"name": "Mojtaba Heydari",
-				"designation": "Human Resources Management",
-				"img": "fa/about-us/6-5.webp"
+				"designation": "Human Resources Management"
 			}
 		],
 		"certificate": [
 			{
-				"img": "fa/component/5-4.webp",
 				"title": "Certificate of Appreciation",
 				"description": "IRIB Organization",
 				"year": "2020"
 			},
 			{
-				"img": "fa/about-us/1-5.webp",
 				"title": "Certificate of Appreciation",
 				"description": "IRIB Organization",
 				"year": "2020"
 			},
 			{
-				"img": "fa/about-us/7-2.webp",
 				"title": "Certificate of Appreciation",
 				"description": "IRIB Organization",
 				"year": "2020"
 			},
 			{
-				"img": "fa/about-us/3-4.webp",
 				"title": "Certificate of Appreciation",
 				"description": "IRIB Organization",
 				"year": "2020"
 			},
 			{
-				"img": "fa/about-us/4-4.webp",
 				"title": "Certificate of Appreciation",
 				"description": "IRIB Organization",
 				"year": "2020"
@@ -940,8 +786,7 @@
 		},
 		"featureBox": {
 			"title": "Fast Shipping",
-			"subtitle": "Express Delivery Possible",
-			"img": "box-2.svg"
+			"subtitle": "Express Delivery Possible"
 		},
 		"freeProductCo": {
 			"returnDays": "7 Days Unconditional Return Guarantee",
@@ -951,7 +796,9 @@
 			"rating": "130 Points",
 			"soldOut": "Sold Out: 1400",
 			"remaining": "Remaining: 13875 ",
-			"add":"add to cart"
+			"add": "add to cart",
+			"alert":"added to your cart",
+			"price":"Free"
 		}
 	},
 	"pages": {
@@ -965,35 +812,19 @@
 				"topsellers": [
 					{
 						"title": "Biva Gaming Headphones",
-						"link": "#",
-						"image": {
-							"src": "fa/component/8-300x300.webp",
-							"alt": "alt 8-300x300.webp"
-						}
+						"link": "#"
 					},
 					{
 						"title": "Biva Gaming Headphones",
-						"link": "#",
-						"image": {
-							"src": "fa/component/8-300x300.webp",
-							"alt": "alt 8-300x300.webp"
-						}
+						"link": "#"
 					},
 					{
 						"title": "Biva Gaming Headphones",
-						"link": "#",
-						"image": {
-							"src": "fa/component/8-300x300.webp",
-							"alt": "alt 8-300x300.webp"
-						}
+						"link": "#"
 					},
 					{
 						"title": "Biva Gaming Headphones",
-						"link": "#",
-						"image": {
-							"src": "fa/component/8-300x300.webp",
-							"alt": "alt 8-300x300.webp"
-						}
+						"link": "#"
 					}
 				]
 			}
@@ -1085,11 +916,6 @@
 						"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 						"date": "Sep 28, 2024",
 						"commentCount": 1,
-						"image": {
-							"src": "fa/weblog/banner_ArticleBanners_ik.webp",
-							"alt": "",
-							"link": "./output/fa/pages/article.html"
-						},
 						"link": "./output/fa/pages/article.html",
 						"showViewAndReadingTime": false
 					},
@@ -1098,11 +924,6 @@
 						"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 						"date": "Sep 28, 2024",
 						"commentCount": 1,
-						"image": {
-							"src": "fa/weblog/banner_ArticleBanners.webp",
-							"alt": "",
-							"link": "./output/fa/pages/article.html"
-						},
 						"link": "./output/fa/pages/article.html",
 						"showViewAndReadingTime": false
 					},
@@ -1111,11 +932,6 @@
 						"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 						"date": "Sep 28, 2024",
 						"commentCount": 1,
-						"image": {
-							"src": "fa/weblog/banner_ArticleBanners_ik.webp",
-							"alt": "",
-							"link": "./output/fa/pages/article.html"
-						},
 						"link": "./output/fa/pages/article.html",
 						"showViewAndReadingTime": false
 					},
@@ -1124,11 +940,6 @@
 						"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 						"date": "Sep 28, 2024",
 						"commentCount": 1,
-						"image": {
-							"src": "fa/weblog/banner_ArticleBanners.webp",
-							"alt": "",
-							"link": "./output/fa/pages/article.html"
-						},
 						"link": "./output/fa/pages/article.html",
 						"showViewAndReadingTime": false
 					}
@@ -1154,11 +965,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-					"image": {
-						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": false
 				},
@@ -1169,11 +976,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-					"image": {
-						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": false
 				},
@@ -1184,11 +987,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-					"image": {
-						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": false
 				},
@@ -1199,11 +998,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-					"image": {
-						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": false
 				}
@@ -1214,11 +1009,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/weblog/banner_ArticleBanners_ik.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1227,11 +1018,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/weblog/banner_ArticleBanners_m.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1240,11 +1027,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/weblog/banner_ArticleBanners.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1253,11 +1036,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/weblog/banner_ArticleBanners_ik.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1266,11 +1045,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/magc.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1279,11 +1054,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/4-1.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1292,11 +1063,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				}
@@ -1309,11 +1076,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-					"image": {
-						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				},
@@ -1324,11 +1087,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-					"image": {
-						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				},
@@ -1339,11 +1098,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-					"image": {
-						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				}
@@ -1356,11 +1111,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-					"image": {
-						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				},
@@ -1371,11 +1122,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-					"image": {
-						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				},
@@ -1386,11 +1133,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-					"image": {
-						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				}
@@ -1440,72 +1183,32 @@
 			"content": [
 				{
 					"title": "Complete News of the Samsung Galaxy Ring",
-					"descriptions": [
-						"In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment."
-					],
-					"image": {
-						"src": "fa/article/4-1-768x445.webp",
-						"alt": ""
-					}
+					"descriptions": ["In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment."]
 				},
 				{
 					"title": "Netbox Mobo Edition Android Box, Cheap Smart TV",
-					"descriptions": [
-						"Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.",
-						"The purpose of this comparison is to accurately and comprehensively review two top brands in the laptop industry. We not only address technical and functional specifications, but also consider aspects such as user experience, design, price, and purchase value. This comparison helps audiences make a suitable choice according to their needs and lifestyle with a better understanding of each brand's features. Also, this review can serve as a buying guide for individuals who are evaluating available options in the market."
-					],
-					"image": {
-						"src": "fa/article/ring.webp",
-						"alt": ""
-					}
+					"descriptions": ["Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.", "The purpose of this comparison is to accurately and comprehensively review two top brands in the laptop industry. We not only address technical and functional specifications, but also consider aspects such as user experience, design, price, and purchase value. This comparison helps audiences make a suitable choice according to their needs and lifestyle with a better understanding of each brand's features. Also, this review can serve as a buying guide for individuals who are evaluating available options in the market."]
 				},
 				{
 					"title": "History of Apple Company",
-					"descriptions": [
-						"Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.",
-						"In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality.",
-						"In the following decades, Apple faced ups and downs, but with the return of Steve Jobs in 1997, a new era of innovation and success began. The introduction of the iMac, iPod, iPhone, and then iPad, turned Apple into one of the pioneers of the tech industry. In the field of laptops, MacBooks defined new standards with their unique design, high build quality, and powerful performance."
-					],
-					"image": null
+					"descriptions": ["Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.", "In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality.", "In the following decades, Apple faced ups and downs, but with the return of Steve Jobs in 1997, a new era of innovation and success began. The introduction of the iMac, iPod, iPhone, and then iPad, turned Apple into one of the pioneers of the tech industry. In the field of laptops, MacBooks defined new standards with their unique design, high build quality, and powerful performance."]
 				},
 				{
 					"title": "Comparison of Exterior Design",
-					"descriptions": [
-						"Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.",
-						"In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality.",
-						"Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.",
-						"In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality."
-					],
-					"image": {
-						"src": "fa/article/ring2.webp",
-						"alt": ""
-					}
+					"descriptions": ["Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.", "In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality.", "Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.", "In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality."]
 				},
 				{
 					"title": "Ergonomic Features",
-					"descriptions": [
-						"Asus, which was founded in Taiwan in 1989, initially started as a motherboard manufacturing company. Over time, by developing its products in various fields of technology, mobile, and of course laptops, Asus was able to",
-						"Focusing on innovation and providing quality products, Asus was able to consolidate its position in the competitive global market. In the laptop sector, Asus covered the needs of various users, including professionals, students, and gamers, by introducing different series such as ZenBook, VivoBook, and ROG (Republic of Gamers). Asus has also been a pioneer in producing convertible laptops and ultrabooks.",
-						"Key developments in laptop manufacturing from the 1990s to the present include significant advances in various fields such as hardware, software, design, and connectivity features. Among these developments are the reduction in weight and size of laptops, increased processing power, improved display quality, and increased battery life. Also, with advancements in wireless technologies and connectivity, laptops have become highly connected and versatile devices.",
-						"Meanwhile, Apple and Asus have each uniquely played an important role in these developments. Apple with a focus on design, build quality, and hardware-software integration, and Asus with a focus on innovation, product diversity, and competitive pricing, have each been influential in their own right."
-					],
-					"image": null
+					"descriptions": ["Asus, which was founded in Taiwan in 1989, initially started as a motherboard manufacturing company. Over time, by developing its products in various fields of technology, mobile, and of course laptops, Asus was able to", "Focusing on innovation and providing quality products, Asus was able to consolidate its position in the competitive global market. In the laptop sector, Asus covered the needs of various users, including professionals, students, and gamers, by introducing different series such as ZenBook, VivoBook, and ROG (Republic of Gamers). Asus has also been a pioneer in producing convertible laptops and ultrabooks.", "Key developments in laptop manufacturing from the 1990s to the present include significant advances in various fields such as hardware, software, design, and connectivity features. Among these developments are the reduction in weight and size of laptops, increased processing power, improved display quality, and increased battery life. Also, with advancements in wireless technologies and connectivity, laptops have become highly connected and versatile devices.", "Meanwhile, Apple and Asus have each uniquely played an important role in these developments. Apple with a focus on design, build quality, and hardware-software integration, and Asus with a focus on innovation, product diversity, and competitive pricing, have each been influential in their own right."]
 				},
 				{
 					"title": "Processor and Processing Power",
-					"descriptions": [
-						"Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.",
-						"In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality."
-					],
+					"descriptions": ["Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.", "In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality."],
 					"image": null
 				},
 				{
 					"title": "Conclusion",
-					"descriptions": [
-						"In this article, we made a detailed comparison between Apple and Asus laptops in various fields. Apple, with its MacBooks, offers superior build quality, beautiful design, powerful performance, and a seamless user experience. Asus, on the other hand, with greater diversity in models and prices, provides more varied options for users with different needs and budgets.",
-						"For buyers looking for high quality, powerful performance, and a seamless user experience who have a sufficient budget, Apple MacBooks are a suitable option. On the other hand, if a user is looking for more variety in models, more diverse prices, and flexibility in choosing hardware and features, Asus laptops are considered good choices.",
-						"In the future, it can be expected that both Apple and Asus will continue to innovate and improve their products. Apple will likely focus on optimizing the M-series chips and further integrating hardware and software, while Asus may continue to offer greater product diversity and innovative technologies. Also, attention to environmental sustainability and data security will be important aspects that will likely be considered in future product development."
-					],
+					"descriptions": ["In this article, we made a detailed comparison between Apple and Asus laptops in various fields. Apple, with its MacBooks, offers superior build quality, beautiful design, powerful performance, and a seamless user experience. Asus, on the other hand, with greater diversity in models and prices, provides more varied options for users with different needs and budgets.", "For buyers looking for high quality, powerful performance, and a seamless user experience who have a sufficient budget, Apple MacBooks are a suitable option. On the other hand, if a user is looking for more variety in models, more diverse prices, and flexibility in choosing hardware and features, Asus laptops are considered good choices.", "In the future, it can be expected that both Apple and Asus will continue to innovate and improve their products. Apple will likely focus on optimizing the M-series chips and further integrating hardware and software, while Asus may continue to offer greater product diversity and innovative technologies. Also, attention to environmental sustainability and data security will be important aspects that will likely be considered in future product development."],
 					"image": null
 				}
 			],
@@ -1517,11 +1220,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"view": 1553,
-					"image": {
-						"src": "fa/article/4-1-768x445.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": true
 				},
@@ -1532,11 +1231,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"view": 1553,
-					"image": {
-						"src": "fa/article/mag3-768x445.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": true
 				},
@@ -1547,11 +1242,7 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"view": 1553,
-					"image": {
-						"src": "fa/article/mag2-768x445.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": true
 				}
@@ -1590,11 +1281,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/mag.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1603,11 +1290,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/mag2.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1616,11 +1299,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/magc.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1629,11 +1308,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/mag2.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				}
@@ -1649,11 +1324,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/mag.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1662,11 +1333,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/mag2.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1675,11 +1342,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1688,11 +1351,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/mag54.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1701,11 +1360,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/magc.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1714,11 +1369,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/magc.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1727,11 +1378,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/4-1.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1740,11 +1387,7 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-					"image": {
-						"src": "fa/articles/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
-					},
+
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				}
@@ -1959,48 +1602,27 @@
 							"title": "UNO Lie Cards",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-							"image": {
-								"src": "fa/homepage/0309439b39d6705054dd12005b5b70adcae4c99a_1766341414.webp",
-								"alt": "story image"
-							},
+
 							"contents": [
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 1",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt Frame-19-300x300.webp"
 										}
 									},
 									"likeCount": "10",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								},
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 2",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt1"
 										}
 									},
 									"likeCount": "50",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								}
 							]
 						},
@@ -2008,48 +1630,27 @@
 							"title": "Wireless Earbuds",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-							"image": {
-								"src": "fa/homepage/ebaa7769bbba6b00f7880fd788a440a963e54aaf_1767081064.webp",
-								"alt": "story image"
-							},
+
 							"contents": [
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 2",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt1"
 										}
 									},
 									"likeCount": "50",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								},
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 2",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt1"
 										}
 									},
 									"likeCount": "50",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								}
 							]
 						},
@@ -2057,48 +1658,27 @@
 							"title": "Different TSCO",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-							"image": {
-								"src": "fa/homepage/2717bcd9b1b354984efd0937b211d4bdbd4a55a6_1766335200.webp",
-								"alt": "story image"
-							},
+
 							"contents": [
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 1",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt Frame-19-300x300.webp"
 										}
 									},
 									"likeCount": "10",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								},
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 2",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt1"
 										}
 									},
 									"likeCount": "50",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								}
 							]
 						},
@@ -2106,48 +1686,27 @@
 							"title": "UNO Lie Cards",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-							"image": {
-								"src": "fa/homepage/0309439b39d6705054dd12005b5b70adcae4c99a_1766341414.webp",
-								"alt": "story image"
-							},
+
 							"contents": [
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 1",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt Frame-19-300x300.webp"
 										}
 									},
 									"likeCount": "10",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								},
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 2",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt1"
 										}
 									},
 									"likeCount": "50",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								}
 							]
 						},
@@ -2155,48 +1714,27 @@
 							"title": "Desktop Heater!",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-							"image": {
-								"src": "fa/homepage/0f05dda469feb8964d508e324a84775f01ed6f17_1767212019.webp",
-								"alt": "story image"
-							},
+
 							"contents": [
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 1",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt Frame-19-300x300.webp"
 										}
 									},
 									"likeCount": "10",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								},
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 2",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt1"
 										}
 									},
 									"likeCount": "50",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								}
 							]
 						},
@@ -2204,48 +1742,27 @@
 							"title": "B-Tools",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-							"image": {
-								"src": "fa/homepage/c0579f8ccf0600704bdd631b220b5cf77c5cd532_1768195181.webp",
-								"alt": "story image"
-							},
+
 							"contents": [
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 1",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt Frame-19-300x300.webp"
 										}
 									},
 									"likeCount": "10",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								},
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 2",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt1"
 										}
 									},
 									"likeCount": "50",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								}
 							]
 						},
@@ -2253,48 +1770,27 @@
 							"title": "Cool Fidget",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-							"image": {
-								"src": "fa/homepage/fdec04bb3ad8b6e7081a457859de724f92815bf9_1766209480.webp",
-								"alt": "story image"
-							},
+
 							"contents": [
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 1",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt Frame-19-300x300.webp"
 										}
 									},
 									"likeCount": "10",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								},
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 2",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt1"
 										}
 									},
 									"likeCount": "50",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								}
 							]
 						},
@@ -2302,48 +1798,27 @@
 							"title": "Light Baton",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-							"image": {
-								"src": "fa/homepage/8787744deca2f9829a2a70a166ca8fcd3b8d6cc4_1766518699.webp",
-								"alt": "story image"
-							},
+
 							"contents": [
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 1",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt Frame-19-300x300.webp"
 										}
 									},
 									"likeCount": "10",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								},
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 2",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt1"
 										}
 									},
 									"likeCount": "50",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								}
 							]
 						},
@@ -2351,48 +1826,27 @@
 							"title": "Desktop Heater",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-							"image": {
-								"src": "fa/homepage/a942c03093c3bbd3e912dba2832e03a18a9d5ecc_1765790363.webp",
-								"alt": "story image"
-							},
+
 							"contents": [
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 1",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt Frame-19-300x300.webp"
 										}
 									},
 									"likeCount": "10",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								},
 								{
 									"profile": {
 										"title": {
 											"text": "hossein kazemi 2",
 											"link": "#"
-										},
-										"image": {
-											"src": "fa/homepage/Frame-19-300x300.webp",
-											"link": "#",
-											"alt": "alt1"
 										}
 									},
 									"likeCount": "50",
-									"commentCount": "3",
-									"image": {
-										"src": "fa/homepage/14.webp",
-										"alt": "alt 14.webp"
-									}
+									"commentCount": "3"
 								}
 							]
 						}
@@ -2405,18 +1859,10 @@
 				"enableSliderToggles": true,
 				"sliders": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/homepage/baner 2 (1).webp",
-							"alt": "alt 14.webp"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/homepage/baner 2 (1).webp",
-							"alt": "alt 14.webp"
-						}
+						"id": "slider2"
 					}
 				]
 			},
@@ -2442,11 +1888,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -2475,11 +1916,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/component/1-1-300x300.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -2508,11 +1944,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/component/1-9-300x300.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -2541,11 +1972,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/component/1-8-300x300.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -2577,74 +2003,34 @@
 					},
 					"focusedCards": [
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/watch.webp",
-								"alt": "alt watch.webp"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/konsol.webp",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/microfon.webp",
-								"alt": "alt microfon.webp"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/kase.webp",
-								"alt": "alt kase.webp"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/mobile.webp",
-								"alt": "alt mobile.webp"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/laptop.webp",
-								"alt": "alt laptop.webp"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/headphone.webp",
-								"alt": "alt headphone.webp"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/laptop.webp",
-								"alt": "alt laptop.webp"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/mobile-phone.webp",
-								"alt": "alt mobile-phone.webp"
-							}
+							"link": "#"
 						}
 					]
 				}
@@ -2658,74 +2044,34 @@
 					},
 					"focusedCards": [
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						}
 					],
 					"productCards": [
@@ -2738,11 +2084,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/1-3.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -2771,11 +2112,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/1-1.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -2804,11 +2140,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/3-1.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -2837,11 +2168,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/8.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -2870,11 +2196,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/5-9.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -2919,11 +2240,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/1-8-300x300.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -2952,11 +2268,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/1-1-300x300.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -2985,11 +2296,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/1-5-300x300.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3018,11 +2324,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/1-9-300x300.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3073,74 +2374,34 @@
 					},
 					"focusedCards": [
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						}
 					],
 					"productCards": [
@@ -3153,11 +2414,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/1-3.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3186,11 +2442,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/1-1.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3219,11 +2470,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/3-1.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3252,11 +2498,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/8.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3285,11 +2526,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/5-9.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3322,43 +2558,23 @@
 					"deviceBanners": [
 						{
 							"link": "./output/fa/pages/shop.html",
-							"title": "Camera",
-							"image": {
-								"src": "fa/homepage/Alpha-7R-V_SEL50F12GM_right-Photoroom 1.webp",
-								"alt": "alt Alpha-7R-V_SEL50F12GM_right-Photoroom 1.webp"
-							}
+							"title": "Camera"
 						},
 						{
 							"link": "./output/fa/pages/shop.html",
-							"title": "Watch",
-							"image": {
-								"src": "fa/homepage/Apple_watch-series7_hero_09142021@1.5x 1.webp",
-								"alt": "alt Apple_watch-series7_hero_09142021@1.5x 1.webp"
-							}
+							"title": "Watch"
 						},
 						{
 							"link": "./output/fa/pages/shop.html",
-							"title": "Laptop",
-							"image": {
-								"src": "fa/homepage/Swift-Go-16-02@1.5x 1.webp",
-								"alt": "alt Swift-Go-16-02@1.5x 1.webp"
-							}
+							"title": "Laptop"
 						},
 						{
 							"link": "./output/fa/pages/shop.html",
-							"title": "Tablet",
-							"image": {
-								"src": "fa/homepage/tablet4.webp",
-								"alt": "alt tablet4.webp"
-							}
+							"title": "Tablet"
 						},
 						{
 							"link": "./output/fa/pages/shop.html",
-							"title": "Mobile",
-							"image": {
-								"src": "fa/homepage/mobile-ifone.webp",
-								"alt": "alt mobile-ifone.webp"
-							}
+							"title": "Mobile"
 						}
 					]
 				}
@@ -3370,130 +2586,33 @@
 						"category": {
 							"link": "#",
 							"title": "Mobile",
-							"text": "Based on your taste",
-							"image": {
-								"src": "fa/homepage/boxsaligh6.webp",
-								"alt": "alt boxsaligh1.webp"
-							}
+							"text": "Based on your taste"
 						},
-						"boxes": [
-							{
-								"image": {
-									"link": "#",
-									"src": "fa/homepage/small_product-TLP-49275_262faf16-3f58-11ef-94e0-5dc9fd964217.webp",
-									"alt": "alt small_product-TLP-49275_262faf16-3f58-11ef-94e0-5dc9fd964217.webp"
-								}
-							},
-							{
-								"image": {
-									"link": "#",
-									"src": "fa/homepage/small_product-TLP-78111_88f3841f-186e-4fb3-a519-89f6967547ab.webp",
-									"alt": "alt small_product-TLP-78111_88f3841f-186e-4fb3-a519-89f6967547ab.webp"
-								}
-							},
-							{
-								"image": {
-									"link": "#",
-									"src": "fa/homepage/small_product-TLP-126866_0e9b3a82-d0f9-462c-a488-10520014f7d7.webp",
-									"alt": "alt small_product-TLP-126866_0e9b3a82-d0f9-462c-a488-10520014f7d7.webp"
-								}
-							}
-						]
+						"boxes": []
 					},
 					{
 						"category": {
 							"link": "#",
 							"title": "Speaker",
-							"text": "Based on your taste",
-							"image": {
-								"src": "fa/homepage/boxsaligh5.webp",
-								"alt": "alt boxsaligh1.webp"
-							}
+							"text": "Based on your taste"
 						},
-						"boxes": [
-							{
-								"image": {
-									"link": "#",
-									"src": "fa/homepage/small_product-TLP-60332_913e91df-9058-11ef-84f2-93c1d43a1191.webp",
-									"alt": "alt small_product-TLP-60332_913e91df-9058-11ef-84f2-93c1d43a1191.webp"
-								}
-							},
-							{
-								"image": {
-									"link": "#",
-									"src": "fa/homepage/small_product-TLP-33807_05fdac02-e012-45ab-8ab3-d451a91fcef6.webp",
-									"alt": "alt small_product-TLP-33807_05fdac02-e012-45ab-8ab3-d451a91fcef6.webp"
-								}
-							}
-						]
+						"boxes": []
 					},
 					{
 						"category": {
 							"link": "#",
 							"title": "Powerbank",
-							"text": "Based on your taste",
-							"image": {
-								"src": "fa/homepage/boxsaligh1.webp",
-								"alt": "alt boxsaligh1.webp"
-							}
+							"text": "Based on your taste"
 						},
-						"boxes": [
-							{
-								"image": {
-									"link": "#",
-									"src": "fa/homepage/small_product-TLP-49275_262faf16-3f58-11ef-94e0-5dc9fd964217.webp",
-									"alt": "alt small_product-TLP-49275_262faf16-3f58-11ef-94e0-5dc9fd964217.webp"
-								}
-							},
-							{
-								"image": {
-									"link": "#",
-									"src": "fa/homepage/small_product-TLP-126866_0e9b3a82-d0f9-462c-a488-10520014f7d7.webp",
-									"alt": "alt small_product-TLP-126866_0e9b3a82-d0f9-462c-a488-10520014f7d7.webp"
-								}
-							},
-							{
-								"image": {
-									"link": "#",
-									"src": "fa/homepage/small_product-TLP-167567_9a1d242b-fff0-4aad-b9ca-a4ea17d20f3d.webp",
-									"alt": "alt small_product-TLP-167567_9a1d242b-fff0-4aad-b9ca-a4ea17d20f3d.webp"
-								}
-							}
-						]
+						"boxes": []
 					},
 					{
 						"category": {
 							"link": "#",
 							"title": "Laptop",
-							"text": "Based on your taste",
-							"image": {
-								"src": "fa/homepage/boxsaligh7.webp",
-								"alt": "alt boxsaligh7.webp"
-							}
+							"text": "Based on your taste"
 						},
-						"boxes": [
-							{
-								"image": {
-									"link": "#",
-									"src": "fa/homepage/small_product-TLP-312557_36c98fb7-ac85-466d-a621-6fbc31b2c68c.webp",
-									"alt": "alt small_product-TLP-312557_36c98fb7-ac85-466d-a621-6fbc31b2c68c.webp"
-								}
-							},
-							{
-								"image": {
-									"link": "#",
-									"src": "fa/homepage/small_product-TLP-167567_9a1d242b-fff0-4aad-b9ca-a4ea17d20f3d.webp",
-									"alt": "alt small_product-TLP-167567_9a1d242b-fff0-4aad-b9ca-a4ea17d20f3d.webp"
-								}
-							},
-							{
-								"image": {
-									"link": "#",
-									"src": "fa/homepage/small_product-TLP-167967_53224ec2-7d29-439d-a3ac-7fc0e63c676b.webp",
-									"alt": "alt small_product-TLP-167967_53224ec2-7d29-439d-a3ac-7fc0e63c676b.webp"
-								}
-							}
-						]
+						"boxes": []
 					}
 				],
 				"components": {
@@ -3522,77 +2641,49 @@
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
-							"discountPercentage": "0",
-							"image": {
-								"src": "fa/homepage/1-3-300x300.webp",
-								"alt": "alt 1-3-300x300.webp"
-							}
+							"discountPercentage": "0"
 						},
 						{
 							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
-							"discountPercentage": "0",
-							"image": {
-								"src": "fa/homepage/1-3-300x300.webp",
-								"alt": "alt 1-3-300x300.webp"
-							}
+							"discountPercentage": "0"
 						},
 						{
 							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
-							"discountPercentage": "0",
-							"image": {
-								"src": "fa/homepage/1-3-300x300.webp",
-								"alt": "alt 1-3-300x300.webp"
-							}
+							"discountPercentage": "0"
 						},
 						{
 							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
-							"discountPercentage": "0",
-							"image": {
-								"src": "fa/homepage/1-3-300x300.webp",
-								"alt": "alt 1-3-300x300.webp"
-							}
+							"discountPercentage": "0"
 						},
 						{
 							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
-							"discountPercentage": "0",
-							"image": {
-								"src": "fa/homepage/1-3-300x300.webp",
-								"alt": "alt 1-3-300x300.webp"
-							}
+							"discountPercentage": "0"
 						},
 						{
 							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
-							"discountPercentage": "0",
-							"image": {
-								"src": "fa/homepage/1-3-300x300.webp",
-								"alt": "alt 1-3-300x300.webp"
-							}
+							"discountPercentage": "0"
 						},
 						{
 							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
-							"discountPercentage": "0",
-							"image": {
-								"src": "fa/homepage/1-3-300x300.webp",
-								"alt": "alt 1-3-300x300.webp"
-							}
+							"discountPercentage": "0"
 						}
 					]
 				}
@@ -3619,11 +2710,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/small_product-TLP-33689_45effba3-c1fb-43f6-bbb5-7b91d66cd886.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3652,11 +2738,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/small_product-TLP-31018_23d91019-0165-4325-b1ec-5d2736be38da.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3685,11 +2766,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/small_product-TLP-99347_d03a5204-6570-4a86-921f-12d4656533c3.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3718,11 +2794,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/small_product-TLP-149347_2c8970bb-7042-436d-9834-d714ac88f20a.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3754,74 +2825,34 @@
 					},
 					"focusedCards": [
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						},
 						{
-							"link": "#",
-							"image": {
-								"src": "fa/category/powerbank.svg",
-								"alt": "alt powerbank.svg"
-							}
+							"link": "#"
 						}
 					],
 					"productCards": [
@@ -3834,11 +2865,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/1-3.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3867,11 +2893,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/1-1.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3900,11 +2921,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/3-1.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3933,11 +2949,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/8.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -3966,11 +2977,6 @@
 							"price": "80,000,000",
 							"discountPercentage": "10",
 							"dataCountdown": "5:43:50",
-							"image": {
-								"link": "./output/fa/pages/variable-product.html",
-								"src": "fa/homepage/5-9.webp",
-								"alt": "product image"
-							},
 							"colors": [
 								{
 									"color": "#1544E3",
@@ -4008,75 +3014,39 @@
 					"topsellers": [
 						{
 							"title": "Biva Gaming Headphones",
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/headphone-top-seller.webp",
-								"alt": "alt 8-300x300.webp"
-							}
+							"link": "#"
 						},
 						{
 							"title": " Gaming Console ",
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/game-console.webp",
-								"alt": "alt 8-300x300.webp"
-							}
+							"link": "#"
 						},
 						{
 							"title": " Laptop ",
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/laptop-small.webp",
-								"alt": "alt 8-300x300.webp"
-							}
+							"link": "#"
 						},
 						{
 							"title": " Gamepad ",
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/laptop-small.webp",
-								"alt": "alt 8-300x300.webp"
-							}
+							"link": "#"
 						},
 						{
 							"title": " Mobile Phone ",
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/mobile-small.webp",
-								"alt": "alt 8-300x300.webp"
-							}
+							"link": "#"
 						},
 						{
 							"title": " Xiaomi Mobile ",
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/mobile-small.webp",
-								"alt": "alt 8-300x300.webp"
-							}
+							"link": "#"
 						},
 						{
 							"title": " Apple Mobile ",
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/mobile-small-3.webp",
-								"alt": "alt 8-300x300.webp"
-							}
+							"link": "#"
 						},
 						{
 							"title": " Gaming Console ",
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/konsolbazi-small.webp",
-								"alt": "alt 8-300x300.webp"
-							}
+							"link": "#"
 						},
 						{
 							"title": " Apple Mobile ",
-							"link": "#",
-							"image": {
-								"src": "fa/homepage/konsolbazi-small.webp",
-								"alt": "alt 8-300x300.webp"
-							}
+							"link": "#"
 						}
 					]
 				}
@@ -4134,6 +3104,7 @@
 				"link": "#"
 			},
 			"weblog": {
+				"title":"weblog",
 				"components": {
 					"banner": {
 						"src": "fa/weblog/banner_SlideBannerr.webp",
@@ -4158,11 +3129,7 @@
 								"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 								"date": "Sep 28, 2024",
 								"commentCount": 1,
-								"image": {
-									"src": "fa/homepage/weblog-2.webp",
-									"alt": "",
-									"link": "./output/fa/pages/article.html"
-								},
+
 								"link": "./output/fa/pages/article.html",
 								"showViewAndReadingTime": false
 							},
@@ -4171,11 +3138,7 @@
 								"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 								"date": "Sep 28, 2024",
 								"commentCount": 1,
-								"image": {
-									"src": "fa/weblog/banner_ArticleBanners.webp",
-									"alt": "",
-									"link": "./output/fa/pages/article.html"
-								},
+
 								"link": "./output/fa/pages/article.html",
 								"showViewAndReadingTime": false
 							},
@@ -4184,11 +3147,7 @@
 								"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 								"date": "Sep 28, 2024",
 								"commentCount": 1,
-								"image": {
-									"src": "fa/weblog/banner_ArticleBanners_ik.webp",
-									"alt": "",
-									"link": "./output/fa/pages/article.html"
-								},
+
 								"link": "./output/fa/pages/article.html",
 								"showViewAndReadingTime": false
 							},
@@ -4197,11 +3156,7 @@
 								"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 								"date": "Sep 28, 2024",
 								"commentCount": 1,
-								"image": {
-									"src": "fa/weblog/banner_ArticleBanners.webp",
-									"alt": "",
-									"link": "./output/fa/pages/article.html"
-								},
+
 								"link": "./output/fa/pages/article.html",
 								"showViewAndReadingTime": false
 							}
@@ -4227,11 +3182,7 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-							"image": {
-								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": false
 						},
@@ -4242,11 +3193,7 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-							"image": {
-								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": false
 						},
@@ -4257,11 +3204,7 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-							"image": {
-								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": false
 						},
@@ -4272,11 +3215,7 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-							"image": {
-								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": false
 						}
@@ -4287,11 +3226,7 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-							"image": {
-								"src": "fa/weblog/banner_ArticleBanners_ik.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
@@ -4300,11 +3235,7 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-							"image": {
-								"src": "fa/weblog/banner_ArticleBanners_m.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
@@ -4313,11 +3244,7 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-							"image": {
-								"src": "fa/weblog/banner_ArticleBanners.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
@@ -4326,11 +3253,7 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-							"image": {
-								"src": "fa/weblog/banner_ArticleBanners_ik.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
@@ -4339,11 +3262,7 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-							"image": {
-								"src": "fa/articles/magc.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
@@ -4352,11 +3271,7 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-							"image": {
-								"src": "fa/articles/4-1.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
@@ -4365,11 +3280,7 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-							"image": {
-								"src": "fa/articles/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						}
@@ -4382,11 +3293,7 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-							"image": {
-								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						},
@@ -4397,11 +3304,7 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-							"image": {
-								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						},
@@ -4412,11 +3315,7 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-							"image": {
-								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						}
@@ -4429,11 +3328,7 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-							"image": {
-								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						},
@@ -4444,11 +3339,7 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-							"image": {
-								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						},
@@ -4459,11 +3350,7 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-							"image": {
-								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
-							},
+
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						}
@@ -4544,11 +3431,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4577,11 +3460,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/offer/1-3.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4610,11 +3489,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/offer/1-1.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4643,11 +3518,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/offer/1-10-768x768.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4676,11 +3547,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/offer/1-1-300x300.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4709,11 +3576,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/offer/Frame-19-300x300.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4742,11 +3605,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/offer/1-3.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4775,11 +3634,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4865,11 +3720,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4898,11 +3749,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/offer/1-3.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4931,11 +3778,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/offer/1-1.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4964,11 +3807,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/offer/1-10-768x768.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4997,11 +3836,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/offer/1-1-300x300.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -5030,11 +3865,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/offer/Frame-19-300x300.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -5059,156 +3890,76 @@
 					"categoryCards": {
 						"focusedCards": [
 							{
-								"link": "#",
-								"image": {
-									"src": "fa/shop/mobile.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"link": "#"
 							},
 							{
-								"link": "#",
-								"image": {
-									"src": "fa/shop/speaker.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"link": "#"
 							},
 							{
-								"link": "#",
-								"image": {
-									"src": "fa/category/powerbank.svg",
-									"alt": "alt powerbank.svg"
-								}
+								"link": "#"
 							},
 							{
-								"link": "#",
-								"image": {
-									"src": "fa/shop/tablet.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"link": "#"
 							},
 							{
-								"link": "#",
-								"image": {
-									"src": "fa/shop/watch.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"link": "#"
 							},
 							{
-								"link": "#",
-								"image": {
-									"src": "fa/shop/case.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"link": "#"
 							},
 							{
-								"link": "#",
-								"image": {
-									"src": "fa/shop/pes5.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"link": "#"
 							},
 							{
-								"link": "#",
-								"image": {
-									"src": "fa/shop/laptop.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"link": "#"
 							},
 							{
-								"link": "#",
-								"image": {
-									"src": "fa/shop/headphone.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"link": "#"
 							},
 							{
-								"link": "#",
-								"image": {
-									"src": "fa/shop/printer.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"link": "#"
 							}
 						],
 						"labeledCards": [
 							{
 								"link": "#",
-								"title": "Mobile",
-								"image": {
-									"src": "fa/shop/mobile.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"title": "Mobile"
 							},
 							{
 								"link": "#",
-								"title": "Speaker",
-								"image": {
-									"src": "fa/shop/speaker.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"title": "Speaker"
 							},
 							{
 								"link": "#",
-								"title": "Powerbank",
-								"image": {
-									"src": "fa/category/powerbank.svg",
-									"alt": "alt powerbank.svg"
-								}
+								"title": "Powerbank"
 							},
 							{
 								"link": "#",
-								"title": "Tablet",
-								"image": {
-									"src": "fa/shop/tablet.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"title": "Tablet"
 							},
 							{
 								"link": "#",
-								"title": "Smartwatch",
-								"image": {
-									"src": "fa/shop/watch.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"title": "Smartwatch"
 							},
 							{
 								"link": "#",
-								"title": "Computer",
-								"image": {
-									"src": "fa/shop/case.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"title": "Computer"
 							},
 							{
 								"link": "#",
-								"title": "Gaming Console",
-								"image": {
-									"src": "fa/shop/pes5.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"title": "Gaming Console"
 							},
 							{
 								"link": "#",
-								"title": "Laptop",
-								"image": {
-									"src": "fa/shop/laptop.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"title": "Laptop"
 							},
 							{
 								"link": "#",
-								"title": "Headphone",
-								"image": {
-									"src": "fa/shop/headphone.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"title": "Headphone"
 							},
 							{
 								"link": "#",
-								"title": "Office Machine",
-								"image": {
-									"src": "fa/shop/printer.webp",
-									"alt": "alt powerbank.svg"
-								}
+								"title": "Office Machine"
 							}
 						]
 					}
@@ -5411,146 +4162,66 @@
 			"productGallerySlider": {
 				"sliderContents": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/component/2.webp",
-							"alt": "alt"
-						}
+						"id": "slider2"
 					},
 					{
-						"id": "slider3",
-						"image": {
-							"src": "fa/component/3.webp",
-							"alt": "alt"
-						}
+						"id": "slider3"
 					},
 					{
-						"id": "slider4",
-						"image": {
-							"src": "fa/component/4.webp",
-							"alt": "alt"
-						}
+						"id": "slider4"
 					},
 					{
-						"id": "slider5",
-						"image": {
-							"src": "fa/component/5.webp",
-							"alt": "alt"
-						}
+						"id": "slider5"
 					},
 					{
-						"id": "slider6",
-						"image": {
-							"src": "fa/component/6.webp",
-							"alt": "alt"
-						}
+						"id": "slider6"
 					},
 					{
-						"id": "slider7",
-						"image": {
-							"src": "fa/component/7.webp",
-							"alt": "alt"
-						}
+						"id": "slider7"
 					},
 					{
-						"id": "slider8",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider8"
 					},
 					{
-						"id": "slider9",
-						"image": {
-							"src": "fa/component/9.webp",
-							"alt": "alt"
-						}
+						"id": "slider9"
 					},
 					{
-						"id": "slider10",
-						"image": {
-							"src": "fa/component/10.webp",
-							"alt": "alt"
-						}
+						"id": "slider10"
 					}
 				],
 				"sliderToggles": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/component/2.webp",
-							"alt": "alt"
-						}
+						"id": "slider2"
 					},
 					{
-						"id": "slider3",
-						"image": {
-							"src": "fa/component/3.webp",
-							"alt": "alt"
-						}
+						"id": "slider3"
 					},
 					{
-						"id": "slider4",
-						"image": {
-							"src": "fa/component/4.webp",
-							"alt": "alt"
-						}
+						"id": "slider4"
 					},
 					{
-						"id": "slider5",
-						"image": {
-							"src": "fa/component/5.webp",
-							"alt": "alt"
-						}
+						"id": "slider5"
 					},
 					{
-						"id": "slider6",
-						"image": {
-							"src": "fa/component/6.webp",
-							"alt": "alt"
-						}
+						"id": "slider6"
 					},
 					{
-						"id": "slider7",
-						"image": {
-							"src": "fa/component/7.webp",
-							"alt": "alt"
-						}
+						"id": "slider7"
 					},
 					{
-						"id": "slider8",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider8"
 					},
 					{
-						"id": "slider9",
-						"image": {
-							"src": "fa/component/9.webp",
-							"alt": "alt"
-						}
+						"id": "slider9"
 					},
 					{
-						"id": "slider10",
-						"image": {
-							"src": "fa/component/10.webp",
-							"alt": "alt"
-						}
+						"id": "slider10"
 					}
 				]
 			},
@@ -5617,8 +4288,7 @@
 					"send": "Free Shipping for this product",
 					"btnView": "View Guide",
 					"pay": "Installment purchase of this product up to 4 installments",
-					"snappay": "Installment purchase with Snappay",
-					"img":"en/component/snappay.webp"
+					"snappay": "Installment purchase with Snappay"
 				},
 				"text": {
 					"title": "View Product Features",
@@ -5765,11 +4435,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -5798,11 +4464,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -5831,11 +4493,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -5864,11 +4522,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -5897,11 +4551,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6022,13 +4672,13 @@
 				{
 					"title": "Review and Analysis",
 					"description": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-					"img": "cfb97947d7961954.webp",
+
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
-					"img": "1954.webp",
+
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
 					"imgTwo": "1954.webp"
 				},
@@ -6048,23 +4698,19 @@
 			"featureBox": [
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				}
 			],
 			"productSpecifications": [
@@ -6119,11 +4765,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -6152,11 +4794,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -6185,11 +4823,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -6218,11 +4852,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -6275,146 +4905,66 @@
 			"productGallerySlider": {
 				"sliderContents": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/component/2.webp",
-							"alt": "alt"
-						}
+						"id": "slider2"
 					},
 					{
-						"id": "slider3",
-						"image": {
-							"src": "fa/component/3.webp",
-							"alt": "alt"
-						}
+						"id": "slider3"
 					},
 					{
-						"id": "slider4",
-						"image": {
-							"src": "fa/component/4.webp",
-							"alt": "alt"
-						}
+						"id": "slider4"
 					},
 					{
-						"id": "slider5",
-						"image": {
-							"src": "fa/component/5.webp",
-							"alt": "alt"
-						}
+						"id": "slider5"
 					},
 					{
-						"id": "slider6",
-						"image": {
-							"src": "fa/component/6.webp",
-							"alt": "alt"
-						}
+						"id": "slider6"
 					},
 					{
-						"id": "slider7",
-						"image": {
-							"src": "fa/component/7.webp",
-							"alt": "alt"
-						}
+						"id": "slider7"
 					},
 					{
-						"id": "slider8",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider8"
 					},
 					{
-						"id": "slider9",
-						"image": {
-							"src": "fa/component/9.webp",
-							"alt": "alt"
-						}
+						"id": "slider9"
 					},
 					{
-						"id": "slider10",
-						"image": {
-							"src": "fa/component/10.webp",
-							"alt": "alt"
-						}
+						"id": "slider10"
 					}
 				],
 				"sliderToggles": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/component/2.webp",
-							"alt": "alt"
-						}
+						"id": "slider2"
 					},
 					{
-						"id": "slider3",
-						"image": {
-							"src": "fa/component/3.webp",
-							"alt": "alt"
-						}
+						"id": "slider3"
 					},
 					{
-						"id": "slider4",
-						"image": {
-							"src": "fa/component/4.webp",
-							"alt": "alt"
-						}
+						"id": "slider4"
 					},
 					{
-						"id": "slider5",
-						"image": {
-							"src": "fa/component/5.webp",
-							"alt": "alt"
-						}
+						"id": "slider5"
 					},
 					{
-						"id": "slider6",
-						"image": {
-							"src": "fa/component/6.webp",
-							"alt": "alt"
-						}
+						"id": "slider6"
 					},
 					{
-						"id": "slider7",
-						"image": {
-							"src": "fa/component/7.webp",
-							"alt": "alt"
-						}
+						"id": "slider7"
 					},
 					{
-						"id": "slider8",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider8"
 					},
 					{
-						"id": "slider9",
-						"image": {
-							"src": "fa/component/9.webp",
-							"alt": "alt"
-						}
+						"id": "slider9"
 					},
 					{
-						"id": "slider10",
-						"image": {
-							"src": "fa/component/10.webp",
-							"alt": "alt"
-						}
+						"id": "slider10"
 					}
 				]
 			},
@@ -6481,8 +5031,7 @@
 					"send": "Free Shipping for this product",
 					"btnView": "View Guide",
 					"pay": "Installment purchase of this product up to 4 installments",
-					"snappay": "Installment purchase with Snappay",
-					"img":"en/component/snappay.webp"
+					"snappay": "Installment purchase with Snappay"
 				},
 				"text": {
 					"title": "View Product Features",
@@ -6624,11 +5173,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6657,11 +5202,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6690,11 +5231,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6723,11 +5260,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6756,11 +5289,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6881,13 +5410,13 @@
 				{
 					"title": "Review and Analysis",
 					"description": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-					"img": "cfb97947d7961954.webp",
+
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
-					"img": "1954.webp",
+
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
 					"imgTwo": "1954.webp"
 				},
@@ -6907,23 +5436,19 @@
 			"featureBox": [
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				}
 			],
 			"productSpecifications": [
@@ -6978,11 +5503,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7011,11 +5532,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7044,11 +5561,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7077,11 +5590,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7134,146 +5643,66 @@
 			"productGallerySlider": {
 				"sliderContents": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/component/2.webp",
-							"alt": "alt"
-						}
+						"id": "slider2"
 					},
 					{
-						"id": "slider3",
-						"image": {
-							"src": "fa/component/3.webp",
-							"alt": "alt"
-						}
+						"id": "slider3"
 					},
 					{
-						"id": "slider4",
-						"image": {
-							"src": "fa/component/4.webp",
-							"alt": "alt"
-						}
+						"id": "slider4"
 					},
 					{
-						"id": "slider5",
-						"image": {
-							"src": "fa/component/5.webp",
-							"alt": "alt"
-						}
+						"id": "slider5"
 					},
 					{
-						"id": "slider6",
-						"image": {
-							"src": "fa/component/6.webp",
-							"alt": "alt"
-						}
+						"id": "slider6"
 					},
 					{
-						"id": "slider7",
-						"image": {
-							"src": "fa/component/7.webp",
-							"alt": "alt"
-						}
+						"id": "slider7"
 					},
 					{
-						"id": "slider8",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider8"
 					},
 					{
-						"id": "slider9",
-						"image": {
-							"src": "fa/component/9.webp",
-							"alt": "alt"
-						}
+						"id": "slider9"
 					},
 					{
-						"id": "slider10",
-						"image": {
-							"src": "fa/component/10.webp",
-							"alt": "alt"
-						}
+						"id": "slider10"
 					}
 				],
 				"sliderToggles": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/component/2.webp",
-							"alt": "alt"
-						}
+						"id": "slider2"
 					},
 					{
-						"id": "slider3",
-						"image": {
-							"src": "fa/component/3.webp",
-							"alt": "alt"
-						}
+						"id": "slider3"
 					},
 					{
-						"id": "slider4",
-						"image": {
-							"src": "fa/component/4.webp",
-							"alt": "alt"
-						}
+						"id": "slider4"
 					},
 					{
-						"id": "slider5",
-						"image": {
-							"src": "fa/component/5.webp",
-							"alt": "alt"
-						}
+						"id": "slider5"
 					},
 					{
-						"id": "slider6",
-						"image": {
-							"src": "fa/component/6.webp",
-							"alt": "alt"
-						}
+						"id": "slider6"
 					},
 					{
-						"id": "slider7",
-						"image": {
-							"src": "fa/component/7.webp",
-							"alt": "alt"
-						}
+						"id": "slider7"
 					},
 					{
-						"id": "slider8",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider8"
 					},
 					{
-						"id": "slider9",
-						"image": {
-							"src": "fa/component/9.webp",
-							"alt": "alt"
-						}
+						"id": "slider9"
 					},
 					{
-						"id": "slider10",
-						"image": {
-							"src": "fa/component/10.webp",
-							"alt": "alt"
-						}
+						"id": "slider10"
 					}
 				]
 			},
@@ -7340,8 +5769,7 @@
 					"send": "Free Shipping for this product",
 					"btnView": "View Guide",
 					"pay": "Installment purchase of this product up to 4 installments",
-					"snappay": "Installment purchase with Snappay",
-					"img":"en/component/snappay.webp"
+					"snappay": "Installment purchase with Snappay"
 				},
 				"text": {
 					"title": "View Product Features",
@@ -7482,11 +5910,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -7515,11 +5939,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -7548,11 +5968,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -7581,11 +5997,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -7614,11 +6026,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -7739,13 +6147,13 @@
 				{
 					"title": "Review and Analysis",
 					"description": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-					"img": "cfb97947d7961954.webp",
+
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
-					"img": "1954.webp",
+
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
 					"imgTwo": "1954.webp"
 				},
@@ -7765,23 +6173,19 @@
 			"featureBox": [
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				}
 			],
 			"productSpecifications": [
@@ -7836,11 +6240,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7869,11 +6269,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7902,11 +6298,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7935,11 +6327,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7992,146 +6380,66 @@
 			"productGallerySlider": {
 				"sliderContents": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/component/2.webp",
-							"alt": "alt"
-						}
+						"id": "slider2"
 					},
 					{
-						"id": "slider3",
-						"image": {
-							"src": "fa/component/3.webp",
-							"alt": "alt"
-						}
+						"id": "slider3"
 					},
 					{
-						"id": "slider4",
-						"image": {
-							"src": "fa/component/4.webp",
-							"alt": "alt"
-						}
+						"id": "slider4"
 					},
 					{
-						"id": "slider5",
-						"image": {
-							"src": "fa/component/5.webp",
-							"alt": "alt"
-						}
+						"id": "slider5"
 					},
 					{
-						"id": "slider6",
-						"image": {
-							"src": "fa/component/6.webp",
-							"alt": "alt"
-						}
+						"id": "slider6"
 					},
 					{
-						"id": "slider7",
-						"image": {
-							"src": "fa/component/7.webp",
-							"alt": "alt"
-						}
+						"id": "slider7"
 					},
 					{
-						"id": "slider8",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider8"
 					},
 					{
-						"id": "slider9",
-						"image": {
-							"src": "fa/component/9.webp",
-							"alt": "alt"
-						}
+						"id": "slider9"
 					},
 					{
-						"id": "slider10",
-						"image": {
-							"src": "fa/component/10.webp",
-							"alt": "alt"
-						}
+						"id": "slider10"
 					}
 				],
 				"sliderToggles": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/component/2.webp",
-							"alt": "alt"
-						}
+						"id": "slider2"
 					},
 					{
-						"id": "slider3",
-						"image": {
-							"src": "fa/component/3.webp",
-							"alt": "alt"
-						}
+						"id": "slider3"
 					},
 					{
-						"id": "slider4",
-						"image": {
-							"src": "fa/component/4.webp",
-							"alt": "alt"
-						}
+						"id": "slider4"
 					},
 					{
-						"id": "slider5",
-						"image": {
-							"src": "fa/component/5.webp",
-							"alt": "alt"
-						}
+						"id": "slider5"
 					},
 					{
-						"id": "slider6",
-						"image": {
-							"src": "fa/component/6.webp",
-							"alt": "alt"
-						}
+						"id": "slider6"
 					},
 					{
-						"id": "slider7",
-						"image": {
-							"src": "fa/component/7.webp",
-							"alt": "alt"
-						}
+						"id": "slider7"
 					},
 					{
-						"id": "slider8",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider8"
 					},
 					{
-						"id": "slider9",
-						"image": {
-							"src": "fa/component/9.webp",
-							"alt": "alt"
-						}
+						"id": "slider9"
 					},
 					{
-						"id": "slider10",
-						"image": {
-							"src": "fa/component/10.webp",
-							"alt": "alt"
-						}
+						"id": "slider10"
 					}
 				]
 			},
@@ -8198,8 +6506,7 @@
 					"send": "Free Shipping for this product",
 					"btnView": "View Guide",
 					"pay": "Installment purchase of this product up to 4 installments",
-					"snappay": "Installment purchase with Snappay",
-					"img":"en/component/snappay.webp"
+					"snappay": "Installment purchase with Snappay"
 				},
 				"text": {
 					"title": "View Product Features",
@@ -8257,15 +6564,15 @@
 				]
 			},
 			"externalProductCo": {
-			"returnDays": "7 Days Unconditional Return Guarantee",
-			"deliveryDays": " Shipping within the next 4 days",
-			"recentSales": "10+ Sales in the last week",
-			"purchasePoints": " Received upon product purchase ",
-			"rating": "140 Points",
-			"button": "Buy from Digikala",
-			"discountedPrice": "9",
-			"discountPercentage": "80,000,000",
-			"price": "72,200,000"
+				"returnDays": "7 Days Unconditional Return Guarantee",
+				"deliveryDays": " Shipping within the next 4 days",
+				"recentSales": "10+ Sales in the last week",
+				"purchasePoints": " Received upon product purchase ",
+				"rating": "140 Points",
+				"button": "Buy from Digikala",
+				"discountedPrice": "9",
+				"discountPercentage": "80,000,000",
+				"price": "72,200,000"
 			},
 			"rattingSection": {
 				"head": "User Ratings and Reviews",
@@ -8341,11 +6648,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -8374,11 +6677,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -8407,11 +6706,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -8440,11 +6735,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -8473,11 +6764,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -8598,13 +6885,13 @@
 				{
 					"title": "Review and Analysis",
 					"description": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-					"img": "cfb97947d7961954.webp",
+
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
-					"img": "1954.webp",
+
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
 					"imgTwo": "1954.webp"
 				},
@@ -8624,23 +6911,19 @@
 			"featureBox": [
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				}
 			],
 			"productSpecifications": [
@@ -8695,11 +6978,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -8728,11 +7007,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -8761,11 +7036,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -8794,11 +7065,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -8851,146 +7118,66 @@
 			"productGallerySlider": {
 				"sliderContents": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/component/2.webp",
-							"alt": "alt"
-						}
+						"id": "slider2"
 					},
 					{
-						"id": "slider3",
-						"image": {
-							"src": "fa/component/3.webp",
-							"alt": "alt"
-						}
+						"id": "slider3"
 					},
 					{
-						"id": "slider4",
-						"image": {
-							"src": "fa/component/4.webp",
-							"alt": "alt"
-						}
+						"id": "slider4"
 					},
 					{
-						"id": "slider5",
-						"image": {
-							"src": "fa/component/5.webp",
-							"alt": "alt"
-						}
+						"id": "slider5"
 					},
 					{
-						"id": "slider6",
-						"image": {
-							"src": "fa/component/6.webp",
-							"alt": "alt"
-						}
+						"id": "slider6"
 					},
 					{
-						"id": "slider7",
-						"image": {
-							"src": "fa/component/7.webp",
-							"alt": "alt"
-						}
+						"id": "slider7"
 					},
 					{
-						"id": "slider8",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider8"
 					},
 					{
-						"id": "slider9",
-						"image": {
-							"src": "fa/component/9.webp",
-							"alt": "alt"
-						}
+						"id": "slider9"
 					},
 					{
-						"id": "slider10",
-						"image": {
-							"src": "fa/component/10.webp",
-							"alt": "alt"
-						}
+						"id": "slider10"
 					}
 				],
 				"sliderToggles": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/component/2.webp",
-							"alt": "alt"
-						}
+						"id": "slider2"
 					},
 					{
-						"id": "slider3",
-						"image": {
-							"src": "fa/component/3.webp",
-							"alt": "alt"
-						}
+						"id": "slider3"
 					},
 					{
-						"id": "slider4",
-						"image": {
-							"src": "fa/component/4.webp",
-							"alt": "alt"
-						}
+						"id": "slider4"
 					},
 					{
-						"id": "slider5",
-						"image": {
-							"src": "fa/component/5.webp",
-							"alt": "alt"
-						}
+						"id": "slider5"
 					},
 					{
-						"id": "slider6",
-						"image": {
-							"src": "fa/component/6.webp",
-							"alt": "alt"
-						}
+						"id": "slider6"
 					},
 					{
-						"id": "slider7",
-						"image": {
-							"src": "fa/component/7.webp",
-							"alt": "alt"
-						}
+						"id": "slider7"
 					},
 					{
-						"id": "slider8",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider8"
 					},
 					{
-						"id": "slider9",
-						"image": {
-							"src": "fa/component/9.webp",
-							"alt": "alt"
-						}
+						"id": "slider9"
 					},
 					{
-						"id": "slider10",
-						"image": {
-							"src": "fa/component/10.webp",
-							"alt": "alt"
-						}
+						"id": "slider10"
 					}
 				]
 			},
@@ -9057,8 +7244,7 @@
 					"send": "Free Shipping for this product",
 					"btnView": "View Guide",
 					"pay": "Installment purchase of this product up to 4 installments",
-					"snappay": "Installment purchase with Snappay",
-					"img":"en/component/snappay.webp"
+					"snappay": "Installment purchase with Snappay"
 				},
 				"text": {
 					"title": "View Product Features",
@@ -9116,14 +7302,16 @@
 				]
 			},
 			"freeProductCo": {
-					"returnDays": "7 Days Unconditional Return Guarantee",
+				"returnDays": "7 Days Unconditional Return Guarantee",
 				"deliveryDays": " Shipping within the next 4 days",
 				"recentSales": "10+ Sales in the last week",
 				"purchasePoints": " Received upon product purchase ",
 				"rating": "130 Points",
 				"soldOut": "Sold Out: 1400",
 				"remaining": "Remaining: 13875 ",
-				"add":"add to cart"
+				"add": "add to cart",
+				"alert":"added to your cart",
+				"price":"Free"
 			},
 			"rattingSection": {
 				"head": "User Ratings and Reviews",
@@ -9199,11 +7387,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -9232,11 +7416,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -9265,11 +7445,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -9298,11 +7474,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -9331,11 +7503,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -9456,13 +7624,13 @@
 				{
 					"title": "Review and Analysis",
 					"description": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-					"img": "cfb97947d7961954.webp",
+
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
-					"img": "1954.webp",
+
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
 					"imgTwo": "1954.webp"
 				},
@@ -9482,23 +7650,19 @@
 			"featureBox": [
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				}
 			],
 			"productSpecifications": [
@@ -9553,11 +7717,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -9586,11 +7746,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -9619,11 +7775,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -9652,11 +7804,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -9709,146 +7857,66 @@
 			"productGallerySlider": {
 				"sliderContents": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/component/2.webp",
-							"alt": "alt"
-						}
+						"id": "slider2"
 					},
 					{
-						"id": "slider3",
-						"image": {
-							"src": "fa/component/3.webp",
-							"alt": "alt"
-						}
+						"id": "slider3"
 					},
 					{
-						"id": "slider4",
-						"image": {
-							"src": "fa/component/4.webp",
-							"alt": "alt"
-						}
+						"id": "slider4"
 					},
 					{
-						"id": "slider5",
-						"image": {
-							"src": "fa/component/5.webp",
-							"alt": "alt"
-						}
+						"id": "slider5"
 					},
 					{
-						"id": "slider6",
-						"image": {
-							"src": "fa/component/6.webp",
-							"alt": "alt"
-						}
+						"id": "slider6"
 					},
 					{
-						"id": "slider7",
-						"image": {
-							"src": "fa/component/7.webp",
-							"alt": "alt"
-						}
+						"id": "slider7"
 					},
 					{
-						"id": "slider8",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider8"
 					},
 					{
-						"id": "slider9",
-						"image": {
-							"src": "fa/component/9.webp",
-							"alt": "alt"
-						}
+						"id": "slider9"
 					},
 					{
-						"id": "slider10",
-						"image": {
-							"src": "fa/component/10.webp",
-							"alt": "alt"
-						}
+						"id": "slider10"
 					}
 				],
 				"sliderToggles": [
 					{
-						"id": "slider1",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider1"
 					},
 					{
-						"id": "slider2",
-						"image": {
-							"src": "fa/component/2.webp",
-							"alt": "alt"
-						}
+						"id": "slider2"
 					},
 					{
-						"id": "slider3",
-						"image": {
-							"src": "fa/component/3.webp",
-							"alt": "alt"
-						}
+						"id": "slider3"
 					},
 					{
-						"id": "slider4",
-						"image": {
-							"src": "fa/component/4.webp",
-							"alt": "alt"
-						}
+						"id": "slider4"
 					},
 					{
-						"id": "slider5",
-						"image": {
-							"src": "fa/component/5.webp",
-							"alt": "alt"
-						}
+						"id": "slider5"
 					},
 					{
-						"id": "slider6",
-						"image": {
-							"src": "fa/component/6.webp",
-							"alt": "alt"
-						}
+						"id": "slider6"
 					},
 					{
-						"id": "slider7",
-						"image": {
-							"src": "fa/component/7.webp",
-							"alt": "alt"
-						}
+						"id": "slider7"
 					},
 					{
-						"id": "slider8",
-						"image": {
-							"src": "fa/component/8.webp",
-							"alt": "alt"
-						}
+						"id": "slider8"
 					},
 					{
-						"id": "slider9",
-						"image": {
-							"src": "fa/component/9.webp",
-							"alt": "alt"
-						}
+						"id": "slider9"
 					},
 					{
-						"id": "slider10",
-						"image": {
-							"src": "fa/component/10.webp",
-							"alt": "alt"
-						}
+						"id": "slider10"
 					}
 				]
 			},
@@ -9915,8 +7983,7 @@
 					"send": "Free Shipping for this product",
 					"btnView": "View Guide",
 					"pay": "Installment purchase of this product up to 4 installments",
-					"snappay": "Installment purchase with Snappay",
-					"img":"en/component/snappay.webp"
+					"snappay": "Installment purchase with Snappay"
 				},
 				"text": {
 					"title": "View Product Features",
@@ -10059,11 +8126,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -10092,11 +8155,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -10125,11 +8184,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -10158,11 +8213,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -10191,11 +8242,7 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-					"image": {
-						"link": "./output/fa/pages/variable-product.html",
-						"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-						"alt": "product image"
-					},
+
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -10316,13 +8363,13 @@
 				{
 					"title": "Review and Analysis",
 					"description": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-					"img": "cfb97947d7961954.webp",
+
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
-					"img": "1954.webp",
+
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
 					"imgTwo": "1954.webp"
 				},
@@ -10342,23 +8389,19 @@
 			"featureBox": [
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				},
 				{
 					"title": "Fast Shipping",
-					"subtitle": "Express Delivery Possible",
-					"img": "box-2.svg"
+					"subtitle": "Express Delivery Possible"
 				}
 			],
 			"productSpecifications": [
@@ -10413,11 +8456,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -10446,11 +8485,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -10479,11 +8514,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -10512,11 +8543,7 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-						"image": {
-							"link": "./output/fa/pages/variable-product.html",
-							"src": "fa/component/380f100aa25f0f9810086f0bb194a3babb8335ed.webp",
-							"alt": "product image"
-						},
+
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -12615,11 +10642,7 @@
 	"dialog": {
 		"cartProduct": {
 			"product": {
-				"name": "Apple iPhone Pro Max Dual SIM Not Active",
-				"image": {
-					"src": "fa/products/7-300x300.webp",
-					"alt": "alt"
-				}
+				"name": "Apple iPhone Pro Max Dual SIM Not Active"
 			},
 			"price": "72,200,000",
 			"priceText": "Price:",
@@ -12638,11 +10661,7 @@
 		"sharingProduct": {
 			"title": "Share",
 			"product": {
-				"name": "Apple iPhone Pro Max Dual SIM Not Active",
-				"image": {
-					"src": "fa/component/Group-12.webp",
-					"alt": "alt"
-				}
+				"name": "Apple iPhone Pro Max Dual SIM Not Active"
 			},
 			"shairText": "a",
 			"socialMediaOne": "Facebook",
@@ -12681,11 +10700,7 @@
 		"suggestion": {
 			"title": "Add Review",
 			"product": {
-				"name": "Beyond BUL-201 Lightning Cable 1m Length",
-				"image": {
-					"src": "fa/products/46345404a4721d4b787ea10b36868df8bf7f83be_1697391995.webp",
-					"alt": "alt"
-				}
+				"name": "Beyond BUL-201 Lightning Cable 1m Length"
 			},
 			"rate": "Rate this item :)",
 			"opinion": "Write your review about this product.",
