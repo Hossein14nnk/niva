@@ -952,7 +952,16 @@
 			"soldOut": "Sold Out: 1400",
 			"remaining": "Remaining: 13875 ",
 			"add":"add to cart"
-		}
+		},
+		"userSummary": {
+				"title": "favorite",
+				"number": "12",
+				"text": "Saved Product"
+			},
+			"locationButton": {
+				"title": "Your default address for quicker checkout",
+				"subTitle": "Set a default address to place your future orders faster and more securely."
+			}
 	},
 	"pages": {
 		"suggestionCategories": {

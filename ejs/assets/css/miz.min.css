@@ -33083,5 +33083,19 @@ div:has(.product-detail) {
     width: 93px;
   }
 }
+.location-button {
+  background: #FEFAFB;
+  border: 2px dashed #E62A61;
+}
+
+.user-summary {
+  box-shadow: 0px 0px 6px var(--shadow);
+}
+.user-summary .icon {
+  width: 34px;
+  height: 34px;
+  padding: 7px;
+  background: #FEF4F6;
+}
 
 /*# sourceMappingURL=miz.min.css.map */
