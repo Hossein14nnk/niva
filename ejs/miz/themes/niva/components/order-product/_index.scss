@@ -1,0 +1,15 @@
+@use "../../../../sass/kernel/" as *;
+
+
+.order-item {
+    .pink-color {
+        color: #E62A61;
+    }
+
+    .green-color {
+        color: #E62A61;
+    }
+    .grid-2-1 {
+       grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+}

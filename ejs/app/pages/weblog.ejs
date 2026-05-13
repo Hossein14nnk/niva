@@ -19,7 +19,7 @@
                     <i class="icon-search on-secondary-color opacity-5"></i>
                 </div>
             </div>
-            <img class="radius-all-small w-100" src="./assets/media/images/<%=weblog.banner.src%>" alt="<%=weblog.banner.alt%>" />
+            <img class="radius-all-small w-100" src="<%= getMedia(lang, '', 'images'); %>" alt="" />
         </div>
     </section>
     <section class="section">
@@ -29,7 +29,7 @@
                 <div class="border-style-solid border-color w-100 bw-1"></div>
                 <a href="<%- navigation(lang , 'shop.html') %>" class="div align-items-center">
                     <span class="text-color txt-size-subtitle font-weight-bold"><%= weblog.title3 %></span>
-                    <img src="./assets/media/images/<%= t.language %>/weblog/Next-blue -icon.svg" alt="" width="30px" />
+                    <img src="<%= getMedia(lang, 'single/Next-blue -icon.svg', 'images'); %>" alt="" width="30px" />
                 </a>
             </div>
             <div class="block d-grid grid-1 gap-6">

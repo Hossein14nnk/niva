@@ -4,7 +4,7 @@
 			<i class="fa-solid fa-close modal-close secondary-text-color align-items-end"></i>
 			<div class="radius-all-medium border-color bw-1 border-style-solid mt-8 p-4">
 				<div class="d-flex gap-4">
-					<img class="w-14 aspect-ratio-1x1 object-contain" src="./assets/media/images/<%= t.dialog.cartProduct.product.image.src %>" alt="<%= t.dialog.cartProduct.product.image.alt %>" />
+					<img class="w-14 aspect-ratio-1x1 object-contain" src="<%= getMedia(lang, 'products/mobile-14.webp', 'images'); %>" alt="" />
 					<p class="txt-size-title font-weight-medium on-secondary-color"><%= t.dialog.cartProduct.product.name %></p>
 				</div>
 				<div class="d-flex justify-content-space-between align-items-center">
@@ -72,7 +72,7 @@
 			<div class="d-flex flex-column align-items-start gap-2 py-4 border-color bb-style-solid bw-1">
 				<p class="txt-size-mid-title font-weight-bold on-secondary-color"><%= t.dialog.sharingProduct.shairText %></p>
 				<div class="d-flex gap-4">
-					<img class="w-6 aspect-ratio-1x1 object-contain" src="./assets/media/images/<%= t.dialog.sharingProduct.product.image.src %>" alt="<%= t.dialog.sharingProduct.product.image.alt %>" />
+					<img class="w-6 aspect-ratio-1x1 object-contain" src="<%= getMedia(lang, 'products/mobile-15.webp', 'images'); %>" alt="" />
 					<p class="txt-size-big font-weight-medium on-secondary-color"><%= t.dialog.sharingProduct.product.name %></p>
 				</div>
 			</div>
@@ -111,7 +111,7 @@
 			</div>
 			<div class="d-flex flex-column align-items-start gap-2 py-4 border-color">
 				<video controls="" class="radius-all-small w-100">
-					<source src="./assets/media/videos/<%= t.dialog.videoProduct.video %>" />
+					<source src="<%= getMedia(null, 'video.mp4', 'videos'); %>" />
 				</video>
 			</div>
 		</div>
@@ -201,7 +201,7 @@
 			<form class="w-100 px-4 py-4 d-flex flex-column gap-10 align-items-center overflow-y-scroll">
 				<div class="product-detail w-100 py-10 radius-all-small position-relative justify-content-center align-items-center d-flex">
 					<p class="txt-size-extra-title mis-12"><%= t.dialog.suggestion.product.name %></p>
-					<img class="w-15 top-0 right-0 position-absolute" src="./assets/media/images/<%= t.dialog.suggestion.product.image.src %>" alt="<%= t.dialog.suggestion.product.image.alt %>"/>
+					<img class="w-15 top-0 right-0 position-absolute" src="<%= getMedia(lang, 'products/mobile-16.webp', 'images'); %>" alt=""/>
 				</div>
 				<div class="d-flex flex-column gap-6 justify-content-center">
 					<p class="font-weight-black txt-size-extra-title"><%= t.dialog.suggestion.rate %></p>

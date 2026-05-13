@@ -3,10 +3,11 @@
 <%_ if (!allowed.test(userName)) { -%>
 <% throw new Error(`Error: Only English letters, numbers and _.\n${_.camelCase(story.userName)} is not allowed.\n`);%>
 <%_ } -%>
-<div class="div flex-column story align-items-center <%= story.enableSwiper ? 'swiper-slide' : null %>">
+<%_ let classSwiper = (typeof enableSwiper !== 'undefined' && enableSwiper == true) ? 'swiper-slide' : null -%>
+<div class="div flex-column story align-items-center <%= classSwiper %>">
 	<div data-modal-id="story<%= _.upperFirst(userName) %>" class="modal-toggle cursor-pointer w-100 bg-color px-3 py-3 aspect-ratio-1x1 radius-all-full d-flex align-items-center justify-content-center">
 		<div class="story-line p-2 w-100 position-relative d-flex align-items-center justify-content-center radius-all-full overflow-hidden aspect-ratio-1x1">
-			<img class="object-cover w-100 aspect-ratio-1x1 radius-all-full" src="./assets/media/images/<%= story.image.src %>" alt="<%= story.image.alt %>" class="w-100 h-100 border-full" />
+			<img class="object-cover w-100 aspect-ratio-1x1 radius-all-full" src="<%= image %>" alt="" class="w-100 h-100 border-full" />
 		</div>
 	</div>
 	<span class="txt-size-normal on-secondary-color"><%= story.title %></span>

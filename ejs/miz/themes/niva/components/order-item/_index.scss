@@ -1,15 +1,7 @@
 @use "../../../../sass/kernel/" as *;
 
 
-.order-item {
-    .pink-color {
-        color: #E62A61;
-    }
 
-    .green-color {
-        color: #E62A61;
-    }
-    .grid-2-1 {
-       grid-template-columns: 2fr 1fr 1fr 1fr;
-    }
+.order-item{
+    @extend .d-flex, .justify-content-space-between, .align-items-center, .bw-1, .border-color, .bt-style-solid, .py-2;
 }
