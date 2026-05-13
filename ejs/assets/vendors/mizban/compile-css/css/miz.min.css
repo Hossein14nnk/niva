@@ -33089,13 +33089,23 @@ div:has(.product-detail) {
 }
 
 .user-summary {
-  box-shadow: 0px 0px 6px var(--shadow);
+  box-shadow: 2px 0px 10px var(--shadow);
 }
 .user-summary .icon {
   width: 34px;
   height: 34px;
   padding: 7px;
   background: #FEF4F6;
+}
+
+.order-item .pink-color {
+  color: #E62A61;
+}
+.order-item و .green-color {
+  color: #E62A61;
+}
+.order-item .grid-2-1 {
+  grid-template-columns: 2fr 1fr 1fr 1fr;
 }
 
 /*# sourceMappingURL=miz.min.css.map */
