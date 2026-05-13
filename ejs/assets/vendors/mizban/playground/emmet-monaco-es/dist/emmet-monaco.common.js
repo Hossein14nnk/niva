@@ -145,7 +145,7 @@ class Scanner {
      * Creates error object with current stream state
      */
     error(message, pos = this.pos) {
-        return new ScannerError(`${message} at ${pos + 1}`, pos, this.string);
+        return new ScannerError(`${message} at ${pos + 1}.webp`, pos, this.string);
     }
 }
 class ScannerError extends Error {

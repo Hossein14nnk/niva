@@ -63,8 +63,6 @@
   --unCommon: #FFFFFF;
   --uncommon: #FFFFFF;
   --transparent: rgba(0, 0, 0, 0);
-  --font-primary: "primary";
-  --font-secondary: "secondary";
   --font-fa-primary: "fa-primary";
   --font-en-primary: "en-primary";
 }
@@ -275,54 +273,6 @@ dialog {
 }
 
 @font-face {
-  font-family: "primary";
-  font-weight: 900;
-  src: url("../fonts/vazir/Vazir-Black.woff2"),url("../fonts/vazir/Vazir-Black.woff"),url("../fonts/vazir/Vazir-Black.ttf"),url("../fonts/vazir/Vazir-Black.eot"),;
-}
-@font-face {
-  font-family: "primary";
-  font-weight: 700;
-  src: url("../fonts/vazir/Vazir-Bold.woff2"),url("../fonts/vazir/Vazir-Bold.woff"),url("../fonts/vazir/Vazir-Bold.ttf"),url("../fonts/vazir/Vazir-Bold.eot"),;
-}
-@font-face {
-  font-family: "primary";
-  font-weight: 300;
-  src: url("../fonts/vazir/Vazir-Light.woff2"),url("../fonts/vazir/Vazir-Light.woff"),url("../fonts/vazir/Vazir-Light.ttf"),url("../fonts/vazir/Vazir-Light.eot"),;
-}
-@font-face {
-  font-family: "primary";
-  font-weight: 500;
-  src: url("../fonts/vazir/Vazir-Medium.woff2"),url("../fonts/vazir/Vazir-Medium.woff"),url("../fonts/vazir/Vazir-Medium.ttf"),url("../fonts/vazir/Vazir-Medium.eot"),;
-}
-@font-face {
-  font-family: "primary";
-  font-weight: 400;
-  src: url("../fonts/vazir/Vazir-Regular.woff2"),url("../fonts/vazir/Vazir-Regular.woff"),url("../fonts/vazir/Vazir-Regular.ttf"),url("../fonts/vazir/Vazir-Regular.eot"),;
-}
-@font-face {
-  font-family: "primary";
-  font-weight: 100;
-  src: url("../fonts/vazir/Vazir-Thin.woff2"),url("../fonts/vazir/Vazir-Thin.woff"),url("../fonts/vazir/Vazir-Bold.ttf"),url("../fonts/vazir/Vazir-Thin.eot"),;
-}
-.font-primary {
-  font-family: var(--font-primary), sans-serif, 'Courier New', Courier, monospace;
-}
-
-@font-face {
-  font-family: "secondary";
-  font-weight: 700;
-  src: url("../fonts/product-sans/PTSans-Bold.ttf"),;
-}
-@font-face {
-  font-family: "secondary";
-  font-weight: 400;
-  src: url("../fonts/product-sans/PTSans-Regular.ttf"),;
-}
-.font-secondary {
-  font-family: var(--font-secondary), sans-serif, 'Courier New', Courier, monospace;
-}
-
-@font-face {
   font-family: "fa-primary";
   font-weight: 0;
   src: url("../fonts/fa/yekan-bakh/Yekan Bakh FaNum 07 Heavy.woff"),;
@@ -349,12 +299,12 @@ dialog {
 @font-face {
   font-family: "en-primary";
   font-weight: 700;
-  src: url("../fonts/en/product-sans/PTSans-Bold.ttf"),;
+  src: url("../fonts/en/pt-sans/PTSans-Bold.ttf"),;
 }
 @font-face {
   font-family: "en-primary";
   font-weight: 400;
-  src: url("../fonts/en/product-sans/PTSans-Regular.ttf"),;
+  src: url("../fonts/en/pt-sans/PTSans-Regular.ttf"),;
 }
 .font-en-primary {
   font-family: var(--font-en-primary), sans-serif, 'Courier New', Courier, monospace;
@@ -1079,7 +1029,7 @@ html {
   border-right-style: solid;
 }
 
-.bt-style-solid, .modal-container.story-modal .slider-content .story-content .story-timelines .timeline {
+.bt-style-solid, .order-item, .modal-container.story-modal .slider-content .story-content .story-timelines .timeline {
   border-top-style: solid;
 }
 
@@ -3001,7 +2951,7 @@ html {
   justify-content: end;
 }
 
-.justify-content-space-between, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle, .range-slider .values, .forign-product .wrapper-text-send .wrapper-send, .unavailable .wrapper-unavailable, .variable-product .product-main-content .product-main-content-buy, .call-product .container-price, .call-product .wrapper-btn, .call-product .wrapper-btn .wrapper-call, .topseller .details, .air-banner .content .product, .product-qa .question-container, .product-comment .information-comment, .product-comment .features-container, .rating-card .card-header .rating-count, .rating-card .card-body .percentage-point .description-container, .product-details.rating, .product-card .logo-container:has(.countdown), .accordion-group .accordion .accordion-box .accordion-header, .contact-us-information {
+.justify-content-space-between, .order-item, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle, .range-slider .values, .forign-product .wrapper-text-send .wrapper-send, .unavailable .wrapper-unavailable, .variable-product .product-main-content .product-main-content-buy, .call-product .container-price, .call-product .wrapper-btn, .call-product .wrapper-btn .wrapper-call, .topseller .details, .air-banner .content .product, .product-qa .question-container, .product-comment .information-comment, .product-comment .features-container, .rating-card .card-header .rating-count, .rating-card .card-body .percentage-point .description-container, .product-details.rating, .product-card .logo-container:has(.countdown), .accordion-group .accordion .accordion-box .accordion-header, .contact-us-information {
   justify-content: space-between;
 }
 
@@ -31227,7 +31177,7 @@ html {
   aspect-ratio: 1/1;
 }
 
-.aspect-ratio-1x2, .modal-container.story-modal .slider-content .story-content {
+.aspect-ratio-1x2, .product-comment .comment-gallery img, .modal-container.story-modal .slider-content .story-content {
   aspect-ratio: 1/2;
 }
 
@@ -31387,7 +31337,7 @@ html {
   z-index: 10;
 }
 
-.object-cover, .weblog-card.newest-row .cover-image img, .article-banner-weblog img {
+.object-cover, .product-comment .comment-gallery img, .weblog-card.newest-row .cover-image img, .article-banner-weblog img {
   object-fit: cover;
 }
 
@@ -31473,7 +31423,7 @@ html {
 
 .article-banner-weblog::after {
   content: "";
-  background-image: url("../../assets/media/images/en/component/Group 195.webp");
+  background-image: url("../../assets/media/images/en/single/Group 195.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -31587,10 +31537,6 @@ html {
 .rating-card .card-footer .comments-number:last-child {
   border: unset;
 }
-.rating-card .card-footer .comments-number .description {
-  text-wrap: nowrap;
-}
-
 .story-line::after {
   content: "";
   background-image: url("../media/images//story-ring.svg");
@@ -31700,7 +31646,7 @@ html {
 }
 .weblog-card.newest-column .feature-image::after {
   content: "";
-  background-image: url("../../assets/media/images/en/component/Group 195.webp");
+  background-image: url("../../assets/media/images/en/single/Group 195.webp");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -31710,7 +31656,7 @@ html {
 }
 .weblog-card.newest-row .cover-image::after {
   content: "";
-  background-image: url("../../assets/media/images/en/component/Group 195.webp");
+  background-image: url("../../assets/media/images/en/single/Group 195.webp");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -33046,13 +32992,13 @@ div:has(.product-detail) {
 }
 
 .register-comment-box .stars-container .stars-full {
-  background-image: url("../media/images/en/component/star-solid-full.svg");
+  background-image: url("../media/images/en/single/star-solid-full.svg");
   background-size: contain;
   background-repeat: repeat-x;
 }
 
 .register-comment-box .stars-container .stars {
-  background-image: url("../media/images/en/component/star-thin-full.svg");
+  background-image: url("../media/images/en/single/star-thin-full.svg");
   background-size: contain;
   background-repeat: repeat-x;
   background-color: transparent;

@@ -400,7 +400,7 @@
 						<div class="div page one d-grid grid-3 gap-4 grid-xl-3 grid-lg-2 grid-md-2 align-items-stretch">
 
 							<% for(let i = 0; i < t.pages.shop.components.productCards.length; i++) { -%>
-								<%- include('../components/product-card/full/content.ejs', {productCard: t.pages.shop.components.productCards[i]}); %>
+								<%- include('../components/product-card/full/content.ejs', {productCard: t.pages.shop.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
 							<%_ } -%>
 
 						</div>

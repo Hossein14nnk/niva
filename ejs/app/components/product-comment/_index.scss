@@ -75,7 +75,7 @@
         @extend .d-grid, .align-self-end, .grid-3, .grid-sm-3, .w-22, .gap-2;
         
         img{
-            @extend .w-100, .radius-all-small;
+            @extend .w-100, .radius-all-small, .aspect-ratio-1x2, .object-cover;
         }
     }
 }
