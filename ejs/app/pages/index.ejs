@@ -51,7 +51,7 @@
                         <div class="block flex-column flex-lg-row align-items-center h-100 justify-content-center pt-8 gap-8">
                             <img src="<%= getMedia(lang, 'single/offerpic-1.webp', 'images'); %>" alt="" class="w-90 d-lg-none" />
                             <img src="<%= getMedia(lang, 'single/amazing-text.svg', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
-                            <a href="<%= t.pages.home.exceptionalOffers.banner.link %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
+                            <a href="<%- navigation(lang , 'offers.html') %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
                                 <%= t.pages.home.exceptionalOffers.banner.title %>
                                 <i class="fas fa-angle-left"></i>
                             </a>
@@ -85,7 +85,7 @@
             <div class="container gap-8 w-100">
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
-                        <a href="<%= t.company.logoImage.replaceSimple.link %>">
+                        <a href="<%- navigation(lang , 'index.html') %>">
                             <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.popularCategories.title %></h2>
@@ -116,7 +116,7 @@
             <div class="container gap-4 w-100">
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
-                        <a href="<%= t.company.logoImage.replaceSimple.link %>">
+                        <a href="<%- navigation(lang , 'index.html') %>">
                             <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.bestSellers.title %></h2>
@@ -147,7 +147,7 @@
                         <div class="block flex-column flex-lg-row align-items-center h-100 justify-content-center pt-8 gap-8">
                             <img src="<%= getMedia(lang, 'single/offerpic-1.webp', 'images'); %>" alt="" class="w-90 d-lg-none" />
                             <img src="<%= getMedia(lang, 'single/amazing-text.svg', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
-                            <a href="<%= t.pages.home.laptopOffers.banner.link %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
+                            <a href="<%- navigation(lang , 'offers.html') %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
                                 <%= t.pages.home.laptopOffers.banner.title %>
                                 <i class="fas fa-angle-left"></i>
                             </a>
@@ -179,13 +179,13 @@
         </section>
         <section id="bestsellersCategory" class="section">
             <div class="container d-grid grid-3 gap-8 grid-md-1 w-100 px-md-20">
-                <a href="#">
+                <a href="<%- navigation(lang , 'shop.html') %>">
                     <img class="w-100" src="<%= getMedia(lang, 'categories/category-banner-1.webp', 'images'); %>" alt="alt homepage" />
                 </a>
-                <a href="#">
+                <a href="<%- navigation(lang , 'shop.html') %>">
                     <img class="w-100" src="<%= getMedia(lang, 'categories/category-banner-2.webp', 'images'); %>" alt="alt homepage" />
                 </a>
-                <a href="#">
+                <a href="<%- navigation(lang , 'shop.html') %>">
                     <img class="w-100" src="<%= getMedia(lang, 'categories/category-banner-3.webp', 'images'); %>" alt="alt homepage" />
                 </a>
             </div>
@@ -194,7 +194,7 @@
             <div class="container gap-4 w-100">
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
-                        <a href="<%= t.company.logoImage.replaceSimple.link %>">
+                        <a href="<%- navigation(lang , 'index.html') %>">
                             <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.economicalProducts.title %></h2>
@@ -222,7 +222,7 @@
             <div class="container overflow-hidden gap-8 w-100">
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
-                        <a href="<%= t.company.logoImage.replaceSimple.link %>">
+                        <a href="<%- navigation(lang , 'index.html') %>">
                             <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.creditPurchase.title %></h2>
@@ -261,7 +261,7 @@
                     <%_ for(let i = 0; i < 4; i++){ -%>
                         <div class="div d-grid grid-2-2 gap-3">
                             <div class="div taste-box w-100 h-100 justify-content-center align-items-center pt-1 radius-all-medium position-relative information-tooltip tooltip-top border-color bw-1 border-style-solid overflow-hidden">
-                                <a href="<%= t.pages.home.boxTaste.tasteBoxes[i].category.link %>" class="d-flex flex-column align-items-center gap-1 justify-content-center">
+                                <a href="<%- navigation(lang , 'index.html') %>" class="d-flex flex-column align-items-center gap-1 justify-content-center">
                                     <span class="font-weight-bold text-color"><%= t.pages.home.boxTaste.tasteBoxes[i].category.title %></span>
                                     <span class="txt-size-small secondary-text-color font-weight-bold"><%= t.pages.home.boxTaste.tasteBoxes[i].category.text %></span>
                                     <img src="<%= getMedia(lang, `categories/taste-category-${i + 1}.webp`, 'images'); %>" alt="" class="bottom-0 w-100" />
@@ -352,7 +352,7 @@
                         <div class="block flex-column flex-lg-row align-items-center h-100 justify-content-center pt-8 gap-8">
                             <img src="<%= getMedia(lang, 'single/offerpic-1.webp', 'images'); %>" alt="" class="w-90 d-lg-none" />
                             <img src="<%= getMedia(lang, 'single/amazing-text.svg', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
-                            <a href="<%= t.pages.home.mobileOffers.banner.link %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
+                            <a href="<%- navigation(lang , 'offers.html') %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
                                 <%= t.pages.home.mobileOffers.banner.title %>
                                 <i class="fas fa-angle-left"></i>
                             </a>
@@ -386,7 +386,7 @@
             <div class="container gap-4 w-100">
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
-                        <a href="<%= t.company.logoImage.replaceSimple.link %>">
+                        <a href="<%- navigation(lang , 'shop.html') %>">
                             <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.bestMobileSellers.title %></h2>
@@ -417,7 +417,7 @@
         </section>
         <section id="bannerProduct" class="section">
             <img src="<%= getMedia(lang, 'single/banner-mobile.webp', 'images'); %>" alt="" class="w-100 position-relative" />
-            <a href="<%= t.pages.home.bannerProduct.link %>" class="d-flex position-absolute banner-icon inset-end-20">
+            <a href="<%- navigation(lang , 'index.html') %>" class="d-flex position-absolute banner-icon inset-end-20">
                 <img src="<%= getMedia(lang, 'single/Next-blue -icon.svg', 'images'); %>" alt="" width="35px" />
             </a>
         </section>
@@ -425,7 +425,7 @@
             <div class="container w-100 gap-8">
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
-                        <a href="<%= t.company.logoImage.replaceSimple.link %>">
+                        <a href="<%- navigation(lang , 'index.html') %>">
                             <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.suggestionCategories.title %></h2>
@@ -443,7 +443,7 @@
             <div class="container gap-8 w-100">
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
-                        <a href="<%= t.company.logoImage.replaceSimple.link %>">
+                        <a href="<%- navigation(lang , 'shop.html') %>">
                             <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.brandWrapper.title %></h2>
@@ -506,9 +506,9 @@
             </div>
         </section>
         <section id="bannerProductSecond" class="section">
-            <img src="<%= getMedia(lang, 'single/banner-mobile.webp', 'images'); %>" alt="" class="w-100 position-relative" />
-            <a href="<%= t.pages.home.bannerProduct.link %>" class="d-flex position-absolute banner-icon inset-end-20">
-                <img src="<%= getMedia(lang, 'single/Next-blue -icon.svg', 'images'); %>" alt="" width="35px" />
+            <img src="./assets/media/images/<%= t.pages.home.bannerProductSecond.src %>" alt="<%= t.pages.home.bannerProductSecond.alt %>" class="w-100 position-relative" />
+            <a href="<%= t.pages.home.bannerProductSecond.link %>" class="d-flex position-absolute banner-icon inset-end-20">
+                <img src="./assets/media/images/<%= t.language %>/homepage/Next-blue -icon.svg" alt="" width="35px" />
             </a>
         </section>
         <section id="weblog" class="section">

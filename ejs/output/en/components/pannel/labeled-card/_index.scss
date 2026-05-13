@@ -1,0 +1,69 @@
+@use "../../../../../sass/kernel/" as *;
+
+
+.labeld-card {
+    background-image:  url("../../assets/media/images/category/Vector-7.svg") , radial-gradient(at center , #F6F7F8 1%, #B4CBD8 ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 400ms;
+    @extend .position-relative , .d-flex ,  .overflow-hidden , .w-90 , .h-100 , .radius-all-medium ;
+
+    &:hover::before {
+        content: '';
+        width: 105%;
+        height: 105%;
+    }
+
+    &:hover::after {
+        content: '';
+        width: 98%;
+        height: 98%;
+        
+    }
+
+    &::before {
+        content: '';
+        background-image: url("../../assets/media/images/category/Vector-6.svg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 400ms;
+        @extend .w-100 , .h-100 , .position-absolute , .bottom-0 , .right-0 , .z-index-3 ;
+    }
+
+    &::after {
+        content: '';
+        background-image: url("../../assets/media/images/category/Vector-5.svg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 400ms;
+        @extend .w-100 , .h-100 , .position-absolute , .bottom-0 , .right-0 , .z-index-3 ;
+    }
+
+    &:hover .product-image {
+        transform: translateY(80%);
+    }
+
+    &:hover .product-name {
+        transform: translateY(-50%);
+        @extend .opacity-10;
+    }
+
+    .content {
+        @extend .position-relative , .flex-column , .w-100 , .d-flex , .align-items-center , .justify-content-center ,.py-10 , .px-18;
+
+        .product-image {
+            transition: all 400ms;
+            @extend .w-90 , .z-index-4;
+        }
+
+        .product-name {
+            transition: all 300ms;
+            font-size: 1.5rem;
+            @extend .opacity-0 , .position-absolute , .z-index-4 ,.on-primary-color , .font-weight-black , .txt-size-mid-title ;
+        } 
+    }
+
+    &:hover {
+        background-image: url("../../assets/media/images/category/Vector-7.svg") , radial-gradient(get-color(primary));
+    }
+}
