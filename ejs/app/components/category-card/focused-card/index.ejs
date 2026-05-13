@@ -1,7 +1,7 @@
 <%- include('../../../layouts/component/head.ejs', {pageName: "focused-card", level:1}); %>
 
 <div class="d-grid grid-5">
-    <%- include('./content.ejs', {focusedCard: t.components.categoryCard.focusedCard}); %>
+    <%- include('./content.ejs', {focusedCard: t.components.categoryCard.focusedCard, image: getMedia(lang, "categories/category-1.webp", "images")}); %>
 </div>
 
 <%- include('../../../layouts/component/foot.ejs'); %>

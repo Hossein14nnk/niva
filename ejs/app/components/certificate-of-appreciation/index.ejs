@@ -2,11 +2,10 @@
 
 <div class="d-grid grid-4">
        <%- include('content.ejs' , {
-              img: t.components.certificate[0].img ,
+              img: getMedia(lang, `certificates/certificate-1.webp`, 'images') ,
               title: t.components.certificate[0].title ,
               description: t.components.certificate[0].description ,
               year: t.components.certificate[0].year 
-              
        }
        ); -%>
 </div>

@@ -1,7 +1,7 @@
 <div class="product-card <%= productCard.enableSwiper ? 'swiper-slide' : null %>">
 	<div class="logo-container">
 		<a class="logo" href="<%= t.company.logoImage.simple.link %>">
-			<img class="w-100" src="./assets/media/images/<%= t.company.logoImage.simple.src %>" alt="<%= t.company.logoImage.simple.alt %>" />
+			<img class="w-100" src="<%= getMedia(lang, 'single/logo-web3.webp', 'images'); %>" alt="" />
 		</a>
 		<div class="countdown" data-countdown="<%= productCard.dataCountdown %>"></div>
 	</div>
@@ -12,19 +12,19 @@
 				<path d="M4.25 0.5C2.17925 0.5 0.5 2.11546 0.5 4.10854C0.5 5.71744 1.15625 9.53594 7.616 13.396C7.73185 13.464 7.86464 13.5 8 13.5C8.13536 13.5 8.26815 13.464 8.384 13.396C14.8445 9.53594 15.5 5.71744 15.5 4.10854C15.5 2.11546 13.8207 0.5 11.75 0.5C9.67925 0.5 8 2.687 8 2.687C8 2.687 6.32075 0.5 4.25 0.5Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
 			</svg>
 		</div>
-		<a href="<%= productCard.image.link %>" class="image-box">
-			<img src="./assets/media/images/<%= productCard.image.src %>" alt="<%= productCard.image.alt %>" />
+		<a href="#" class="image-box">
+			<img src="<%= getMedia(lang, '', 'images'); %>" alt="" />
 		</a>
 	</div>
 	<div class="card-body">
 		<h2 class="title"><%= productCard.title %></h2>
 		<div class="d-flex justify-content-space-between">
 			<div class="fast-shipping">
-				<img src="./assets/media/images/component/tabler_cube-send.svg" alt="" />
+				<img src="<%= getMedia(lang, 'single/tabler_cube-send.svg', 'images'); %>" alt="" />
 				<span>ارسال سریع</span>
 			</div>
 			<span>
-				<img src="./assets/media/images/component/Star 1.svg" alt="" />
+				<img src="<%= getMedia(lang, 'single/Star 1.svg', 'images'); %>" alt="" />
 				<span class="font-weight-bold txt-size-mid-title"><%= productCard.point %></span>
 			</span>
 		</div>
