@@ -2,7 +2,7 @@
 :root {
   --primary: #E80645;
   --on-primary: #FFFFFF;
-  --primary-light: #FFFFFF;
+  --primary-light: #FCEEF3;
   --primary-dark: #d10202;
   --secondary: #F3F7F9;
   --on-secondary: #021959;
@@ -652,7 +652,7 @@ html {
 .light {
   --primary: #E80645;
   --on-primary: #FFFFFF;
-  --primary-light: #FFFFFF;
+  --primary-light: #FCEEF3;
   --primary-dark: #d10202;
   --secondary: #F3F7F9;
   --on-secondary: #021959;

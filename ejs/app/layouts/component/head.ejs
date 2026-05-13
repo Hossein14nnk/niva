@@ -7,7 +7,8 @@
     <title><%= pageName %></title>
     <link rel="icon" type="image/png" href="./assets/media/images/logo-web3.webp">
     <%_ let addCount = (typeof level !== 'undefined' && typeof level === 'number') ? level : 0; -%>
-    <%_ let address = "../../../../"; -%>
+    <!-- <%#_ let address = "../../../../"; -%> -->
+    <%_ let address = basePathComponents(); -%>
     <%_ for(let i = 1; i <= addCount; i++) {
         address += "../"
     } -%>

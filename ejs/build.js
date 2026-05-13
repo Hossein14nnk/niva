@@ -1,18 +1,15 @@
-import _ from 'lodash';
+// import _ from 'lodash';
 import ejs from "ejs";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import globals from "./app/functions/globals.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // متغیر های گلوبال
-const globals = {
-  _: _,
-  // pathPages: "../../..",
-  // pathComponents: "./"
-}
+
 
 // مسیرها
 const appDir = path.join(__dirname, "app");
