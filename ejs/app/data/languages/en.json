@@ -961,6 +961,38 @@
 			"locationButton": {
 				"title": "Your default address for quicker checkout",
 				"subTitle": "Set a default address to place your future orders faster and more securely."
+			},
+			"orderProduct": {
+				"title": "Order products",
+				"productLabel": "Products",
+				"unitPriceLabel": "Unit price",
+				"numbetLabel":"Quantity",
+				"totalLabel":"Total",
+				"product":[
+					{
+						"title": "X10 model smartwatch",
+						"feauture": "Color: Black",
+						"feauturetwo": "18-month warranty",
+						"price": "1,690,000 toman",
+						"number": "1",
+						"total": "1,690,000 toman"
+					},
+					{
+						"title": "Pro 4 model wireless headphones",
+						"feauture": "Color: White",
+						"feauturetwo": "12-month warranty",
+						"price": "790,000 toman",
+						"total": "790,000 toman"
+					}
+				],
+			"subTotal": "Subtotal",
+			"subTotalPrice": "2,480,000 toman",
+			"shippingCost": "Shipping cost",
+			"shippingCostPrice": "0 toman",
+			"discountCode": "Discount code  (fsws-2dasj)",
+			"discountCodePrice": "0 toman",
+			"amountPayable": "Amount payable",
+			"amountPayablePrice": "2,480,000 toman"
 			}
 	},
 	"pages": {

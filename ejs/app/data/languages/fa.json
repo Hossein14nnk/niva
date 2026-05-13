@@ -808,7 +808,40 @@
 			"locationButton": {
 				"title": "ادرس پیش فرض در انتخاب سریع تر شما",
 				"subTitle": "با تعیین آدرس پیش فرض در خریدهای آینده سریع تر  و امن تر سفارش خود را ثبت کنید."
+			},
+			"orderProduct": {
+				"title": "محصولات سفارش",
+				"productLabel": "محصولات",
+				"unitPriceLabel": "قیمت واحد",
+				"numbetLabel":"تعداد",
+				"totalLabel":"مجموع",
+				"product":[
+					{
+						"title": "ساعت هوشمند مدل x10",
+						"feauture": "رنگ: مشکی",
+						"feauturetwo": "گارانتی 18 ماهه",
+						"price": "1,690,000 تومان",
+						"number": "1",
+						"total": "1,690,000 تومان"
+					},
+					{
+						"title": "هدفون بی سیم مدل Pro 4",
+						"feauture": "رنگ: سفید",
+						"feauturetwo": "گارانتی 12 ماهه",
+						"price": "790,000 تومان",
+						"total": "790,000 تومان"
+					}
+				],
+			"subTotal": "جمع جزئی",
+			"subTotalPrice": "2,480,000 تومان",
+			"shippingCost": "هزینه ارسال",
+			"shippingCostPrice": "0 تومان",
+			"discountCode": "کد تخفیف  (fsws-2dasj)",
+			"discountCodePrice": "0 تومان",
+			"amountPayable": "کد تخفیف ",
+			"amountPayablePrice": "2,480,000 تومان"
 			}
+		
 	},
 	"pages": {
 		"suggestionCategories": {
