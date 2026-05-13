@@ -33058,9 +33058,6 @@ div:has(.product-detail) {
   width: 20%;
   height: auto;
 }
-.order-product .green-color {
-  color: greenyellow;
-}
 .order-product .grid-2-1 {
   grid-template-columns: 2fr 1fr 1fr 1fr;
 }
