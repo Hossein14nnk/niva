@@ -34,11 +34,16 @@ let globals = {
 		}
 	},
     getMedia: function (lang, file, mediaType){
-        switch (mode) {
-			case "production":
-                return `./assets/media/${mediaType}/${file}`;
-			case "development":
-				return `./assets/media/${mediaType}/${lang}/${file}`;
+		if(lang == null){
+			return `./assets/media/${mediaType}/${file}`;
+		}
+		else{
+			switch (mode) {
+				case "production":
+					return `./assets/media/${mediaType}/${file}`;
+				case "development":
+					return `./assets/media/${mediaType}/${lang}/${file}`;
+			}
 		}
     },
 };

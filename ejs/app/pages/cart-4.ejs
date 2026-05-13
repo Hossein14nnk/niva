@@ -65,7 +65,7 @@
 
 			<section id="receipt" class="section align-items-center gap-20">
 				<div class="thanks w-77 font-weight-bold d-flex flex-column align-items-center gap-2 py-8 px-8 bw-1 border-color border-style-solid radius-all-medium">
-					<img src="../assets/media/images/<%= t.language %>/cart/order-recieved.webp" class="w-15" />
+					<img src="<%= getMedia(lang, 'single/thanks.webp', 'images'); %>" class="w-15" />
 					<p class="text-color txt-size-big-title"><%= t.pages.cart4.thanksMessage %></p>
 					<div class="d-flex align-items-center justify-content-space-between txt-size-mid-title text-color w-100 pb-2">
 						<div class="d-flex align-items-center gap-4 txt-size-mid-title text-color">
@@ -161,7 +161,7 @@
 					</div>
 				</div>
 				<div class="order-details d-flex flex-column align-items-center w-45 w-xl-63 w-md-77 w-sm-95 py-8 px-8 bw-1 border-color border-style-solid radius-all-medium">
-					<img src="../assets/media/images/<%= t.language %>/cart/empty-sfl.webp" class="w-30" />
+					<img src="<%= getMedia(lang, 'single/check-list.webp', 'images'); %>" class="w-30" />
 					<p class="text-color txt-size-big-title font-weight-bold mb-8"><%= t.pages.cart4.orderDetails %></p>
 					<div class="orders d-flex flex-column w-100">
 						<%- include('../components/order-item/content.ejs', {

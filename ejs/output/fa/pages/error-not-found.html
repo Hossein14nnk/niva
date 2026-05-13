@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>errorNotFound</title>
-    <link rel="icon" type="image/png" href="./assets/media/images/logo-web3.webp">
+    <link rel="icon" type="image/png" href="./assets/media/images/fa/single/logo-web3.webp">
     <base href="../../../">
     <link rel="stylesheet" href="./assets/vendors/swiper/swiper-bundle-min.css">
     <link rel="stylesheet" href="./assets/vendors/snap-alert-js-main/snapAlert.min.css">
@@ -55,7 +55,7 @@
 			<i class="fa-solid fa-close modal-close secondary-text-color align-items-end"></i>
 			<div class="radius-all-medium border-color bw-1 border-style-solid mt-8 p-4">
 				<div class="d-flex gap-4">
-					<img class="w-14 aspect-ratio-1x1 object-contain" src="./assets/media/images/fa/products/7-300x300.webp" alt="alt" />
+					<img class="w-14 aspect-ratio-1x1 object-contain" src="./assets/media/images/fa/products/mobile-14.webp" alt="" />
 					<p class="txt-size-title font-weight-medium on-secondary-color">گوشی موبایل اپل مدل پرومکس دو سیم‌ کارت نات اکتیو</p>
 				</div>
 				<div class="d-flex justify-content-space-between align-items-center">
@@ -123,7 +123,7 @@
 			<div class="d-flex flex-column align-items-start gap-2 py-4 border-color bb-style-solid bw-1">
 				<p class="txt-size-mid-title font-weight-bold on-secondary-color">a</p>
 				<div class="d-flex gap-4">
-					<img class="w-6 aspect-ratio-1x1 object-contain" src="./assets/media/images/fa/component/Group-12.webp" alt="alt" />
+					<img class="w-6 aspect-ratio-1x1 object-contain" src="./assets/media/images/fa/products/mobile-15.webp" alt="" />
 					<p class="txt-size-big font-weight-medium on-secondary-color">گوشی موبایل اپل مدل پرومکس دو سیم‌ کارت نات اکتیو</p>
 				</div>
 			</div>
@@ -252,7 +252,7 @@
 			<form class="w-100 px-4 py-4 d-flex flex-column gap-10 align-items-center overflow-y-scroll">
 				<div class="product-detail w-100 py-10 radius-all-small position-relative justify-content-center align-items-center d-flex">
 					<p class="txt-size-extra-title mis-12">کابل لایتینگ بیاند مدل BUL-201 طول 1متر</p>
-					<img class="w-15 top-0 right-0 position-absolute" src="./assets/media/images/fa/products/46345404a4721d4b787ea10b36868df8bf7f83be_1697391995.webp" alt="alt"/>
+					<img class="w-15 top-0 right-0 position-absolute" src="./assets/media/images/fa/products/mobile-16.webp" alt=""/>
 				</div>
 				<div class="d-flex flex-column gap-6 justify-content-center">
 					<p class="font-weight-black txt-size-extra-title">به این کالا امتیاز دهید :)</p>
@@ -290,7 +290,6 @@
 </dialog>
     <script src="./assets/vendors/swiper/swiper-bundle-min.js"></script>
     <script src="./assets/js/mizchin.min.js"></script>
-    <script src="./assets/js/header.js"></script>
     <script src="./assets/vendors/chartJs/chart.js"></script>
     <script src="./assets/vendors/snap-alert-js-main/snap-alert.min.js"></script>
     <script>
@@ -301,7 +300,7 @@
                 const alterContent = alterToggle.dataset.alertContent ?? null;
                 const alterType = alterToggle.dataset.alertType ?? "success";
                 const alterPosition = alterToggle.dataset.alertPosition ?? "bottom right";
-                const alterDuration = alterToggle.dataset.alertDuration ?? 3000;
+                const alterDuration = alterToggle.dataset.alertDuration ?? 30000;
                 const alterIcon = alterToggle.dataset.alterIcon ?? "fa-solid fa-check";
                 SnapAlert().alert(alterTitle, alterContent, {
                     type: alterType,
@@ -317,7 +316,7 @@
         });
     </script>
     <script>
-        const primaryFont = getComputedStyle(document.body).getPropertyValue("--font-primary").trim();
+        const primaryFont = getComputedStyle(document.body).getPropertyValue("--fontfa-primary").trim();
 
         function transparentize(color, opacity) {
             if (color.includes("rgb")) {

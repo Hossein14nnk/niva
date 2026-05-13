@@ -1,7 +1,7 @@
 <%- include('../../layouts/component/head.ejs' , {pageName : "articles"}); -%>
 
 <div class="d-grid grid-4">
-       <%- include('content.ejs', {topseller: t.components.topseller, numberItem: 1});    -%>
+       <%- include('content.ejs', {topseller: t.components.topseller, numberItem: 1, image: getMedia(lang, 'categories/category-1.webp', 'images')});    -%>
 </div>
 
 <%- include('../../layouts/component/foot.ejs'); -%>

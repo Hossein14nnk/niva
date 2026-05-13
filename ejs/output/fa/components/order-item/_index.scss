@@ -1,5 +1,5 @@
 @use "../../../../sass/kernel/" as *;
 
 .order-item{
-    @extend .d-flex, .justify-content-space-between, .align-items-center, .bw-1, .border-color, .bt-style-solid, .bb-style-solid, .py-2;
+    @extend .d-flex, .justify-content-space-between, .align-items-center, .bw-1, .border-color, .bt-style-solid, .py-2;
 }

@@ -24,7 +24,7 @@
                         description: articles.components[i].description,
                         date: articles.components[i].date,
                         commentCount: articles.components[i].commentCount,
-                        image: articles.components[i].image,
+                        image: getMedia(lang, `articles/article-${i + 1}.webp`, "images"),
                         link: navigation(lang,"article.html"),
                         showViewAndReadingTime: articles.components[i].showViewAndReadingTime                  
                     }); -%>

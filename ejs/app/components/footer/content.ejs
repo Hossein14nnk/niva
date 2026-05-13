@@ -176,19 +176,19 @@
                 </div>
                 <div class="line"></div>
                 <div class="d-flex flex-row align-items-center justify-content-space-between gap-2 w-100">
-                    <img src="./assets/media/images/<%= t.language %>/footer/logo-11.webp" alt="" />
-                    <img src="./assets/media/images/<%= t.language %>/footer/logo-12.webp" alt="" />
-                    <img src="./assets/media/images/<%= t.language %>/footer/logo-13.webp" alt="" />
+                    <img src="<%= getMedia(lang, 'single/standard-logo-1.webp', 'images'); %>" alt=""/>
+                    <img src="<%= getMedia(lang, 'single/standard-logo-2.webp', 'images'); %>" alt=""/>
+                    <img src="<%= getMedia(lang, 'single/standard-logo-3.webp', 'images'); %>" alt=""/>
                 </div>
                 <div class="line"></div>
                 <div class="d-flex flex-column gap-4">
                     <span class="txt-size-mid-title text-color font-weight-bold text-nowrap"><%= t.components.footer.socialMediaBox.title %></span>
                     <div class="d-flex flex-row align-items-center justify-content-space-between">
-                        <img src="./assets/media/images/<%= t.language %>/footer/Social-network.svg" alt="" />
-                        <img src="./assets/media/images/<%= t.language %>/footer/eitaa.svg" alt="" />
-                        <img src="./assets/media/images/<%= t.language %>/footer/instagram.svg" alt="" />
-                        <img src="./assets/media/images/<%= t.language %>/footer/telegram.svg" alt="" />
-                        <img src="./assets/media/images/<%= t.language %>/footer/whatsapp.svg" alt="" />
+                        <img src="<%= getMedia(lang, 'single/Social-network.svg', 'images'); %>" alt=""/>
+                        <img src="<%= getMedia(lang, 'single/eitaa.svg', 'images'); %>" alt=""/>
+                        <img src="<%= getMedia(lang, 'single/instagram.svg', 'images'); %>" alt=""/>
+                        <img src="<%= getMedia(lang, 'single/telegram.svg', 'images'); %>" alt=""/>
+                        <img src="<%= getMedia(lang, 'single/whatsapp.svg', 'images'); %>" alt=""/>
                     </div>
                 </div>
             </div>
@@ -197,35 +197,35 @@
         <div
             class="service-box d-grid grid-8 grid-sm-4 justify-content-space-between gap-3 w-100 pl-xl-0 pt-10 top-line">
             <div class="d-flex flex-column align-items-center justify-content-space-between w-100">
-                <img src="./assets/media/images/<%= t.language %>/footer/8.webp" alt="" class="w-100" />
+                <img src="<%= getMedia(lang, 'single/8.webp', 'images') %>" alt=""/>
                 <span class="secondary-text-color text-nowrap txt-size-normal font-weight-bold"><%= t.components.footer.featuresBox.featureOne %></span>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-space-between w-100">
-                <img src="./assets/media/images/<%= t.language %>/footer/7-1.webp" alt="" class="w-100" />
+                <img src="<%= getMedia(lang, 'single/7-1.webp', 'images') %>" alt=""/>
                 <span class="secondary-text-color text-nowrap txt-size-normal font-weight-bold"><%= t.components.footer.featuresBox.featureTwo %></span>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-space-between w-100">
-                <img src="./assets/media/images/<%= t.language %>/footer/6-2.webp" alt="" class="w-100" />
+                <img src="<%= getMedia(lang, 'single/6-2.webp', 'images') %>" alt=""/>
                 <span class="secondary-text-color text-nowrap txt-size-normal font-weight-bold"><%= t.components.footer.featuresBox.featureThree %></span>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-space-between w-100">
-                <img src="./assets/media/images/<%= t.language %>/footer/4-2.webp" alt="" class="w-100" />
+                <img src="<%= getMedia(lang, 'single/4-2.webp', 'images') %>" alt=""/>
                 <span class="secondary-text-color text-nowrap txt-size-normal font-weight-bold"><%= t.components.footer.featuresBox.featureFour %></span>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-space-between w-100">
-                <img src="./assets/media/images/<%= t.language %>/footer/5-2.webp" alt="" class="w-100" />
+                <img src="<%= getMedia(lang, 'single/5-2.webp', 'images') %>" alt=""/>
                 <span class="secondary-text-color text-nowrap txt-size-normal font-weight-bold"><%= t.components.footer.featuresBox.featureFive %></span>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-space-between w-100">
-                <img src="./assets/media/images/<%= t.language %>/footer/3-2.webp" alt="" class="w-100" />
+                <img src="<%= getMedia(lang, 'single/3-2.webp', 'images') %>" alt=""/>
                 <span class="secondary-text-color text-nowrap txt-size-normal font-weight-bold"><%= t.components.footer.featuresBox.featureSix %></span>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-space-between w-100">
-                <img src="./assets/media/images/<%= t.language %>/footer/2-2.webp" alt="" class="w-100" />
+                <img src="<%= getMedia(lang, 'single/2-2.webp', 'images') %>" alt=""/>
                 <span class="secondary-text-color text-nowrap txt-size-normal font-weight-bold"><%= t.components.footer.featuresBox.featureSeven %></span>
             </div>
             <div class="d-flex flex-column align-items-center justify-content-space-between w-100">
-                <img src="./assets/media/images/<%= t.language %>/footer/1-2.webp" alt="" class="w-100" />
+                <img src="<%= getMedia(lang, 'single/1-2.webp', 'images') %>" alt=""/>
                 <span class="secondary-text-color text-nowrap txt-size-normal font-weight-bold"><%= t.components.footer.featuresBox.featureEight %></span>
             </div>
         </div>
@@ -233,7 +233,7 @@
         <div class="line"></div>
 
         <div class="d-flex flex-row align-items-center gap-8">
-            <img src="./assets/media/images/<%= t.language %>/footer/logo-web4.webp" alt="" class="w-2" />
+            <img src="<%= getMedia(lang, 'single/logo-web4.webp', 'images') %>" alt=""/>
             <div class="d-flex flex-column justify-content-center gap-4 align-items-center">
                 <p class="text-color txt-size-title font-weight-bold line-height-4 w-85 txt-align-center"><%= t.components.footer.aboutUsText %></p>
                 <div class="d-flex flex-column justify-content-space-between gap-xl-3 w-100 pt-10 top-line">
@@ -260,7 +260,7 @@
                     </div>
                 </div>
             </div>
-            <img src="./assets/media/images/<%= t.language %>/footer/logo-web4.webp" alt="" class="w-2" />
+            <img src="<%= getMedia(lang, 'single/logo-web4.webp', 'images') %>" alt=""/>
         </div>
 
         <div class="line btn-parent position-relative">
