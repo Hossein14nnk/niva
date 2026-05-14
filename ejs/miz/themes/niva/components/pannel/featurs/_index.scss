@@ -23,7 +23,8 @@
         }
 
         img {
-            @extend .radius-all-extra-small , .bw-1 , .border-color , .py-4 , .px-4 , .d-flex , .justify-content-center , .align-items-center , .bg-primary-color ;
+            width: 40px;
+            @extend .radius-all-normal , .py-1 , .px-1 , .d-flex , .justify-content-center , .align-items-center , .bg-primary-light-color , .border-primary-dark-color , .bw-1 , .border-style-solid ;
         }
 
     } 
@@ -31,6 +32,7 @@
     .line {
         width: 2px;
         background: var(--border);
+        
     }
     
 }

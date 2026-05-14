@@ -1,0 +1,7 @@
+@use "../../../../sass/kernel/" as *;
+
+
+.privilege{
+    box-shadow: 3px 3px 10px get-color(shadow);
+    @extend .w-100, .d-flex, .flex-column, .align-items-center, .position-relative,.gap-3, .py-8, .radius-all-medium;
+}

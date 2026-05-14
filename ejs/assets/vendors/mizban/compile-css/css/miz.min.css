@@ -343,7 +343,7 @@ html {
   color: var(--primary);
 }
 
-.bg-primary-color, .contain-feachures .featurebox img, .card a, .dropdown .dropdown-box, .dropdown .dropdown-menu > li > :not(:has(*)):hover, .dropdown .dropdown-menu > li a:hover, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle:hover, .dropdown .dropdown-menu .dropdown-submenu.active > .dropdown-submenu-toggle, .range-slider .values .value-min:focus, .range-slider .values .value-max:focus, .range-slider .range-wrapper .range-progress, .unavailable .login-btn, .baner-mobile, .banner, .countdown, .product-comment .information-comment .user-type, .progress-bar, .product-card .card-body .btn-add-to-cart, .product-card .card-body .discount-percentage, button.product-button-feature.warranty {
+.bg-primary-color, .dropdown .dropdown-box, .dropdown .dropdown-menu > li > :not(:has(*)):hover, .dropdown .dropdown-menu > li a:hover, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle:hover, .dropdown .dropdown-menu .dropdown-submenu.active > .dropdown-submenu-toggle, .range-slider .values .value-min:focus, .range-slider .values .value-max:focus, .range-slider .range-wrapper .range-progress, .unavailable .login-btn, .baner-mobile, .banner, .countdown, .product-comment .information-comment .user-type, .progress-bar, .product-card .card-body .btn-add-to-cart, .product-card .card-body .discount-percentage, button.product-button-feature.warranty {
   background-color: var(--primary);
 }
 
@@ -359,19 +359,27 @@ html {
   background-color: var(--on-primary);
 }
 
+.border-primary-light-color {
+  border-color: var(--primary-light);
+}
+
 .primary-light-color {
   color: var(--primary-light);
 }
 
-.bg-primary-light-color, .advisement {
+.bg-primary-light-color, .contain-feachures .featurebox img, .advisement {
   background-color: var(--primary-light);
+}
+
+.border-primary-dark-color, .contain-feachures .featurebox img, .card {
+  border-color: var(--primary-dark);
 }
 
 .primary-dark-color {
   color: var(--primary-dark);
 }
 
-.bg-primary-dark-color {
+.bg-primary-dark-color, .card a {
   background-color: var(--primary-dark);
 }
 
@@ -451,7 +459,7 @@ html {
   background-color: var(--section-title-text);
 }
 
-.border-color, .contain-feachures .featurebox img, .order-item, .advisement .btn-view, .button-date, .range-slider .values .value-min, .range-slider .values .value-max, .unavailable, .unavailable .wrapper-unavailable, .variable-product .container-sales-per-week .sales-per-week, .topseller, .topseller .details .content .number::after, .product-gallery.slider .slider-wrapper, .weblog-card.newest-column, .modal-container.story-modal .slider-content .story-content .story-timelines .timeline:has(~ .timeline.active), .modal-container.story-modal .slider-content .story-content .story-timelines .timeline.active, .modal-container.story-modal .slider-content.active .timeline.active, .return-condition-box, .rating-card .card-footer .comments-number, .product-details, .product-details.rating, .product-card, button.product-button-feature.payable-credit {
+.border-color, .order-item, .advisement .btn-view, .button-date, .range-slider .values .value-min, .range-slider .values .value-max, .unavailable, .unavailable .wrapper-unavailable, .variable-product .container-sales-per-week .sales-per-week, .topseller, .topseller .details .content .number::after, .product-gallery.slider .slider-wrapper, .weblog-card.newest-column, .modal-container.story-modal .slider-content .story-content .story-timelines .timeline:has(~ .timeline.active), .modal-container.story-modal .slider-content .story-content .story-timelines .timeline.active, .modal-container.story-modal .slider-content.active .timeline.active, .return-condition-box, .rating-card .card-footer .comments-number, .product-details, .product-details.rating, .product-card, button.product-button-feature.payable-credit {
   border-color: var(--border);
 }
 
@@ -741,7 +749,7 @@ html {
   border-end-end-radius: 4px;
 }
 
-.radius-all-extra-small, .contain-feachures .featurebox img, .countdown, .product-gallery.slider .slider-toggles .slider-toggle, .accordion-group .accordion .accordion-box .accordion-body {
+.radius-all-extra-small, .countdown, .product-gallery.slider .slider-toggles .slider-toggle, .accordion-group .accordion .accordion-box .accordion-body {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -819,7 +827,7 @@ html {
   border-end-end-radius: 10px;
 }
 
-.radius-all-normal, .contain-feachures {
+.radius-all-normal, .contain-feachures, .contain-feachures .featurebox img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -1045,7 +1053,7 @@ html {
   border-inline-end-style: solid;
 }
 
-.border-style-solid, .card, .advisement, .advisement .btn-view, .button-date, .dropdown .dropdown-menu, .range-slider .values .value-min, .range-slider .values .value-max, .unavailable, .topseller, .product-gallery.slider .slider-wrapper, .weblog-card.newest-column, .product-details, .product-details.rating, .product-card, button.product-button-feature.payable-credit {
+.border-style-solid, .contain-feachures .featurebox img, .card, .advisement, .advisement .btn-view, .button-date, .dropdown .dropdown-menu, .range-slider .values .value-min, .range-slider .values .value-max, .unavailable, .topseller, .product-gallery.slider .slider-wrapper, .weblog-card.newest-column, .product-details, .product-details.rating, .product-card, button.product-button-feature.payable-credit {
   border-top-style: solid;
   border-left-style: solid;
   border-bottom-style: solid;
@@ -1783,7 +1791,7 @@ html {
   width: 14%;
 }
 
-.w-15 {
+.w-15, .card img {
   width: 15%;
 }
 
@@ -5545,7 +5553,7 @@ html {
   padding-right: 0rem;
 }
 
-.px-1, .product-qa .answer-container .answer-description .user-name .user-type, .summary-opinion mark, .product-card .card-body .discount-percentage {
+.px-1, .contain-feachures .featurebox img, .product-qa .answer-container .answer-description .user-name .user-type, .summary-opinion mark, .product-card .card-body .discount-percentage {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
 }
@@ -5575,7 +5583,7 @@ html {
   padding-right: 0.75rem;
 }
 
-.px-4, .contain-feachures, .contain-feachures .featurebox img, .card a, .advisement, .product-details.rating, .biography {
+.px-4, .contain-feachures, .card a, .advisement, .product-details.rating, .biography {
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -6055,7 +6063,7 @@ html {
   padding-bottom: 0rem;
 }
 
-.py-1, .dropdown .dropdown-box, .dropdown .dropdown-menu > li > :not(:has(*)), .dropdown .dropdown-menu > li a, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle, .product-toolbar .icons-box .label .label-name, .countdown, .product-comment .information-comment .user-type, .summary-opinion mark, .product-card .card-body .credit-purchase-box img, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.payable-credit, button.product-button-feature.installments {
+.py-1, .contain-feachures .featurebox img, .dropdown .dropdown-box, .dropdown .dropdown-menu > li > :not(:has(*)), .dropdown .dropdown-menu > li a, .dropdown .dropdown-menu .dropdown-submenu .dropdown-submenu-toggle, .product-toolbar .icons-box .label .label-name, .countdown, .product-comment .information-comment .user-type, .summary-opinion mark, .product-card .card-body .credit-purchase-box img, button.product-button-feature.check-payment, button.product-button-feature.original, button.product-button-feature.fake, button.product-button-feature.warranty, button.product-button-feature.payable-credit, button.product-button-feature.installments {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
 }
@@ -6085,7 +6093,7 @@ html {
   padding-bottom: 0.75rem;
 }
 
-.py-4, .contain-feachures, .contain-feachures .featurebox img, .advisement, .unavailable .login-btn, .variable-product .container-sales-per-week .sales-per-week, .biography {
+.py-4, .contain-feachures, .advisement, .unavailable .login-btn, .variable-product .container-sales-per-week .sales-per-week, .biography {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -31173,7 +31181,7 @@ html {
   cursor: progress;
 }
 
-.aspect-ratio-1x1, .product-gallery.slider .slider-wrapper, .story-line::after, .product-category, .product-category img, .product-card .product-colors span {
+.aspect-ratio-1x1, .card img, .product-gallery.slider .slider-wrapper, .story-line::after, .product-category, .product-category img, .product-card .product-colors span {
   aspect-ratio: 1/1;
 }
 
@@ -33038,6 +33046,9 @@ div:has(.product-detail) {
 
 .contain-feachures {
   box-shadow: 2px 2px 7px 0px var(--shadow);
+}
+.contain-feachures .featurebox img {
+  width: 40px;
 }
 .contain-feachures .line {
   width: 2px;

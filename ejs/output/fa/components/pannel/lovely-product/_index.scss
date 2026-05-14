@@ -1,58 +1,28 @@
 @use "../../../../../sass/kernel/" as *;
 
 
-.focused-card {
-    background-image: url("../../assets/media/images/category/Vector-7.svg") , radial-gradient(at center , #F6F7F8 1%, #B4CBD8 );
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all 300ms;
-    @extend .position-relative , .d-flex ,  .overflow-hidden , .w-100 , .h-100 , .radius-all-medium;
+.card {
+    @extend .position-relative , .d-flex , .w-100 , .radius-all-medium , .justify-content-space-between , .bw-2 , .border-style-solid , .py-6 , .px-6 , .border-primary-dark-color ;
 
-    &:hover::before {
-        content: '';
-        width: 105%;
-        height: 105%;
+    div {
+        @extend .d-flex , .flex-column , .gap-3 , .align-items-start ;
     }
 
-    &:hover::after {
-        content: '';
-        width: 98%;
-        height: 98%;
+    .topic {
+        @extend .txt-size-high-title , .font-weight-extra-bold ;
     }
 
-    &::before {
-        content: '';
-        background-image: url("../../assets/media/images/category/Vector-6.svg") ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: all 300ms;
-        @extend .w-100 , .h-100 , .position-absolute , .bottom-0 , .right-0 , .z-index-3 ;
+    .description {
+        @extend .txt-size-big , .secondary-text-color;
     }
 
-    &::after {
-        content: '';
-        background-image: url("../../assets/media/images/category/Vector-5.svg") ;
-        background-repeat: no-repeat;
-        background-size: cover;
-        transition: all 300ms;
-        @extend .w-100 , .h-100 , .position-absolute , .bottom-0 , .right-0 , .z-index-3 ;
+    a {
+        @extend .txt-size-big , .d-flex , .justify-content-center , .py-3 , .px-4 , .align-items-center , .on-primary-color , .radius-all-small , .bg-primary-dark-color , .font-weight-semi-bold , .gap-2 ;
     }
 
-    &:hover .product-image {
-        transform: scale(1.2);
+    
+    img {
+        @extend .w-15 , .aspect-ratio-1x1 ;
     }
 
-    .content {
-        @extend .position-relative , .flex-column , .w-100 , .d-flex , .align-items-center , .justify-content-center ,.py-5;
-
-        .product-image {
-            transition: all 300ms;
-            @extend .z-index-4;
-        }
-
-    }
-
-    &:hover {
-        background-image: url("../../assets/media/images/category/Vector-7.svg") ,  radial-gradient(get-color(primary)) ;
-    }
 }
