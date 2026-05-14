@@ -244,6 +244,13 @@ const componentJson = {
             "category": "like-buttton"
         }
     ],
+    "location-button": [
+        {
+            "code": "<div class=\"location-button bw-1\">\r\n        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\">\r\n            <path d=\"M9.00016 10.0726C10.2925 10.0726 11.3402 9.02492 11.3402 7.73258C11.3402 6.44023 10.2925 5.39258 9.00016 5.39258C7.70781 5.39258 6.66016 6.44023 6.66016 7.73258C6.66016 9.02492 7.70781 10.0726 9.00016 10.0726Z\"\r\n                stroke=\"#021959\" stroke-width=\"1.5\"></path>\r\n            <path d=\"M2.71332 6.3675C4.19082 -0.127498 13.8133 -0.119998 15.2833 6.375C16.1458 10.185 13.7758 13.41 11.6983 15.405C10.1908 16.86 7.80582 16.86 6.29082 15.405C4.22082 13.41 1.85082 10.1775 2.71332 6.3675Z\"\r\n                stroke=\"#021959\" stroke-width=\"1.5\"></path>\r\n        </svg>\r\n        <span>ادرس پیش فرض در انتخاب سریع تر شما</span>\r\n        <span>با تعیین آدرس پیش فرض در خریدهای آینده سریع تر و اسن ترسفارش خودد را ثبت کنید.</span>\r\n    </div>",
+            "icon": "",
+            "category": "location-button"
+        }
+    ],
     "modal": [
         {
             "code": "",
@@ -571,6 +578,20 @@ const componentJson = {
             "code": "<div class=\"d-flex align-items-center\">\r\n            <div class=\"switcher d-flex align-items-center radius-all-large\">\r\n                <div class=\"ball radius-all-large bg-on-secondary-color\"></div>\r\n            </div>\r\n        </div>\r\n    <script src=\"../../../../../assets/vendors/swiper/swiper-bundle-min.js\"></script>\r\n    <script src=\"../../../../../assets/js/mizchin.min.js\"></script>",
             "icon": "",
             "category": "switcher"
+        }
+    ],
+    "admin-tiket": [
+        {
+            "code": "<div class=\"admin-tiket d-flex justify-content-space-between bw-1 border-primary-color bg-primary-light-color border-style-solid radius-all-normal py-6 px-8 flex-lg-column\">\r\n        <div class=\"d-flex justify-content-start gap-10\">\r\n            <div class=\"d-flex gap-2 justify-content-center align-items-start\">\r\n                <div class=\"wraper-user-image bg-primary-color\">\r\n                    <i class=\"fa-regular fa-headset icon-headset\"></i>\r\n                </div>\r\n                <div class=\"d-flex flex-column gap-4\">\r\n                    <p class=\"font-weight-bold text-color txt-size-high-title\">پشتیبانی نیوا</p>\r\n                    <p class=\"secondary-text-color \">تیم پشتیبانی </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"py-4\">\r\n                <p class=\"secondary-text-color \">\r\n                    سلام امیر رضایی عزیز .<br>\r\n                    ممنون که با ما در ارتباط هستید.<br>\r\n                    لطفا از اتصال اینترنت خود مطمئن شوید و مجددااز درگاه پرداخت استفاده کنید.<br>\r\n                    در صورت ادامه مشکل لطفا اسکرین شات خطا را برای ما ارسال کنید.\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"d-flex flex-column gap-2 align-items-end\">\r\n            <span class=\"secondary-text-color \">11:35 - 1401/04/25</span>\r\n            <span class=\"border-color border-style-solid bw-1 radius-all-extra-small px-3 py-1 txt-size-title bg-secondary-color text-color\"> پاسخ پشتیبانی</span>\r\n        </div>\r\n    </div>",
+            "icon": "",
+            "category": "tiket"
+        }
+    ],
+    "user-tiket": [
+        {
+            "code": "<div class=\"admin-tiket d-flex justify-content-space-between bw-1 border-color border-style-solid radius-all-normal py-6 px-8 flex-lg-column\">\r\n                <div class=\"d-flex justify-content-start gap-10\">\r\n                    <div class=\"d-flex gap-2 justify-content-center align-items-start\">\r\n                        <div class=\"radius-all-full\">\r\n                            <img class=\"user-image\" src=\"./assets/media/images/fa/people/person-5.webp\" alt=\"\">\r\n                        </div>\r\n                        <div class=\"d-flex flex-column gap-3\">\r\n                            <p class=\"font-weight-bold text-color txt-size-high-title\">شما</p>\r\n                            <p class=\"secondary-text-color \">امیر رضایی</p>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"py-4\">\r\n                        <p class=\"secondary-text-color \">\r\n                        سلام من هنگام پرداخت سفارش با خطا مواجه میشم و پرداخت انجام نمیشه\r\n                        لطفا راهنمایی کنید.\r\n                        </p>\r\n                    </div>\r\n                </div>\r\n                <div class=\"d-flex flex-column gap-2 align-items-end\">\r\n                    <span class=\"secondary-text-color \">10:30 - 1401/04/25</span>\r\n                    <span class=\"border-color border-style-solid bw-1 radius-all-extra-small px-3 py-1 txt-size-title bg-secondary-color\">پیام شما</span>\r\n                </div>\r\n            </div>",
+            "icon": "",
+            "category": "tiket"
         }
     ],
     "topseller": [
