@@ -1,7 +1,12 @@
-<%- include('../../../layouts/component/head.ejs', {pageName: "focused-card", level:1}); %>
+<%- include('../../../layouts/component/head.ejs' , {pageName : "lovely-product", level : 1}); -%>
 
-<div class="d-grid grid-5">
-    <%- include('./content.ejs', {focusedCard: t.components.categoryCard.focusedCard}); %>
+<div class="d-grid grid-2">
+       <%- include('content.ejs'  , 
+       {
+        topic : t.components.pannel.lovelyProduct.topic ,
+        description : t.components.pannel.lovelyProduct.description ,
+        btn : t.components.pannel.lovelyProduct.btn 
+       });    -%>
 </div>
 
-<%- include('../../../layouts/component/foot.ejs'); %>
+<%- include('../../../layouts/component/foot.ejs'); -%>

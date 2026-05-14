@@ -823,6 +823,31 @@
 			"title":"Need more guidance?",
 			"description":"See our FAQ and contact support.",
 			"button":"View faq"
+		}, 
+		"pannel": {
+			"lovelyProduct": {
+				"topic" : "Don't miss out on your favorite products!",
+				"description" : "Prices may change. Finalize your purchase soon",
+				"btn" : "View Cart"
+			},
+			"featurs": [
+				{
+					"title" : "7-Day Money Back Guarantee",
+					"subtitle" : "Risk-Free Purchase"
+				},
+				{
+					"title" : "Guaranteed Authenticity",
+					"subtitle" : "Safe and Secure Purchase"
+				},
+				{
+					"title" : "Fast Shipping",
+					"subtitle" : "Nationwide"
+				},
+				{
+					"title" : "24-Hour Support",
+					"subtitle" : "We Are Always With You"
+				}
+			]
 		}
 	},
 	"pages": {

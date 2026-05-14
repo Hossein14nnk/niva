@@ -1,0 +1,37 @@
+@use "../../../../../sass/kernel/" as *;
+
+
+.contain-feachures {
+    box-shadow : 2px 2px 7px 0px var(--shadow);
+    @extend .w-100 , .d-flex , .justify-content-space-between , .py-4 , .gap-4 , .px-4 , .radius-all-normal ;
+
+    .featurebox {
+        @extend .d-flex , .align-items-center , .gap-4 ;
+
+        div {
+            @extend .d-flex , .flex-column , .align-items-end ; 
+
+            .topic {
+
+                @extend .txt-size-big , .txt-wrap-nowrap , .font-weight-semi-bold;
+            }
+
+            .description {
+
+                @extend .txt-size-normal , .secondary-text-color , .font-weight-medium , .txt-wrap-nowrap ;
+            }
+        }
+
+        img {
+            width : 40px;
+            @extend .radius-all-normal , .py-1 , .px-1 , .d-flex , .justify-content-center , .align-items-center , .bg-primary-light-color , .border-primary-dark-color , .bw-1 , .border-style-solid ;
+        }
+
+    } 
+
+    .line {
+        width: 2px;
+        background: var(--border);
+    }
+    
+}

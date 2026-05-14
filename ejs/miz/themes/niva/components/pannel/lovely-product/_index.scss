@@ -20,9 +20,7 @@
         @extend .txt-size-big , .d-flex , .justify-content-center , .py-3 , .px-4 , .align-items-center , .on-primary-color , .radius-all-small , .bg-primary-dark-color , .font-weight-semi-bold , .gap-2 ;
     }
 
-    
     img {
-        @extend .w-15 , .aspect-ratio-1x1 ;
+         @extend .w-15 , .aspect-ratio-1x1 ;
     }
-
 }
