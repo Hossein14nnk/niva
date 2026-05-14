@@ -797,55 +797,85 @@
 			"soldOut": "Sold Out: 1400",
 			"remaining": "Remaining: 13875 ",
 			"add": "add to cart",
-			"alert":"added to your cart",
-			"price":"Free"
+			"alert": "added to your cart",
+			"price": "Free"
 		},
-		"tiket":{
-			"adminTiket":{
-				"title":" Niva support",
-				"subtitle":" Support team",
-				"description1":"Hello, dear Amir Rezaei.",
-				"description2":"Thank you for contacting us.",
-				"description3":"Please make sure your internet connection is working and try the payment gateway again.",
-				"description4":"If the problem persists, please send us a screenshot of the error.",
-				"date":"11:35 - 1401/04/25",
-				"replay":"Answer support"
+		"tiket": {
+			"adminTiket": {
+				"title": " Niva support",
+				"subtitle": " Support team",
+				"description1": "Hello, dear Amir Rezaei.",
+				"description2": "Thank you for contacting us.",
+				"description3": "Please make sure your internet connection is working and try the payment gateway again.",
+				"description4": "If the problem persists, please send us a screenshot of the error.",
+				"date": "11:35 - 1401/04/25",
+				"replay": "Answer support"
 			},
-			"userTiket":{
-				"title":" you",
-				"subtitle":"amir rezaee",
-				"description":"I am getting an error when paying for my order and the payment is not going through. Please help.",
-				"date":"10:30 - 1401/04/25",
-				"replay":"your message"
+			"userTiket": {
+				"title": " you",
+				"subtitle": "amir rezaee",
+				"description": "I am getting an error when paying for my order and the payment is not going through. Please help.",
+				"date": "10:30 - 1401/04/25",
+				"replay": "your message"
 			}
 		},
-		"advisement":{
-			"title":"Need more guidance?",
-			"description":"See our FAQ and contact support.",
-			"button":"View faq"
-		}, 
+		"advisement": {
+			"title": "Need more guidance?",
+			"description": "See our FAQ and contact support.",
+			"button": "View faq"
+		},
 		"pannel": {
 			"lovelyProduct": {
-				"topic" : "Don't miss out on your favorite products!",
-				"description" : "Prices may change. Finalize your purchase soon",
-				"btn" : "View Cart"
+				"topic": "Don't miss out on your favorite products!",
+				"description": "Prices may change. Finalize your purchase soon",
+				"btn": "View Cart"
 			},
 			"featurs": [
 				{
-					"title" : "7-Day Money Back Guarantee",
-					"subtitle" : "Risk-Free Purchase"
+					"title": "7-Day Money Back Guarantee",
+					"subtitle": "Risk-Free Purchase"
 				},
 				{
-					"title" : "Guaranteed Authenticity",
-					"subtitle" : "Safe and Secure Purchase"
+					"title": "Guaranteed Authenticity",
+					"subtitle": "Safe and Secure Purchase"
 				},
 				{
-					"title" : "Fast Shipping",
-					"subtitle" : "Nationwide"
+					"title": "Fast Shipping",
+					"subtitle": "Nationwide"
 				},
 				{
-					"title" : "24-Hour Support",
-					"subtitle" : "We Are Always With You"
+					"title": "24-Hour Support",
+					"subtitle": "We Are Always With You"
+				}
+			]
+		}
+	},
+	"advisement": {
+		"title": "نیاز به راهنمایی بیشتر دارید؟",
+		"description": "پرسش های متداول ما را ببینید و با پشتیبانی درارتباط باشید",
+		"button": "مشاهده سوالات متداول",
+		"pannel": {
+			"lovelyProduct": {
+				"topic": "محصولات مورد علاقه‌ات را از دست نده!",
+				"description": "قیمت ها ممکنه تغییر کنن. زودتر خریدت رو نهایی کن",
+				"btn": "مشاهده سبد خرید"
+			},
+			"featurs": [
+				{
+					"title": "7 روز ضمانت بازگشت",
+					"subtitle": "خرید بدون ریسک"
+				},
+				{
+					"title": "ضمانت اصالت کالا",
+					"subtitle": "خرید مطمئن و امن"
+				},
+				{
+					"title": "ارسال سریع",
+					"subtitle": "به سراسر کشور"
+				},
+				{
+					"title": "پشتیبانی 24 ساعته",
+					"subtitle": "همیشه در کنار شما هستیم"
 				}
 			]
 		}
@@ -3153,7 +3183,7 @@
 				"link": "#"
 			},
 			"weblog": {
-				"title":"weblog",
+				"title": "weblog",
 				"components": {
 					"banner": {
 						"src": "fa/weblog/banner_SlideBannerr.webp",
@@ -7359,8 +7389,8 @@
 				"soldOut": "Sold Out: 1400",
 				"remaining": "Remaining: 13875 ",
 				"add": "add to cart",
-				"alert":"added to your cart",
-				"price":"Free"
+				"alert": "added to your cart",
+				"price": "Free"
 			},
 			"rattingSection": {
 				"head": "User Ratings and Reviews",
