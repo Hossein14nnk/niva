@@ -9,17 +9,14 @@
 		"name": "niva",
 		"logoImage": {
 			"original": {
-				"link": "./output/fa/pages/index.html",
 				"src": "fa/header/logo-web1.webp",
 				"alt": "logo original"
 			},
 			"simple": {
-				"link": "./output/fa/pages/index.html",
 				"src": "fa/logo-web3.webp",
 				"alt": "logo simple"
 			},
 			"replaceSimple": {
-				"link": "./output/fa/pages/index.html",
 				"src": "fa/homepage/logo-web-gold.webp",
 				"alt": "logo replace simple"
 			}
@@ -106,7 +103,6 @@
 			},
 			"textual": {
 				"title": "Report lower price",
-				"link": "Store link or address",
 				"price": "Product price",
 				"report": "Report better price"
 			}
@@ -241,8 +237,7 @@
 				"readingTime": "15 Minutes",
 				"banner": {
 					"src": "fa/component/Rectangle 1036.webp",
-					"alt": "",
-					"link": "./output/fa/pages/article.html"
+					"alt": ""
 				}
 			}
 		},
@@ -391,8 +386,7 @@
 				{
 					"profile": {
 						"title": {
-							"text": "hossein kazemi 1",
-							"link": "#"
+							"text": "hossein kazemi 1"
 						}
 					},
 					"likeCount": "10",
@@ -401,8 +395,7 @@
 				{
 					"profile": {
 						"title": {
-							"text": "hossein kazemi 2",
-							"link": "#"
+							"text": "hossein kazemi 2"
 						}
 					},
 					"likeCount": "50",
@@ -411,22 +404,17 @@
 			]
 		},
 		"deviceBanner": {
-			"link": "#",
 			"title": "watch"
 		},
 		"commodityPack": {
-			"link": "#",
 			"count": 2,
 			"title": "Sony Slim Camouflage PULSE Elite Wireless PlayStation Headset",
 			"price": "80,000,000",
 			"discountPercentage": "10"
 		},
 		"categoryCard": {
-			"focusedCard": {
-				"link": "#"
-			},
+			"focusedCard": {},
 			"labeledCard": {
-				"link": "#",
 				"title": "Powerbank"
 			}
 		},
@@ -459,12 +447,10 @@
 			]
 		},
 		"seeAll": {
-			"link": "#",
 			"title": "title"
 		},
 		"topseller": {
-			"title": "Biva Gaming Headphones",
-			"link": "#"
+			"title": "Biva Gaming Headphones"
 		},
 		"reportBtn": {
 			"text": "Report this review",
@@ -885,25 +871,20 @@
 			"title": "Suggested Categories",
 			"components": {
 				"seeAll": {
-					"link": "#",
 					"title": "title"
 				},
 				"topsellers": [
 					{
-						"title": "Biva Gaming Headphones",
-						"link": "#"
+						"title": "Biva Gaming Headphones"
 					},
 					{
-						"title": "Biva Gaming Headphones",
-						"link": "#"
+						"title": "Biva Gaming Headphones"
 					},
 					{
-						"title": "Biva Gaming Headphones",
-						"link": "#"
+						"title": "Biva Gaming Headphones"
 					},
 					{
-						"title": "Biva Gaming Headphones",
-						"link": "#"
+						"title": "Biva Gaming Headphones"
 					}
 				]
 			}
@@ -985,8 +966,7 @@
 					"readingTime": "15 Minutes",
 					"banner": {
 						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
+						"alt": ""
 					}
 				},
 				"latestBlogPost": [
@@ -995,7 +975,7 @@
 						"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 						"date": "Sep 28, 2024",
 						"commentCount": 1,
-						"link": "./output/fa/pages/article.html",
+
 						"showViewAndReadingTime": false
 					},
 					{
@@ -1003,7 +983,7 @@
 						"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 						"date": "Sep 28, 2024",
 						"commentCount": 1,
-						"link": "./output/fa/pages/article.html",
+
 						"showViewAndReadingTime": false
 					},
 					{
@@ -1011,7 +991,7 @@
 						"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 						"date": "Sep 28, 2024",
 						"commentCount": 1,
-						"link": "./output/fa/pages/article.html",
+
 						"showViewAndReadingTime": false
 					},
 					{
@@ -1019,7 +999,7 @@
 						"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 						"date": "Sep 28, 2024",
 						"commentCount": 1,
-						"link": "./output/fa/pages/article.html",
+
 						"showViewAndReadingTime": false
 					}
 				],
@@ -1031,8 +1011,7 @@
 					"readingTime": "15 Minutes",
 					"banner": {
 						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
+						"alt": ""
 					}
 				}
 			},
@@ -1045,7 +1024,6 @@
 					"readingTime": "15 Minutes",
 					"postView": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": false
 				},
 				{
@@ -1056,7 +1034,6 @@
 					"readingTime": "15 Minutes",
 					"postView": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": false
 				},
 				{
@@ -1067,7 +1044,6 @@
 					"readingTime": "15 Minutes",
 					"postView": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": false
 				},
 				{
@@ -1078,7 +1054,6 @@
 					"readingTime": "15 Minutes",
 					"postView": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": false
 				}
 			],
@@ -1089,7 +1064,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1098,7 +1072,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1107,7 +1080,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1116,7 +1088,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1125,7 +1096,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1134,7 +1104,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1143,7 +1112,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				}
 			],
@@ -1156,7 +1124,6 @@
 					"readingTime": "15 Minutes",
 					"postView": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				},
 				{
@@ -1167,7 +1134,6 @@
 					"readingTime": "15 Minutes",
 					"postView": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				},
 				{
@@ -1178,7 +1144,6 @@
 					"readingTime": "15 Minutes",
 					"postView": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				}
 			],
@@ -1191,7 +1156,6 @@
 					"readingTime": "15 Minutes",
 					"postView": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				},
 				{
@@ -1202,7 +1166,6 @@
 					"readingTime": "15 Minutes",
 					"postView": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				},
 				{
@@ -1213,7 +1176,6 @@
 					"readingTime": "15 Minutes",
 					"postView": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				}
 			],
@@ -1300,7 +1262,6 @@
 					"readingTime": "15 Minutes",
 					"view": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": true
 				},
 				{
@@ -1311,7 +1272,6 @@
 					"readingTime": "15 Minutes",
 					"view": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": true
 				},
 				{
@@ -1322,7 +1282,6 @@
 					"readingTime": "15 Minutes",
 					"view": 1553,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": true
 				}
 			],
@@ -1361,7 +1320,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1370,7 +1328,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1379,7 +1336,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1388,7 +1344,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				}
 			]
@@ -1404,7 +1359,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1413,7 +1367,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1422,7 +1375,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1431,7 +1383,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1440,7 +1391,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1449,7 +1399,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1458,7 +1407,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1467,7 +1415,6 @@
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
 
-					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				}
 			]
@@ -1686,8 +1633,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1696,8 +1642,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1714,8 +1659,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1724,8 +1668,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1742,8 +1685,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1752,8 +1694,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1770,8 +1711,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1780,8 +1720,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1798,8 +1737,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1808,8 +1746,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1826,8 +1763,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1836,8 +1772,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1854,8 +1789,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1864,8 +1798,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1882,8 +1815,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1892,8 +1824,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1910,8 +1841,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1920,8 +1850,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1948,7 +1877,7 @@
 			"exceptionalOffers": {
 				"banner": {
 					"title": "View More",
-					"link": "./pages/offers.html",
+
 					"src": "fa/homepage/offerpic-1.webp",
 					"alt": "alt offerpic-1.webp",
 					"responsive": {
@@ -2077,82 +2006,18 @@
 				"title": "Most Popular Categories",
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "View All"
 					},
-					"focusedCards": [
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						}
-					]
+					"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
 				}
 			},
 			"bestSellers": {
 				"title": "Best Selling Products",
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "View All"
 					},
-					"focusedCards": [
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						}
-					],
+					"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 					"productCards": [
 						{
 							"title": "Sony Slim Camouflage PlayStation Headset",
@@ -2300,7 +2165,7 @@
 			"laptopOffers": {
 				"banner": {
 					"title": "View More",
-					"link": "./pages/offers.html",
+
 					"src": "fa/homepage/offerpic-1.webp",
 					"alt": "alt offerpic-1.webp",
 					"responsive": {
@@ -2428,17 +2293,14 @@
 			"bestsellersCategory": {
 				"banners": [
 					{
-						"link": "#",
 						"src": "fa/homepage/banner-sale.webp",
 						"alt": "alt banner-sale.webp"
 					},
 					{
-						"link": "#",
 						"src": "fa/homepage/banner-sale2.webp",
 						"alt": "alt banner-sale2.webp"
 					},
 					{
-						"link": "#",
 						"src": "fa/homepage/banner-sale3.webp",
 						"alt": "alt banner-sale3.webp"
 					}
@@ -2448,41 +2310,9 @@
 				"title": "Most Economical Products",
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "View All"
 					},
-					"focusedCards": [
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						}
-					],
+					"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 					"productCards": [
 						{
 							"title": "Sony Slim Camouflage PlayStation Headset",
@@ -2631,28 +2461,22 @@
 				"title": "Most Popular Categories",
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "View More"
 					},
 					"deviceBanners": [
 						{
-							"link": "./output/fa/pages/shop.html",
 							"title": "Camera"
 						},
 						{
-							"link": "./output/fa/pages/shop.html",
 							"title": "Watch"
 						},
 						{
-							"link": "./output/fa/pages/shop.html",
 							"title": "Laptop"
 						},
 						{
-							"link": "./output/fa/pages/shop.html",
 							"title": "Tablet"
 						},
 						{
-							"link": "./output/fa/pages/shop.html",
 							"title": "Mobile"
 						}
 					]
@@ -2663,7 +2487,6 @@
 				"tasteBoxes": [
 					{
 						"category": {
-							"link": "#",
 							"title": "Mobile",
 							"text": "Based on your taste"
 						},
@@ -2671,7 +2494,6 @@
 					},
 					{
 						"category": {
-							"link": "#",
 							"title": "Speaker",
 							"text": "Based on your taste"
 						},
@@ -2679,7 +2501,6 @@
 					},
 					{
 						"category": {
-							"link": "#",
 							"title": "Powerbank",
 							"text": "Based on your taste"
 						},
@@ -2687,7 +2508,6 @@
 					},
 					{
 						"category": {
-							"link": "#",
 							"title": "Laptop",
 							"text": "Based on your taste"
 						},
@@ -2696,7 +2516,6 @@
 				],
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "View All"
 					}
 				}
@@ -2716,49 +2535,42 @@
 				"components": {
 					"commodityPacks": [
 						{
-							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"link": "#",
 							"count": 2,
 							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
 							"price": "80,000,000",
@@ -2770,7 +2582,7 @@
 			"mobileOffers": {
 				"banner": {
 					"title": "View More",
-					"link": "./pages/offers.html",
+
 					"src": "fa/homepage/offerpic-1.webp",
 					"alt": "alt offerpic-1.webp",
 					"responsive": {
@@ -2899,41 +2711,9 @@
 				"title": "Best Selling Mobiles",
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "View All"
 					},
-					"focusedCards": [
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						}
-					],
+					"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 					"productCards": [
 						{
 							"title": "Sony Slim Camouflage PlayStation Headset",
@@ -3080,52 +2860,41 @@
 			},
 			"bannerProduct": {
 				"src": "fa/homepage/best-seller-wrapper.webp",
-				"alt": "alt best-seller-wrapper.webp",
-				"link": "#"
+				"alt": "alt best-seller-wrapper.webp"
 			},
 			"suggestionCategories": {
 				"title": "Suggested Categories",
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "View All"
 					},
 					"topsellers": [
 						{
-							"title": "Biva Gaming Headphones",
-							"link": "#"
+							"title": "Biva Gaming Headphones"
 						},
 						{
-							"title": " Gaming Console ",
-							"link": "#"
+							"title": " Gaming Console "
 						},
 						{
-							"title": " Laptop ",
-							"link": "#"
+							"title": " Laptop "
 						},
 						{
-							"title": " Gamepad ",
-							"link": "#"
+							"title": " Gamepad "
 						},
 						{
-							"title": " Mobile Phone ",
-							"link": "#"
+							"title": " Mobile Phone "
 						},
 						{
-							"title": " Xiaomi Mobile ",
-							"link": "#"
+							"title": " Xiaomi Mobile "
 						},
 						{
-							"title": " Apple Mobile ",
-							"link": "#"
+							"title": " Apple Mobile "
 						},
 						{
-							"title": " Gaming Console ",
-							"link": "#"
+							"title": " Gaming Console "
 						},
 						{
-							"title": " Apple Mobile ",
-							"link": "#"
+							"title": " Apple Mobile "
 						}
 					]
 				}
@@ -3172,15 +2941,13 @@
 				],
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "View All"
 					}
 				}
 			},
 			"bannerProductSecond": {
 				"src": "fa/homepage/best-seller-wrapper.webp",
-				"alt": "alt best-seller-wrapper.webp",
-				"link": "#"
+				"alt": "alt best-seller-wrapper.webp"
 			},
 			"weblog": {
 				"title": "weblog",
@@ -3198,8 +2965,7 @@
 							"readingTime": "15 Minutes",
 							"banner": {
 								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
+								"alt": ""
 							}
 						},
 						"latestBlogPost": [
@@ -3209,7 +2975,6 @@
 								"date": "Sep 28, 2024",
 								"commentCount": 1,
 
-								"link": "./output/fa/pages/article.html",
 								"showViewAndReadingTime": false
 							},
 							{
@@ -3218,7 +2983,6 @@
 								"date": "Sep 28, 2024",
 								"commentCount": 1,
 
-								"link": "./output/fa/pages/article.html",
 								"showViewAndReadingTime": false
 							},
 							{
@@ -3227,7 +2991,6 @@
 								"date": "Sep 28, 2024",
 								"commentCount": 1,
 
-								"link": "./output/fa/pages/article.html",
 								"showViewAndReadingTime": false
 							},
 							{
@@ -3236,7 +2999,6 @@
 								"date": "Sep 28, 2024",
 								"commentCount": 1,
 
-								"link": "./output/fa/pages/article.html",
 								"showViewAndReadingTime": false
 							}
 						],
@@ -3248,8 +3010,7 @@
 							"readingTime": "15 Minutes",
 							"banner": {
 								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
+								"alt": ""
 							}
 						}
 					},
@@ -3262,7 +3023,6 @@
 							"readingTime": "15 Minutes",
 							"postView": 1553,
 
-							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": false
 						},
 						{
@@ -3273,7 +3033,6 @@
 							"readingTime": "15 Minutes",
 							"postView": 1553,
 
-							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": false
 						},
 						{
@@ -3284,7 +3043,6 @@
 							"readingTime": "15 Minutes",
 							"postView": 1553,
 
-							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": false
 						},
 						{
@@ -3295,7 +3053,6 @@
 							"readingTime": "15 Minutes",
 							"postView": 1553,
 
-							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": false
 						}
 					],
@@ -3306,7 +3063,6 @@
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
 
-							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
 						{
@@ -3315,7 +3071,6 @@
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
 
-							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
 						{
@@ -3324,7 +3079,6 @@
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
 
-							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
 						{
@@ -3333,7 +3087,6 @@
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
 
-							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
 						{
@@ -3342,7 +3095,6 @@
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
 
-							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
 						{
@@ -3351,7 +3103,6 @@
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
 
-							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
 						{
@@ -3360,7 +3111,6 @@
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
 
-							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						}
 					],
@@ -3373,7 +3123,6 @@
 							"readingTime": "15 Minutes",
 							"postView": 1553,
 
-							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						},
 						{
@@ -3384,7 +3133,6 @@
 							"readingTime": "15 Minutes",
 							"postView": 1553,
 
-							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						},
 						{
@@ -3395,7 +3143,6 @@
 							"readingTime": "15 Minutes",
 							"postView": 1553,
 
-							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						}
 					],
@@ -3408,7 +3155,6 @@
 							"readingTime": "15 Minutes",
 							"postView": 1553,
 
-							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						},
 						{
@@ -3419,7 +3165,6 @@
 							"readingTime": "15 Minutes",
 							"postView": 1553,
 
-							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						},
 						{
@@ -3430,7 +3175,6 @@
 							"readingTime": "15 Minutes",
 							"postView": 1553,
 
-							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						}
 					],
@@ -3967,77 +3711,36 @@
 				],
 				"category": {
 					"categoryCards": {
-						"focusedCards": [
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							}
-						],
+						"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 						"labeledCards": [
 							{
-								"link": "#",
 								"title": "Mobile"
 							},
 							{
-								"link": "#",
 								"title": "Speaker"
 							},
 							{
-								"link": "#",
 								"title": "Powerbank"
 							},
 							{
-								"link": "#",
 								"title": "Tablet"
 							},
 							{
-								"link": "#",
 								"title": "Smartwatch"
 							},
 							{
-								"link": "#",
 								"title": "Computer"
 							},
 							{
-								"link": "#",
 								"title": "Gaming Console"
 							},
 							{
-								"link": "#",
 								"title": "Laptop"
 							},
 							{
-								"link": "#",
 								"title": "Headphone"
 							},
 							{
-								"link": "#",
 								"title": "Office Machine"
 							}
 						]
@@ -8688,241 +8391,190 @@
 					"parents": [
 						{
 							"title": "Various Mobile Phone Brands",
-							"link": "#",
+
 							"items": [
 								{
-									"title": "iPhone",
-									"link": "#"
+									"title": "iPhone"
 								},
 								{
-									"title": "Samsung Phone",
-									"link": "#"
+									"title": "Samsung Phone"
 								},
 								{
-									"title": "Xiaomi Phone",
-									"link": "#"
+									"title": "Xiaomi Phone"
 								},
 								{
-									"title": "Nokia Phone",
-									"link": "#"
+									"title": "Nokia Phone"
 								},
 								{
-									"title": "Realme Phone",
-									"link": "#"
+									"title": "Realme Phone"
 								},
 								{
-									"title": "Honor Phone",
-									"link": "#"
+									"title": "Honor Phone"
 								},
 								{
-									"title": "Motorola Phone",
-									"link": "#"
+									"title": "Motorola Phone"
 								},
 								{
-									"title": "Nothing Phone",
-									"link": "#"
+									"title": "Nothing Phone"
 								},
 								{
-									"title": "GPlus Phone",
-									"link": "#"
+									"title": "GPlus Phone"
 								},
 								{
-									"title": "Huawei Phone",
-									"link": "#"
+									"title": "Huawei Phone"
 								},
 								{
-									"title": "GLX Phone",
-									"link": "#"
+									"title": "GLX Phone"
 								},
 								{
-									"title": "General Luxe Phones",
-									"link": "#"
+									"title": "General Luxe Phones"
 								},
 								{
-									"title": "Daria Phone",
-									"link": "#"
+									"title": "Daria Phone"
 								},
 								{
-									"title": "Google Phone",
-									"link": "#"
+									"title": "Google Phone"
 								},
 								{
-									"title": "Oppo Phone",
-									"link": "#"
+									"title": "Oppo Phone"
 								},
 								{
-									"title": "Tecno Mobile Phone",
-									"link": "#"
+									"title": "Tecno Mobile Phone"
 								},
 								{
-									"title": "OnePlus Phone",
-									"link": "#"
+									"title": "OnePlus Phone"
 								},
 								{
-									"title": "Doogee Mobile Phone",
-									"link": "#"
+									"title": "Doogee Mobile Phone"
 								}
 							]
 						},
 						{
 							"title": "Phone by Price",
-							"link": "#",
+
 							"items": [
 								{
-									"title": "Cheap Mobile Phone",
-									"link": "#"
+									"title": "Cheap Mobile Phone"
 								},
 								{
-									"title": "Installment Mobile Phone",
-									"link": "#"
+									"title": "Installment Mobile Phone"
 								},
 								{
-									"title": "Phone up to 2 Million Tomans",
-									"link": "#"
+									"title": "Phone up to 2 Million Tomans"
 								},
 								{
-									"title": "Phone up to 5 Million Tomans",
-									"link": "#"
+									"title": "Phone up to 5 Million Tomans"
 								},
 								{
-									"title": "Phone up to 7 Million Tomans",
-									"link": "#"
+									"title": "Phone up to 7 Million Tomans"
 								},
 								{
-									"title": "Phone up to 15 Million Tomans",
-									"link": "#"
+									"title": "Phone up to 15 Million Tomans"
 								},
 								{
-									"title": "Phone above 15 Million Tomans",
-									"link": "#"
+									"title": "Phone above 15 Million Tomans"
 								}
 							]
 						},
 						{
 							"title": "Phone by Performance",
-							"link": "#",
+
 							"items": [
 								{
-									"title": "Gaming Phone",
-									"link": "#"
+									"title": "Gaming Phone"
 								},
 								{
-									"title": "5G Phone",
-									"link": "#"
+									"title": "5G Phone"
 								},
 								{
-									"title": "Feature Phone",
-									"link": "#"
+									"title": "Feature Phone"
 								},
 								{
-									"title": "Waterproof Phone",
-									"link": "#"
+									"title": "Waterproof Phone"
 								},
 								{
-									"title": "Mid-range Phone",
-									"link": "#"
+									"title": "Mid-range Phone"
 								},
 								{
-									"title": "Economic Phone",
-									"link": "#"
+									"title": "Economic Phone"
 								},
 								{
-									"title": "Student Phone",
-									"link": "#"
+									"title": "Student Phone"
 								},
 								{
-									"title": "Flagship Phone",
-									"link": "#"
+									"title": "Flagship Phone"
 								}
 							]
 						},
 						{
 							"title": "Phone by Internal Storage",
-							"link": "#",
+
 							"items": [
 								{
-									"title": "Phone up to 16GB",
-									"link": "#"
+									"title": "Phone up to 16GB"
 								},
 								{
-									"title": "Phone up to 32GB",
-									"link": "#"
+									"title": "Phone up to 32GB"
 								},
 								{
-									"title": "Phone up to 64GB",
-									"link": "#"
+									"title": "Phone up to 64GB"
 								},
 								{
-									"title": "Phone up to 128GB",
-									"link": "#"
+									"title": "Phone up to 128GB"
 								},
 								{
-									"title": "Phone up to 256GB",
-									"link": "#"
+									"title": "Phone up to 256GB"
 								},
 								{
-									"title": "Phone up to 1TB",
-									"link": "#"
+									"title": "Phone up to 1TB"
 								}
 							]
 						},
 						{
 							"title": "Phone by Photo Resolution",
-							"link": "#",
+
 							"items": [
 								{
-									"title": "Phone up to 13 Megapixels",
-									"link": "#"
+									"title": "Phone up to 13 Megapixels"
 								},
 								{
-									"title": "Phone up to 16 Megapixels",
-									"link": "#"
+									"title": "Phone up to 16 Megapixels"
 								},
 								{
-									"title": "Phone up to 48 Megapixels",
-									"link": "#"
+									"title": "Phone up to 48 Megapixels"
 								},
 								{
-									"title": "Phone up to 64 Megapixels",
-									"link": "#"
+									"title": "Phone up to 64 Megapixels"
 								},
 								{
-									"title": "Phone up to 108 Megapixels",
-									"link": "#"
+									"title": "Phone up to 108 Megapixels"
 								},
 								{
-									"title": "Phone up to 1TB",
-									"link": "#"
+									"title": "Phone up to 1TB"
 								}
 							]
 						},
 						{
 							"title": "Mobile Accessories",
-							"link": "#",
+
 							"items": [
 								{
-									"title": "Phone Charger",
-									"link": "#"
+									"title": "Phone Charger"
 								},
 								{
-									"title": "Phone Case",
-									"link": "#"
+									"title": "Phone Case"
 								},
 								{
-									"title": "Phone Screen Protector",
-									"link": "#"
+									"title": "Phone Screen Protector"
 								},
 								{
-									"title": "Mobile Phone Holder",
-									"link": "#"
+									"title": "Mobile Phone Holder"
 								},
 								{
-									"title": "Charging Cable and Adapter",
-									"link": "#"
+									"title": "Charging Cable and Adapter"
 								},
 								{
-									"title": "Power Bank (Portable Charger)",
-									"link": "#"
+									"title": "Power Bank (Portable Charger)"
 								}
 							]
 						}
@@ -8934,281 +8586,220 @@
 					"parents": [
 						{
 							"title": "Laptop by Brand",
-							"link": "#",
+
 							"items": [
 								{
-									"title": "Lenovo Laptop",
-									"link": "#"
+									"title": "Lenovo Laptop"
 								},
 								{
-									"title": "MacBook Laptop",
-									"link": "#"
+									"title": "MacBook Laptop"
 								},
 								{
-									"title": "HP Laptop",
-									"link": "#"
+									"title": "HP Laptop"
 								},
 								{
-									"title": "Dell Laptop",
-									"link": "#"
+									"title": "Dell Laptop"
 								},
 								{
-									"title": "Acer Laptop",
-									"link": "#"
+									"title": "Acer Laptop"
 								},
 								{
-									"title": "MSI Laptop",
-									"link": "#"
+									"title": "MSI Laptop"
 								},
 								{
-									"title": "Custom Laptop",
-									"link": "#"
+									"title": "Custom Laptop"
 								},
 								{
-									"title": "Apple MacBook Laptop",
-									"link": "#"
+									"title": "Apple MacBook Laptop"
 								},
 								{
-									"title": "ASUS Laptop",
-									"link": "#"
+									"title": "ASUS Laptop"
 								},
 								{
-									"title": "Lenovo Laptop",
-									"link": "#"
+									"title": "Lenovo Laptop"
 								},
 								{
-									"title": "HP Laptop",
-									"link": "#"
+									"title": "HP Laptop"
 								},
 								{
-									"title": "Microsoft Laptop",
-									"link": "#"
+									"title": "Microsoft Laptop"
 								},
 								{
-									"title": "Acer Laptop",
-									"link": "#"
+									"title": "Acer Laptop"
 								},
 								{
-									"title": "MSI Laptop",
-									"link": "#"
+									"title": "MSI Laptop"
 								},
 								{
-									"title": "Huawei Laptop",
-									"link": "#"
+									"title": "Huawei Laptop"
 								},
 								{
-									"title": "Gigabyte Laptop",
-									"link": "#"
+									"title": "Gigabyte Laptop"
 								},
 								{
-									"title": "Dell Laptop",
-									"link": "#"
+									"title": "Dell Laptop"
 								}
 							]
 						},
 						{
 							"title": "Laptop Accessories",
-							"link": "#",
+
 							"items": [
 								{
-									"title": "Laptop Charger",
-									"link": "#"
+									"title": "Laptop Charger"
 								},
 								{
-									"title": "Laptop Sticker",
-									"link": "#"
+									"title": "Laptop Sticker"
 								}
 							]
 						},
 						{
 							"title": "Laptop by Use",
-							"link": "#",
+
 							"items": [
 								{
-									"title": "Gaming Laptop",
-									"link": "#"
+									"title": "Gaming Laptop"
 								},
 								{
-									"title": "Student Laptop",
-									"link": "#"
+									"title": "Student Laptop"
 								},
 								{
-									"title": "Cheap Laptop",
-									"link": "#"
+									"title": "Cheap Laptop"
 								},
 								{
-									"title": "Touch Laptop",
-									"link": "#"
+									"title": "Touch Laptop"
 								},
 								{
-									"title": "School Laptop",
-									"link": "#"
+									"title": "School Laptop"
 								},
 								{
-									"title": "Designers Laptop",
-									"link": "#"
+									"title": "Designers Laptop"
 								},
 								{
-									"title": "Programmer Laptop",
-									"link": "#"
+									"title": "Programmer Laptop"
 								},
 								{
-									"title": "Family Laptop",
-									"link": "#"
+									"title": "Family Laptop"
 								}
 							]
 						},
 						{
 							"title": "Laptop Parts and Accessories",
-							"link": "#",
+
 							"items": [
 								{
-									"title": "Laptop Charger",
-									"link": "#"
+									"title": "Laptop Charger"
 								},
 								{
-									"title": "Laptop Battery",
-									"link": "#"
+									"title": "Laptop Battery"
 								},
 								{
-									"title": "Cooling Pad",
-									"link": "#"
+									"title": "Cooling Pad"
 								},
 								{
-									"title": "Laptop Stand",
-									"link": "#"
+									"title": "Laptop Stand"
 								},
 								{
-									"title": "Laptop Bag and Backpack",
-									"link": "#"
+									"title": "Laptop Bag and Backpack"
 								},
 								{
-									"title": "Laptop RAM",
-									"link": "#"
+									"title": "Laptop RAM"
 								},
 								{
-									"title": "DVD Writer",
-									"link": "#"
+									"title": "DVD Writer"
 								}
 							]
 						},
 						{
 							"title": "Laptop by Price",
-							"link": "#",
+
 							"items": [
 								{
-									"title": "Laptop up to 30 Million",
-									"link": "#"
+									"title": "Laptop up to 30 Million"
 								},
 								{
-									"title": "Laptop up to 35 Million",
-									"link": "#"
+									"title": "Laptop up to 35 Million"
 								},
 								{
-									"title": "Laptop up to 40 Million",
-									"link": "#"
+									"title": "Laptop up to 40 Million"
 								},
 								{
-									"title": "Laptop up to 45 Million",
-									"link": "#"
+									"title": "Laptop up to 45 Million"
 								},
 								{
-									"title": "Laptop up to 50 Million",
-									"link": "#"
+									"title": "Laptop up to 50 Million"
 								},
 								{
-									"title": "Laptop up to 60 Million",
-									"link": "#"
+									"title": "Laptop up to 60 Million"
 								},
 								{
-									"title": "Laptop up to 70 Million",
-									"link": "#"
+									"title": "Laptop up to 70 Million"
 								},
 								{
-									"title": "Laptop up to 80 Million",
-									"link": "#"
+									"title": "Laptop up to 80 Million"
 								}
 							]
 						},
 						{
 							"title": "Computers",
-							"link": "#",
+
 							"items": [
 								{
-									"title": "All-in-One",
-									"link": "#"
+									"title": "All-in-One"
 								},
 								{
-									"title": "Mini PC",
-									"link": "#"
+									"title": "Mini PC"
 								},
 								{
-									"title": "Light Pen",
-									"link": "#"
+									"title": "Light Pen"
 								},
 								{
-									"title": "Card Reader",
-									"link": "#"
+									"title": "Card Reader"
 								},
 								{
-									"title": "Mouse Pad",
-									"link": "#"
+									"title": "Mouse Pad"
 								},
 								{
-									"title": "Assembled Case",
-									"link": "#"
+									"title": "Assembled Case"
 								},
 								{
-									"title": "Computer Case",
-									"link": "#"
+									"title": "Computer Case"
 								},
 								{
-									"title": "Gaming Case",
-									"link": "#"
+									"title": "Gaming Case"
 								},
 								{
-									"title": "Mouse",
-									"link": "#"
+									"title": "Mouse"
 								},
 								{
-									"title": "Gaming Mouse",
-									"link": "#"
+									"title": "Gaming Mouse"
 								},
 								{
-									"title": "Wireless Mouse",
-									"link": "#"
+									"title": "Wireless Mouse"
 								},
 								{
-									"title": "Monitors",
-									"link": "#"
+									"title": "Monitors"
 								},
 								{
-									"title": "Gaming Monitor",
-									"link": "#"
+									"title": "Gaming Monitor"
 								},
 								{
-									"title": "Speaker",
-									"link": "#"
+									"title": "Speaker"
 								},
 								{
-									"title": "Bluetooth Speaker",
-									"link": "#"
+									"title": "Bluetooth Speaker"
 								},
 								{
-									"title": "Harman Kardon Speaker",
-									"link": "#"
+									"title": "Harman Kardon Speaker"
 								},
 								{
-									"title": "Sony Speaker",
-									"link": "#"
+									"title": "Sony Speaker"
 								},
 								{
-									"title": "TSCO Speaker",
-									"link": "#"
+									"title": "TSCO Speaker"
 								},
 								{
-									"title": "Maxeeder Speaker",
-									"link": "#"
+									"title": "Maxeeder Speaker"
 								}
 							]
 						}
@@ -9220,187 +8811,142 @@
 					"parents": [
 						{
 							"title": "Headphones by Brand",
-							"link": "#",
 							"items": [
 								{
-									"title": "Wireless Headphone",
-									"link": "#"
+									"title": "Wireless Headphone"
 								},
 								{
-									"title": "Apple AirPods",
-									"link": "#"
+									"title": "Apple AirPods"
 								},
 								{
-									"title": "Beats Headphone",
-									"link": "#"
+									"title": "Beats Headphone"
 								},
 								{
-									"title": "Sony Headphone",
-									"link": "#"
+									"title": "Sony Headphone"
 								},
 								{
-									"title": "Samsung Headphone",
-									"link": "#"
+									"title": "Samsung Headphone"
 								},
 								{
-									"title": "Xiaomi Headphone",
-									"link": "#"
+									"title": "Xiaomi Headphone"
 								},
 								{
-									"title": "JBL Headphone",
-									"link": "#"
+									"title": "JBL Headphone"
 								},
 								{
-									"title": "Razer Headphone",
-									"link": "#"
+									"title": "Razer Headphone"
 								},
 								{
-									"title": "Samsung Earphones",
-									"link": "#"
+									"title": "Samsung Earphones"
 								},
 								{
-									"title": "Haylou Earphones",
-									"link": "#"
+									"title": "Haylou Earphones"
 								},
 								{
-									"title": "Xiaomi Earphones",
-									"link": "#"
+									"title": "Xiaomi Earphones"
 								},
 								{
-									"title": "Anker Earphones",
-									"link": "#"
+									"title": "Anker Earphones"
 								},
 								{
-									"title": "Huawei Earphones",
-									"link": "#"
+									"title": "Huawei Earphones"
 								},
 								{
-									"title": "Sony Earphones",
-									"link": "#"
+									"title": "Sony Earphones"
 								},
 								{
-									"title": "Baseus Earphones",
-									"link": "#"
+									"title": "Baseus Earphones"
 								},
 								{
-									"title": "Lenovo Earphones",
-									"link": "#"
+									"title": "Lenovo Earphones"
 								},
 								{
-									"title": "TSCO Earphones",
-									"link": "#"
+									"title": "TSCO Earphones"
 								},
 								{
-									"title": "ProOne Earphones",
-									"link": "#"
+									"title": "ProOne Earphones"
 								},
 								{
-									"title": "Zealot Earphones",
-									"link": "#"
+									"title": "Zealot Earphones"
 								},
 								{
-									"title": "1MORE Earphones",
-									"link": "#"
+									"title": "1MORE Earphones"
 								},
 								{
-									"title": "Acefast Earphones",
-									"link": "#"
+									"title": "Acefast Earphones"
 								},
 								{
-									"title": "Koluman Earphones",
-									"link": "#"
+									"title": "Koluman Earphones"
 								},
 								{
-									"title": "Mibro Earphones",
-									"link": "#"
+									"title": "Mibro Earphones"
 								},
 								{
-									"title": "Hiska Earphones",
-									"link": "#"
+									"title": "Hiska Earphones"
 								},
 								{
-									"title": "Nothing Earphones",
-									"link": "#"
+									"title": "Nothing Earphones"
 								}
 							]
 						},
 						{
 							"title": "Headsets and Headphones",
-							"link": "#",
 							"items": [
 								{
-									"title": "Gaming Headphone",
-									"link": "#"
+									"title": "Gaming Headphone"
 								},
 								{
-									"title": "Razer Gaming Headset",
-									"link": "#"
+									"title": "Razer Gaming Headset"
 								},
 								{
-									"title": "TSCO Gaming Headphone",
-									"link": "#"
+									"title": "TSCO Gaming Headphone"
 								},
 								{
-									"title": "Beats Headphone",
-									"link": "#"
+									"title": "Beats Headphone"
 								},
 								{
-									"title": "Sony Headphone",
-									"link": "#"
+									"title": "Sony Headphone"
 								},
 								{
-									"title": "TSCO Headphone",
-									"link": "#"
+									"title": "TSCO Headphone"
 								},
 								{
-									"title": "Razer Headphone",
-									"link": "#"
+									"title": "Razer Headphone"
 								},
 								{
-									"title": "Anker Headphone",
-									"link": "#"
+									"title": "Anker Headphone"
 								},
 								{
-									"title": "Wired Headphone",
-									"link": "#"
+									"title": "Wired Headphone"
 								},
 								{
-									"title": "Wireless Headphone",
-									"link": "#"
+									"title": "Wireless Headphone"
 								}
 							]
 						},
 						{
 							"title": "Headphone by Use",
-							"link": "#",
 							"items": [
 								{
-									"title": "General Use Headphone",
-									"link": "#"
+									"title": "General Use Headphone"
 								},
 								{
-									"title": "Kids Headset",
-									"link": "#"
+									"title": "Kids Headset"
 								},
 								{
-									"title": "Gaming Headphone",
-									"link": "#"
+									"title": "Gaming Headphone"
 								},
 								{
-									"title": "Call Headphone",
-									"link": "#"
+									"title": "Call Headphone"
 								},
 								{
-									"title": "Sports Headphone",
-									"link": "#"
+									"title": "Sports Headphone"
 								},
 								{
-									"title": "Office Headphone",
-									"link": "#"
+									"title": "Office Headphone"
 								},
 								{
-									"title": "Consultant Headphone",
-									"link": "#"
+									"title": "Consultant Headphone"
 								}
 							]
 						}
@@ -9412,193 +8958,147 @@
 					"parents": [
 						{
 							"title": "Gaming Consoles",
-							"link": "#",
 							"items": [
 								{
-									"title": "PlayStation",
-									"link": "#"
+									"title": "PlayStation"
 								},
 								{
-									"title": "PlayStation 5",
-									"link": "#"
+									"title": "PlayStation 5"
 								},
 								{
-									"title": "PlayStation 5 Slim",
-									"link": "#"
+									"title": "PlayStation 5 Slim"
 								},
 								{
-									"title": "PS5 Bundle",
-									"link": "#"
+									"title": "PS5 Bundle"
 								},
 								{
-									"title": "PS5 Controller",
-									"link": "#"
+									"title": "PS5 Controller"
 								},
 								{
-									"title": "Controller Accessories",
-									"link": "#"
+									"title": "Controller Accessories"
 								},
 								{
-									"title": "PS5 Accessories",
-									"link": "#"
+									"title": "PS5 Accessories"
 								},
 								{
-									"title": "PS5 Bag",
-									"link": "#"
+									"title": "PS5 Bag"
 								},
 								{
-									"title": "PlayStation 4",
-									"link": "#"
+									"title": "PlayStation 4"
 								},
 								{
-									"title": "PS4 Controller",
-									"link": "#"
+									"title": "PS4 Controller"
 								},
 								{
-									"title": "PlayStation Game",
-									"link": "#"
+									"title": "PlayStation Game"
 								},
 								{
-									"title": "Xbox",
-									"link": "#"
+									"title": "Xbox"
 								},
 								{
-									"title": "Xbox Series S",
-									"link": "#"
+									"title": "Xbox Series S"
 								},
 								{
-									"title": "Xbox Series X",
-									"link": "#"
+									"title": "Xbox Series X"
 								},
 								{
-									"title": "Xbox Controller",
-									"link": "#"
+									"title": "Xbox Controller"
 								},
 								{
-									"title": "Xbox Game",
-									"link": "#"
+									"title": "Xbox Game"
 								},
 								{
-									"title": "Xbox Accessories",
-									"link": "#"
+									"title": "Xbox Accessories"
 								},
 								{
-									"title": "Nintendo",
-									"link": "#"
+									"title": "Nintendo"
 								},
 								{
-									"title": "Gaming Console Accessories",
-									"link": "#"
+									"title": "Gaming Console Accessories"
 								}
 							]
 						},
 						{
 							"title": "Game Controllers",
-							"link": "#",
 							"items": [
 								{
-									"title": "PS5 Controller",
-									"link": "#"
+									"title": "PS5 Controller"
 								},
 								{
-									"title": "PS4 Controller",
-									"link": "#"
+									"title": "PS4 Controller"
 								},
 								{
-									"title": "Nintendo Controller",
-									"link": "#"
+									"title": "Nintendo Controller"
 								},
 								{
-									"title": "Xbox Controller",
-									"link": "#"
+									"title": "Xbox Controller"
 								},
 								{
-									"title": "Controller Cover",
-									"link": "#"
+									"title": "Controller Cover"
 								}
 							]
 						},
 						{
 							"title": "Gaming Equipment and Accessories",
-							"link": "#",
 							"items": [
 								{
-									"title": "Gaming Monitor",
-									"link": "#"
+									"title": "Gaming Monitor"
 								},
 								{
-									"title": "Gaming Chair",
-									"link": "#"
+									"title": "Gaming Chair"
 								},
 								{
-									"title": "Gaming Headphone",
-									"link": "#"
+									"title": "Gaming Headphone"
 								},
 								{
-									"title": "Gaming Mouse",
-									"link": "#"
+									"title": "Gaming Mouse"
 								},
 								{
-									"title": "VR Headset",
-									"link": "#"
+									"title": "VR Headset"
 								}
 							]
 						},
 						{
 							"title": "Gaming Console Accessories",
-							"link": "#",
 							"items": [
 								{
-									"title": "Gaming Console Bag",
-									"link": "#"
+									"title": "Gaming Console Bag"
 								},
 								{
-									"title": "PS5 Bag",
-									"link": "#"
+									"title": "PS5 Bag"
 								},
 								{
-									"title": "PS4 Bag",
-									"link": "#"
+									"title": "PS4 Bag"
 								},
 								{
-									"title": "PS4 Bag",
-									"link": "#"
+									"title": "PS4 Bag"
 								},
 								{
-									"title": "Console Controller Charging Dock",
-									"link": "#"
+									"title": "Console Controller Charging Dock"
 								},
 								{
-									"title": "Xbox Accessories",
-									"link": "#"
+									"title": "Xbox Accessories"
 								},
 								{
-									"title": "PS5 Accessories",
-									"link": "#"
+									"title": "PS5 Accessories"
 								},
 								{
-									"title": "Controller Stand",
-									"link": "#"
+									"title": "Controller Stand"
 								},
 								{
-									"title": "Controller Cooling Fan",
-									"link": "#"
+									"title": "Controller Cooling Fan"
 								},
 								{
-									"title": "PS5 Faceplate and Cover",
-									"link": "#"
+									"title": "PS5 Faceplate and Cover"
 								},
 								{
-									"title": "Xbox Controller Cover",
-									"link": "#"
+									"title": "Xbox Controller Cover"
 								},
 								{
-									"title": "PS5 Controller Cover",
-									"link": "#"
+									"title": "PS5 Controller Cover"
 								},
 								{
-									"title": "PS4 Controller Cover",
-									"link": "#"
+									"title": "PS4 Controller Cover"
 								}
 							]
 						}
@@ -9610,185 +9110,141 @@
 					"parents": [
 						{
 							"title": "Smartwatch",
-							"link": "#",
 							"items": [
 								{
-									"title": "Smart Band",
-									"link": "#"
+									"title": "Smart Band"
 								},
 								{
-									"title": "Apple Watch Smartwatch",
-									"link": "#"
+									"title": "Apple Watch Smartwatch"
 								},
 								{
-									"title": "Samsung Smartwatch",
-									"link": "#"
+									"title": "Samsung Smartwatch"
 								},
 								{
-									"title": "Xiaomi Smartwatch",
-									"link": "#"
+									"title": "Xiaomi Smartwatch"
 								},
 								{
-									"title": "Amazfit Smartwatch",
-									"link": "#"
+									"title": "Amazfit Smartwatch"
 								},
 								{
-									"title": "Mibro Smartwatch",
-									"link": "#"
+									"title": "Mibro Smartwatch"
 								},
 								{
-									"title": "Huawei Smartwatch",
-									"link": "#"
+									"title": "Huawei Smartwatch"
 								},
 								{
-									"title": "Haylou Smartwatch",
-									"link": "#"
+									"title": "Haylou Smartwatch"
 								},
 								{
-									"title": "Kieslect Smartwatch",
-									"link": "#"
+									"title": "Kieslect Smartwatch"
 								},
 								{
-									"title": "G-Tab Watch",
-									"link": "#"
+									"title": "G-Tab Watch"
 								},
 								{
-									"title": "Imilab Watch",
-									"link": "#"
+									"title": "Imilab Watch"
 								},
 								{
-									"title": "QCY Smartwatch",
-									"link": "#"
+									"title": "QCY Smartwatch"
 								},
 								{
-									"title": "Apple Watch Series 9",
-									"link": "#"
+									"title": "Apple Watch Series 9"
 								},
 								{
-									"title": "Apple Watch Series 8",
-									"link": "#"
+									"title": "Apple Watch Series 8"
 								},
 								{
-									"title": "Haino Teko Smartwatch",
-									"link": "#"
+									"title": "Haino Teko Smartwatch"
 								},
 								{
-									"title": "ProOne Smartwatch",
-									"link": "#"
+									"title": "ProOne Smartwatch"
 								},
 								{
-									"title": "Hivami Smartwatch",
-									"link": "#"
+									"title": "Hivami Smartwatch"
 								},
 								{
-									"title": "Promate Smartwatch",
-									"link": "#"
+									"title": "Promate Smartwatch"
 								},
 								{
-									"title": "Apple Watch Clone",
-									"link": "#"
+									"title": "Apple Watch Clone"
 								},
 								{
-									"title": "Green Lion Smartwatch",
-									"link": "#"
+									"title": "Green Lion Smartwatch"
 								},
 								{
-									"title": "Imiki Smartwatch",
-									"link": "#"
+									"title": "Imiki Smartwatch"
 								},
 								{
-									"title": "TCH Smartwatch",
-									"link": "#"
+									"title": "TCH Smartwatch"
 								}
 							]
 						},
 						{
 							"title": "Wristwatch",
-							"link": "#",
 							"items": [
 								{
-									"title": "Digital Wristwatch",
-									"link": "#"
+									"title": "Digital Wristwatch"
 								},
 								{
-									"title": "Digital Wristwatch",
-									"link": "#"
+									"title": "Digital Wristwatch"
 								},
 								{
-									"title": "Cheap Wristwatch",
-									"link": "#"
+									"title": "Cheap Wristwatch"
 								},
 								{
-									"title": "Casio Watch",
-									"link": "#"
+									"title": "Casio Watch"
 								},
 								{
-									"title": "G-Shock Watch",
-									"link": "#"
+									"title": "G-Shock Watch"
 								}
 							]
 						},
 						{
 							"title": "Smartwatch Accessories",
-							"link": "#",
 							"items": [
 								{
-									"title": "Smartwatch Accessories",
-									"link": "#"
+									"title": "Smartwatch Accessories"
 								},
 								{
-									"title": "Smartwatch Band",
-									"link": "#"
+									"title": "Smartwatch Band"
 								},
 								{
-									"title": "Smartwatch Screen Protector",
-									"link": "#"
+									"title": "Smartwatch Screen Protector"
 								},
 								{
-									"title": "Apple Watch Band",
-									"link": "#"
+									"title": "Apple Watch Band"
 								},
 								{
-									"title": "Smartwatch Charger",
-									"link": "#"
+									"title": "Smartwatch Charger"
 								},
 								{
-									"title": "Smartwatch Cover",
-									"link": "#"
+									"title": "Smartwatch Cover"
 								}
 							]
 						},
 						{
 							"title": "Watch by Use",
-							"link": "#",
 							"items": [
 								{
-									"title": "Smartwatch with Calling",
-									"link": "#"
+									"title": "Smartwatch with Calling"
 								},
 								{
-									"title": "SIM Supported Smartwatch",
-									"link": "#"
+									"title": "SIM Supported Smartwatch"
 								},
 								{
-									"title": "Smartwatch with GPS",
-									"link": "#"
+									"title": "Smartwatch with GPS"
 								},
 								{
-									"title": "Waterproof Watch",
-									"link": "#"
+									"title": "Waterproof Watch"
 								},
 								{
-									"title": "Women's Watch",
-									"link": "#"
+									"title": "Women's Watch"
 								},
 								{
-									"title": "Men's Watch",
-									"link": "#"
+									"title": "Men's Watch"
 								},
 								{
-									"title": "Round Smartwatch",
-									"link": "#"
+									"title": "Round Smartwatch"
 								}
 							]
 						}
@@ -9800,185 +9256,141 @@
 					"parents": [
 						{
 							"title": "Speakers by Brand",
-							"link": "#",
 							"items": [
 								{
-									"title": "JBL Speaker",
-									"link": "#"
+									"title": "JBL Speaker"
 								},
 								{
-									"title": "Harman Kardon Speaker",
-									"link": "#"
+									"title": "Harman Kardon Speaker"
 								},
 								{
-									"title": "Sony Speaker",
-									"link": "#"
+									"title": "Sony Speaker"
 								},
 								{
-									"title": "Energizer Speaker",
-									"link": "#"
+									"title": "Energizer Speaker"
 								},
 								{
-									"title": "LG Speaker",
-									"link": "#"
+									"title": "LG Speaker"
 								},
 								{
-									"title": "Vanmax Speaker",
-									"link": "#"
+									"title": "Vanmax Speaker"
 								},
 								{
-									"title": "ProOne Speaker",
-									"link": "#"
+									"title": "ProOne Speaker"
 								},
 								{
-									"title": "TSCO Speaker",
-									"link": "#"
+									"title": "TSCO Speaker"
 								},
 								{
-									"title": "Kingstar Speaker",
-									"link": "#"
+									"title": "Kingstar Speaker"
 								},
 								{
-									"title": "Mifa Speaker",
-									"link": "#"
+									"title": "Mifa Speaker"
 								},
 								{
-									"title": "Silicon Power Speaker",
-									"link": "#"
+									"title": "Silicon Power Speaker"
 								},
 								{
-									"title": "Hiska Speaker",
-									"link": "#"
+									"title": "Hiska Speaker"
 								},
 								{
-									"title": "Maxeeder Speaker",
-									"link": "#"
+									"title": "Maxeeder Speaker"
 								},
 								{
-									"title": "Zealot Speaker",
-									"link": "#"
+									"title": "Zealot Speaker"
 								},
 								{
-									"title": "Speaker Cover",
-									"link": "#"
+									"title": "Speaker Cover"
 								},
 								{
-									"title": "Party Box",
-									"link": "#"
+									"title": "Party Box"
 								},
 								{
-									"title": "JBL Party Box",
-									"link": "#"
+									"title": "JBL Party Box"
 								},
 								{
-									"title": "TSCO Party Box",
-									"link": "#"
+									"title": "TSCO Party Box"
 								},
 								{
-									"title": "Xiaomi Speaker",
-									"link": "#"
+									"title": "Xiaomi Speaker"
 								}
 							]
 						},
 						{
 							"title": "Speaker by Price",
-							"link": "#",
 							"items": [
 								{
-									"title": "Speaker up to 1 Million",
-									"link": "#"
+									"title": "Speaker up to 1 Million"
 								},
 								{
-									"title": "Speaker up to 2 Million",
-									"link": "#"
+									"title": "Speaker up to 2 Million"
 								},
 								{
-									"title": "Speaker up to 5 Million",
-									"link": "#"
+									"title": "Speaker up to 5 Million"
 								},
 								{
-									"title": "Speaker up to 10 Million",
-									"link": "#"
+									"title": "Speaker up to 10 Million"
 								},
 								{
-									"title": "Speaker up to 20 Million",
-									"link": "#"
+									"title": "Speaker up to 20 Million"
 								},
 								{
-									"title": "Speaker up to 30 Million",
-									"link": "#"
+									"title": "Speaker up to 30 Million"
 								}
 							]
 						},
 						{
 							"title": "Soundbar",
-							"link": "#",
 							"items": [
 								{
-									"title": "JBL Soundbar",
-									"link": "#"
+									"title": "JBL Soundbar"
 								},
 								{
-									"title": "Sony Soundbar",
-									"link": "#"
+									"title": "Sony Soundbar"
 								},
 								{
-									"title": "Creative Soundbar",
-									"link": "#"
+									"title": "Creative Soundbar"
 								},
 								{
-									"title": "Speaker Soundbar",
-									"link": "#"
+									"title": "Speaker Soundbar"
 								},
 								{
-									"title": "Hiska Soundbar",
-									"link": "#"
+									"title": "Hiska Soundbar"
 								},
 								{
-									"title": "TSCO Soundbar",
-									"link": "#"
+									"title": "TSCO Soundbar"
 								},
 								{
-									"title": "ProOne Soundbar",
-									"link": "#"
+									"title": "ProOne Soundbar"
 								}
 							]
 						},
 						{
 							"title": "Speaker by Type",
-							"link": "#",
 							"items": [
 								{
-									"title": "Suitcase Speaker",
-									"link": "#"
+									"title": "Suitcase Speaker"
 								},
 								{
-									"title": "Voice Assistant",
-									"link": "#"
+									"title": "Voice Assistant"
 								},
 								{
-									"title": "Desktop Speaker",
-									"link": "#"
+									"title": "Desktop Speaker"
 								},
 								{
-									"title": "Wall Speaker",
-									"link": "#"
+									"title": "Wall Speaker"
 								},
 								{
-									"title": "Ceiling Speaker",
-									"link": "#"
+									"title": "Ceiling Speaker"
 								},
 								{
-									"title": "Portable Speaker",
-									"link": "#"
+									"title": "Portable Speaker"
 								},
 								{
-									"title": "Carkit Speaker",
-									"link": "#"
+									"title": "Carkit Speaker"
 								},
 								{
-									"title": "Microphone Speaker",
-									"link": "#"
+									"title": "Microphone Speaker"
 								}
 							]
 						}
@@ -9990,169 +9402,129 @@
 					"parents": [
 						{
 							"title": "Powerbank by Brand",
-							"link": "#",
 							"items": [
 								{
-									"title": "Xiaomi Powerbank",
-									"link": "#"
+									"title": "Xiaomi Powerbank"
 								},
 								{
-									"title": "Anker Powerbank",
-									"link": "#"
+									"title": "Anker Powerbank"
 								},
 								{
-									"title": "Baseus Powerbank",
-									"link": "#"
+									"title": "Baseus Powerbank"
 								},
 								{
-									"title": "TSCO Powerbank",
-									"link": "#"
+									"title": "TSCO Powerbank"
 								},
 								{
-									"title": "Powerology Powerbank",
-									"link": "#"
+									"title": "Powerology Powerbank"
 								},
 								{
-									"title": "Cheap Powerbank",
-									"link": "#"
+									"title": "Cheap Powerbank"
 								},
 								{
-									"title": "Adata Powerbank",
-									"link": "#"
+									"title": "Adata Powerbank"
 								},
 								{
-									"title": "Samsung Powerbank",
-									"link": "#"
+									"title": "Samsung Powerbank"
 								},
 								{
-									"title": "Energizer Powerbank",
-									"link": "#"
+									"title": "Energizer Powerbank"
 								},
 								{
-									"title": "Silicon Power Powerbank",
-									"link": "#"
+									"title": "Silicon Power Powerbank"
 								},
 								{
-									"title": "Hiska Powerbank",
-									"link": "#"
+									"title": "Hiska Powerbank"
 								},
 								{
-									"title": "Mcdodo Powerbank",
-									"link": "#"
+									"title": "Mcdodo Powerbank"
 								},
 								{
-									"title": "Alcatel Powerbank",
-									"link": "#"
+									"title": "Alcatel Powerbank"
 								},
 								{
-									"title": "iSmart Powerbank",
-									"link": "#"
+									"title": "iSmart Powerbank"
 								},
 								{
-									"title": "iSen Powerbank",
-									"link": "#"
+									"title": "iSen Powerbank"
 								},
 								{
-									"title": "iMoto Powerbank",
-									"link": "#"
+									"title": "iMoto Powerbank"
 								},
 								{
-									"title": "iWalk Powerbank",
-									"link": "#"
+									"title": "iWalk Powerbank"
 								},
 								{
-									"title": "Adonit Powerbank",
-									"link": "#"
+									"title": "Adonit Powerbank"
 								},
 								{
-									"title": "Autoplus Powerbank",
-									"link": "#"
+									"title": "Autoplus Powerbank"
 								},
 								{
-									"title": "Oraimo Powerbank",
-									"link": "#"
+									"title": "Oraimo Powerbank"
 								},
 								{
-									"title": "Panasonic Powerbank",
-									"link": "#"
+									"title": "Panasonic Powerbank"
 								},
 								{
-									"title": "Bamatech Powerbank",
-									"link": "#"
+									"title": "Bamatech Powerbank"
 								}
 							]
 						},
 						{
 							"title": "Powerbank by Display Type",
-							"link": "#",
 							"items": [
 								{
-									"title": "LCD Display",
-									"link": "#"
+									"title": "LCD Display"
 								},
 								{
-									"title": "Color Indicator",
-									"link": "#"
+									"title": "Color Indicator"
 								},
 								{
-									"title": "Percentage Charge Indicator",
-									"link": "#"
+									"title": "Percentage Charge Indicator"
 								},
 								{
-									"title": "LED Indicator",
-									"link": "#"
+									"title": "LED Indicator"
 								}
 							]
 						},
 						{
 							"title": "By Device Features",
-							"link": "#",
 							"items": [
 								{
-									"title": "Auto Shut-off Feature",
-									"link": "#"
+									"title": "Auto Shut-off Feature"
 								},
 								{
-									"title": "Wireless Charging Feature",
-									"link": "#"
+									"title": "Wireless Charging Feature"
 								},
 								{
-									"title": "No Special Features",
-									"link": "#"
+									"title": "No Special Features"
 								},
 								{
-									"title": "Qualcomm Quick Charge Technology",
-									"link": "#"
+									"title": "Qualcomm Quick Charge Technology"
 								},
 								{
-									"title": "Fast Charging Technology",
-									"link": "#"
+									"title": "Fast Charging Technology"
 								},
 								{
-									"title": "Waterproof and Shockproof",
-									"link": "#"
+									"title": "Waterproof and Shockproof"
 								}
 							]
 						},
 						{
 							"title": "By Weight Class",
-							"link": "#",
 							"items": [
 								{
-									"title": "Very Light Powerbank",
-									"link": "#"
+									"title": "Very Light Powerbank"
 								},
 								{
-									"title": "Light Powerbank",
-									"link": "#"
+									"title": "Light Powerbank"
 								},
 								{
-									"title": "Heavy Powerbank",
-									"link": "#"
+									"title": "Heavy Powerbank"
 								},
 								{
-									"title": "Regular Powerbank",
-									"link": "#"
+									"title": "Regular Powerbank"
 								}
 							]
 						}
@@ -10164,203 +9536,154 @@
 					"parents": [
 						{
 							"title": "Tablet by Brand",
-							"link": "#",
 							"items": [
 								{
-									"title": "Apple Tablet",
-									"link": "#"
+									"title": "Apple Tablet"
 								},
 								{
-									"title": "Samsung Tablet",
-									"link": "#"
+									"title": "Samsung Tablet"
 								},
 								{
-									"title": "Xiaomi Tablet",
-									"link": "#"
+									"title": "Xiaomi Tablet"
 								},
 								{
-									"title": "Microsoft Tablet",
-									"link": "#"
+									"title": "Microsoft Tablet"
 								},
 								{
-									"title": "Huawei Tablet",
-									"link": "#"
+									"title": "Huawei Tablet"
 								},
 								{
-									"title": "GLX Tablet",
-									"link": "#"
+									"title": "GLX Tablet"
 								},
 								{
-									"title": "Lenovo Tablet",
-									"link": "#"
+									"title": "Lenovo Tablet"
 								},
 								{
-									"title": "Tablet with Stylus",
-									"link": "#"
+									"title": "Tablet with Stylus"
 								},
 								{
-									"title": "E-Reader",
-									"link": "#"
+									"title": "E-Reader"
 								},
 								{
-									"title": "Archos Tablet",
-									"link": "#"
+									"title": "Archos Tablet"
 								},
 								{
-									"title": "Alcatel Tablet",
-									"link": "#"
+									"title": "Alcatel Tablet"
 								},
 								{
-									"title": "Amazon Tablet",
-									"link": "#"
+									"title": "Amazon Tablet"
 								},
 								{
-									"title": "Onexa Tablet",
-									"link": "#"
+									"title": "Onexa Tablet"
 								},
 								{
-									"title": "Smart Touch Tablet",
-									"link": "#"
+									"title": "Smart Touch Tablet"
 								},
 								{
-									"title": "Aiptek Tablet",
-									"link": "#"
+									"title": "Aiptek Tablet"
 								},
 								{
-									"title": "X.Vision Tablet",
-									"link": "#"
+									"title": "X.Vision Tablet"
 								},
 								{
-									"title": "Backboard Tablet",
-									"link": "#"
+									"title": "Backboard Tablet"
 								},
 								{
-									"title": "Prestigio Tablet",
-									"link": "#"
+									"title": "Prestigio Tablet"
 								},
 								{
-									"title": "Blest Tablet",
-									"link": "#"
+									"title": "Blest Tablet"
 								},
 								{
-									"title": "TwinMOS Tablet",
-									"link": "#"
+									"title": "TwinMOS Tablet"
 								},
 								{
-									"title": "Toshiba Tablet",
-									"link": "#"
+									"title": "Toshiba Tablet"
 								},
 								{
-									"title": "GLX Tablet",
-									"link": "#"
+									"title": "GLX Tablet"
 								},
 								{
-									"title": "Samsung Tablet",
-									"link": "#"
+									"title": "Samsung Tablet"
 								},
 								{
-									"title": "Xiaomi Tablet",
-									"link": "#"
+									"title": "Xiaomi Tablet"
 								},
 								{
-									"title": "Fujitsu Tablet",
-									"link": "#"
+									"title": "Fujitsu Tablet"
 								}
 							]
 						},
 						{
 							"title": "Tablet by Sensor",
-							"link": "#",
 							"items": [
 								{
-									"title": "Fingerprint",
-									"link": "#"
+									"title": "Fingerprint"
 								},
 								{
-									"title": "Fingerprint on Back Cover",
-									"link": "#"
+									"title": "Fingerprint on Back Cover"
 								},
 								{
-									"title": "Fingerprint on Front Cover",
-									"link": "#"
+									"title": "Fingerprint on Front Cover"
 								},
 								{
-									"title": "Fingerprint on Side",
-									"link": "#"
+									"title": "Fingerprint on Side"
 								},
 								{
-									"title": "Under-Display Fingerprint",
-									"link": "#"
+									"title": "Under-Display Fingerprint"
 								},
 								{
-									"title": "Magnetometer",
-									"link": "#"
+									"title": "Magnetometer"
 								},
 								{
-									"title": "Light Sensor",
-									"link": "#"
+									"title": "Light Sensor"
 								},
 								{
-									"title": "Gyroscope",
-									"link": "#"
+									"title": "Gyroscope"
 								},
 								{
-									"title": "Accelerometer",
-									"link": "#"
+									"title": "Accelerometer"
 								},
 								{
-									"title": "Iris Scanner",
-									"link": "#"
+									"title": "Iris Scanner"
 								},
 								{
-									"title": "Barometer",
-									"link": "#"
+									"title": "Barometer"
 								},
 								{
-									"title": "Compass",
-									"link": "#"
+									"title": "Compass"
 								},
 								{
-									"title": "Proximity Sensor",
-									"link": "#"
+									"title": "Proximity Sensor"
 								}
 							]
 						},
 						{
 							"title": "By Operating System",
-							"link": "#",
 							"items": [
 								{
-									"title": "No Operating System",
-									"link": "#"
+									"title": "No Operating System"
 								},
 								{
-									"title": "Android OS",
-									"link": "#"
+									"title": "Android OS"
 								},
 								{
-									"title": "Apple OS",
-									"link": "#"
+									"title": "Apple OS"
 								},
 								{
-									"title": "Fire OS",
-									"link": "#"
+									"title": "Fire OS"
 								},
 								{
-									"title": "iPad OS",
-									"link": "#"
+									"title": "iPad OS"
 								},
 								{
-									"title": "Microsoft OS",
-									"link": "#"
+									"title": "Microsoft OS"
 								},
 								{
-									"title": "Windows 10",
-									"link": "#"
+									"title": "Windows 10"
 								},
 								{
-									"title": "Windows 11",
-									"link": "#"
+									"title": "Windows 11"
 								}
 							]
 						}
@@ -10372,189 +9695,144 @@
 					"parents": [
 						{
 							"title": "All-in-Ones",
-							"link": "#",
 							"items": [
 								{
-									"title": "Lenovo All-in-One",
-									"link": "#"
+									"title": "Lenovo All-in-One"
 								},
 								{
-									"title": "ASUS All-in-One",
-									"link": "#"
+									"title": "ASUS All-in-One"
 								},
 								{
-									"title": "MSI All-in-One",
-									"link": "#"
+									"title": "MSI All-in-One"
 								},
 								{
-									"title": "HP All-in-One",
-									"link": "#"
+									"title": "HP All-in-One"
 								},
 								{
-									"title": "Apple All-in-One",
-									"link": "#"
+									"title": "Apple All-in-One"
 								},
 								{
-									"title": "Innovers All-in-One",
-									"link": "#"
+									"title": "Innovers All-in-One"
 								},
 								{
-									"title": "Maya All-in-One",
-									"link": "#"
+									"title": "Maya All-in-One"
 								},
 								{
-									"title": "Master Tech All-in-One",
-									"link": "#"
+									"title": "Master Tech All-in-One"
 								}
 							]
 						},
 						{
 							"title": "Computers",
-							"link": "#",
 							"items": [
 								{
-									"title": "All-in-One",
-									"link": "#"
+									"title": "All-in-One"
 								},
 								{
-									"title": "Mini PC",
-									"link": "#"
+									"title": "Mini PC"
 								},
 								{
-									"title": "Light Pen",
-									"link": "#"
+									"title": "Light Pen"
 								},
 								{
-									"title": "Card Reader",
-									"link": "#"
+									"title": "Card Reader"
 								},
 								{
-									"title": "Mouse Pad",
-									"link": "#"
+									"title": "Mouse Pad"
 								},
 								{
-									"title": "Assembled Case",
-									"link": "#"
+									"title": "Assembled Case"
 								}
 							]
 						},
 						{
 							"title": "Monitors",
-							"link": "#",
 							"items": [
 								{
-									"title": "ASUS Monitor",
-									"link": "#"
+									"title": "ASUS Monitor"
 								},
 								{
-									"title": "LG Monitor",
-									"link": "#"
+									"title": "LG Monitor"
 								},
 								{
-									"title": "Samsung Monitor",
-									"link": "#"
+									"title": "Samsung Monitor"
 								},
 								{
-									"title": "MSI Monitor",
-									"link": "#"
+									"title": "MSI Monitor"
 								},
 								{
-									"title": "Lenovo Monitor",
-									"link": "#"
+									"title": "Lenovo Monitor"
 								},
 								{
-									"title": "GPlus Monitor",
-									"link": "#"
+									"title": "GPlus Monitor"
 								},
 								{
-									"title": "Gaming Monitor",
-									"link": "#"
+									"title": "Gaming Monitor"
 								},
 								{
-									"title": "ASUS Gaming Monitor",
-									"link": "#"
+									"title": "ASUS Gaming Monitor"
 								},
 								{
-									"title": "Samsung Gaming Monitor",
-									"link": "#"
+									"title": "Samsung Gaming Monitor"
 								},
 								{
-									"title": "Dahua Monitor",
-									"link": "#"
+									"title": "Dahua Monitor"
 								},
 								{
-									"title": "Maya Monitor",
-									"link": "#"
+									"title": "Maya Monitor"
 								},
 								{
-									"title": "27 Inch Monitor",
-									"link": "#"
+									"title": "27 Inch Monitor"
 								},
 								{
-									"title": "34 Inch Monitor",
-									"link": "#"
+									"title": "34 Inch Monitor"
 								},
 								{
-									"title": "32 Inch Monitor",
-									"link": "#"
+									"title": "32 Inch Monitor"
 								}
 							]
 						},
 						{
 							"title": "Computer Parts",
-							"link": "#",
 							"items": [
 								{
-									"title": "Processor (CPU)",
-									"link": "#"
+									"title": "Processor (CPU)"
 								},
 								{
-									"title": "CPU Cooler",
-									"link": "#"
+									"title": "CPU Cooler"
 								},
 								{
-									"title": "Computer Case",
-									"link": "#"
+									"title": "Computer Case"
 								},
 								{
-									"title": "Graphic Card",
-									"link": "#"
+									"title": "Graphic Card"
 								},
 								{
-									"title": "Motherboard",
-									"link": "#"
+									"title": "Motherboard"
 								},
 								{
-									"title": "Motherboard",
-									"link": "#"
+									"title": "Motherboard"
 								},
 								{
-									"title": "Network Card",
-									"link": "#"
+									"title": "Network Card"
 								},
 								{
-									"title": "Computer RAM",
-									"link": "#"
+									"title": "Computer RAM"
 								},
 								{
-									"title": "DVD Writer",
-									"link": "#"
+									"title": "DVD Writer"
 								},
 								{
-									"title": "Computer Storage",
-									"link": "#"
+									"title": "Computer Storage"
 								},
 								{
-									"title": "External Hard Drive",
-									"link": "#"
+									"title": "External Hard Drive"
 								},
 								{
-									"title": "Internal Hard Drive",
-									"link": "#"
+									"title": "Internal Hard Drive"
 								},
 								{
-									"title": "Internal Hard Drive",
-									"link": "#"
+									"title": "Internal Hard Drive"
 								}
 							]
 						}
@@ -10564,39 +9842,31 @@
 		},
 		"pages": [
 			{
-				"title": "Home Page",
-				"link": "http://localhost:3000/output/fa/pages/index.html"
+				"title": "Home Page"
 			},
 			{
-				"title": "Shop",
-				"link": "http://localhost:3000/output/fa/pages/shop.html"
+				"title": "Shop"
 			},
 			{
 				"title": "Product Page Types",
 				"items": [
 					{
-						"title": "Simple Product",
-						"link": "http://localhost:3000/output/fa/pages/simple-product.html"
+						"title": "Simple Product"
 					},
 					{
-						"title": "Variable Product",
-						"link": "http://localhost:3000/output/fa/pages/variable-product.html"
+						"title": "Variable Product"
 					},
 					{
-						"title": "External Product (Affiliate)",
-						"link": "http://localhost:3000/output/fa/pages/external-product.html"
+						"title": "External Product (Affiliate)"
 					},
 					{
-						"title": "Track Product",
-						"link": "http://localhost:3000/output/fa/pages/call-product.html"
+						"title": "Track Product"
 					},
 					{
-						"title": "Out of Stock Product",
-						"link": "http://localhost:3000/output/fa/pages/unavailable-product.html"
+						"title": "Out of Stock Product"
 					},
 					{
-						"title": "Free Product",
-						"link": "http://localhost:3000/output/fa/pages/free-product.html"
+						"title": "Free Product"
 					}
 				]
 			},
@@ -10604,64 +9874,49 @@
 				"title": "Other Pages",
 				"items": [
 					{
-						"title": "Shop Page",
-						"link": "http://localhost:3000/output/fa/pages/shop.html"
+						"title": "Shop Page"
 					},
 					{
-						"title": "Product Comparison Page",
-						"link": "http://localhost:3000/output/fa/pages/compare.html"
+						"title": "Product Comparison Page"
 					},
 					{
-						"title": "Blog Page",
-						"link": "http://localhost:3000/output/fa/pages/weblog.html"
+						"title": "Blog Page"
 					},
 					{
-						"title": "Article View Page",
-						"link": "http://localhost:3000/output/fa/pages/article.html"
+						"title": "Article View Page"
 					},
 					{
-						"title": "Article Archive Page",
-						"link": "http://localhost:3000/output/fa/pages/articles.html"
+						"title": "Article Archive Page"
 					},
 					{
-						"title": "Login & Registration Page",
-						"link": "http://localhost:3000/output/fa/pages/my-account..html"
+						"title": "Login & Registration Page"
 					},
 					{
-						"title": "Amazing Offers Page",
-						"link": "http://localhost:3000/output/fa/pages/offers.html"
+						"title": "Amazing Offers Page"
 					},
 					{
-						"title": "FAQ Page",
-						"link": "http://localhost:3000/output/fa/pages/faq.html"
+						"title": "FAQ Page"
 					},
 					{
-						"title": "Empty Cart Page",
-						"link": "http://localhost:3000/output/fa/pages/cart1-empty.html"
+						"title": "Empty Cart Page"
 					},
 					{
-						"title": "Full Cart Page",
-						"link": "http://localhost:3000/output/fa/pages/cart1-full.html"
+						"title": "Full Cart Page"
 					},
 					{
-						"title": "Checkout Page ",
-						"link": "http://localhost:3000/output/fa/pages/cart-2.html"
+						"title": "Checkout Page "
 					},
 					{
-						"title": "Order Complete Page",
-						"link": "http://localhost:3000/output/fa/pages/cart4.html"
+						"title": "Order Complete Page"
 					},
 					{
-						"title": "About Us Page",
-						"link": "http://localhost:3000/output/fa/pages/about-us.html"
+						"title": "About Us Page"
 					},
 					{
-						"title": "Contact Us Page",
-						"link": "http://localhost:3000/output/fa/pages/contact-us.html"
+						"title": "Contact Us Page"
 					},
 					{
-						"title": "404 Page",
-						"link": "http://localhost:3000/output/fa/pages/404.html"
+						"title": "404 Page"
 					}
 				]
 			},
@@ -10684,32 +9939,26 @@
 			"features": [
 				{
 					"title": "Full Name",
-					"link": "#",
 					"icon": "<i class='fa-solid fa-chevron-right txt-size-small'></i>"
 				},
 				{
 					"title": "Orders",
-					"link": "#",
 					"icon": "<i class='fa-solid fa-bag-shopping txt-size-mid-title'></i>"
 				},
 				{
 					"title": "Addresses",
-					"link": "#",
 					"icon": "<i class='fa-solid fa-signs-post txt-size-mid-title'></i>"
 				},
 				{
 					"title": "Lists",
-					"link": "#",
 					"icon": "<i class='fa-regular fa-heart txt-size-mid-title'></i>"
 				},
 				{
 					"title": "Reviews and Questions",
-					"link": "#",
 					"icon": "<i class='fa-regular fa-comment txt-size-mid-title'></i>"
 				},
 				{
 					"title": "Log Out",
-					"link": "#",
 					"icon": "<i class='fa-solid fa-right-from-bracket txt-size-mid-title'></i>"
 				}
 			]
