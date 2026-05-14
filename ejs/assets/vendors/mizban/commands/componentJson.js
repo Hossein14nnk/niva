@@ -1,4 +1,11 @@
 const componentJson = {
+    "advisement": [
+        {
+            "code": "<div class=\"advisement\">\r\n           <p class=\"title\">نیاز به راهنمایی بیشتر دارید؟</p>\r\n           <p class=\"description\">پرسش های متداول ما را ببینید و با پشتیبانی درارتباط باشید</p>\r\n           <a class=\"btn-view\" href=\"\"><span>مشاهده سوالات متداول</span><i class=\"fa-sack-dollar\"></i></a>\r\n        </div>",
+            "icon": "",
+            "category": "advisement"
+        }
+    ],
     "alert-need": [
         {
             "code": "<div class=\"btn-shop btn-pink d-flex align-items-center justify-content-center gap-5 py-6 bg-color position-relative radius-all-medium w-50\">\r\n            <i class=\"fa-solid fa-xmark primary-color align-items-center\"></i>\r\n            <span class=\"primary-color txt-size-mid-title font-weight-bold\">\r\n                لطفا محل تحویل را در نقشه انتخاب کنید\r\n            </span>\r\n        </div>",
@@ -53,13 +60,6 @@ const componentJson = {
             "code": "<div class=\"biography\">\r\n            <img class=\"\" src=\"./assets/media/images/component/3-5.webp\">\r\n            <div class=\"content\">\r\n                <h3 class=\"title\">مجتبی حیدری</h3>\r\n                <span class=\"description\">مدیریت منابع انسانی</span>\r\n            </div>\r\n        </div>",
             "icon": "",
             "category": "biography"
-        }
-    ],
-    "biography copy": [
-        {
-            "code": "<div class=\"biography\">\r\n            <img class=\"\" src=\"./assets/media/images/component/3-5.webp\">\r\n            <div class=\"content\">\r\n                <h3 class=\"title\">مجتبی حیدری</h3>\r\n                <span class=\"description\">مدیریت منابع انسانی</span>\r\n            </div>\r\n        </div>",
-            "icon": "",
-            "category": "biography copy"
         }
     ],
     "button-date": [
