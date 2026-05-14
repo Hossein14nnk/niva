@@ -1,0 +1,35 @@
+@use "../../../../sass/kernel/" as *;
+
+.sidebar-menu {
+    box-shadow: 0px 0px 7px var(--shadow);
+}
+
+.sidebar-menu .profile-box {
+    width: 70px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.sidebar-menu .profile-box>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sidebar-menu .menu-box>a:hover {
+    background-color: #e8064680;
+    border-radius: 5px;
+}
+
+.sidebar-menu .menu-box>a {
+    transition: all 300ms;
+}
+
+.sidebar-menu .menu-box>a:hover>* {
+    color: var(--primary);
+}
+
+.sidebar-menu .menu-box>a>* {
+    transition: all 300ms;
+}

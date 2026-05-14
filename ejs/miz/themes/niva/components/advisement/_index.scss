@@ -1,6 +1,5 @@
 @use "../../../../sass/kernel/" as *;
 
-
 .advisement {
     
     @extend .d-flex, .flex-column, .radius-all-medium, .px-4, .py-4, .gap-5, .border-primary-color, .border-style-solid, .bw-1, .txt-align-center, .justify-content-center, .align-items-center, .bg-primary-light-color;

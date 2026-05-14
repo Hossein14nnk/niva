@@ -951,7 +951,6 @@
 			"rating": "130 Points",
 			"soldOut": "Sold Out: 1400",
 			"remaining": "Remaining: 13875 ",
-<<<<<<< HEAD
 			"add":"add to cart"
 		},
 		"userSummary": {
@@ -994,11 +993,6 @@
 			"discountCodePrice": "0 toman",
 			"amountPayable": "Amount payable",
 			"amountPayablePrice": "2,480,000 toman"
-			}
-=======
-			"add": "add to cart",
-			"alert":"added to your cart",
-			"price":"Free"
 		},
 		"tiket":{
 			"adminTiket":{
@@ -1049,7 +1043,6 @@
 				}
 			]
 		}
->>>>>>> e970cff6368204760fa57e4496959ed88b816ea3
 	},
 	"pages": {
 		"suggestionCategories": {
