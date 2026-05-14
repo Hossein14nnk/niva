@@ -31,7 +31,7 @@ let globals = {
                 return `./pages/${file}`;
 			case "development":
 				return `./output/${lang}/pages/${file}`;
-		}
+		} 
 	},
     getMedia: function (lang, file, mediaType){
         switch (mode) {

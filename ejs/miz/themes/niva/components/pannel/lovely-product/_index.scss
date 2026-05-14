@@ -1,0 +1,19 @@
+@use "../../../../../sass/kernel/" as *;
+
+
+.card {
+    @extend .position-relative , .d-flex , .align-items-center , .w-100 , .radius-all-medium , .justify-content-space-between , .bw-2 , .border-style-solid , .py-6 , .px-6;
+
+    div {
+        @extend .d-flex , .flex-column , .gap-3 ;
+    }
+    .topic {
+        @extend .txt-size-high-title , .font-weight-extra-bold ;
+    }
+
+    .description {
+        @extend .txt-size-big ;
+    }
+
+    
+}
