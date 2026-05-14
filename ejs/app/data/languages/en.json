@@ -951,6 +951,7 @@
 			"rating": "130 Points",
 			"soldOut": "Sold Out: 1400",
 			"remaining": "Remaining: 13875 ",
+<<<<<<< HEAD
 			"add":"add to cart"
 		},
 		"userSummary": {
@@ -994,6 +995,61 @@
 			"amountPayable": "Amount payable",
 			"amountPayablePrice": "2,480,000 toman"
 			}
+=======
+			"add": "add to cart",
+			"alert":"added to your cart",
+			"price":"Free"
+		},
+		"tiket":{
+			"adminTiket":{
+				"title":" Niva support",
+				"subtitle":" Support team",
+				"description1":"Hello, dear Amir Rezaei.",
+				"description2":"Thank you for contacting us.",
+				"description3":"Please make sure your internet connection is working and try the payment gateway again.",
+				"description4":"If the problem persists, please send us a screenshot of the error.",
+				"date":"11:35 - 1401/04/25",
+				"replay":"Answer support"
+			},
+			"userTiket":{
+				"title":" you",
+				"subtitle":"amir rezaee",
+				"description":"I am getting an error when paying for my order and the payment is not going through. Please help.",
+				"date":"10:30 - 1401/04/25",
+				"replay":"your message"
+			}
+		},
+		"advisement":{
+			"title":"Need more guidance?",
+			"description":"See our FAQ and contact support.",
+			"button":"View faq"
+		}, 
+		"pannel": {
+			"lovelyProduct": {
+				"topic" : "Don't miss out on your favorite products!",
+				"description" : "Prices may change. Finalize your purchase soon",
+				"btn" : "View Cart"
+			},
+			"featurs": [
+				{
+					"title" : "7-Day Money Back Guarantee",
+					"subtitle" : "Risk-Free Purchase"
+				},
+				{
+					"title" : "Guaranteed Authenticity",
+					"subtitle" : "Safe and Secure Purchase"
+				},
+				{
+					"title" : "Fast Shipping",
+					"subtitle" : "Nationwide"
+				},
+				{
+					"title" : "24-Hour Support",
+					"subtitle" : "We Are Always With You"
+				}
+			]
+		}
+>>>>>>> e970cff6368204760fa57e4496959ed88b816ea3
 	},
 	"pages": {
 		"suggestionCategories": {
