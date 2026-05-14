@@ -2,7 +2,7 @@
 
 
 .card {
-    @extend .position-relative , .d-flex , .w-100 , .radius-all-medium , .justify-content-space-between , .bw-2 , .border-style-solid , .py-6 , .px-6 , .border-primary-dark-color ;
+    @extend .position-relative , .d-flex , .w-100 , .radius-all-medium , .justify-content-space-between , .bw-2 , .border-style-solid , .py-6 , .px-6 , .border-primary-dark-color , .bg-primary-light-color ;
 
     div {
         @extend .d-flex , .flex-column , .gap-3 , .align-items-start ;

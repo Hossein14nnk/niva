@@ -367,7 +367,7 @@ html {
   color: var(--primary-light);
 }
 
-.bg-primary-light-color, .contain-feachures .featurebox img, .advisement {
+.bg-primary-light-color, .contain-feachures .featurebox img, .card, .advisement {
   background-color: var(--primary-light);
 }
 
