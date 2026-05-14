@@ -1,0 +1,38 @@
+<div class="ticket-information d-flex flex-column align-items-start radius-all-medium overflow-hidden">
+    <div class="py-4 bg-primary-color px-3 d-flex flex-row align-items-center justify-content-start gap-3 w-100">
+        <div class="profile-box">
+            <img src="<%= getMedia(lang, 'single/prof.jpg', 'images'); %>" alt="">
+        </div>
+        <div class="d-flex flex-column align-items-start gap-1">
+            <span class="on-primary-color txt-size-mid-title font-weight-semi-bold"><%= ticketInformation.profileName %></span>
+            <span class="on-primary-color txt-size-normal font-weight-medium"><%= ticketInformation.dateOfMembership %></span>
+        </div>
+    </div>
+    <div class="d-flex flex-column align-items-start px-3 gap-3 w-100 py-4">
+        <div class="d-flex flex-row gap-3 align-items-start">
+            <i class="fa-regular fa-clipboard-list"></i>
+            <h3 class="txt-size-mid-title font-weight-bold"><%= ticketInformation.title %></h3>
+        </div>
+        <div class="d-flex flex-row align-items-center justify-content-space-between gap-1 w-100">
+            <span class="txt-size-title font-weight-bold secondary-text-color "><%= ticketInformation.information.keyOne %></span>
+            <span class="txt-size-title font-weight-bold"><%= ticketInformation.information.valueOne %></span>
+        </div>
+        <span class="txt-size-title font-weight-bold secondary-text-color "><%= ticketInformation.information.keyTwo %></span>
+        <div class="d-flex flex-row align-items-center justify-content-space-between gap-1 w-100">
+            <span class="txt-size-title font-weight-bold secondary-text-color "><%= ticketInformation.information.keyThree %></span>
+            <span class="px-2 py-1 radius-all-extra-small bw-1 border-style-solid txt-size-title font-weight-bold bg-warning-light-color border-warning-regular-color warning-dark-color"><%= ticketInformation.information.valueThree %></span>
+        </div>
+        <div class="d-flex flex-row align-items-center justify-content-space-between gap-1 w-100">
+            <span class="txt-size-title font-weight-bold secondary-text-color "><%= ticketInformation.information.keyFour %></span>
+            <span class="txt-size-title font-weight-bold"><%= ticketInformation.information.valueFour %></span>
+        </div>
+        <div class="d-flex flex-row align-items-center justify-content-space-between gap-1 w-100">
+            <span class="txt-size-title font-weight-bold secondary-text-color "><%= ticketInformation.information.keyFive %></span>
+            <span class="txt-size-title font-weight-bold"><%= ticketInformation.information.valueFive %></span>
+        </div>
+        <div class="d-flex flex-row align-items-center justify-content-space-between gap-1 w-100">
+            <span class="txt-size-title font-weight-bold secondary-text-color "><%= ticketInformation.information.keySix %></span>
+            <span class="txt-size-title font-weight-bold"><%= ticketInformation.information.valueSix %></span>
+        </div>
+    </div>
+</div>

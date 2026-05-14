@@ -799,6 +799,62 @@
 			"add": "add to cart",
 			"alert":"added to your cart",
 			"price":"Free"
+		},
+		"addressBox": {
+			"addressName": "منزل پدری",
+			"postCode": "کد پستی : 22334455666",
+			"address": "مشهد بلوار احمد آباد نبش خیابان عارف 2 پلاک 44 طبقه 3 واحد 20",
+			"recipientName": "امیر رضایی",
+			"phoneNumber": "09121234567",
+			"editButton": "ویرایش",
+			"deleteButton": "حذف"
+		},
+		"shipmentInformation": {
+			"title": "اطلاعات ارسال",
+			"information": {
+				"keyOne": "گیرنده",
+				"valueOne": "محمد احمدی",
+				"keyTwo": "شماره موبایل",
+				"valueTwo": "09907001112",
+				"keyThree": "آدرس",
+				"valueThree": "تهران خیابان ولیعصر بالا تر از میدان ونک خیابان شهید مظفر پلاک 30 واحد 5",
+				"keyFour": "روش ارسال",
+				"valueFour": "پست پیشتاز",
+				"keyFive": "کد رهگیری",
+				"valueFive": "12345678910"
+			},
+			"btnText": "پیگیری مرسوله"
+		},
+		"sidebarMenu": {
+			"profileName": "امیر رضایی",
+			"dateOfMembership": "عضویت از فروردین 1401",
+			"menuList": {
+				"itemOne": "پیشخوان",
+				"itemTwo": "سفارش ها",
+				"itemThree": "علاقه مندی ها",
+				"itemFour": "آدرس ها",
+				"itemFive": "اطلاعات حساب کاربری",
+				"itemSix": "تیکت ها و پشتیبانی"
+			},
+			"btnText": "خروج از حساب"
+		},
+		"ticketInformation": {
+			"profileName": "امیر رضایی",
+			"dateOfMembership": "عضویت از فروردین 1401",
+			"title": "اطلاعات تیکت",
+			"information": {
+				"keyOne": "شماره تیکت",
+				"valueOne": "6007001112",
+				"keyTwo": "مشکل در پرداخت سفارش",
+				"keyThree": "وضعیت",
+				"valueThree": "در انتظار پاسخ",
+				"keyFour": "تاریخ ایجاد",
+				"valueFour": "25/4/1400",
+				"keyFive": "اخرین بروزرسانی",
+				"valueFive": "25/4/1400",
+				"keySix": "دسته بندی",
+				"valueSix": "سفارش و پرداخت"
+			}
 		}
 	},
 	"pages": {
