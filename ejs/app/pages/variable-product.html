@@ -1,0 +1,339 @@
+<%- include('../layouts/page/head.ejs', {pageName: "variable-product"}); -%>
+
+<main id="call-product" class="product-pages">
+	<div class="section flex-row px-0 py-0 justify-content-space-between align-items-center py-2 px-6 flex-xl-column align-items-xl-start gap-xl-2 bb-style-solid border bw-1 border-color">
+		<div class="container flex-row gap-2 gap-md-1 align-items-center">
+			<a href="<%- navigation(lang , 'index.html') %>" class="txt-size-normal secondary-text-color"><%= t.pages.variableProduct.topSection.previewNiva %></a>
+			<div class="vertical-line"></div>
+			<a href="<%- navigation(lang , 'shop.html') %>" class="txt-size-normal secondary-text-color"><%= t.pages.variableProduct.topSection.mobile %></a>
+			<div class="vertical-line"></div>
+			<span class="txt-size-normal secondary-text-color"><%= t.pages.variableProduct.topSection.productNameFa %></span>
+		</div>
+		<div class="container flex-row align-items-center gap-6 gap-md-3 flex-md-column align-items-md-start">
+			<div class="div gap-2 align-items-center">
+				<span class="txt-size-big secondary-text-color"><%= t.pages.unavailableProduct.topSection.templateName %></span>
+				<div class="vertical-line"></div>
+				<a href="#question-link" class="txt-size-big font-weight-bold secondary-text-color"><%= t.pages.unavailableProduct.topSection.numberOfQuestions %></a>
+				<div class="vertical-line"></div>
+				<a href="#comented-link" class="txt-size-big font-weight-bold secondary-text-color"><%= t.pages.unavailableProduct.topSection.numberOfFeedbacks %></a>
+			</div>
+		</div>
+	</div>
+	<section id="productpage" class="section gap-10 px-4 pt-1 px-xxl-8">
+		<div class="container w-100 gap-2 pt-2 gap-xl-6 flex-lg-column pt-lg-0">
+			<div class="block gap-2 flex-wrap pt-5">
+				<%- include('../components/product-button-feature/content.ejs', {productButtonFeature: t.pages.variableProduct.productButtonFeature}); %>
+			</div>
+
+			<div class="block gap-10 w-100 flex-lg-column gap-xl-11 mt-8">
+				<div class="div flex-column gap-10 w-75 w-lg-100">
+					<div class="div gap-10 flex-md-column gap-xl-6 gap-md-8">
+						<div class="div gap-5 w-50 w-md-100 flex-md-column">
+							<div class="product-toolbar flex-md-row gap-md-5">
+						<%- include('../components/product-toolbar/content.ejs', {productToolbar: t.pages.variableProduct.productToolbar}); %>
+							</div>
+							<div class="div flex-column gap-10 w-95 w-md-100">
+							<%- include('../components/product-gallery-slider/content.ejs', {productGallerySlider: t.pages.variableProduct.productGallerySlider}); %>
+							<div class="div gap-3 justify-content-space-between">
+									<div class="modal-toggle div gap-1 align-items-lg-center gap-lg-2 gap-ms-1" data-modal-id="cheaperPrice">
+										<p class="txt-size-big font-weight-bold secondary-text-color"><%= t.pages.variableProduct.modalToggle.propertyOne %></p>
+										<svg xmlns="http://www.w3.org/2000/svg " width="21 " height="23 " viewBox="0 0 19 19 " fill="none ">
+											<path d="M9.11254 16.7068H12.9095C15.1877 16.7068 16.7065 15.188 16.7065 12.9098V9.11279C16.7065 7.06241 15.4155 5.54362 13.5171 5.3158C13.3652 5.3158 13.1373 5.3158 12.9095 5.3158H5.31555C5.08773 5.3158 4.93584
+										5.31578 4.70803 5.39172C2.73359 5.61954 1.51855 7.06241 1.51855 9.11279C1.51855 9.34061 1.51855 9.64437 1.51855 9.87219 " stroke="#A5AFD0 " stroke-width="1.5 " stroke-linecap="round " stroke-linejoin="round "></path>
+											<path d="M13.5175 5.3158C13.3656 5.3158 13.1378 5.3158 12.91 5.3158H5.31602C5.0882 5.3158 4.93632 5.31578 4.7085 5.39172C4.78444 5.1639 4.93632 5.01203 5.16414 4.78421L7.59421 2.2782C8.65737 1.21505 10.328
+										1.21505 11.3912 2.2782L12.7581 3.64511C13.2138 4.10075 13.4416 4.70828 13.5175 5.3158Z " stroke="#A5AFD0 " stroke-width="1.5 " stroke-linecap="round " stroke-linejoin="round "></path>
+											<path d="M16.7067 9.49249H14.4285C13.5931 9.49249 12.9097 10.176 12.9097 11.0113C12.9097 11.8466 13.5931 12.5301 14.4285 12.5301H16.7067 " stroke="#A5AFD0 " stroke-width="1.5 " stroke-linecap="round
+										" stroke-linejoin="round "></path>
+											<path d="M4.40566 16.2512C5.7498 16.2512 6.83574 15.1652 6.83574 13.8211C6.83574 12.4769 5.7498 11.391 4.40566 11.391C3.06153 11.391 1.97559 12.4769 1.97559 13.8211C1.97559 15.1652 3.06153 16.2512 4.40566
+										16.2512Z " stroke="#A5AFD0 " stroke-width="1.5 " stroke-linecap="round " stroke-linejoin="round "></path>
+											<path d="M1.51855 16.7068L2.27795 15.9474 " stroke="#A5AFD0 " stroke-width="1.5 " stroke-linecap="round " stroke-linejoin="round "></path>
+										</svg>
+									</div>
+									<div class="modal-toggle div gap-1 align-items-lg-center gap-lg-2 gap-ms-1" data-modal-id="reportProduct">
+										<p class="txt-size-big font-weight-bold secondary-text-color"><%= t.pages.variableProduct.modalToggle.propertyTwo %></p>
+										<svg xmlns="http://www.w3.org/2000/svg " width="21 " height="21 " viewBox="0 0 19 19 " fill="none ">
+											<path d="M8.1655 1.86096C8.69721 1.4128 9.55554 1.4128 10.0721 1.86096L11.2722 2.88639C11.5001 3.07629 11.933 3.2358 12.2369 3.2358H13.5282C14.3333 3.2358 14.9942 3.89664 14.9942 4.7018V5.99309C14.9942 6.29692
+										15.1537 6.72229 15.3436 6.95016L16.369 8.15031C16.8172 8.68201 16.8172 9.54034 16.369 10.0569L15.3436 11.257C15.1537 11.4849 14.9942 11.9102 14.9942 12.2141V13.5054C14.9942 14.3105 14.3333 14.9714 13.5282 14.9714H12.2369C11.933
+										14.9714 11.5077 15.1309 11.2798 15.3208L10.0797 16.3462C9.54795 16.7944 8.68962 16.7944 8.1731 16.3462L6.97296 15.3208C6.74508 15.1309 6.31212 14.9714 6.01588 14.9714H4.68661C3.88146 14.9714 3.22062 14.3105 3.22062
+										13.5054V12.2065C3.22062 11.9102 3.0687 11.4773 2.87881 11.257L1.85337 10.0493C1.41281 9.52515 1.41281 8.67442 1.85337 8.15031L2.87881 6.94257C3.0687 6.71469 3.22062 6.28933 3.22062 5.99309V4.70939C3.22062 3.90424 3.88146
+										3.2434 4.68661 3.2434H6.00069C6.30453 3.2434 6.72989 3.08389 6.95777 2.89399L8.1655 1.86096Z " stroke="#A5AFD0 " stroke-width="1.5 " stroke-linecap="round " stroke-linejoin="round "></path>
+											<path d="M9.11523 6.17542V9.8442 " stroke="#A5AFD0 " stroke-width="1.5 " stroke-linecap="round " stroke-linejoin="round "></path>
+											<path d="M9.11084 12.1533H9.11766 " stroke="#A5AFD0 " stroke-width="2 " stroke-linecap="round " stroke-linejoin="round "></path>
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="div flex-column gap-5 w-50 w-md-100">
+							<div class="block flex-column">
+								<h2 class="font-weight-bold text-color txt-size-big-title"><%= t.pages.variableProduct.productName.productNameFa %></h2>
+								<span class="txt-size-big font-weight-bold secondary-text-color"><%= t.pages.variableProduct.productName.productNameEn %></span>
+							</div>
+							<div class="div d-grid grid-3 gap-3">
+						<%- include('../components/product-details/rating/content.ejs', {rating: t.pages.variableProduct.productDetails.rating}); %>
+						<% for(let i = 0; i < t.components.productDetails.simple.length; i++) { %>
+						<%- include('../components/product-details/simple/content.ejs', {
+						simple: t.pages.variableProduct.productDetails.simple[i]
+						}) %>
+						<% } %>
+
+
+
+	</div>
+		<%- include('../components/feature-description-box/text/content.ejs', {text: t.pages.variableProduct.featureDescriptionBox.text}); %>
+						
+
+				<%- include('../components/feature-description-box/banner/content.ejs', {banner: t.pages.variableProduct.featureDescriptionBox.banner}); %>
+
+				<%- include('../components/return-conditions/content.ejs', {returnConditions: t.pages.variableProduct.returnConditions}); %>
+						</div>
+					</div>
+
+					<div class="overflow-x-xl-scroll w-100 bw-1 bt-style-dashed bb-style-dashed border-color">
+					<div class="div justify-content-space-between py-7 gap-7">
+							<div class="featurebox d-flex align-items-center gap-3 flex-lg-shrink">
+								<div class="d-flex flex-column gap-1">
+									<span class="txt-size-mid-title text-color font-weight-bold txt-nowrap"><%= t.pages.variableProduct.featureBox[0].title %></span>
+									<span class="txt-size-big secondary-text-color font-weight-bold txt-nowrap"><%= t.pages.variableProduct.featureBox[0].subtitle %></span>
+								</div>
+								<img src="<%= getMedia(lang, '', 'images'); %>" alt="">
+							</div>
+							<div class="divider"></div>
+						<div class="featurebox d-flex align-items-center gap-3 flex-lg-shrink">
+								<div class="d-flex flex-column gap-1">
+									<span class="txt-size-mid-title text-color font-weight-bold txt-nowrap"><%= t.pages.variableProduct.featureBox[1].title %></span>
+									<span class="txt-size-big secondary-text-color font-weight-bold txt-nowrap"><%= t.pages.variableProduct.featureBox[1].subtitle %></span>
+								</div>
+								<img src="<%= getMedia(lang, '', 'images'); %>" alt="">
+							</div>
+							<div class="divider"></div>
+							<div class="featurebox d-flex align-items-center gap-3 flex-lg-shrink">
+								<div class="d-flex flex-column gap-1">
+									<span class="txt-size-mid-title text-color font-weight-bold txt-nowrap"><%= t.pages.variableProduct.featureBox[2].title %></span>
+									<span class="txt-size-big secondary-text-color font-weight-bold txt-nowrap"><%= t.pages.variableProduct.featureBox[2].subtitle %></span>
+								</div>
+								<img src="<%= getMedia(lang, '', 'images'); %>" alt="">
+							</div>
+							<div class="divider"></div>
+						<div class="featurebox d-flex align-items-center gap-3 flex-lg-shrink">
+								<div class="d-flex flex-column gap-1">
+									<span class="txt-size-mid-title text-color font-weight-bold txt-nowrap"><%= t.pages.variableProduct.featureBox[3].title %></span>
+									<span class="txt-size-big secondary-text-color font-weight-bold txt-nowrap"><%= t.pages.variableProduct.featureBox[3].subtitle %></span>
+								</div>
+								<img src="<%= getMedia(lang, '', 'images'); %>" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="block gap-7 flex-column">
+						<h2 class="txt-size-big-title text-color font-weight-bold"><%= t.pages.variableProduct.productName.similarProducts %></h2>
+						<div class="div w-100 radius-all-medium gap-1 border-style-solid border-color bw-1">
+							<div class="card-container swiper w-100 w-80 w-xl-100 overflow-hidden py-8">
+								<div class="offer-card-content">
+									<div class="swiper-wrapper">
+										<% for(let i = 0; i < t.pages.variableProduct.cardContainer.productCards.length; i++) { -%>
+											<%- include('../components/product-card/full/content.ejs', {productCard: t.pages.variableProduct.cardContainer.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
+										<%_ } -%>
+									</div>
+								</div>
+
+								<!-- Navigation Buttons -->
+								<div class="swiper-button-next">
+									<i class="fa-solid fa-chevron-right on-secondary-color"></i>
+								</div>
+
+								<div class="swiper-button-prev">
+									<i class="fa-solid fa-chevron-left on-secondary-color"></i>
+								</div>
+
+								<!-- Pagination -->
+								<!-- <div class="swiper-pagination"></div> -->
+							</div>
+						</div>
+					</div>
+					<div id="review" class="div gap-10 flex-column">
+						<div class="description-header div align-items-center justify-content-space-between w-100 py-2 bg-on-primary-color z-index-1 position-sticky top-0 bg-on-primary-color d-md-none">
+							<div class="description-header-left div align-items-center gap-5">
+								<div class="arrow-controls div gap-3 flex-column">
+									<i class="fa-regular fa-angle-up secondary-text-color"></i>
+									<div class="arrow-divider"></div>
+									<i class="fa-regular fa-angle-down secondary-text-color"></i>
+								</div>
+								<div class="slider-frame">
+									<h3 class="description-title txt-size-big-title font-weight-black active"><%= t.pages.variableProduct.reviews.description %></h3>
+									<h3 class="description-title txt-size-big-title font-weight-black"><%= t.pages.variableProduct.reviews.additionalDescription %></h3>
+									<h3 class="description-title txt-size-big-title font-weight-black"><%= t.pages.variableProduct.reviews.comments %></h3>
+									<h3 class="description-title txt-size-big-title font-weight-black"><%= t.pages.variableProduct.reviews.userComments %></h3>
+								</div>
+							</div>
+							<nav class="description-nav">
+								<ul class="description-nav-list div align-items-center gap-7 gap-sm-5">
+									<li class="description-nav-item">
+										<a href="#description-link" class="description-nav-link txt-size-title secondary-text-color"><%= t.pages.variableProduct.reviews.description %></a>
+									</li>
+									<li class="description-nav-item">
+										<a href="#description-completed" class="description-nav-link txt-size-title secondary-text-color"><%= t.pages.variableProduct.reviews.additionalDescription %></a>
+									</li>
+									<li class="description-nav-item">
+										<a href="#comented-link" class="description-nav-link txt-size-title secondary-text-color"><%= t.pages.variableProduct.reviews.comments %></a>
+									</li>
+									<li class="description-nav-item">
+										<a href="#question-link" class="description-nav-link txt-size-title secondary-text-color"><%= t.pages.variableProduct.reviews.userComments %></a>
+									</li>
+								</ul>
+							</nav>
+						</div>	
+						<div class="itemedtails div flex-column gap-7">
+							<h3 class="txt-size-big-title text-color font-weight-black"><%= t.pages.variableProduct.itemedtails[0].title %></h3>
+							<p class="text-color font-weight-bold txt-size-mid-title line-height-4 txt-align-justify" id="description-link"><%= t.pages.variableProduct.itemedtails[0].description %></p>
+							<img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 radius-all-medium" />
+							<p class="text-color font-weight-bold txt-size-mid-title txt-align-justify"><%= t.pages.variableProduct.itemedtails[0].descriptionTwo %></p>
+							<h3 class="txt-size-big-title text-color font-weight-black"><%= t.pages.variableProduct.itemedtails[1].title %></h3>
+							<p class="text-color font-weight-bold txt-size-mid-title txt-align-justify"><%= t.pages.variableProduct.itemedtails[1].description %></p>
+							<img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 radius-all-medium" />
+							<p class="text-color font-weight-bold txt-size-mid-title txt-align-justify">
+							<%= t.pages.variableProduct.itemedtails[3].description %>									</p>
+							<img src="<%= getMedia(lang, '', 'images'); %>" alt="" class="w-100 radius-all-medium" />
+							<h3 class="txt-size-big-title text-color font-weight-black"><%= t.pages.variableProduct.itemedtails[2].title %></h3>
+							<p class="text-color font-weight-bold txt-size-mid-title txt-align-justify"><%= t.pages.variableProduct.itemedtails[2].description %></p>
+
+							<p></p>
+							<p class="text-color font-weight-bold txt-size-mid-title txt-align-justify"><%= t.pages.variableProduct.itemedtails[2].descriptionTwo %></p>
+
+							<p class="text-color font-weight-bold txt-size-mid-title txt-align-justify"><%= t.pages.variableProduct.itemedtails[2].descriptionThree %></p>
+
+							<p class="text-color font-weight-bold txt-size-title txt-align-justify"><%= t.pages.variableProduct.itemedtails[2].descriptionFour %></p>
+							<p class="text-color font-weight-bold txt-size-mid-title txt-align-justify"><%= t.pages.variableProduct.itemedtails[2].descriptionFive %></p>
+							<h3 class="txt-size-big-title text-color font-weight-black"><%= t.pages.variableProduct.itemedtails[3].title %></h3>
+							<p class="text-color font-weight-bold txt-size-mid-title txt-align-justify">
+							<%= t.pages.variableProduct.itemedtails[3].description %>	
+					</div>
+						<div class="div flex-column gap-10 w-100" id="description-completed">
+							<h2 class="text-color font-weight-bold"><%= t.pages.variableProduct.descriptionCompleted.additionalDescription %></h2>
+								<% for(let i = 0; i < t.pages.variableProduct.descriptionCompleted.productSpecifications.length; i++) { %>
+									<%- include('../components/product-specifications/content.ejs', {productSpecifications: t.pages.variableProduct.descriptionCompleted.productSpecifications[i]}); %>
+
+								<% } %>
+
+
+
+						</div>
+					</div>
+				</div>
+
+				<div class="position-sticky product-wrapper-sticky w-25 d-flex flex-column gap-5 w-lg-100 justify-content-lg-space-between mb-lg-20" style="top: 6rem">
+				
+			<%- include('../components/variable-product/content.ejs', {
+				variableProductCo: t.pages.variableProduct.variableProductCo
+			}); -%>
+					
+				</div>
+			</div>
+
+			<div class="block gap-10 w-100 flex-lg-column gap-xl-11 mt-8">
+				<div class="div flex-column gap-10 w-75 w-lg-100">
+					<div class="div flex-column gap-10" id="comented-link">
+						<h2 class="txt-size-big-title text-color font-weight-bold" id="question-link"><%= t.pages.variableProduct.rattingSection.head %></h2>
+						<div class="div w-100 gap-10 flex-lg-column">
+							<div class="w-100 d-flex flex-column gap-8 w-lg-100">
+								<ul class="sort-by d-flex align-items-center secondary-text-color txt-size-normal gap-4 font-weight-bold">
+									<div class="d-flex align-items-center gap-4 d-lg-none">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+											<path d="M11.668 3.75H17.5013" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M11.668 7.91602H17.5013" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M2.5 12.084H17.5" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M2.5 16.25H17.5" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M7.91797 7.02565V4.64232C7.91797 3.70898 7.54297 3.33398 6.6013 3.33398H4.2263C3.29297 3.33398 2.91797 3.70898 2.91797 4.64232V7.01732C2.91797 7.95898 3.29297 8.33398 4.2263 8.33398H6.6013C7.54297 8.33398 7.91797 7.95898 7.91797 7.02565Z" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg>
+										<p class="text-color txt-size-title"><%= t.pages.variableProduct.rattingSection.title %></p>
+									</div>
+									<div class="vertical-line mx-1 d-lg-none"></div>
+									<li class="user-select-none cursor-pointer active">
+										<p class=""><%= t.pages.variableProduct.rattingSection.menu[0].title %></p>
+									</li>
+									<li class="user-select-none cursor-pointer">
+										<p class=""><%= t.pages.variableProduct.rattingSection.menu[1].title %></p>
+									</li>
+									<li class="user-select-none cursor-pointer">
+										<p class=""><%= t.pages.variableProduct.rattingSection.menu[2].title %></p>
+									</li>
+									<li class="user-select-none cursor-pointer">
+										<p class=""><%= t.pages.variableProduct.rattingSection.menu[3].title %></p>
+									</li>
+									<li class="user-select-none cursor-pointer">
+										<p class=""><%= t.pages.variableProduct.rattingSection.menu[4].title %></p>
+									</li>
+								</ul>
+
+	<% for(let i = 0; i < t.pages.variableProduct.productComment.length; i++) { %>
+<%- include('../components/product-comment/content.ejs', {
+productComment: t.pages.variableProduct.productComment[i]
+}) %>
+<% } %>
+				</div>
+						</div>
+					</div>
+				</div>
+				<div class="position-sticky product-wrapper-sticky pr-7 pr-lg-0 w-25 d-flex flex-column gap-5 w-lg-100 justify-content-lg-space-between mb-lg-20 align-items-end">
+												<%- include('../components/rating-card/content.ejs', {
+		ratingCard: t.pages.variableProduct.ratingCard
+});    -%>
+				</div>
+			</div>
+
+			<div class="block gap-10 w-100 flex-lg-column gap-xl-11 mt-8">
+				<div class="div flex-column gap-10 w-75 w-lg-100">
+					<div class="div flex-column gap-10" id="question-link">
+						<h2 class="txt-size-big-title text-color font-weight-bold"><%= t.pages.variableProduct.faqSection.title %></h2>
+						<div class="div w-100 gap-10 flex-lg-column">
+							<div class="w-100 div flex-column gap-11 w-lg-100">
+									<ul class="sort-by d-flex align-items-center secondary-text-color txt-size-normal gap-4 font-weight-bold">
+									<div class="d-flex align-items-center gap-4 d-lg-none">
+										<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+											<path d="M11.668 3.75H17.5013" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M11.668 7.91602H17.5013" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M2.5 12.084H17.5" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M2.5 16.25H17.5" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+											<path d="M7.91797 7.02565V4.64232C7.91797 3.70898 7.54297 3.33398 6.6013 3.33398H4.2263C3.29297 3.33398 2.91797 3.70898 2.91797 4.64232V7.01732C2.91797 7.95898 3.29297 8.33398 4.2263 8.33398H6.6013C7.54297 8.33398 7.91797 7.95898 7.91797 7.02565Z" stroke="#021959" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg>
+										<p class="text-color txt-size-title"><%= t.pages.variableProduct.faqSection.title %></p>
+									</div>
+									<div class="vertical-line mx-1 d-lg-none"></div>
+									<li class="user-select-none cursor-pointer active">
+										<p class=""><%= t.pages.variableProduct.faqSection.menu[0].title %></p>
+									</li>
+									<li class="user-select-none cursor-pointer">
+										<p class=""><%= t.pages.variableProduct.faqSection.menu[1].title %></p>
+									</li>
+									<li class="user-select-none cursor-pointer">
+										<p class=""><%= t.pages.variableProduct.faqSection.menu[2].title %></p>
+									</li>
+									<li class="user-select-none cursor-pointer">
+										<p class=""><%= t.pages.variableProduct.faqSection.menu[3].title %></p>
+									</li>
+									<li class="user-select-none cursor-pointer">
+										<p class=""><%= t.pages.variableProduct.faqSection.menu[4].title %></p>
+									</li>
+								</ul>
+
+							
+	<% for(let i = 0; i < t.pages.variableProduct.productQa.length; i++) { %>
+<%- include('../components/product-qa/content.ejs', {
+productQa: t.pages.variableProduct.productQa[i]
+}) %>
+<% } %>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="position-sticky product-wrapper-sticky w-25 d-flex flex-column gap-5 w-lg-100 justify-content-lg-space-between mb-lg-20">
+							<%- include('../components/register-comment-box/content.ejs', {
+		registerCommentBox: t.pages.variableProduct.registerCommentBox
+});    -%>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+
+<%- include('../layouts/page/dialog.ejs'); -%>
+<%- include('../layouts/page/foot.ejs'); -%>

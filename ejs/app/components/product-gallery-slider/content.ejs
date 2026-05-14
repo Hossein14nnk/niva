@@ -3,14 +3,14 @@
         <div class="slider-container">
             <%_ for(let i = 0; i < productGallerySlider.sliderContents.length; i++){ -%>
                 <div id="<%= productGallerySlider.sliderContents[i].id %>" class="slider-content">
-                    <img src="./assets/media/images/<%= productGallerySlider.sliderContents[i].image.src %>" alt="<%= productGallerySlider.sliderContents[i].image.alt %>">
+                    <img src="<%= getMedia(lang, `products/mobile-${i + 1}.webp`, 'images'); %>" alt="">
                 </div>
             <%_ } -%>
         </div>
     </div>
     <div class="slider-toggles">
         <%_ for(let i = 0; i < productGallerySlider.sliderToggles.length; i++){ -%>
-            <img class="slider-toggle" data-slider-id="<%= productGallerySlider.sliderToggles[i].id %>" src="./assets/media/images/<%= productGallerySlider.sliderToggles[i].image.src %>" alt="<%= productGallerySlider.sliderToggles[i].image.alt %>">
+            <img class="slider-toggle" data-slider-id="<%= productGallerySlider.sliderToggles[i].id %>" src="<%= getMedia(lang, `products/mobile-${i + 1}.webp`, 'images'); %>" alt="">
         <%_ } -%>
     </div>
 </div>
