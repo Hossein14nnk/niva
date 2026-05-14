@@ -64,7 +64,6 @@
             
             .description{
                 @extend .txt-size-big, .secondary-text-color, .font-weight-bold, .txt-align-center;
-                text-wrap: nowrap;
             }
         }
     }

@@ -4,7 +4,7 @@
 			<div class="primary-part w-100 d-flex pie-4 pis-4 gap-5 gap-sm-2 flex-row align-items-center justify-content-space-between bg-color">
 				<div class="d-flex flex-row align-items-center justify-content-space-between gap-5 gap-sm-2">
 					<a href="<%- navigation(lang , 'index.html') %>">
-						<img src="./assets/media/images/<%= t.company.logoImage.original.src %>" alt="<%= t.company.logoImage.original.alt %>" class="logo h-75" />
+						<img src="<%= getMedia(lang, 'single/logo-web1.webp', 'images'); %>" alt="" class="logo h-75" />
 					</a>
 					<div id="searchBox">
 						<div class="d-lg-flex">
@@ -15,7 +15,7 @@
 						</div>
 						<div class="content flex-column align-items-start gap-4 px-2 pb-2 pt-5 d-none bg-secondary-color w-100 radius-all-small w-lg-100">
 							<div class="div align-items-center gap-2">
-								<img src="./assets/media/images/<%= t.language %>/header/fire.svg" alt="" class="fire-svg" />
+								<img src="<%= getMedia(lang, 'single/fire.svg', 'images'); %>" alt="" class="fire-svg" />
 								<span class="black-text txt-size-title font-weight-bold"><%= t.header.search.popular.title %></span>
 							</div>
 							<div class="div align-items-center gap-3 flex-wrap">
@@ -50,7 +50,7 @@
 									<path d="M7 10l5 5 5-5H7z"></path>
 								</svg>
 							</div>
-							<ul class="dropdown-menu dropdown-bottom" style="width: 250px;">
+							<ul class="dropdown-menu dropdown-bottom" style="width: 230px;">
 								<li>
 									<a href="<%- navigation(lang , 'index.html') %>" class="px-6 radius-tr-small radius-tl-small">
 										<div class="w-100 d-flex flex-row-reverse align-items-center justify-content-space-between py-2">
@@ -95,23 +95,27 @@
 							<div class="megamenu d-none flex-row align-items-stretch">
 								<ul class="d-flex flex-column bg-secondary-color position-relative">
 									<%_ for(let i = 0; i < t.header.menu.categories.length; i++){ -%>
-										<li class="submenu-parent pie-sm-2 pis-sm-2 py-xl-3 d-flex flex-row align-items-center py-4 pie-5 pis-5 gap-2">
-											<%- t.header.menu.categories[i].icon %>
-											<span class="text-color txt-size-mid-title font-weight-bold"><%= t.header.menu.categories[i].title %></span>
-											<div class="submenu d-<%= (i == 0) ? 'flex' : 'none' %> one position-absolute flex-column align-items-stretch gap-6 pie-1 pis-10 py-12">
-												<span class="txt-size-mid-title text-color font-weight-bold line-height-3"><%= t.header.menu.viewAllText %> <%= t.header.menu.categories[i].title %></span>
-												<ul class="h-100 d-flex flex-column flex-wrap gap-3">
-													<%_ for(let j = 0; j < t.header.menu.categories[i].parents.length; j++){ -%>
-														<li class="parent">
-															<a class="txt-size-title font-weight-bold" href="<%= t.header.menu.categories[i].parents[j].link %>"><%= t.header.menu.categories[i].parents[j].title %></a>
-														</li>
-														<%_ for(let k = 0; k < t.header.menu.categories[i].parents[j].items.length; k++){ -%>
-															<li><a class="txt-size-title text-color font-weight-bold" href="<%= t.header.menu.categories[i].parents[j].items[k].link %>"><%= t.header.menu.categories[i].parents[j].items[k].title %></a></li>
+										<a href="<%= navigation(lang, 'shop.html'); %>">
+											<li class="submenu-parent pie-sm-2 pis-sm-2 py-xl-3 d-flex flex-row align-items-center py-4 pie-5 pis-5 gap-2">
+												<%- t.header.menu.categories[i].icon %>
+												<span class="text-color txt-size-mid-title font-weight-bold"><%= t.header.menu.categories[i].title %></span>
+												<div class="submenu d-<%= (i == 0) ? 'flex' : 'none' %> one position-absolute flex-column align-items-stretch gap-6 pie-1 pis-10 py-12">
+													<span class="txt-size-mid-title text-color font-weight-bold line-height-3"><%= t.header.menu.viewAllText %> <%= t.header.menu.categories[i].title %></span>
+													<ul class="h-100 d-flex flex-column flex-wrap gap-3">
+														<%_ for(let j = 0; j < t.header.menu.categories[i].parents.length; j++){ -%>
+															<li class="parent">
+																<a class="txt-size-title font-weight-bold" href="<%= navigation(lang, 'shop.html'); %>"><%= t.header.menu.categories[i].parents[j].title %></a>
+															</li>
+															<%_ for(let k = 0; k < t.header.menu.categories[i].parents[j].items.length; k++){ -%>
+																<li>
+																	<a class="txt-size-title text-color font-weight-bold" href="<%= navigation(lang, 'simple-product.html'); %>"><%= t.header.menu.categories[i].parents[j].items[k].title %></a>
+																</li>
+															<%_ } -%>
 														<%_ } -%>
-													<%_ } -%>
-												</ul>
-											</div>
-										</li>
+													</ul>
+												</div>
+											</li>
+										</a>
 									<%_ } -%>
 								</ul>
 							</div>

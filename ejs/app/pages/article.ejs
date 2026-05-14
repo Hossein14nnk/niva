@@ -12,15 +12,15 @@
             <aside class="container w-25 w-lg-100 gap-10">
                 <h3 class="txt-size-mid-title font-weight-black"><%=article.asideTitle%></h3>
                 <div class="block d-grid grid-1 grid-lg-3 grid-md-2 grid-sm-1 gap-10">
-                    <% for(let blog of mostViedBlogs){ %>
+                    <%_ for(let i = 0; i < mostViedBlogs.length; i++){ -%>
                         <%- include('../components/weblog-card/newest-column/content.ejs', {
-                            title: blog.title,
-                            description: blog.description,
-                            date: blog.date,
-                            commentCount: blog.commentCount,
-                            image: blog.image,
-                            link: blog.link,
-                            showViewAndReadingTime: blog.showViewAndReadingTime                  
+                            title: mostViedBlogs[i].title,
+                            description: mostViedBlogs[i].description,
+                            date: mostViedBlogs[i].date,
+                            commentCount: mostViedBlogs[i].commentCount,
+                            image: getMedia(lang, `articles/article-${i + 1}.webp`, 'images'),
+                            link: mostViedBlogs[i].link,
+                            showViewAndReadingTime: mostViedBlogs[i].showViewAndReadingTime                  
                         }); -%>
                     <% } %>
                 </div>
@@ -62,15 +62,9 @@
                                 <% } %>
                             <% } %>
                         </div>
-                        <% if (article.image && article.image.src) { %>
-                            <img class="radius-all-small w-xl-100 mb-xl-5 w-100" src="./assets/media/images/<%= article.image.src %>" alt="<%= article.image.alt || 'تصویر مقاله' %>" />
-                        <% } %>
+                        <img class="radius-all-small w-xl-100 mb-xl-5 w-100" src="<%= getMedia(lang, `weblogs/weblog-${i + 1}.webp`, 'images'); %>" alt="" />
                     </div>
                 <% } %>
-                
-                
-
-
 
             </div>
         </div>
@@ -161,7 +155,7 @@
                         description: mostDiscussed[i].description,
                         date: mostDiscussed[i].date,
                         commentCount: mostDiscussed[i].commentCount,
-                        image: mostDiscussed[i].image,
+                        image: getMedia(lang, `articles/article-${i + 1}.webp`, 'images'),
                         link: mostDiscussed[i].link,
                         showViewAndReadingTime: mostDiscussed[i].showViewAndReadingTime                  
                     }); -%>
