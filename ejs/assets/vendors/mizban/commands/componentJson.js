@@ -601,6 +601,20 @@ const componentJson = {
             "category": "switcher"
         }
     ],
+    "admin-tiket": [
+        {
+            "code": "<div class=\"admin-tiket d-flex justify-content-space-between bw-1 border-primary-color bg-primary-light-color border-style-solid radius-all-normal py-6 px-8 flex-lg-column\">\r\n        <div class=\"d-flex justify-content-start gap-10\">\r\n            <div class=\"d-flex gap-2 justify-content-center align-items-start\">\r\n                <div class=\"wraper-user-image bg-primary-color\">\r\n                    <i class=\"fa-regular fa-headset icon-headset\"></i>\r\n                </div>\r\n                <div class=\"d-flex flex-column gap-4\">\r\n                    <p class=\"font-weight-bold text-color txt-size-high-title\">پشتیبانی نیوا</p>\r\n                    <p class=\"secondary-text-color \">تیم پشتیبانی </p>\r\n                </div>\r\n            </div>\r\n            <div class=\"py-4\">\r\n                <p class=\"secondary-text-color \">\r\n                    سلام امیر رضایی عزیز .<br>\r\n                    ممنون که با ما در ارتباط هستید.<br>\r\n                    لطفا از اتصال اینترنت خود مطمئن شوید و مجددااز درگاه پرداخت استفاده کنید.<br>\r\n                    در صورت ادامه مشکل لطفا اسکرین شات خطا را برای ما ارسال کنید.\r\n                </p>\r\n            </div>\r\n        </div>\r\n        <div class=\"d-flex flex-column gap-2 align-items-end\">\r\n            <span class=\"secondary-text-color \">11:35 - 1401/04/25</span>\r\n            <span class=\"border-color border-style-solid bw-1 radius-all-extra-small px-3 py-1 txt-size-title bg-secondary-color text-color\"> پاسخ پشتیبانی</span>\r\n        </div>\r\n    </div>",
+            "icon": "",
+            "category": "tiket"
+        }
+    ],
+    "user-tiket": [
+        {
+            "code": "<div class=\"admin-tiket d-flex justify-content-space-between bw-1 border-color border-style-solid radius-all-normal py-6 px-8 flex-lg-column\">\r\n                <div class=\"d-flex justify-content-start gap-10\">\r\n                    <div class=\"d-flex gap-2 justify-content-center align-items-start\">\r\n                        <div class=\"radius-all-full\">\r\n                            <img class=\"user-image\" src=\"./assets/media/images/fa/people/person-5.webp\" alt=\"\">\r\n                        </div>\r\n                        <div class=\"d-flex flex-column gap-3\">\r\n                            <p class=\"font-weight-bold text-color txt-size-high-title\">شما</p>\r\n                            <p class=\"secondary-text-color \">امیر رضایی</p>\r\n                        </div>\r\n                    </div>\r\n                    <div class=\"py-4\">\r\n                        <p class=\"secondary-text-color \">\r\n                        سلام من هنگام پرداخت سفارش با خطا مواجه میشم و پرداخت انجام نمیشه\r\n                        لطفا راهنمایی کنید.\r\n                        </p>\r\n                    </div>\r\n                </div>\r\n                <div class=\"d-flex flex-column gap-2 align-items-end\">\r\n                    <span class=\"secondary-text-color \">10:30 - 1401/04/25</span>\r\n                    <span class=\"border-color border-style-solid bw-1 radius-all-extra-small px-3 py-1 txt-size-title bg-secondary-color\">پیام شما</span>\r\n                </div>\r\n            </div>",
+            "icon": "",
+            "category": "tiket"
+        }
+    ],
     "topseller": [
         {
             "code": "<div class=\"topseller\">\r\n        <a href=\"#\" class=\"details\">\r\n            <div class=\"content\">\r\n                <span class=\"number\">5</span>\r\n                <span class=\"title\">\r\n                    هدفون گیمینگ بیوا\r\n                </span>\r\n            </div>\r\n            <img src=\"./assets/media/images/component/8-300x300.webp \" alt=\" \">\r\n        </a>\r\n        <div class=\"background-wrapper w-100 h-100 position-absolute\"></div>\r\n    </div>",

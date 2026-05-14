@@ -799,6 +799,30 @@
 			"add": "add to cart",
 			"alert":"added to your cart",
 			"price":"Free"
+		},
+		"tiket":{
+			"adminTiket":{
+				"title":" Niva support",
+				"subtitle":" Support team",
+				"description1":"Hello, dear Amir Rezaei.",
+				"description2":"Thank you for contacting us.",
+				"description3":"Please make sure your internet connection is working and try the payment gateway again.",
+				"description4":"If the problem persists, please send us a screenshot of the error.",
+				"date":"11:35 - 1401/04/25",
+				"replay":"Answer support"
+			},
+			"userTiket":{
+				"title":" you",
+				"subtitle":"amir rezaee",
+				"description":"I am getting an error when paying for my order and the payment is not going through. Please help.",
+				"date":"10:30 - 1401/04/25",
+				"replay":"your message"
+			}
+		},
+		"advisement":{
+			"title":"Need more guidance?",
+			"description":"See our FAQ and contact support.",
+			"button":"View faq"
 		}, 
 		"pannel": {
 			"lovelyProduct": {
