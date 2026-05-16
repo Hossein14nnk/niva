@@ -1,0 +1,58 @@
+<%- include('../layouts/page/head.ejs', {pageName: "my-interests"}); -%>
+    	<main id="my-orders" class="orders-page">
+		<section id="" class="section gap-10 align-items-start d-grid grid-template">
+			<aside class="">
+				   <%- include('../components/sidebar-menu/content.ejs', {sidebarMenu: t.components.sidebarMenu}); -%>
+			</aside>
+			<div class="container gap-6 ">
+				<div>
+					<div class="block gap-2">
+						<i class="fa-regular fa-heart primary-color txt-size-big-title"></i>
+						<h3 class="txt-size-big-title font-weight-bold"> <%= t.pages.myInterests.title %></h3>
+					</div>
+					<div class="block gap-3 txt-size-title align-items-center">
+						<a class="secondary-text-color" href="../index.html"><%= t.pages.myInterests.subtitle1 %></a>
+						<i class="icon-arr-left txt-size-small opacity-5 on-secondary-color"></i>
+						<a class="secondary-text-color" href="../articles.html"><%= t.pages.myInterests.subtitle2 %></a>
+						
+					</div>
+				</div>
+				<div class="container d-grid grid-4 gap-3 w-100 grid-lg-3 grid-sm-2 align-items-stretch">
+					<% for(let i = 0; i < t.pages.offer.components.productCards.length; i++) { -%>
+						<%- include('../components/product-card/full/content.ejs', {productCard: t.pages.offer.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
+					<%_ } -%>
+				</div>
+				<div class="d-flex justify-content-center align-items-center w-100">
+                    <div class="block wrapper-page-numbers align-items-center txt-size-big gap-6 font-weight-bold">
+                    <span class="div align-items-center border gap-4 text-color radius-all-small py-4 px-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                            <path d="M5.58594 2.34187L9.1176 5.87354C9.53469 6.29062 9.53469 6.97312 9.1176 7.39021L5.58594 10.9219" stroke="#021959" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <p class="page-number txt-size-big"><%= t.pages.myInterests.before %></p>
+                    </span>
+                    <div class="div align-items-center gap-1">
+                        <span class="page-number border choose radius-all-small py-4 px-6 secondary-text-color">1</span>
+                        <span class="page-number border radius-all-small py-4 px-5 secondary-text-color">2</span>
+                        <span class="page-number border radius-all-small py-4 px-5 secondary-text-color">3</span>
+                    </div>
+                    <span class="div align-items-center border gap-4 text-color radius-all-small py-4 px-5">
+                        <p class="page-number txt-size-big"><%= t.pages.myInterests.next %></p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                            <path d="M8.74219 2.34187L5.21052 5.87354C4.79344 6.29062 4.79344 6.97312 5.21052 7.39021L8.74219 10.9219" stroke="#021959" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </span>
+                </div>
+                </div>
+			</div>
+            
+		</section>
+		<section class="section d-grid contaner-feature gap-2">
+			<%- include('../components/pannel/featurs/content.ejs', {title : t.components.pannel , subtitle : t.components.pannel}); -%>
+            <%- include('../components/pannel/lovely-product/content.ejs', {topic : t.components.pannel.lovelyProduct.topic ,
+       			 description : t.components.pannel.lovelyProduct.description ,
+        	btn : t.components.pannel.lovelyProduct.btn }); -%>
+		</section>
+	</main>
+	
+
+<%- include('../layouts/page/foot.ejs'); %>

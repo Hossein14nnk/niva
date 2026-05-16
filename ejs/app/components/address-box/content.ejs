@@ -1,0 +1,19 @@
+<div class="address-box d-flex flex-column align-items-start gap-4 px-3 py-3 radius-all-medium">
+    <span class="px-2 py-1 radius-all-extra-small bw-1 border-style-solid txt-size-title font-weight-bold bg-warning-light-color border-warning-regular-color warning-dark-color"><%= addressBox.addressName %></span>
+    <span class="py-1 px-2 radius-all-small secondary-text-color txt-size-title font-weight-bold bw-1 border-style-solid"><%= addressBox.postCode %></span>
+    <span class="txt-size-mid-title font-weight-bold"><%= addressBox.address %></span>
+    <div class="d-flex flex-column align-items-start gap-1">
+        <span class="txt-size-mid-title font-weight-bold"><%= addressBox.recipientName %></span>
+        <span class="txt-size-mid-title font-weight-bold"><%= addressBox.phoneNumber %></span>
+    </div>
+    <div class="d-flex flex-row align-items-center justify-content-start gap-2">
+        <button class="d-flex flex-row align-items-center justify-content-center gap-2 bg-transparent-color py-1 px-2 bw-1 border-style-solid radius-all-small">
+            <i class="fa-regular fa-pencil"></i>
+            <span class="txt-size-mid-title font-weight-medium"><%= addressBox.editButton %></span>
+        </button>
+        <button class="d-flex flex-row align-items-center justify-content-center gap-2 bg-transparent-color py-1 px-2 bw-1 border-style-solid radius-all-small border-primary-color">
+            <i class="fa-regular fa-trash-alt primary-color"></i>
+            <span class="txt-size-mid-title font-weight-medium primary-color"><%= addressBox.deleteButton %></span>
+        </button>
+    </div>
+</div>
