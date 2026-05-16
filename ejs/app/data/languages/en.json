@@ -1042,6 +1042,28 @@
 					"subtitle" : "We Are Always With You"
 				}
 			]
+		},
+		"addressBox": {
+			"addressName": "منزل پدری",
+			"postCode": "کد پستی : 22334455666",
+			"address": "مشهد بلوار احمد آباد نبش خیابان عارف 2 پلاک 44 طبقه 3 واحد 20",
+			"recipientName": "امیر رضایی",
+			"phoneNumber": "09121234567",
+			"editButton": "ویرایش",
+			"deleteButton": "حذف"
+		},
+		"sidebarMenu": {
+			"profileName": "امیر رضایی",
+			"dateOfMembership": "عضویت از فروردین 1401",
+			"menuList": {
+				"itemOne": "پیشخوان",
+				"itemTwo": "سفارش ها",
+				"itemThree": "علاقه مندی ها",
+				"itemFour": "آدرس ها",
+				"itemFive": "اطلاعات حساب کاربری",
+				"itemSix": "تیکت ها و پشتیبانی"
+			},
+			"btnText": "خروج از حساب"
 		}
 	},
 	"pages": {
@@ -10628,7 +10650,92 @@
 					}
 				]
 			}
+		},
+	"myAddress": {
+			"address": "My Addresses",
+			"descriptionAddress": "In this section, you can view the exact address of each branch.",
+			"components": {
+			"addressBox": [
+					{
+						"addressName": "Parents' House",
+						"postCode": "Postal code: 22334455666",
+						"address": "Mashhad, Ahmadabad Boulevard, corner of Aref St. 2, No. 44, Floor 3, Unit 20",
+						"recipientName": "Amir Rezaei",
+						"phoneNumber": "09121234567",
+						"editButton": "Edit",
+						"deleteButton": "Delete"
+					},
+					{
+						"addressName": "Parents' House",
+						"postCode": "Postal code: 22334455666",
+						"address": "Tehran, Valiasr St., beyond Vanak Square, 5th Alley, No. 21, Unit 5",
+						"recipientName": "Amir Rezaei",
+						"phoneNumber": "09121234567",
+						"editButton": "Edit",
+						"deleteButton": "Delete"
+					},
+					{
+						"addressName": "Parents' House",
+						"postCode": "Postal code: 22334455666",
+						"address": "Tehran, Saadat Abad, Sarv-e Sharghi St., 5th Alley, No. 21, Unit 5",
+						"recipientName": "Amir Rezaei",
+						"phoneNumber": "09121234567",
+						"editButton": "Edit",
+						"deleteButton": "Delete"
+					}
+				],
+			"userSummary": {
+				"title": "Favorites",
+				"number": "12",
+				"text": "Saved product"
+			},
+			"sidebarMenu": {
+			"profileName": "Amir Rezaei",
+			"dateOfMembership": "Member since Farvardin 1401",
+			"menuList": {
+				"itemOne": "Dashboard",
+				"itemTwo": "Orders",
+				"itemThree": "Favorites",
+				"itemFour": "Addresses",
+				"itemFive": "Account Information",
+				"itemSix": "Tickets & Support"
+			},
+			"btnText": "Log out"
 		}
+			}
+	},
+	"myOrders": {
+			"myAccount": "My Addresses",
+			"home": "Home",
+			"account": "Account",
+			"detailsAccount": "Account Details",
+			"forms":{
+				"firstNameLabel": "First Name",
+				"firstName": "Mojdeh",
+				"lastNameLabel": "Last Name",
+				"lastNameL": "Vali",
+				"emailLabel": "Email",
+				"email": "m.vali3561@gmail.com",
+				"phoneNumberLabel": "Phone Number",
+				"phoneNumberL": "0912123456",
+				"dateLabel": "Date"
+			},
+			"saveChanges": "Save Changes",
+			"accountSecurity": "Account Security",
+			"password": "Password",
+			"enterPassword": "Change your password periodically",
+			"changePassword": "Change Password",
+			"changephoneNumber": "Change Phone Number",
+			"descriptionphoneNumber": "Change your mobile number",
+			"enterphoneNumber": "Change Password",
+			"connectedDevices": "Connected Devices",
+			"management": "Manage the devices you are logged into your account with",
+			"notificationSettings": "Notification Settings",
+			"emailNotifications": "Email Notifications",
+			"receive": "Receive news, offers, and notifications via email",
+			"smsNotification": "SMS Notification",
+			"receiveEmail": "Receive order and discount notifications via email"
+}
 	},
 	"header": {
 		"search": {

@@ -19,51 +19,7 @@
 	<main id="my-orders" class="orders-page">
 		<section id="" class="section gap-10 align-items-start d-grid grid-template">
 			<aside class="">
-				<div class="sidebar-menu d-flex flex-column align-items-start gap-4 radius-all-medium overflow-hidden">
-					<div
-						class="py-4 bg-primary-color px-3 d-flex flex-row align-items-center justify-content-start gap-3 w-100">
-						<div class="profile-box">
-							<img src="../assets/media/images/fa/single/prof.jpg" alt="">
-						</div>
-						<div class="d-flex flex-column align-items-start gap-1">
-							<span class="on-primary-color txt-size-mid-title font-weight-semi-bold">امیر رضایی</span>
-							<span class="on-primary-color txt-size-normal font-weight-medium">عضویت از فروردین
-								1401</span>
-						</div>
-					</div>
-					<div class="menu-box d-flex flex-column align-items-start px-3">
-						<a href="#" class="d-flex flex-row align-items-center gap-3 w-100 py-2">
-							<i class="fa-regular fa-home-alt"></i>
-							<span class="txt-size-mid-title font-weight-semi-bold">پیشخوان</span>
-						</a>
-						<a href="#" class="d-flex flex-row align-items-center gap-3 w-100 py-2">
-							<i class="fa-regular fa-inbox"></i>
-							<span class="txt-size-mid-title font-weight-semi-bold">سفارش ها</span>
-						</a>
-						<a href="#" class="d-flex flex-row align-items-center gap-3 w-100 py-2">
-							<i class="fa-regular fa-heart"></i>
-							<span class="txt-size-mid-title font-weight-semi-bold">علاقه مندی ها</span>
-						</a>
-						<a href="#" class="d-flex flex-row align-items-center gap-3 w-100 py-2">
-							<i class="fa-regular fa-location-dot"></i>
-							<span class="txt-size-mid-title font-weight-semi-bold">آدرس ها</span>
-						</a>
-						<a href="#" class="d-flex flex-row align-items-center gap-3 w-100 py-2">
-							<i class="fa-regular fa-user"></i>
-							<span class="txt-size-mid-title font-weight-semi-bold">اطلاعات حساب کاربری</span>
-						</a>
-						<a href="#" class="d-flex flex-row align-items-center gap-3 w-100 py-2">
-							<i class="fa-regular fa-headset"></i>
-							<span class="txt-size-mid-title font-weight-semi-bold">تیکت ها و پشتیبانی</span>
-						</a>
-					</div>
-					<div class="pb-4 px-3">
-						<button class="d-flex flex-row align-items-center gap-3 bg-transparent-color">
-							<i class="fa-solid fa-arrow-right-from-bracket primary-color txt-size-mid-title"></i>
-							<span class="txt-size-mid-title font-weight-bold primary-color">خروج از حساب</span>
-						</button>
-					</div>
-				</div>
+				<%- include('../components/sidebar-menu/content.ejs', {sidebarMenu: t.pages.myAddress.components.sidebarMenu}); %>
 			</aside>
 			<div class="container gap-6">
 				<div>
@@ -79,14 +35,14 @@
 								stroke="#ED1D5A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
 							</path>
 						</svg>
-						<h3 class="txt-size-big-title font-weight-bold">حساب کاربری من</h3>
+						<h3 class="txt-size-big-title font-weight-bold"><%= t.pages.myOrders.myAccount %></h3>
 					</div>
 					<div class="block gap-2 txt-size-title align-items-center">
-						<a class="secondary-text-color" href="../index.html">خانه</a>
+						<a class="secondary-text-color" href="../index.html"><%= t.pages.myOrders.home %></a>
 						<i class="icon-arr-left txt-size-small opacity-5 on-secondary-color"></i>
-						<a class="secondary-text-color" href="#">حساب کاربری</a>
+						<a class="secondary-text-color" href="#"><%= t.pages.myOrders.account %></a>
 						<i class="icon-arr-left txt-size-small opacity-5 on-secondary-color"></i>
-						<a class="secondary-text-color" href="#">جزئیات حساب کاربری</a>
+						<a class="secondary-text-color" href="#"><%= t.pages.myOrders.detailsAccount %></a>
 					</div>
 				</div>
 				<div class="block flex-column w-100 gap-6 box-shadow radius-all-medium p-6">
@@ -102,31 +58,31 @@
 								stroke="#E80645" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
 							</path>
 						</svg>
-						<h3 class="txt-size-mid-title font-weight-bold">حساب کاربری من</h3>
+						<h3 class="txt-size-mid-title font-weight-bold"><%= t.pages.myOrders.myAccount %></h3>
 					</div>
 					<form action="" class="d-flex gy-5 gx-3 flex-wrap w-100">
 						<div class="d-flex flex-column gap-1 col-4 col-md-4">
-							<label for="name" class="d-flex"> نام</label>
-							<input id="name" placeholder="مژده" type="text" required=""
+							<label for="name" class="d-flex"><%= t.pages.myOrders.forms.fitstNameLabel %></label>
+							<input id="name" placeholder="<%= t.pages.myOrders.forms.fitstName %>" type="text" required=""
 								class="bw-1 border-color border-style-solid radius-all-small px-4 py-3">
 						</div>
 						<div class="d-flex flex-column gap-1 col-4 col-md-4">
-							<label for="name" class="d-flex"> نام خانوادگی</label>
-							<input id="name" placeholder="ولی" type="text" required=""
+							<label for="name" class="d-flex"><%= t.pages.myOrders.forms.lastNameLabel %></label>
+							<input id="name" placeholder="<%= t.pages.myOrders.forms.lastName %>" type="text" required=""
 								class="bw-1 border-color border-style-solid radius-all-small px-4 py-3">
 						</div>
 						<div class="d-flex flex-column gap-1 col-4 col-md-4">
-							<label for="family" class="d-flex">ایمیل</label>
-							<input type="email" placeholder="m.vali3561@gmail.com" id="family" required=""
+							<label for="family" class="d-flex"><%= t.pages.myOrders.forms.emailLabel %></label>
+							<input type="email" placeholder="<%= t.pages.myOrders.forms.email %>" id="family" required=""
 								class="bw-1 border-color border-style-solid radius-all-small px-4 py-3">
 						</div>
 						<div class="d-flex flex-column gap-1 col-6">
-							<label for="post-address" class="d-flex">شماره تماس</label>
-							<input type="tel" placeholder="0912123456" id="post-address"
+							<label for="post-address" class="d-flex"><%= t.pages.myOrders.forms.phoneNumberLabel %></label>
+							<input type="tel" placeholder="<%= t.pages.myOrders.forms.phoneNumber %>" id="post-address"
 								class="bw-1 border-color border-style-solid radius-all-small px-4 py-3">
 						</div>
 						<div class="d-flex flex-column gap-1 col-6">
-							<label for="code-address" class="d-flex">تاریخ</label>
+							<label for="code-address" class="d-flex"><%= t.pages.myOrders.forms.dateLabel %></label>
 							<input type="date" placeholder="1378/10/30" placeholder="1378/10/30" id="code-address"
 								class="bw-1 border-color border-style-solid radius-all-small px-4 py-3">
 						</div>
@@ -134,7 +90,7 @@
 					<a href="#"
 						class="bg-btn-hover d-flex flex-row align-self-center align-items-center gap-2 gap-md-3 py-3 py-sm-3 pie-4 pis-4 bg-secondary-color radius-all-small bg-button-color">
 						<i class="fa-solid fa-bag-shopping button-text-color d-sm-none"></i>
-						<span class="button-text-color font-weight-bold">ذخیره تغییرات</span>
+						<span class="button-text-color font-weight-bold"><%= t.pages.myOrders.saveChanges %></span>
 					</a>
 				</div>
 				<div class="block flex-column w-100 gap-4 box-shadow radius-all-medium p-6">
@@ -150,37 +106,35 @@
 								stroke="#E80645" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
 							</path>
 						</svg>
-						<h3 class="txt-size-high-title font-weight-bold">امنیت حساب</h3>
+						<h3 class="txt-size-high-title font-weight-bold"><%= t.pages.myOrders.accountSecurity %></h3>
 					</div>
 					<div class="d-flex justify-content-space-between w-100  bw-1 bb-style-solid border-color pb-3">
 						<div class="d-flex flex-column">
-							<span class="txt-size-mid-title font-weight-semi-bold">رمز عبور</span>
-							<span class="txt-size-mid-title secondary-text-color">رمز عبور خود را
-								به صورت دوره ای تغییر دهید</span>
+							<span class="txt-size-mid-title font-weight-semi-bold"><%= t.pages.myOrders.password %></span>
+							<span class="txt-size-mid-title secondary-text-color"><%= t.pages.myOrders.enterPassword %></span>
 						</div>
 						<a href="#"
 							class="bg-primary-light-color d-flex flex-row align-self-center align-items-center gap-2 gap-md-3 py-3 py-sm-3 pie-4 pis-4 radius-all-small">
 							<i class="fa-solid fa-bag-shopping primary-color d-sm-none"></i>
-							<span class="primary-color font-weight-bold">تغییر رمز عبور</span>
+							<span class="primary-color font-weight-bold"><%= t.pages.myOrders.changePassword %></span>
 						</a>
 					</div>
 					<div class="d-flex justify-content-space-between w-100  bw-1 bb-style-solid border-color pb-3">
 						<div class="d-flex flex-column">
-							<span class="txt-size-mid-title font-weight-semi-bold">تغییر شماره موبایل</span>
-							<span class="txt-size-mid-title secondary-text-color">شماره موبایل خود را تغییر دهید
+							<span class="txt-size-mid-title font-weight-semi-bold"><%= t.pages.myOrders.changephoneNumber %></span>
+							<span class="txt-size-mid-title secondary-text-color"><%= t.pages.myOrders.descriptionphoneNumber %>
 							</span>
 						</div>
 						<a href="#"
 							class="bg-primary-light-color d-flex flex-row align-items-center gap-2 gap-md-3 py-3 py-sm-3 pie-4 pis-4 radius-all-small">
 							<i class="fa-solid fa-bag-shopping primary-color d-sm-none"></i>
-							<span class="primary-color font-weight-bold">تغییر شماره موبایل</span>
+							<span class="primary-color font-weight-bold"><%= t.pages.myOrders.enterphoneNumber %></span>
 						</a>
 					</div>
 
 					<div class="d-flex w-100 flex-column">
-						<span class="txt-size-mid-title font-weight-semi-bold">دستگاه های متصل</span>
-						<span class="txt-size-mid-title secondary-text-color">دستگاه هایی که با آن ها وارد حساب کاربری
-							خود شده اید را مدیریت کنید
+						<span class="txt-size-mid-title font-weight-semi-bold"><%= t.pages.myOrders.connectedDevices %></span>
+						<span class="txt-size-mid-title secondary-text-color"><%= t.pages.myOrders.management %>
 						</span>
 					</div>
 				</div>
@@ -197,13 +151,12 @@
 								stroke="#E80645" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
 							</path>
 						</svg>
-						<h3 class="txt-size-high-title font-weight-bold">تنظیمات اعلان ها</h3>
+						<h3 class="txt-size-high-title font-weight-bold"><%= t.pages.myOrders.notificationSettings %></h3>
 					</div>
 					<div class="d-flex justify-content-space-between w-100  bw-1 bb-style-solid border-color pb-3">
 						<div class="d-flex flex-column">
-							<span class="txt-size-mid-title font-weight-semi-bold">اعلان ایمیلی</span>
-							<span class="txt-size-mid-title secondary-text-color">دریافت اخبار، پیشنهادها و اطلاعیه ها
-								از طریق ایمیل
+							<span class="txt-size-mid-title font-weight-semi-bold"><%= t.pages.myOrders.emailNotifications %></span>
+							<span class="txt-size-mid-title secondary-text-color"><%= t.pages.myOrders.receive %>
 							</span>
 						</div>
 						<div class="div justify-content-center align-items-center">
@@ -214,9 +167,8 @@
 					</div>
 					<div class="d-flex justify-content-space-between w-100">
 						<div class="d-flex flex-column">
-							<span class="txt-size-mid-title font-weight-semi-bold">اعلان پیامکی</span>
-							<span class="txt-size-mid-title secondary-text-color">دریافت اطلاعیه های سفارش و تخفیف ها از
-								طریق پیامک
+							<span class="txt-size-mid-title font-weight-semi-bold"><%= t.pages.myOrders.smsNotification %></span>
+							<span class="txt-size-mid-title secondary-text-color"><%= t.pages.myOrders.receiveEmail %>
 							</span>
 						</div>
 						<div class="div justify-content-center align-items-center">
@@ -229,48 +181,7 @@
 			</div>
 		</section>
 		<section class="section">
-			<div class="overflow-x-xl-scroll w-100 bw-1 bt-style-dashed bb-style-dashed border-color">
-				<div class="div justify-content-space-between py-7 gap-7">
-					<div class="contain-feachures py-6 px-10">
-						<div class="featurebox">
-							<div class="">
-								<span class="topic">7 روز ضمانت بازگشت</span>
-								<span class="description ">خرید بدون ریسک</span>
-							</div>
-							<i
-								class="fa-solid fa-box txt-size-high-title primary-color radius-all-normal bg-primary-light-color p-3"></i>
-						</div>
-						<div class="line"></div>
-						<div class="featurebox ">
-							<div class="">
-								<span class="topic ">ضمانت اصالت کالا</span>
-								<span class="description ">خرید مطمئن و امن</span>
-							</div>
-							<i
-								class="fa-solid fa-shield txt-size-high-title primary-color radius-all-normal bg-primary-light-color p-3"></i>
-						</div>
-						<div class="line"></div>
-						<div class="featurebox ">
-							<div class="">
-								<span class="topic ">ارسال سریع</span>
-								<span class="description ">به سراسر کشور</span>
-							</div>
-							<i
-								class="fa-solid fa-truck-fast txt-size-high-title primary-color radius-all-normal bg-primary-light-color p-3"></i>
-						</div>
-						<div class="line"></div>
-						<div class="featurebox ">
-							<div class="">
-								<span class="topic ">پشتیبانی 24 ساعته</span>
-								<span class="description ">همیشه در کنار شما هستیم</span>
-							</div>
-							<i
-								class="fa-solid fa-headset txt-size-high-title primary-color radius-all-normal bg-primary-light-color p-3"></i>
-						</div>
-					</div>
-				</div>
-				<div></div>
-			</div>
+			<%- include('../components/featurs/content.ejs', {featurs: t.pages.myAddress.components.featurs}); %>		
 		</section>
 	</main>
 

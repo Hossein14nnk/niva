@@ -1,0 +1,44 @@
+<%- include('../layouts/page/head.ejs', {pageName : "my-account", header: false}); -%>
+
+	<main id="" class="adress-page">
+		<section id="my-address" class="section gap-10 align-items-start d-grid grid-template">
+			<aside class="">
+			<%- include('../components/sidebar-menu/content.ejs', {sidebarMenu: t.pages.myAddress.components.sidebarMenu}); %>
+			</aside>
+			<div class="container gap-6">
+				<div>
+					<div class="block gap-1">
+						<svg class="auth-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+							viewBox="0 0 18 19" fill="none">
+							<path
+								d="M8.96611 9.54044C6.93565 9.54044 5.28964 7.89443 5.28964 5.86397C5.28964 3.83351 6.93565 2.1875 8.96611 2.1875C10.9966 2.1875 12.6426 3.83351 12.6426 5.86397C12.6426 7.89443 10.9966 9.54044 8.96611 9.54044Z"
+								stroke="#ED1D5A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+							</path>
+							<path
+								d="M2.65122 17.9312C2.65122 15.0857 5.4821 12.7842 8.96739 12.7842C12.4527 12.7842 15.2836 15.0857 15.2836 17.9312"
+								stroke="#ED1D5A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+							</path>
+						</svg>
+						<h3 class="txt-size-big-title font-weight-bold"><%= t.pages.myAddress.address %></h3>
+					</div>
+					<a class="secondary-text-color" href="#"><%= t.pages.myAddress.descriptionAddress %>
+					</a>
+				</div>
+				<div class="block d-grid grid-3 grid-md-2 grid-sm-1 gap-5 w-100">
+						<%- include('../components/address-box/content.ejs', {addressBox: t.pages.myAddress.components.addressBox}); %>
+								<% for(let i = 0; i < t.components.addressBox.length; i++) { %>
+									<%- include('../components/address-box/content.ejs', { addressBox: t.pages.myAddress.components.addressBox[i] }) %>
+								<% } %>
+				</div>
+				<%- include('../components/user-summary/content.ejs', {userSummary: t.pages.myAddress.components.userSummary}); %>
+			</div>
+		</section>
+		<section id="feautresection" class="section">
+				<%- include('../components/featurs/content.ejs', {featurs: t.pages.myAddress.components.featurs}); %>		
+		</section>
+	</main>
+	<script src="../assets/vendors/swiper/swiper-bundle-min.js"></script>
+	<script src="../assets/js/mizchin.min.js"></script>
+	<script src="../assets/js/header.js"></script>
+
+<%- include('../layouts/page/foot.ejs', {footer: false}); %>

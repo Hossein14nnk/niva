@@ -840,7 +840,28 @@
 			"discountCodePrice": "0 تومان",
 			"amountPayable": "کد تخفیف ",
 			"amountPayablePrice": "2,480,000 تومان"
-			}
+			},
+			"addressBox": {
+			"addressName": "منزل پدری",
+			"postCode": "کد پستی : 22334455666",
+			"address": "مشهد بلوار احمد آباد نبش خیابان عارف 2 پلاک 44 طبقه 3 واحد 20",
+			"recipientName": "امیر رضایی",
+			"phoneNumber": "09121234567",
+			"editButton": "ویرایش",
+			"deleteButton": "حذف"
+		},
+		"sidebarMenu": {
+			"profileName": "امیر رضایی",
+			"dateOfMembership": "عضویت از فروردین 1401",
+			"menuList": {
+				"itemOne": "پیشخوان",
+				"itemTwo": "سفارش ها",
+				"itemThree": "علاقه مندی ها",
+				"itemFour": "آدرس ها",
+				"itemFive": "اطلاعات حساب کاربری",
+				"itemSix": "تیکت ها و پشتیبانی"
+			},
+			"btnText": "خروج از حساب"
 		},
 		"tiket":{
 			"adminTiket":{
@@ -890,6 +911,7 @@
 				}
 			]
 		}
+	}
 	},
 	"pages": {
 		"suggestionCategories": {
@@ -8512,6 +8534,91 @@
 					}
 				]
 			}
+		},
+		"myAddress": {
+			"address": "آدرس های من",
+			"descriptionAddress": "در این بخش می‌توانید آدرس دقیق هر یک از شعب را مشاهده کنید.",
+			"components": {
+			"addressBox": [
+					{
+						"addressName": "منزل پدری",
+						"postCode": "کد پستی : 22334455666",
+						"address": "مشهد بلوار احمد آباد نبش خیابان عارف 2 پلاک 44 طبقه 3 واحد 20",
+						"recipientName": "امیر رضایی",
+						"phoneNumber": "09121234567",
+						"editButton": "ویرایش",
+						"deleteButton": "حذف"
+					},
+					{
+						"addressName": "آدرس پیش فرض",
+						"postCode": "کد پستی : 22334455666",
+						"address": "تهران سعادت آباد ، خیابان سرو شرقی، کوچه پنجم، پلاک 21واحد 5",
+						"recipientName": "امیر رضایی",
+						"phoneNumber": "09121234567",
+						"editButton": "ویرایش",
+						"deleteButton": "حذف"
+					},
+					{
+						"addressName": "منزل پدری",
+						"postCode": "کد پستی : 22334455666",
+						"address": "تهران خیابان ولیعصر ، بالاتر از میدان ونک، کوچه پنجم، پلاک 21واحد 5",
+						"recipientName": "امیر رضایی",
+						"phoneNumber": "09121234567",
+						"editButton": "ویرایش",
+						"deleteButton": "حذف"
+					}
+				],
+			"userSummary": {
+				"title": "علاقه مندی",
+				"number": "12",
+				"text": "محصول ذخیره شده"
+			},
+			"sidebarMenu": {
+			"profileName": "امیر رضایی",
+			"dateOfMembership": "عضویت از فروردین 1401",
+			"menuList": {
+				"itemOne": "پیشخوان",
+				"itemTwo": "سفارش ها",
+				"itemThree": "علاقه مندی ها",
+				"itemFour": "آدرس ها",
+				"itemFive": "اطلاعات حساب کاربری",
+				"itemSix": "تیکت ها و پشتیبانی"
+			},
+			"btnText": "خروج از حساب"
+		}
+			}
+		},
+		"myOrders": {
+			"myAccount": "آدرس های من",
+			"home": "خانه",
+			"account": "حساب کاربری",
+			"detailsAccount": "جزئیات حساب کاربری",
+			"forms":{
+				"firstNameLabel": "نام",
+				"firstName": "مژده",
+				"lastNameLabel": "نام و نام خانوادگی",
+				"lastNameL": "ولی",
+				"emailLabel": "ایمیل",
+				"email": "m.vali3561@gmail.com",
+				"phoneNumberLabel": "شماره تماس",
+				"phoneNumberL": "0912123456",
+				"dateLabel": "تاریخ"
+			},
+			"saveChanges": "ذخیره تغییرات",
+			"accountSecurity": "امنیت حساب",
+			"password": "رمز عبور",
+			"enterPassword": "رمز عبور خود را به صورت دوره ای تغییر دهید ",
+			"changePassword": "تغییر رمز",
+			"changephoneNumber": "تغییر شماره تلفن",
+			"descriptionphoneNumber": "شماره موبایل خود را تغییر دهید",
+			"enterphoneNumber": "تغییر رمز عبور",
+			"connectedDevices": "دستگاه های متصل",
+			"management": "دتسگاه هایی که با آن ها وارد حساب کاربری خود شده اید را مدیریت کنید",
+			"notificationSettings": "تنظیمات اعلان",
+			"emailNotifications": "اعلان ایمیلی",
+			"receive": "دریافت اخبار، پیشنهاد ها و اعلانات از طریق ایمیل",
+			"smsNotification": "اعلان پیامکی",
+			"receiveEmail": "دریافت اطلاعیه های سفارش و تخفیف ها از طریق ایمیل"
 		}
 	},
 	"header": {
