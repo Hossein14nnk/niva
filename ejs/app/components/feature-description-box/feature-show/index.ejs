@@ -1,0 +1,7 @@
+<%- include('../../../layouts/component/head.ejs' , {pageName : "featureShow", level: 1}); -%>
+
+<div class="d-grid grid-4">
+  <%- include('content.ejs', { featureShow: t.components.featureDescriptionBox.featureShow, image: getMedia(lang, 'single/snapp-pay.webp', 'images') });-%>
+</div>
+
+<%- include('../../../layouts/component/foot.ejs'); -%>
