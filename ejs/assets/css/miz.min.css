@@ -677,7 +677,7 @@ html {
   border-width: 0px;
 }
 
-.bw-1, .contain-feachures .featurebox img, .card, .order-item, .advisement, .advisement .btn-view, .button-date, .dropdown .dropdown-menu, .range-slider .values .value-min, .range-slider .values .value-max, .unavailable, .unavailable .wrapper-unavailable, .variable-product .container-sales-per-week .sales-per-week, .product-gallery.slider .slider-wrapper, .weblog-card.newest-column, .product-details, .product-details.rating, .product-card, button.product-button-feature.payable-credit {
+.bw-1, .contain-feachures .featurebox img, .order-item, .advisement, .advisement .btn-view, .button-date, .dropdown .dropdown-menu, .range-slider .values .value-min, .range-slider .values .value-max, .unavailable, .unavailable .wrapper-unavailable, .variable-product .container-sales-per-week .sales-per-week, .product-gallery.slider .slider-wrapper, .weblog-card.newest-column, .product-details, .product-details.rating, .product-card, button.product-button-feature.payable-credit {
   border-width: 1px;
 }
 
@@ -32292,7 +32292,7 @@ header .container {
 }
 
 .focused-card {
-  background-image: url("../../assets/media/images/en/category/Vector-7.svg"), radial-gradient(at center, #F6F7F8 1%, #B4CBD8);
+  background-image: url("../../assets/media/images/en/single/Vector-7.svg"), radial-gradient(at center, #F6F7F8 1%, #B4CBD8);
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 300ms;
@@ -32309,14 +32309,14 @@ header .container {
 }
 .focused-card::before {
   content: "";
-  background-image: url("../../assets/media/images/en/category/Vector-6.svg");
+  background-image: url("../../assets/media/images/en/single/Vector-6.svg");
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 300ms;
 }
 .focused-card::after {
   content: "";
-  background-image: url("../../assets/media/images/en/category/Vector-5.svg");
+  background-image: url("../../assets/media/images/en/single/Vector-5.svg");
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 300ms;
@@ -32328,11 +32328,11 @@ header .container {
   transition: all 300ms;
 }
 .focused-card:hover {
-  background-image: url("../../assets/media/images/en/category/Vector-7.svg"), radial-gradient(var(--primary));
+  background-image: url("../../assets/media/images/en/single/Vector-7.svg"), radial-gradient(var(--primary));
 }
 
 .labeld-card {
-  background-image: url("../../assets/media/images/en/category/Vector-7.svg"), radial-gradient(at center, #F6F7F8 1%, #B4CBD8);
+  background-image: url("../../assets/media/images/en/single/Vector-7.svg"), radial-gradient(at center, #F6F7F8 1%, #B4CBD8);
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 400ms;
@@ -32349,14 +32349,14 @@ header .container {
 }
 .labeld-card::before {
   content: "";
-  background-image: url("../../assets/media/images/en/category/Vector-6.svg");
+  background-image: url("../../assets/media/images/en/single/Vector-6.svg");
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 400ms;
 }
 .labeld-card::after {
   content: "";
-  background-image: url("../../assets/media/images/en/category/Vector-5.svg");
+  background-image: url("../../assets/media/images/en/single/Vector-5.svg");
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 400ms;
@@ -32375,7 +32375,7 @@ header .container {
   font-size: 1.5rem;
 }
 .labeld-card:hover {
-  background-image: url("../../assets/media/images/en/category/Vector-7.svg"), radial-gradient(var(--primary));
+  background-image: url("../../assets/media/images/en/single/Vector-7.svg"), radial-gradient(var(--primary));
 }
 
 .devicebanner {

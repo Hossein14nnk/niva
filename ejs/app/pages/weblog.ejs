@@ -19,7 +19,7 @@
                     <i class="icon-search on-secondary-color opacity-5"></i>
                 </div>
             </div>
-            <img class="radius-all-small w-100" src="<%= getMedia(lang, '', 'images'); %>" alt="" />
+            <img class="radius-all-small w-100" src="<%= getMedia(lang, 'single/banner_SlideBannerr.webp', 'images'); %>" alt="" />
         </div>
     </section>
     <section class="section">
@@ -41,7 +41,7 @@
                         date : latestBlogPosts.firstWeblogArticle.date,
                         commentCount : latestBlogPosts.firstWeblogArticle.commentCount,
                         readingTime : latestBlogPosts.firstWeblogArticle.readingTime,
-                        banner : latestBlogPosts.firstWeblogArticle.banner
+                        banner : getMedia(lang, "weblogs/weblog-1.webp", "images")
                     }); -%>
 
                     <div class="d-grid grid-2 grid-sm-1 gap-6">
@@ -51,7 +51,7 @@
                                 description: latestBlogPosts.latestBlogPost[i].description,
                                 date: latestBlogPosts.latestBlogPost[i].date,
                                 commentCount: latestBlogPosts.latestBlogPost[i].commentCount,
-                                image: latestBlogPosts.latestBlogPost[i].image,
+                                image: getMedia(lang, `weblogs/weblog-${i + 2}.webp`, "images"),
                                 link: latestBlogPosts.latestBlogPost[i].link,
                                 showViewAndReadingTime: latestBlogPosts.latestBlogPost[i].showViewAndReadingTime                  
                             }); -%>
@@ -66,7 +66,7 @@
                                 description: latestBlogPosts.latestBlogPost[i].description,
                                 date: latestBlogPosts.latestBlogPost[i].date,
                                 commentCount: latestBlogPosts.latestBlogPost[i].commentCount,
-                                image: latestBlogPosts.latestBlogPost[i].image,
+                                image: getMedia(lang, `weblogs/weblog-${i + 2}.webp`, "images"),
                                 link: latestBlogPosts.latestBlogPost[i].link,
                                 showViewAndReadingTime: latestBlogPosts.latestBlogPost[i].showViewAndReadingTime                  
                             }); -%>
@@ -78,7 +78,7 @@
                             date : latestBlogPosts.secondWeblogArticle.date,
                             commentCount : latestBlogPosts.secondWeblogArticle.commentCount,
                             readingTime : latestBlogPosts.secondWeblogArticle.readingTime,
-                            banner : latestBlogPosts.secondWeblogArticle.banner
+                            banner : getMedia(lang, `weblogs/weblog-10.webp`, "images"),
                     }); -%>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                         date: newestBlogs[i].date,
                         commentCount: newestBlogs[i].commentCount,
                         postView: newestBlogs[i].postView,
-                        image: newestBlogs[i].image,
+                        image: getMedia(lang, `weblogs/weblog-${i + 1}.webp`, "images"),
                         readingTime: newestBlogs[i].readingTime,
                         link: newestBlogs[i].link,
                         enableBorderBottom: newestBlogs[i].enableBorderBottom
@@ -123,7 +123,7 @@
                         description: mostDiscussed[i].description,
                         date: mostDiscussed[i].date,
                         commentCount: mostDiscussed[i].commentCount,
-                        image: mostDiscussed[i].image,
+                        image: getMedia(lang, `weblogs/weblog-${i + 1}.webp`, "images"),
                         link: mostDiscussed[i].link,
                         showViewAndReadingTime: mostDiscussed[i].showViewAndReadingTime                  
                     }); -%>
@@ -145,7 +145,7 @@
                                 date: techNews[i].date,
                                 commentCount: techNews[i].commentCount,
                                 postView: techNews[i].postView,
-                                image: techNews[i].image,
+                                image: getMedia(lang, `weblogs/weblog-${i + 1}.webp`, "images"),
                                 readingTime: techNews[i].readingTime,
                                 link: techNews[i].link,
                                 enableBorderBottom: techNews[i].enableBorderBottom 
@@ -163,7 +163,7 @@
                                 date: SuggestionsBlog[i].date,
                                 commentCount: SuggestionsBlog[i].commentCount,
                                 postView: SuggestionsBlog[i].postView,
-                                image: SuggestionsBlog[i].image,
+                                image: getMedia(lang, `weblogs/weblog-${i + 1}.webp`, "images"),
                                 readingTime: SuggestionsBlog[i].readingTime,
                                 link: SuggestionsBlog[i].link,
                                 enableBorderBottom: SuggestionsBlog[i].enableBorderBottom 

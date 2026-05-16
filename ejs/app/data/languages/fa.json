@@ -9,17 +9,14 @@
 		"name": "niva",
 		"logoImage": {
 			"original": {
-				"link": "./output/fa/pages/index.html",
 				"src": "fa/header/logo-web1.webp",
 				"alt": "logo original"
 			},
 			"simple": {
-				"link": "./output/fa/pages/index.html",
 				"src": "fa/logo-web3.webp",
 				"alt": "logo simple"
 			},
 			"replaceSimple": {
-				"link": "./output/fa/pages/index.html",
 				"src": "fa/homepage/logo-web-gold.webp",
 				"alt": "logo replace simple"
 			}
@@ -106,7 +103,7 @@
 			},
 			"textual": {
 				"title": "گزارش قیمت پایین تر",
-				"link": "لینک یا آدرس فروشگاه",
+
 				"price": "قیمت محصول",
 				"report": "گزارش قیمت بهتر"
 			}
@@ -208,7 +205,7 @@
 				"commentCount": 1,
 				"readingTime": "15دقیقه",
 				"view": 15534,
-				"link": "./output/fa/pages/article.html",
+
 				"showViewAndReadingTime": true
 			},
 			"newestRow": {
@@ -218,7 +215,7 @@
 				"commentCount": 1,
 				"readingTime": "15دقیقه",
 				"postView": 1553,
-				"link": "./output/fa/pages/article.html",
+
 				"enableBorderBottom": true
 			}
 		},
@@ -243,8 +240,7 @@
 				"readingTime": "15دقیقه",
 				"banner": {
 					"src": "fa/component/Rectangle 1036.webp",
-					"alt": "",
-					"link": "./output/fa/pages/article.html"
+					"alt": ""
 				}
 			}
 		},
@@ -392,8 +388,7 @@
 				{
 					"profile": {
 						"title": {
-							"text": "hossein kazemi 1",
-							"link": "#"
+							"text": "hossein kazemi 1"
 						}
 					},
 					"likeCount": "10",
@@ -402,8 +397,7 @@
 				{
 					"profile": {
 						"title": {
-							"text": "hossein kazemi 2",
-							"link": "#"
+							"text": "hossein kazemi 2"
 						}
 					},
 					"likeCount": "50",
@@ -412,22 +406,17 @@
 			]
 		},
 		"deviceBanner": {
-			"link": "#",
 			"title": "watch"
 		},
 		"commodityPack": {
-			"link": "#",
 			"count": 2,
 			"title": "هدست پلی استیشن <br> سونی اسلیم چریکی مدل PULSE Elite Wireless",
 			"price": "80,000,000",
 			"discountPercentage": "10"
 		},
 		"categoryCard": {
-			"focusedCard": {
-				"link": "#"
-			},
+			"focusedCard": {},
 			"labeledCard": {
-				"link": "#",
 				"title": "پاوربانک"
 			}
 		},
@@ -460,12 +449,10 @@
 			]
 		},
 		"seeAll": {
-			"link": "#",
 			"title": "title"
 		},
 		"topseller": {
-			"title": "هدفون گیمینگ بیوا",
-			"link": "#"
+			"title": "هدفون گیمینگ بیوا"
 		},
 		"reportBtn": {
 			"text": "گزارش این دیدگاه",
@@ -660,7 +647,7 @@
 			"phoneNumber": "0987654321"
 		},
 		"simpleProductCo": {
-			"add":"افزودن به سبد خرید",
+			"add": "افزودن به سبد خرید",
 			"returnDays": "7 روز ضمانت بازگشت بی قید و شرط",
 			"deliveryDays": " ارسال تا 4 روز آینده",
 			"recentSales": "10+ فروش در هفته اخیر",
@@ -799,55 +786,55 @@
 			"soldOut": "فروخته شده: 1400",
 			"remaining": "باقی مانده : 13875 ",
 			"add": "افزودن به سبد خرید",
-			"alert":"به سبد خرید شما اضافه شد",
-			"price":"رایگان"
+			"alert": "به سبد خرید شما اضافه شد",
+			"price": "رایگان"
 		},
-		"tiket":{
-			"adminTiket":{
-				"title":"پشتیبانی نیوا",
-				"subtitle":"تیم پشتیبانی ",
-				"description1":" سلام امیر رضایی عزیز .",
-				"description2":" ممنون که با ما در ارتباط هستید.",
-				"description3":" لطفا از اتصال اینترنت خود مطمئن شوید و مجددااز درگاه پرداخت استفاده کنید.",
-				"description4":" در صورت ادامه مشکل لطفا اسکرین شات خطا را برای ما ارسال کنید.",
-				"date":"11:35 - 1401/04/25",
-				"replay":"پاسخ پشتیبانی"
+		"tiket": {
+			"adminTiket": {
+				"title": "پشتیبانی نیوا",
+				"subtitle": "تیم پشتیبانی ",
+				"description1": " سلام امیر رضایی عزیز .",
+				"description2": " ممنون که با ما در ارتباط هستید.",
+				"description3": " لطفا از اتصال اینترنت خود مطمئن شوید و مجددااز درگاه پرداخت استفاده کنید.",
+				"description4": " در صورت ادامه مشکل لطفا اسکرین شات خطا را برای ما ارسال کنید.",
+				"date": "11:35 - 1401/04/25",
+				"replay": "پاسخ پشتیبانی"
 			},
-			"userTiket":{
-				"title":" شما",
-				"subtitle":"امیر رضایی ",
-				"description":"سلام من هنگام پرداخت سفارش با خطا مواجه میشم و پرداخت انجام نمیشه لطفا راهنمایی کنید.",
-				"date":"10:30 - 1401/04/25",
-				"replay":"پیام شما"
+			"userTiket": {
+				"title": " شما",
+				"subtitle": "امیر رضایی ",
+				"description": "سلام من هنگام پرداخت سفارش با خطا مواجه میشم و پرداخت انجام نمیشه لطفا راهنمایی کنید.",
+				"date": "10:30 - 1401/04/25",
+				"replay": "پیام شما"
 			}
 		},
-		"advisement":{
-			"title":"نیاز به راهنمایی بیشتر دارید؟",
-			"description":"پرسش های متداول ما را ببینید و با پشتیبانی درارتباط باشید",
-			"button":"مشاهده سوالات متداول"
+		"advisement": {
+			"title": "نیاز به راهنمایی بیشتر دارید؟",
+			"description": "پرسش های متداول ما را ببینید و با پشتیبانی درارتباط باشید",
+			"button": "مشاهده سوالات متداول"
 		},
 		"pannel": {
 			"lovelyProduct": {
-				"topic" : "محصولات مورد علاقه‌ات را از دست نده!",
-				"description" : "قیمت ها ممکنه تغییر کنن. زودتر خریدت رو نهایی کن",
-				"btn" : "مشاهده سبد خرید"
+				"topic": "محصولات مورد علاقه‌ات را از دست نده!",
+				"description": "قیمت ها ممکنه تغییر کنن. زودتر خریدت رو نهایی کن",
+				"btn": "مشاهده سبد خرید"
 			},
 			"featurs": [
 				{
-					"title" : "7 روز ضمانت بازگشت",
-					"subtitle" : "خرید بدون ریسک"
+					"title": "7 روز ضمانت بازگشت",
+					"subtitle": "خرید بدون ریسک"
 				},
 				{
-					"title" : "ضمانت اصالت کالا",
-					"subtitle" : "خرید مطمئن و امن"
+					"title": "ضمانت اصالت کالا",
+					"subtitle": "خرید مطمئن و امن"
 				},
 				{
-					"title" : "ارسال سریع",
-					"subtitle" : "به سراسر کشور"
+					"title": "ارسال سریع",
+					"subtitle": "به سراسر کشور"
 				},
 				{
-					"title" : "پشتیبانی 24 ساعته",
-					"subtitle" : "همیشه در کنار شما هستیم"
+					"title": "پشتیبانی 24 ساعته",
+					"subtitle": "همیشه در کنار شما هستیم"
 				}
 			]
 		},
@@ -920,25 +907,20 @@
 			"title": "دسته بندی های پیشنهادی",
 			"components": {
 				"seeAll": {
-					"link": "#",
 					"title": "title"
 				},
 				"topsellers": [
 					{
-						"title": "هدفون گیمینگ بیوا",
-						"link": "#"
+						"title": "هدفون گیمینگ بیوا"
 					},
 					{
-						"title": "هدفون گیمینگ بیوا",
-						"link": "#"
+						"title": "هدفون گیمینگ بیوا"
 					},
 					{
-						"title": "هدفون گیمینگ بیوا",
-						"link": "#"
+						"title": "هدفون گیمینگ بیوا"
 					},
 					{
-						"title": "هدفون گیمینگ بیوا",
-						"link": "#"
+						"title": "هدفون گیمینگ بیوا"
 					}
 				]
 			}
@@ -1020,8 +1002,7 @@
 					"readingTime": "15دقیقه",
 					"banner": {
 						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
+						"alt": ""
 					}
 				},
 				"latestBlogPost": [
@@ -1030,7 +1011,7 @@
 						"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 						"date": "۰۶ مهر ۱۴۰۳",
 						"commentCount": 1,
-						"link": "./output/fa/pages/article.html",
+
 						"showViewAndReadingTime": false
 					},
 					{
@@ -1038,7 +1019,7 @@
 						"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 						"date": "۰۶ مهر ۱۴۰۳",
 						"commentCount": 1,
-						"link": "./output/fa/pages/article.html",
+
 						"showViewAndReadingTime": false
 					},
 					{
@@ -1046,7 +1027,7 @@
 						"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 						"date": "۰۶ مهر ۱۴۰۳",
 						"commentCount": 1,
-						"link": "./output/fa/pages/article.html",
+
 						"showViewAndReadingTime": false
 					},
 					{
@@ -1054,7 +1035,7 @@
 						"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 						"date": "۰۶ مهر ۱۴۰۳",
 						"commentCount": 1,
-						"link": "./output/fa/pages/article.html",
+
 						"showViewAndReadingTime": false
 					}
 				],
@@ -1066,8 +1047,7 @@
 					"readingTime": "15دقیقه",
 					"banner": {
 						"src": "fa/component/Rectangle 1036.webp",
-						"alt": "",
-						"link": "./output/fa/pages/article.html"
+						"alt": ""
 					}
 				}
 			},
@@ -1079,7 +1059,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"postView": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"enableBorderBottom": false
 				},
 				{
@@ -1089,7 +1069,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"postView": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"enableBorderBottom": false
 				},
 				{
@@ -1099,7 +1079,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"postView": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"enableBorderBottom": false
 				},
 				{
@@ -1109,7 +1089,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"postView": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"enableBorderBottom": false
 				}
 			],
@@ -1119,7 +1099,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1127,7 +1107,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1135,7 +1115,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1143,7 +1123,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1151,7 +1131,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1159,7 +1139,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1167,7 +1147,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				}
 			],
@@ -1179,7 +1159,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"postView": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"enableBorderBottom": true
 				},
 				{
@@ -1189,7 +1169,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"postView": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"enableBorderBottom": true
 				},
 				{
@@ -1199,7 +1179,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"postView": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"enableBorderBottom": true
 				}
 			],
@@ -1211,7 +1191,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"postView": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"enableBorderBottom": true
 				},
 				{
@@ -1221,7 +1201,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"postView": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"enableBorderBottom": true
 				},
 				{
@@ -1231,7 +1211,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"postView": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"enableBorderBottom": true
 				}
 			],
@@ -1314,7 +1294,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"view": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": true
 				},
 				{
@@ -1324,7 +1304,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"view": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": true
 				},
 				{
@@ -1334,7 +1314,7 @@
 					"commentCount": 1,
 					"readingTime": "15دقیقه",
 					"view": 1553,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": true
 				}
 			],
@@ -1356,7 +1336,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1364,7 +1344,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1372,7 +1352,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1380,7 +1360,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				}
 			]
@@ -1395,7 +1375,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1403,7 +1383,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1411,7 +1391,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1419,7 +1399,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1427,7 +1407,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1435,7 +1415,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1443,7 +1423,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				},
 				{
@@ -1451,7 +1431,7 @@
 					"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 					"date": "۰۶ مهر ۱۴۰۳",
 					"commentCount": 1,
-					"link": "./output/fa/pages/article.html",
+
 					"showViewAndReadingTime": false
 				}
 			]
@@ -1669,8 +1649,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1679,8 +1658,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1696,8 +1674,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1706,8 +1683,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1723,8 +1699,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1733,8 +1708,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1750,8 +1724,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1760,8 +1733,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1777,8 +1749,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1787,8 +1758,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1804,8 +1774,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1814,8 +1783,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1831,8 +1799,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1841,8 +1808,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1858,8 +1824,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1868,8 +1833,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1885,8 +1849,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1",
-											"link": "#"
+											"text": "hossein kazemi 1"
 										}
 									},
 									"likeCount": "10",
@@ -1895,8 +1858,7 @@
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2",
-											"link": "#"
+											"text": "hossein kazemi 2"
 										}
 									},
 									"likeCount": "50",
@@ -1923,7 +1885,7 @@
 			"exceptionalOffers": {
 				"banner": {
 					"title": "مشاهده بیشتر",
-					"link": "./pages/offers.html",
+
 					"src": "fa/homepage/offerpic-1.webp",
 					"alt": "alt offerpic-1.webp",
 					"responsive": {
@@ -2052,82 +2014,18 @@
 				"title": "محبوب ترین دسته بندی ها",
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "مشاهده همه"
 					},
-					"focusedCards": [
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						}
-					]
+					"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
 				}
 			},
 			"bestSellers": {
 				"title": "پر فروش ترین محصـــــــولات",
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "مشاهده همه"
 					},
-					"focusedCards": [
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						}
-					],
+					"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 					"productCards": [
 						{
 							"title": "هدست پلی استیشن سونی اسلیم چریکی",
@@ -2275,7 +2173,7 @@
 			"laptopOffers": {
 				"banner": {
 					"title": "مشاهده بیشتر",
-					"link": "./pages/offers.html",
+
 					"src": "fa/homepage/offerpic-1.webp",
 					"alt": "alt offerpic-1.webp",
 					"responsive": {
@@ -2403,17 +2301,14 @@
 			"bestsellersCategory": {
 				"banners": [
 					{
-						"link": "#",
 						"src": "fa/homepage/banner-sale.webp",
 						"alt": "alt banner-sale.webp"
 					},
 					{
-						"link": "#",
 						"src": "fa/homepage/banner-sale2.webp",
 						"alt": "alt banner-sale2.webp"
 					},
 					{
-						"link": "#",
 						"src": "fa/homepage/banner-sale3.webp",
 						"alt": "alt banner-sale3.webp"
 					}
@@ -2423,41 +2318,9 @@
 				"title": "اقتصادی ترین محصولات",
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "مشاهده همه"
 					},
-					"focusedCards": [
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						}
-					],
+					"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 					"productCards": [
 						{
 							"title": "هدست پلی استیشن سونی اسلیم چریکی",
@@ -2606,28 +2469,22 @@
 				"title": "محبوب ترین دسته بندی ها",
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "مشاهده بیشتر"
 					},
 					"deviceBanners": [
 						{
-							"link": "./output/fa/pages/shop.html",
 							"title": "دوربین"
 						},
 						{
-							"link": "./output/fa/pages/shop.html",
 							"title": "ساعت"
 						},
 						{
-							"link": "./output/fa/pages/shop.html",
 							"title": "لپ تاپ"
 						},
 						{
-							"link": "./output/fa/pages/shop.html",
 							"title": "تبلت"
 						},
 						{
-							"link": "./output/fa/pages/shop.html",
 							"title": "موبایل"
 						}
 					]
@@ -2638,7 +2495,6 @@
 				"tasteBoxes": [
 					{
 						"category": {
-							"link": "#",
 							"title": "موبایل",
 							"text": "بر اساس سلیقه شما"
 						},
@@ -2646,7 +2502,6 @@
 					},
 					{
 						"category": {
-							"link": "#",
 							"title": "اسپیکر",
 							"text": "بر اساس سلیقه شما"
 						},
@@ -2654,7 +2509,6 @@
 					},
 					{
 						"category": {
-							"link": "#",
 							"title": "پاوربانک",
 							"text": "بر اساس سلیقه شما"
 						},
@@ -2662,7 +2516,6 @@
 					},
 					{
 						"category": {
-							"link": "#",
 							"title": "لپ تاپ",
 							"text": "بر اساس سلیقه شما"
 						},
@@ -2671,7 +2524,6 @@
 				],
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "مشاهده همه"
 					}
 				}
@@ -2691,49 +2543,42 @@
 				"components": {
 					"commodityPacks": [
 						{
-							"link": "#",
 							"count": 2,
 							"title": "هدست پلی استیشن <br> سونی اسلیم چریکی مدل PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"link": "#",
 							"count": 2,
 							"title": "هدست پلی استیشن <br> سونی اسلیم چریکی مدل PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"link": "#",
 							"count": 2,
 							"title": "هدست پلی استیشن <br> سونی اسلیم چریکی مدل PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"link": "#",
 							"count": 2,
 							"title": "هدست پلی استیشن <br> سونی اسلیم چریکی مدل PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"link": "#",
 							"count": 2,
 							"title": "هدست پلی استیشن <br> سونی اسلیم چریکی مدل PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"link": "#",
 							"count": 2,
 							"title": "هدست پلی استیشن <br> سونی اسلیم چریکی مدل PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"link": "#",
 							"count": 2,
 							"title": "هدست پلی استیشن <br> سونی اسلیم چریکی مدل PULSE Elite Wireless",
 							"price": "80,000,000",
@@ -2745,7 +2590,7 @@
 			"mobileOffers": {
 				"banner": {
 					"title": "مشاهده بیشتر",
-					"link": "./pages/offers.html",
+
 					"src": "fa/homepage/offerpic-1.webp",
 					"alt": "alt offerpic-1.webp",
 					"responsive": {
@@ -2874,41 +2719,9 @@
 				"title": "پر فروش ترین موبایل ها",
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "title"
 					},
-					"focusedCards": [
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						},
-						{
-							"link": "#"
-						}
-					],
+					"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 					"productCards": [
 						{
 							"title": "هدست پلی استیشن سونی اسلیم چریکی",
@@ -3055,52 +2868,41 @@
 			},
 			"bannerProduct": {
 				"src": "fa/homepage/best-seller-wrapper.webp",
-				"alt": "alt best-seller-wrapper.webp",
-				"link": "#"
+				"alt": "alt best-seller-wrapper.webp"
 			},
 			"suggestionCategories": {
 				"title": "دسته بندی های پیشنهادی",
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "مشاهده همه"
 					},
 					"topsellers": [
 						{
-							"title": "هدفون گیمینگ بیوا",
-							"link": "#"
+							"title": "هدفون گیمینگ بیوا"
 						},
 						{
-							"title": " کنسول بازی ",
-							"link": "#"
+							"title": " کنسول بازی "
 						},
 						{
-							"title": " لپ تاپ ",
-							"link": "#"
+							"title": " لپ تاپ "
 						},
 						{
-							"title": " دسته بازی ",
-							"link": "#"
+							"title": " دسته بازی "
 						},
 						{
-							"title": " گوشی موبایل ",
-							"link": "#"
+							"title": " گوشی موبایل "
 						},
 						{
-							"title": " موبایل شیائومی ",
-							"link": "#"
+							"title": " موبایل شیائومی "
 						},
 						{
-							"title": " موبایل اپل ",
-							"link": "#"
+							"title": " موبایل اپل "
 						},
 						{
-							"title": " کنسول بازی ",
-							"link": "#"
+							"title": " کنسول بازی "
 						},
 						{
-							"title": " موبایل اپل ",
-							"link": "#"
+							"title": " موبایل اپل "
 						}
 					]
 				}
@@ -3147,18 +2949,16 @@
 				],
 				"components": {
 					"seeAll": {
-						"link": "#",
 						"title": "مشاهده همه"
 					}
 				}
 			},
 			"bannerProductSecond": {
 				"src": "fa/homepage/best-seller-wrapper.webp",
-				"alt": "alt best-seller-wrapper.webp",
-				"link": "#"
+				"alt": "alt best-seller-wrapper.webp"
 			},
 			"weblog": {
-				"title":"وبلاگ",
+				"title": "وبلاگ",
 				"components": {
 					"banner": {
 						"src": "fa/weblog/banner_SlideBannerr.webp",
@@ -3173,8 +2973,7 @@
 							"readingTime": "15دقیقه",
 							"banner": {
 								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
+								"alt": ""
 							}
 						},
 						"latestBlogPost": [
@@ -3183,7 +2982,7 @@
 								"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 								"date": "۰۶ مهر ۱۴۰۳",
 								"commentCount": 1,
-								"link": "./output/fa/pages/article.html",
+
 								"showViewAndReadingTime": false
 							},
 							{
@@ -3191,7 +2990,7 @@
 								"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 								"date": "۰۶ مهر ۱۴۰۳",
 								"commentCount": 1,
-								"link": "./output/fa/pages/article.html",
+
 								"showViewAndReadingTime": false
 							},
 							{
@@ -3199,7 +2998,7 @@
 								"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 								"date": "۰۶ مهر ۱۴۰۳",
 								"commentCount": 1,
-								"link": "./output/fa/pages/article.html",
+
 								"showViewAndReadingTime": false
 							},
 							{
@@ -3207,7 +3006,7 @@
 								"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 								"date": "۰۶ مهر ۱۴۰۳",
 								"commentCount": 1,
-								"link": "./output/fa/pages/article.html",
+
 								"showViewAndReadingTime": false
 							}
 						],
@@ -3219,8 +3018,7 @@
 							"readingTime": "15دقیقه",
 							"banner": {
 								"src": "fa/component/Rectangle 1036.webp",
-								"alt": "",
-								"link": "./output/fa/pages/article.html"
+								"alt": ""
 							}
 						}
 					},
@@ -3232,7 +3030,7 @@
 							"commentCount": 1,
 							"readingTime": "15دقیقه",
 							"postView": 1553,
-							"link": "./output/fa/pages/article.html",
+
 							"enableBorderBottom": false
 						},
 						{
@@ -3242,7 +3040,7 @@
 							"commentCount": 1,
 							"readingTime": "15دقیقه",
 							"postView": 1553,
-							"link": "./output/fa/pages/article.html",
+
 							"enableBorderBottom": false
 						},
 						{
@@ -3252,7 +3050,7 @@
 							"commentCount": 1,
 							"readingTime": "15دقیقه",
 							"postView": 1553,
-							"link": "./output/fa/pages/article.html",
+
 							"enableBorderBottom": false
 						},
 						{
@@ -3262,7 +3060,7 @@
 							"commentCount": 1,
 							"readingTime": "15دقیقه",
 							"postView": 1553,
-							"link": "./output/fa/pages/article.html",
+
 							"enableBorderBottom": false
 						}
 					],
@@ -3272,7 +3070,7 @@
 							"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 							"date": "۰۶ مهر ۱۴۰۳",
 							"commentCount": 1,
-							"link": "./output/fa/pages/article.html",
+
 							"showViewAndReadingTime": false
 						},
 						{
@@ -3280,7 +3078,7 @@
 							"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 							"date": "۰۶ مهر ۱۴۰۳",
 							"commentCount": 1,
-							"link": "./output/fa/pages/article.html",
+
 							"showViewAndReadingTime": false
 						},
 						{
@@ -3288,7 +3086,7 @@
 							"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 							"date": "۰۶ مهر ۱۴۰۳",
 							"commentCount": 1,
-							"link": "./output/fa/pages/article.html",
+
 							"showViewAndReadingTime": false
 						},
 						{
@@ -3296,7 +3094,7 @@
 							"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 							"date": "۰۶ مهر ۱۴۰۳",
 							"commentCount": 1,
-							"link": "./output/fa/pages/article.html",
+
 							"showViewAndReadingTime": false
 						},
 						{
@@ -3304,7 +3102,7 @@
 							"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 							"date": "۰۶ مهر ۱۴۰۳",
 							"commentCount": 1,
-							"link": "./output/fa/pages/article.html",
+
 							"showViewAndReadingTime": false
 						},
 						{
@@ -3312,7 +3110,7 @@
 							"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 							"date": "۰۶ مهر ۱۴۰۳",
 							"commentCount": 1,
-							"link": "./output/fa/pages/article.html",
+
 							"showViewAndReadingTime": false
 						},
 						{
@@ -3320,7 +3118,7 @@
 							"description": " دلایل خرید گوشی ۱ Nothing Phone بسیار قانع‌کننده‌ هستند، با توجه به نوع طراحی پیشرو، سخت‌افزار قدرتمند و قیمت مناسب، گوشی ناتینگ دلایل کافی برای خرید را در اختیار کاربر قرار می‌دهد.",
 							"date": "۰۶ مهر ۱۴۰۳",
 							"commentCount": 1,
-							"link": "./output/fa/pages/article.html",
+
 							"showViewAndReadingTime": false
 						}
 					],
@@ -3332,7 +3130,7 @@
 							"commentCount": 1,
 							"readingTime": "15دقیقه",
 							"postView": 1553,
-							"link": "./output/fa/pages/article.html",
+
 							"enableBorderBottom": true
 						},
 						{
@@ -3342,7 +3140,7 @@
 							"commentCount": 1,
 							"readingTime": "15دقیقه",
 							"postView": 1553,
-							"link": "./output/fa/pages/article.html",
+
 							"enableBorderBottom": true
 						},
 						{
@@ -3352,7 +3150,7 @@
 							"commentCount": 1,
 							"readingTime": "15دقیقه",
 							"postView": 1553,
-							"link": "./output/fa/pages/article.html",
+
 							"enableBorderBottom": true
 						}
 					],
@@ -3364,7 +3162,7 @@
 							"commentCount": 1,
 							"readingTime": "15دقیقه",
 							"postView": 1553,
-							"link": "./output/fa/pages/article.html",
+
 							"enableBorderBottom": true
 						},
 						{
@@ -3374,7 +3172,7 @@
 							"commentCount": 1,
 							"readingTime": "15دقیقه",
 							"postView": 1553,
-							"link": "./output/fa/pages/article.html",
+
 							"enableBorderBottom": true
 						},
 						{
@@ -3384,7 +3182,7 @@
 							"commentCount": 1,
 							"readingTime": "15دقیقه",
 							"postView": 1553,
-							"link": "./output/fa/pages/article.html",
+
 							"enableBorderBottom": true
 						}
 					],
@@ -3907,77 +3705,36 @@
 				],
 				"category": {
 					"categoryCards": {
-						"focusedCards": [
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							},
-							{
-								"link": "#"
-							}
-						],
+						"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 						"labeledCards": [
 							{
-								"link": "#",
 								"title": "موبایل"
 							},
 							{
-								"link": "#",
 								"title": "اسپیکر"
 							},
 							{
-								"link": "#",
 								"title": "تپاوربانکت"
 							},
 							{
-								"link": "#",
 								"title": "تبلت"
 							},
 							{
-								"link": "#",
 								"title": "ساعت هوشمند"
 							},
 							{
-								"link": "#",
 								"title": "کامپیوتر"
 							},
 							{
-								"link": "#",
 								"title": "کنسول بازی"
 							},
 							{
-								"link": "#",
 								"title": "لپ تاپ"
 							},
 							{
-								"link": "#",
 								"title": "هدفون"
 							},
 							{
-								"link": "#",
 								"title": "ماشین اداری"
 							}
 						]
@@ -7296,8 +7053,8 @@
 				"soldOut": "فروخته شده: 1400",
 				"remaining": "باقی مانده : 13875 ",
 				"add": "افزودن به سبد خرید",
-				"alert":"به سبد خرید شما اضافه شد",
-				"price":"رایگان"
+				"alert": "به سبد خرید شما اضافه شد",
+				"price": "رایگان"
 			},
 			"rattingSection": {
 				"head": "امتیاز و دیدگاه کاربران",
@@ -8029,7 +7786,7 @@
 				"Button": "تماس بگیرید",
 				"price": "10,150,000",
 				"priceOff": "10,150,000",
-				"add":"افزودن به سبد خرید"
+				"add": "افزودن به سبد خرید"
 			},
 			"rattingSection": {
 				"head": "امتیاز و دیدگاه کاربران",
@@ -8815,241 +8572,184 @@
 					"parents": [
 						{
 							"title": "برندهای مختلف گوشی موبایل",
-							"link": "#",
 							"items": [
 								{
-									"title": "گوشی آیفون",
-									"link": "#"
+									"title": "گوشی آیفون"
 								},
 								{
-									"title": "گوشی سامسونگ",
-									"link": "#"
+									"title": "گوشی سامسونگ"
 								},
 								{
-									"title": "گوشی شیائومی",
-									"link": "#"
+									"title": "گوشی شیائومی"
 								},
 								{
-									"title": "گوشی نوکیا",
-									"link": "#"
+									"title": "گوشی نوکیا"
 								},
 								{
-									"title": "گوشی ریلمی",
-									"link": "#"
+									"title": "گوشی ریلمی"
 								},
 								{
-									"title": "گوشی آنر",
-									"link": "#"
+									"title": "گوشی آنر"
 								},
 								{
-									"title": "گوشی موتورولا",
-									"link": "#"
+									"title": "گوشی موتورولا"
 								},
 								{
-									"title": "گوشی ناتینگ فون",
-									"link": "#"
+									"title": "گوشی ناتینگ فون"
 								},
 								{
-									"title": "گوشی جی پلاس",
-									"link": "#"
+									"title": "گوشی جی پلاس"
 								},
 								{
-									"title": "گوشی هواوی",
-									"link": "#"
+									"title": "گوشی هواوی"
 								},
 								{
-									"title": "گوشی جی ال ایکس",
-									"link": "#"
+									"title": "گوشی جی ال ایکس"
 								},
 								{
-									"title": "گوشی‌های جنرال لوکس",
-									"link": "#"
+									"title": "گوشی‌های جنرال لوکس"
 								},
 								{
-									"title": "گوشی داریا",
-									"link": "#"
+									"title": "گوشی داریا"
 								},
 								{
-									"title": "گوشی گوگل",
-									"link": "#"
+									"title": "گوشی گوگل"
 								},
 								{
-									"title": "گوشی اوپو",
-									"link": "#"
+									"title": "گوشی اوپو"
 								},
 								{
-									"title": "گوشی موبایل تکنو",
-									"link": "#"
+									"title": "گوشی موبایل تکنو"
 								},
 								{
-									"title": "گوشی وان پلاس",
-									"link": "#"
+									"title": "گوشی وان پلاس"
 								},
 								{
-									"title": "گوشی موبایل دوجی",
-									"link": "#"
+									"title": "گوشی موبایل دوجی"
 								}
 							]
 						},
 						{
 							"title": "گوشی براساس قیمت",
-							"link": "#",
 							"items": [
 								{
-									"title": "گوشی موبایل ارزان",
-									"link": "#"
+									"title": "گوشی موبایل ارزان"
 								},
 								{
-									"title": "گوشی موبایل قسطی",
-									"link": "#"
+									"title": "گوشی موبایل قسطی"
 								},
 								{
-									"title": "گوشی تا 2 میلیون تومان",
-									"link": "#"
+									"title": "گوشی تا 2 میلیون تومان"
 								},
 								{
-									"title": "گوشی تا 5 میلیون تومان",
-									"link": "#"
+									"title": "گوشی تا 5 میلیون تومان"
 								},
 								{
-									"title": "گوشی تا 7 میلیون تومان",
-									"link": "#"
+									"title": "گوشی تا 7 میلیون تومان"
 								},
 								{
-									"title": "گوشی تا 15 میلیون تومان",
-									"link": "#"
+									"title": "گوشی تا 15 میلیون تومان"
 								},
 								{
-									"title": "گوشی بالای 15 میلیون تومان",
-									"link": "#"
+									"title": "گوشی بالای 15 میلیون تومان"
 								}
 							]
 						},
 						{
 							"title": "گوشی براساس عملکرد",
-							"link": "#",
 							"items": [
 								{
-									"title": "گوشی گیمینگ",
-									"link": "#"
+									"title": "گوشی گیمینگ"
 								},
 								{
-									"title": "گوشی 5G",
-									"link": "#"
+									"title": "گوشی 5G"
 								},
 								{
-									"title": "گوشی دکمه‌ای",
-									"link": "#"
+									"title": "گوشی دکمه‌ای"
 								},
 								{
-									"title": "گوشی ضد آب",
-									"link": "#"
+									"title": "گوشی ضد آب"
 								},
 								{
-									"title": "گوشی میان رده",
-									"link": "#"
+									"title": "گوشی میان رده"
 								},
 								{
-									"title": "گوشی اقتصادی",
-									"link": "#"
+									"title": "گوشی اقتصادی"
 								},
 								{
-									"title": "گوشی دانش آموزی",
-									"link": "#"
+									"title": "گوشی دانش آموزی"
 								},
 								{
-									"title": "گوشی پرچمدار",
-									"link": "#"
+									"title": "گوشی پرچمدار"
 								}
 							]
 						},
 						{
 							"title": "گوشی براساس حافظه داخلی",
-							"link": "#",
 							"items": [
 								{
-									"title": "گوشی تا 16 گیگابایت",
-									"link": "#"
+									"title": "گوشی تا 16 گیگابایت"
 								},
 								{
-									"title": "گوشی تا 32 گیگابایت",
-									"link": "#"
+									"title": "گوشی تا 32 گیگابایت"
 								},
 								{
-									"title": "گوشی تا 64 گیگابایت",
-									"link": "#"
+									"title": "گوشی تا 64 گیگابایت"
 								},
 								{
-									"title": "گوشی تا 128 گیگابایت",
-									"link": "#"
+									"title": "گوشی تا 128 گیگابایت"
 								},
 								{
-									"title": "گوشی تا 256 گیگابایت",
-									"link": "#"
+									"title": "گوشی تا 256 گیگابایت"
 								},
 								{
-									"title": "گوشی تا 1 ترابایت",
-									"link": "#"
+									"title": "گوشی تا 1 ترابایت"
 								}
 							]
 						},
 						{
 							"title": "گوشی بر اساس رزولوشن عکس",
-							"link": "#",
 							"items": [
 								{
-									"title": "گوشی تا 13 مگاپیکسل",
-									"link": "#"
+									"title": "گوشی تا 13 مگاپیکسل"
 								},
 								{
-									"title": "گوشی تا 16 مگاپیکسل",
-									"link": "#"
+									"title": "گوشی تا 16 مگاپیکسل"
 								},
 								{
-									"title": "گوشی تا 48 مگاپیکسل",
-									"link": "#"
+									"title": "گوشی تا 48 مگاپیکسل"
 								},
 								{
-									"title": "گوشی تا 64 مگاپیکسل",
-									"link": "#"
+									"title": "گوشی تا 64 مگاپیکسل"
 								},
 								{
-									"title": "گوشی تا 108 مگاپیکسل",
-									"link": "#"
+									"title": "گوشی تا 108 مگاپیکسل"
 								},
 								{
-									"title": "گوشی تا 1 ترابایت",
-									"link": "#"
+									"title": "گوشی تا 1 ترابایت"
 								}
 							]
 						},
 						{
 							"title": "لوازم جانبی موبایل",
-							"link": "#",
 							"items": [
 								{
-									"title": "شارژر گوشی",
-									"link": "#"
+									"title": "شارژر گوشی"
 								},
 								{
-									"title": "قاب و کاور گوشی",
-									"link": "#"
+									"title": "قاب و کاور گوشی"
 								},
 								{
-									"title": "گلس گوشی",
-									"link": "#"
+									"title": "گلس گوشی"
 								},
 								{
-									"title": "هولدر گوشی موبایل",
-									"link": "#"
+									"title": "هولدر گوشی موبایل"
 								},
 								{
-									"title": "کابل شارژ و مبدل",
-									"link": "#"
+									"title": "کابل شارژ و مبدل"
 								},
 								{
-									"title": "پاوربانک (شارژر همراه)",
-									"link": "#"
+									"title": "پاوربانک (شارژر همراه)"
 								}
 							]
 						}
@@ -9061,281 +8761,214 @@
 					"parents": [
 						{
 							"title": "لپ‌تاپ بر اساس برند",
-							"link": "#",
 							"items": [
 								{
-									"title": "لپ‌تاپ لنوو",
-									"link": "#"
+									"title": "لپ‌تاپ لنوو"
 								},
 								{
-									"title": "لپ تاپ مک بوک",
-									"link": "#"
+									"title": "لپ تاپ مک بوک"
 								},
 								{
-									"title": "لپ‌تاپ HP",
-									"link": "#"
+									"title": "لپ‌تاپ HP"
 								},
 								{
-									"title": "لپ‌تاپ دل",
-									"link": "#"
+									"title": "لپ‌تاپ دل"
 								},
 								{
-									"title": "لپ‌تاپ ایسر",
-									"link": "#"
+									"title": "لپ‌تاپ ایسر"
 								},
 								{
-									"title": "لپ‌تاپ ام اس آی",
-									"link": "#"
+									"title": "لپ‌تاپ ام اس آی"
 								},
 								{
-									"title": "لپ‌تاپ کاستوم",
-									"link": "#"
+									"title": "لپ‌تاپ کاستوم"
 								},
 								{
-									"title": "لپ تاپ اپل مک بوک",
-									"link": "#"
+									"title": "لپ تاپ اپل مک بوک"
 								},
 								{
-									"title": "لپ تاپ ایسوس",
-									"link": "#"
+									"title": "لپ تاپ ایسوس"
 								},
 								{
-									"title": "لپ تاپ لنوو",
-									"link": "#"
+									"title": "لپ تاپ لنوو"
 								},
 								{
-									"title": "لپ تاپ اچ پی",
-									"link": "#"
+									"title": "لپ تاپ اچ پی"
 								},
 								{
-									"title": "لپ تاپ مایکروسافت",
-									"link": "#"
+									"title": "لپ تاپ مایکروسافت"
 								},
 								{
-									"title": "لپ تاپ ایسر",
-									"link": "#"
+									"title": "لپ تاپ ایسر"
 								},
 								{
-									"title": "لپ تاپ ام اس آی",
-									"link": "#"
+									"title": "لپ تاپ ام اس آی"
 								},
 								{
-									"title": "لپ تاپ هوآوی",
-									"link": "#"
+									"title": "لپ تاپ هوآوی"
 								},
 								{
-									"title": "لپ تاپ گیگابایت",
-									"link": "#"
+									"title": "لپ تاپ گیگابایت"
 								},
 								{
-									"title": "لپ تاپ دل",
-									"link": "#"
+									"title": "لپ تاپ دل"
 								}
 							]
 						},
 						{
 							"title": "لوازم جانبی لپ تاپ",
-							"link": "#",
 							"items": [
 								{
-									"title": "شارژر لپ‌تاپ",
-									"link": "#"
+									"title": "شارژر لپ‌تاپ"
 								},
 								{
-									"title": "استیکر لپ‌تاپ",
-									"link": "#"
+									"title": "استیکر لپ‌تاپ"
 								}
 							]
 						},
 						{
 							"title": "لپ تاپ بر اساس کاربرد",
-							"link": "#",
 							"items": [
 								{
-									"title": "لپ تاپ گیمینگ",
-									"link": "#"
+									"title": "لپ تاپ گیمینگ"
 								},
 								{
-									"title": "لپ تاپ دانشجویی",
-									"link": "#"
+									"title": "لپ تاپ دانشجویی"
 								},
 								{
-									"title": "لپ تاپ ارزان",
-									"link": "#"
+									"title": "لپ تاپ ارزان"
 								},
 								{
-									"title": "لپ تاپ لمسی",
-									"link": "#"
+									"title": "لپ تاپ لمسی"
 								},
 								{
-									"title": "لپ تاپ دانش آموزی",
-									"link": "#"
+									"title": "لپ تاپ دانش آموزی"
 								},
 								{
-									"title": "لپ تاپ طراحان",
-									"link": "#"
+									"title": "لپ تاپ طراحان"
 								},
 								{
-									"title": "لپ تاپ برنامه نویس",
-									"link": "#"
+									"title": "لپ تاپ برنامه نویس"
 								},
 								{
-									"title": "لپ تاپ خانوادگی",
-									"link": "#"
+									"title": "لپ تاپ خانوادگی"
 								}
 							]
 						},
 						{
 							"title": "لوازم و قطعات لپ تاپ",
-							"link": "#",
 							"items": [
 								{
-									"title": "شارژر لپ تاپ",
-									"link": "#"
+									"title": "شارژر لپ تاپ"
 								},
 								{
-									"title": "باتری لپ تاپ",
-									"link": "#"
+									"title": "باتری لپ تاپ"
 								},
 								{
-									"title": "پایه خنک کننده",
-									"link": "#"
+									"title": "پایه خنک کننده"
 								},
 								{
-									"title": "پایه نگهدارنده لپ تاپ",
-									"link": "#"
+									"title": "پایه نگهدارنده لپ تاپ"
 								},
 								{
-									"title": "کیف و کوله لپ تاپ",
-									"link": "#"
+									"title": "کیف و کوله لپ تاپ"
 								},
 								{
-									"title": "رم لپ تاپ",
-									"link": "#"
+									"title": "رم لپ تاپ"
 								},
 								{
-									"title": "دی وی دی رایتر",
-									"link": "#"
+									"title": "دی وی دی رایتر"
 								}
 							]
 						},
 						{
 							"title": "لپ تاپ بر اساس قیمت",
-							"link": "#",
 							"items": [
 								{
-									"title": "لپ تاپ تا 30 میلیون",
-									"link": "#"
+									"title": "لپ تاپ تا 30 میلیون"
 								},
 								{
-									"title": "لپ تاپ تا 35 میلیون",
-									"link": "#"
+									"title": "لپ تاپ تا 35 میلیون"
 								},
 								{
-									"title": "لپ تاپ تا 40 میلیون",
-									"link": "#"
+									"title": "لپ تاپ تا 40 میلیون"
 								},
 								{
-									"title": "لپ تاپ تا 45 میلیون",
-									"link": "#"
+									"title": "لپ تاپ تا 45 میلیون"
 								},
 								{
-									"title": "لپ تاپ تا 50 میلیون",
-									"link": "#"
+									"title": "لپ تاپ تا 50 میلیون"
 								},
 								{
-									"title": "لپ تاپ تا 60 میلیون",
-									"link": "#"
+									"title": "لپ تاپ تا 60 میلیون"
 								},
 								{
-									"title": "لپ تاپ تا 70 میلیون",
-									"link": "#"
+									"title": "لپ تاپ تا 70 میلیون"
 								},
 								{
-									"title": "لپ تاپ تا 80 میلیون",
-									"link": "#"
+									"title": "لپ تاپ تا 80 میلیون"
 								}
 							]
 						},
 						{
 							"title": "کامپیوترها",
-							"link": "#",
 							"items": [
 								{
-									"title": "آل این وان",
-									"link": "#"
+									"title": "آل این وان"
 								},
 								{
-									"title": "مینی پی سی",
-									"link": "#"
+									"title": "مینی پی سی"
 								},
 								{
-									"title": "قلم نوری",
-									"link": "#"
+									"title": "قلم نوری"
 								},
 								{
-									"title": "رم ریدر",
-									"link": "#"
+									"title": "رم ریدر"
 								},
 								{
-									"title": "ماوس پد",
-									"link": "#"
+									"title": "ماوس پد"
 								},
 								{
-									"title": "کیس اسمبل شده",
-									"link": "#"
+									"title": "کیس اسمبل شده"
 								},
 								{
-									"title": "کیس کامپیوتر",
-									"link": "#"
+									"title": "کیس کامپیوتر"
 								},
 								{
-									"title": "کیس گیمینگ",
-									"link": "#"
+									"title": "کیس گیمینگ"
 								},
 								{
-									"title": "ماوس",
-									"link": "#"
+									"title": "ماوس"
 								},
 								{
-									"title": "ماوس گیمینگ",
-									"link": "#"
+									"title": "ماوس گیمینگ"
 								},
 								{
-									"title": "ماوس بی سیم",
-									"link": "#"
+									"title": "ماوس بی سیم"
 								},
 								{
-									"title": "مانیتورها",
-									"link": "#"
+									"title": "مانیتورها"
 								},
 								{
-									"title": "مانیتور گیمینگ",
-									"link": "#"
+									"title": "مانیتور گیمینگ"
 								},
 								{
-									"title": "اسپیکر",
-									"link": "#"
+									"title": "اسپیکر"
 								},
 								{
-									"title": "اسپیکر بلوتوثی",
-									"link": "#"
+									"title": "اسپیکر بلوتوثی"
 								},
 								{
-									"title": "اسپیکر هارمن کاردن",
-									"link": "#"
+									"title": "اسپیکر هارمن کاردن"
 								},
 								{
-									"title": "اسپیکر سونی",
-									"link": "#"
+									"title": "اسپیکر سونی"
 								},
 								{
-									"title": "اسپیکر تسکو",
-									"link": "#"
+									"title": "اسپیکر تسکو"
 								},
 								{
-									"title": "اسپیکر مکسیدر",
-									"link": "#"
+									"title": "اسپیکر مکسیدر"
 								}
 							]
 						}
@@ -9347,187 +8980,142 @@
 					"parents": [
 						{
 							"title": "هدفون بر اساس برند",
-							"link": "#",
 							"items": [
 								{
-									"title": "هدفون بی سیم",
-									"link": "#"
+									"title": "هدفون بی سیم"
 								},
 								{
-									"title": "هدفون اپل ایرپاد",
-									"link": "#"
+									"title": "هدفون اپل ایرپاد"
 								},
 								{
-									"title": "هدفون بیتس",
-									"link": "#"
+									"title": "هدفون بیتس"
 								},
 								{
-									"title": "هدفون سونی",
-									"link": "#"
+									"title": "هدفون سونی"
 								},
 								{
-									"title": "هدفون سامسونگ",
-									"link": "#"
+									"title": "هدفون سامسونگ"
 								},
 								{
-									"title": "هدفون شیائومی",
-									"link": "#"
+									"title": "هدفون شیائومی"
 								},
 								{
-									"title": "هدفون جی بی ال",
-									"link": "#"
+									"title": "هدفون جی بی ال"
 								},
 								{
-									"title": "هدفون ریزر",
-									"link": "#"
+									"title": "هدفون ریزر"
 								},
 								{
-									"title": "هندزفری سامسونگ",
-									"link": "#"
+									"title": "هندزفری سامسونگ"
 								},
 								{
-									"title": "هندزفری هایلو",
-									"link": "#"
+									"title": "هندزفری هایلو"
 								},
 								{
-									"title": "هندزفری شیائومی",
-									"link": "#"
+									"title": "هندزفری شیائومی"
 								},
 								{
-									"title": "هندزفری انکر",
-									"link": "#"
+									"title": "هندزفری انکر"
 								},
 								{
-									"title": "هندزفری هواوی",
-									"link": "#"
+									"title": "هندزفری هواوی"
 								},
 								{
-									"title": "هندزفری سونی",
-									"link": "#"
+									"title": "هندزفری سونی"
 								},
 								{
-									"title": "هندزفری باسئوس",
-									"link": "#"
+									"title": "هندزفری باسئوس"
 								},
 								{
-									"title": "هندزفری لنوو",
-									"link": "#"
+									"title": "هندزفری لنوو"
 								},
 								{
-									"title": "هندزفری تسکو",
-									"link": "#"
+									"title": "هندزفری تسکو"
 								},
 								{
-									"title": "هندزفری پرووان",
-									"link": "#"
+									"title": "هندزفری پرووان"
 								},
 								{
-									"title": "هندزفری زیلوت",
-									"link": "#"
+									"title": "هندزفری زیلوت"
 								},
 								{
-									"title": "هندزفری وان مور",
-									"link": "#"
+									"title": "هندزفری وان مور"
 								},
 								{
-									"title": "هندزفری ایس فست",
-									"link": "#"
+									"title": "هندزفری ایس فست"
 								},
 								{
-									"title": "هندزفری کلومن",
-									"link": "#"
+									"title": "هندزفری کلومن"
 								},
 								{
-									"title": "هندزفری میبرو",
-									"link": "#"
+									"title": "هندزفری میبرو"
 								},
 								{
-									"title": "هندزفری هیسکا",
-									"link": "#"
+									"title": "هندزفری هیسکا"
 								},
 								{
-									"title": "هندزفری ناتینگ",
-									"link": "#"
+									"title": "هندزفری ناتینگ"
 								}
 							]
 						},
 						{
 							"title": "هدست و هدفون",
-							"link": "#",
 							"items": [
 								{
-									"title": "هدفون گیمینگ",
-									"link": "#"
+									"title": "هدفون گیمینگ"
 								},
 								{
-									"title": "هدست گیمینگ ریزر",
-									"link": "#"
+									"title": "هدست گیمینگ ریزر"
 								},
 								{
-									"title": "هدفون گیمینگ تسکو",
-									"link": "#"
+									"title": "هدفون گیمینگ تسکو"
 								},
 								{
-									"title": "هدفون بیتس",
-									"link": "#"
+									"title": "هدفون بیتس"
 								},
 								{
-									"title": "هدفون سونی",
-									"link": "#"
+									"title": "هدفون سونی"
 								},
 								{
-									"title": "هدفون تسکو",
-									"link": "#"
+									"title": "هدفون تسکو"
 								},
 								{
-									"title": "هدفون ریزر",
-									"link": "#"
+									"title": "هدفون ریزر"
 								},
 								{
-									"title": "هدفون انکر",
-									"link": "#"
+									"title": "هدفون انکر"
 								},
 								{
-									"title": "هدفون سیمی",
-									"link": "#"
+									"title": "هدفون سیمی"
 								},
 								{
-									"title": "هدفون بی سیم",
-									"link": "#"
+									"title": "هدفون بی سیم"
 								}
 							]
 						},
 						{
 							"title": "هدفون بر اساس کاربرد",
-							"link": "#",
 							"items": [
 								{
-									"title": "هدفون کاربری عمومی",
-									"link": "#"
+									"title": "هدفون کاربری عمومی"
 								},
 								{
-									"title": "هدست کودکان",
-									"link": "#"
+									"title": "هدست کودکان"
 								},
 								{
-									"title": "هدفون گیمینگ",
-									"link": "#"
+									"title": "هدفون گیمینگ"
 								},
 								{
-									"title": "هدفون مکالمه",
-									"link": "#"
+									"title": "هدفون مکالمه"
 								},
 								{
-									"title": "هدفون ورزش",
-									"link": "#"
+									"title": "هدفون ورزش"
 								},
 								{
-									"title": "هدفون اداری",
-									"link": "#"
+									"title": "هدفون اداری"
 								},
 								{
-									"title": "هدفون مشاورین",
-									"link": "#"
+									"title": "هدفون مشاورین"
 								}
 							]
 						}
@@ -9539,193 +9127,147 @@
 					"parents": [
 						{
 							"title": "کنسول های بازی",
-							"link": "#",
 							"items": [
 								{
-									"title": "پلی استیشن",
-									"link": "#"
+									"title": "پلی استیشن"
 								},
 								{
-									"title": "پلی استیشن 5",
-									"link": "#"
+									"title": "پلی استیشن 5"
 								},
 								{
-									"title": "پلی استیشن 5 اسلیم",
-									"link": "#"
+									"title": "پلی استیشن 5 اسلیم"
 								},
 								{
-									"title": "باندل پی اس فایو",
-									"link": "#"
+									"title": "باندل پی اس فایو"
 								},
 								{
-									"title": "دسته پی اس فایو",
-									"link": "#"
+									"title": "دسته پی اس فایو"
 								},
 								{
-									"title": "لوازم جانبی دسته",
-									"link": "#"
+									"title": "لوازم جانبی دسته"
 								},
 								{
-									"title": "لوازم جانبی پی اس فایو",
-									"link": "#"
+									"title": "لوازم جانبی پی اس فایو"
 								},
 								{
-									"title": "کیف پی اس فایو",
-									"link": "#"
+									"title": "کیف پی اس فایو"
 								},
 								{
-									"title": "پلی استیشن 4",
-									"link": "#"
+									"title": "پلی استیشن 4"
 								},
 								{
-									"title": "دسته پی اس فور",
-									"link": "#"
+									"title": "دسته پی اس فور"
 								},
 								{
-									"title": "بازی پلی استیشن",
-									"link": "#"
+									"title": "بازی پلی استیشن"
 								},
 								{
-									"title": "ایکس باکس",
-									"link": "#"
+									"title": "ایکس باکس"
 								},
 								{
-									"title": "ایکس باکس سری اس",
-									"link": "#"
+									"title": "ایکس باکس سری اس"
 								},
 								{
-									"title": "ایکس باکس سری ایکس",
-									"link": "#"
+									"title": "ایکس باکس سری ایکس"
 								},
 								{
-									"title": "دسته ایکس باکس",
-									"link": "#"
+									"title": "دسته ایکس باکس"
 								},
 								{
-									"title": "بازی ایکس باکس",
-									"link": "#"
+									"title": "بازی ایکس باکس"
 								},
 								{
-									"title": "لوازم جانبی ایکس باکس",
-									"link": "#"
+									"title": "لوازم جانبی ایکس باکس"
 								},
 								{
-									"title": "نینتندو",
-									"link": "#"
+									"title": "نینتندو"
 								},
 								{
-									"title": "لوازم جانبی کنسول بازی",
-									"link": "#"
+									"title": "لوازم جانبی کنسول بازی"
 								}
 							]
 						},
 						{
 							"title": "دسته های بازی",
-							"link": "#",
 							"items": [
 								{
-									"title": "دسته پی اس فایو",
-									"link": "#"
+									"title": "دسته پی اس فایو"
 								},
 								{
-									"title": "دسته پی اس فور",
-									"link": "#"
+									"title": "دسته پی اس فور"
 								},
 								{
-									"title": "دسته نیتندو",
-									"link": "#"
+									"title": "دسته نیتندو"
 								},
 								{
-									"title": "دسته ایکس باکس",
-									"link": "#"
+									"title": "دسته ایکس باکس"
 								},
 								{
-									"title": "کاور دسته بازی",
-									"link": "#"
+									"title": "کاور دسته بازی"
 								}
 							]
 						},
 						{
 							"title": "تجهیزات و لوازم گیمینگ",
-							"link": "#",
 							"items": [
 								{
-									"title": "مانیتور گیمینگ",
-									"link": "#"
+									"title": "مانیتور گیمینگ"
 								},
 								{
-									"title": "صندلی گیمینگ",
-									"link": "#"
+									"title": "صندلی گیمینگ"
 								},
 								{
-									"title": "هدفون گیمینگ",
-									"link": "#"
+									"title": "هدفون گیمینگ"
 								},
 								{
-									"title": "موس گیمینگ",
-									"link": "#"
+									"title": "موس گیمینگ"
 								},
 								{
-									"title": "هدست واقعیت مجازی",
-									"link": "#"
+									"title": "هدست واقعیت مجازی"
 								}
 							]
 						},
 						{
 							"title": "لوازم جانبی کنسول بازی",
-							"link": "#",
 							"items": [
 								{
-									"title": "کیف کنسول بازی",
-									"link": "#"
+									"title": "کیف کنسول بازی"
 								},
 								{
-									"title": "کیف پی اس فایو",
-									"link": "#"
+									"title": "کیف پی اس فایو"
 								},
 								{
-									"title": "کیف پی اس فور",
-									"link": "#"
+									"title": "کیف پی اس فور"
 								},
 								{
-									"title": "کیف پی اس فور",
-									"link": "#"
+									"title": "کیف پی اس فور"
 								},
 								{
-									"title": "پایه شارژ دسته کنسول",
-									"link": "#"
+									"title": "پایه شارژ دسته کنسول"
 								},
 								{
-									"title": "لوازم جانبی ایکس باکس",
-									"link": "#"
+									"title": "لوازم جانبی ایکس باکس"
 								},
 								{
-									"title": "لوازم جانبی پی اس فایو",
-									"link": "#"
+									"title": "لوازم جانبی پی اس فایو"
 								},
 								{
-									"title": "استند دسته بازی",
-									"link": "#"
+									"title": "استند دسته بازی"
 								},
 								{
-									"title": "فن خنک کننده دسته بازی",
-									"link": "#"
+									"title": "فن خنک کننده دسته بازی"
 								},
 								{
-									"title": "فیس پلیت و کاور پی اس فایو",
-									"link": "#"
+									"title": "فیس پلیت و کاور پی اس فایو"
 								},
 								{
-									"title": "روکش دسته ایکس باکس",
-									"link": "#"
+									"title": "روکش دسته ایکس باکس"
 								},
 								{
-									"title": "روکش دسته پی اس فایو",
-									"link": "#"
+									"title": "روکش دسته پی اس فایو"
 								},
 								{
-									"title": "روکش دسته پی اس فور",
-									"link": "#"
+									"title": "روکش دسته پی اس فور"
 								}
 							]
 						}
@@ -9737,185 +9279,141 @@
 					"parents": [
 						{
 							"title": "ساعت هوشمند",
-							"link": "#",
 							"items": [
 								{
-									"title": "مچ بند هوشمند",
-									"link": "#"
+									"title": "مچ بند هوشمند"
 								},
 								{
-									"title": "اپل واچ هوشمند",
-									"link": "#"
+									"title": "اپل واچ هوشمند"
 								},
 								{
-									"title": "ساعت هوشمند سامسونگ",
-									"link": "#"
+									"title": "ساعت هوشمند سامسونگ"
 								},
 								{
-									"title": "ساعت هوشمند شیائومی",
-									"link": "#"
+									"title": "ساعت هوشمند شیائومی"
 								},
 								{
-									"title": "ساعت هوشمند امیزفیت",
-									"link": "#"
+									"title": "ساعت هوشمند امیزفیت"
 								},
 								{
-									"title": "ساعت هوشمند میبرو",
-									"link": "#"
+									"title": "ساعت هوشمند میبرو"
 								},
 								{
-									"title": "ساعت هوشمند هواوی",
-									"link": "#"
+									"title": "ساعت هوشمند هواوی"
 								},
 								{
-									"title": "ساعت هوشمند هایلو",
-									"link": "#"
+									"title": "ساعت هوشمند هایلو"
 								},
 								{
-									"title": "ساعت هوشمند کیسلکت",
-									"link": "#"
+									"title": "ساعت هوشمند کیسلکت"
 								},
 								{
-									"title": "ساعت جی تب",
-									"link": "#"
+									"title": "ساعت جی تب"
 								},
 								{
-									"title": "ساعت ایمیلب",
-									"link": "#"
+									"title": "ساعت ایمیلب"
 								},
 								{
-									"title": "ساعت هوشمند کیواسی",
-									"link": "#"
+									"title": "ساعت هوشمند کیواسی"
 								},
 								{
-									"title": "اپل واچ سری ۹",
-									"link": "#"
+									"title": "اپل واچ سری ۹"
 								},
 								{
-									"title": "اپل واچ سری 8",
-									"link": "#"
+									"title": "اپل واچ سری 8"
 								},
 								{
-									"title": "ساعت هوشمند هاینو تکو",
-									"link": "#"
+									"title": "ساعت هوشمند هاینو تکو"
 								},
 								{
-									"title": "ساعت هوشمند پرووان",
-									"link": "#"
+									"title": "ساعت هوشمند پرووان"
 								},
 								{
-									"title": "ساعت هوشمند هیوامی",
-									"link": "#"
+									"title": "ساعت هوشمند هیوامی"
 								},
 								{
-									"title": "ساعت هوشمند پرومیت",
-									"link": "#"
+									"title": "ساعت هوشمند پرومیت"
 								},
 								{
-									"title": "ساعت طرح اپل واچ",
-									"link": "#"
+									"title": "ساعت طرح اپل واچ"
 								},
 								{
-									"title": "ساعت هوشمند گرین لاین",
-									"link": "#"
+									"title": "ساعت هوشمند گرین لاین"
 								},
 								{
-									"title": "ساعت هوشمند ایمیکی",
-									"link": "#"
+									"title": "ساعت هوشمند ایمیکی"
 								},
 								{
-									"title": "ساعت هوشمند تی سی اچ",
-									"link": "#"
+									"title": "ساعت هوشمند تی سی اچ"
 								}
 							]
 						},
 						{
 							"title": "ساعت مچی",
-							"link": "#",
 							"items": [
 								{
-									"title": "ساعت مچی دیجیتال",
-									"link": "#"
+									"title": "ساعت مچی دیجیتال"
 								},
 								{
-									"title": "ساعت مچی دیجیتال",
-									"link": "#"
+									"title": "ساعت مچی دیجیتال"
 								},
 								{
-									"title": "ساعت مچی ارزان",
-									"link": "#"
+									"title": "ساعت مچی ارزان"
 								},
 								{
-									"title": "ساعت کاسیو",
-									"link": "#"
+									"title": "ساعت کاسیو"
 								},
 								{
-									"title": "ساعت جی شاک",
-									"link": "#"
+									"title": "ساعت جی شاک"
 								}
 							]
 						},
 						{
 							"title": "لوازم جانبی ساعت هوشمند",
-							"link": "#",
 							"items": [
 								{
-									"title": "لوازم جانبی ساعت هوشمند",
-									"link": "#"
+									"title": "لوازم جانبی ساعت هوشمند"
 								},
 								{
-									"title": "بند ساعت هوشمند",
-									"link": "#"
+									"title": "بند ساعت هوشمند"
 								},
 								{
-									"title": "گلس ساعت هوشمند",
-									"link": "#"
+									"title": "گلس ساعت هوشمند"
 								},
 								{
-									"title": "بند اپل واچ",
-									"link": "#"
+									"title": "بند اپل واچ"
 								},
 								{
-									"title": "شارژر ساعت هوشمند",
-									"link": "#"
+									"title": "شارژر ساعت هوشمند"
 								},
 								{
-									"title": "کاور ساعت هوشمند",
-									"link": "#"
+									"title": "کاور ساعت هوشمند"
 								}
 							]
 						},
 						{
 							"title": "ساعت بر اساس کاربرد",
-							"link": "#",
 							"items": [
 								{
-									"title": "هوشمند با قابلیت مکالمه",
-									"link": "#"
+									"title": "هوشمند با قابلیت مکالمه"
 								},
 								{
-									"title": "هوشمند سیم کارت خور",
-									"link": "#"
+									"title": "هوشمند سیم کارت خور"
 								},
 								{
-									"title": "هوشمند جی پی اس دار",
-									"link": "#"
+									"title": "هوشمند جی پی اس دار"
 								},
 								{
-									"title": "ساعت ضد آب",
-									"link": "#"
+									"title": "ساعت ضد آب"
 								},
 								{
-									"title": "ساعت زنانه",
-									"link": "#"
+									"title": "ساعت زنانه"
 								},
 								{
-									"title": "ساعت مردانه",
-									"link": "#"
+									"title": "ساعت مردانه"
 								},
 								{
-									"title": "ساعت هوشمند گرد",
-									"link": "#"
+									"title": "ساعت هوشمند گرد"
 								}
 							]
 						}
@@ -9927,185 +9425,141 @@
 					"parents": [
 						{
 							"title": "اسپیکرها بر اساس برند",
-							"link": "#",
 							"items": [
 								{
-									"title": "اسپیکر جی بی ال",
-									"link": "#"
+									"title": "اسپیکر جی بی ال"
 								},
 								{
-									"title": "اسپیکر هارمن کاردن",
-									"link": "#"
+									"title": "اسپیکر هارمن کاردن"
 								},
 								{
-									"title": "اسپیکر سونی",
-									"link": "#"
+									"title": "اسپیکر سونی"
 								},
 								{
-									"title": "اسپیکر انرجایزر",
-									"link": "#"
+									"title": "اسپیکر انرجایزر"
 								},
 								{
-									"title": "اسپیکر ال جی",
-									"link": "#"
+									"title": "اسپیکر ال جی"
 								},
 								{
-									"title": "اسپیکر وان مکس",
-									"link": "#"
+									"title": "اسپیکر وان مکس"
 								},
 								{
-									"title": "اسپیکر پرووان",
-									"link": "#"
+									"title": "اسپیکر پرووان"
 								},
 								{
-									"title": "اسپیکر تسکو",
-									"link": "#"
+									"title": "اسپیکر تسکو"
 								},
 								{
-									"title": "اسپیکر کینگ استار",
-									"link": "#"
+									"title": "اسپیکر کینگ استار"
 								},
 								{
-									"title": "اسپیکر میفا",
-									"link": "#"
+									"title": "اسپیکر میفا"
 								},
 								{
-									"title": "اسپیکر سیلیکون پاور",
-									"link": "#"
+									"title": "اسپیکر سیلیکون پاور"
 								},
 								{
-									"title": "اسپیکر هیسکا",
-									"link": "#"
+									"title": "اسپیکر هیسکا"
 								},
 								{
-									"title": "اسپیکر مکسیدر",
-									"link": "#"
+									"title": "اسپیکر مکسیدر"
 								},
 								{
-									"title": "اسپیکر زیلوت",
-									"link": "#"
+									"title": "اسپیکر زیلوت"
 								},
 								{
-									"title": "کاور اسپیکر",
-									"link": "#"
+									"title": "کاور اسپیکر"
 								},
 								{
-									"title": "پارتی باکس",
-									"link": "#"
+									"title": "پارتی باکس"
 								},
 								{
-									"title": "پارتی باکس JBL",
-									"link": "#"
+									"title": "پارتی باکس JBL"
 								},
 								{
-									"title": "پارتی باکس تسکو",
-									"link": "#"
+									"title": "پارتی باکس تسکو"
 								},
 								{
-									"title": "اسپیکر شیائومی",
-									"link": "#"
+									"title": "اسپیکر شیائومی"
 								}
 							]
 						},
 						{
 							"title": "اسپیکر بر اساس قیمت",
-							"link": "#",
 							"items": [
 								{
-									"title": "اسپیکر تا 1 میلیون",
-									"link": "#"
+									"title": "اسپیکر تا 1 میلیون"
 								},
 								{
-									"title": "اسپیکر تا 2 میلیون",
-									"link": "#"
+									"title": "اسپیکر تا 2 میلیون"
 								},
 								{
-									"title": "اسپیکر تا 5 میلیون",
-									"link": "#"
+									"title": "اسپیکر تا 5 میلیون"
 								},
 								{
-									"title": "اسپیکر تا 10 میلیون",
-									"link": "#"
+									"title": "اسپیکر تا 10 میلیون"
 								},
 								{
-									"title": "اسپیکر تا 20 میلیون",
-									"link": "#"
+									"title": "اسپیکر تا 20 میلیون"
 								},
 								{
-									"title": "اسپیکر تا 30 میلیون",
-									"link": "#"
+									"title": "اسپیکر تا 30 میلیون"
 								}
 							]
 						},
 						{
 							"title": "ساندبار",
-							"link": "#",
 							"items": [
 								{
-									"title": "ساندبار جی بی ال",
-									"link": "#"
+									"title": "ساندبار جی بی ال"
 								},
 								{
-									"title": "ساندبار سونی",
-									"link": "#"
+									"title": "ساندبار سونی"
 								},
 								{
-									"title": "ساندبار کریتیو",
-									"link": "#"
+									"title": "ساندبار کریتیو"
 								},
 								{
-									"title": "ساندبار اسپیکر",
-									"link": "#"
+									"title": "ساندبار اسپیکر"
 								},
 								{
-									"title": "ساندبار هیسکا",
-									"link": "#"
+									"title": "ساندبار هیسکا"
 								},
 								{
-									"title": "ساندبار تسکو",
-									"link": "#"
+									"title": "ساندبار تسکو"
 								},
 								{
-									"title": "ساندبار پرووان",
-									"link": "#"
+									"title": "ساندبار پرووان"
 								}
 							]
 						},
 						{
 							"title": "اسپیکر بر اساس نوع",
-							"link": "#",
 							"items": [
 								{
-									"title": "اسپیکر چمدانی",
-									"link": "#"
+									"title": "اسپیکر چمدانی"
 								},
 								{
-									"title": "دستیار صوتی",
-									"link": "#"
+									"title": "دستیار صوتی"
 								},
 								{
-									"title": "اسپیکر دسکتاپ",
-									"link": "#"
+									"title": "اسپیکر دسکتاپ"
 								},
 								{
-									"title": "اسپیکر دیواری",
-									"link": "#"
+									"title": "اسپیکر دیواری"
 								},
 								{
-									"title": "اسپیکر سقفی",
-									"link": "#"
+									"title": "اسپیکر سقفی"
 								},
 								{
-									"title": "اسپیکر قابل حمل",
-									"link": "#"
+									"title": "اسپیکر قابل حمل"
 								},
 								{
-									"title": "اسپیکر کارکیت",
-									"link": "#"
+									"title": "اسپیکر کارکیت"
 								},
 								{
-									"title": "اسپیکر میکروفون",
-									"link": "#"
+									"title": "اسپیکر میکروفون"
 								}
 							]
 						}
@@ -10117,169 +9571,129 @@
 					"parents": [
 						{
 							"title": "پاوربانک براساس برند",
-							"link": "#",
 							"items": [
 								{
-									"title": "پاوربانک شیائومی",
-									"link": "#"
+									"title": "پاوربانک شیائومی"
 								},
 								{
-									"title": "پاوربانک انکر",
-									"link": "#"
+									"title": "پاوربانک انکر"
 								},
 								{
-									"title": "پاوربانک باسئوس",
-									"link": "#"
+									"title": "پاوربانک باسئوس"
 								},
 								{
-									"title": "پاوربانک تسکو",
-									"link": "#"
+									"title": "پاوربانک تسکو"
 								},
 								{
-									"title": "پاوربانک پاورولوجی",
-									"link": "#"
+									"title": "پاوربانک پاورولوجی"
 								},
 								{
-									"title": "پاوربانک ارزان",
-									"link": "#"
+									"title": "پاوربانک ارزان"
 								},
 								{
-									"title": "پاوربانک adata",
-									"link": "#"
+									"title": "پاوربانک adata"
 								},
 								{
-									"title": "پاوربانک سامسونگ",
-									"link": "#"
+									"title": "پاوربانک سامسونگ"
 								},
 								{
-									"title": "پاوربانک انرجایزر",
-									"link": "#"
+									"title": "پاوربانک انرجایزر"
 								},
 								{
-									"title": "پاوربانک سیلیکون پاور",
-									"link": "#"
+									"title": "پاوربانک سیلیکون پاور"
 								},
 								{
-									"title": "پاوربانک هیسکا",
-									"link": "#"
+									"title": "پاوربانک هیسکا"
 								},
 								{
-									"title": "پاوربانک مک دودو",
-									"link": "#"
+									"title": "پاوربانک مک دودو"
 								},
 								{
-									"title": "پاوربانک آلکاتل",
-									"link": "#"
+									"title": "پاوربانک آلکاتل"
 								},
 								{
-									"title": "پاوربانک آی اسمارت",
-									"link": "#"
+									"title": "پاوربانک آی اسمارت"
 								},
 								{
-									"title": "پاوربانک آی سن",
-									"link": "#"
+									"title": "پاوربانک آی سن"
 								},
 								{
-									"title": "پاوربانک آی موتو",
-									"link": "#"
+									"title": "پاوربانک آی موتو"
 								},
 								{
-									"title": "پاوربانک آی واک",
-									"link": "#"
+									"title": "پاوربانک آی واک"
 								},
 								{
-									"title": "پاوربانک ادونیت",
-									"link": "#"
+									"title": "پاوربانک ادونیت"
 								},
 								{
-									"title": "پاوربانک اتوپلاس",
-									"link": "#"
+									"title": "پاوربانک اتوپلاس"
 								},
 								{
-									"title": "پاوربانک اُرایمو",
-									"link": "#"
+									"title": "پاوربانک اُرایمو"
 								},
 								{
-									"title": "پاوربانک پاناسونیک",
-									"link": "#"
+									"title": "پاوربانک پاناسونیک"
 								},
 								{
-									"title": "پاوربانک باماتک",
-									"link": "#"
+									"title": "پاوربانک باماتک"
 								}
 							]
 						},
 						{
 							"title": "پاوربانک براساس نحوه نمایش",
-							"link": "#",
 							"items": [
 								{
-									"title": "صفحه نمایش LCD",
-									"link": "#"
+									"title": "صفحه نمایش LCD"
 								},
 								{
-									"title": "نشانگر رنگی",
-									"link": "#"
+									"title": "نشانگر رنگی"
 								},
 								{
-									"title": "نشانگر شارژ به درصد",
-									"link": "#"
+									"title": "نشانگر شارژ به درصد"
 								},
 								{
-									"title": "نشانگر LED",
-									"link": "#"
+									"title": "نشانگر LED"
 								}
 							]
 						},
 						{
 							"title": "براساس قابلیت‌های دستگاه",
-							"link": "#",
 							"items": [
 								{
-									"title": "امکان خاموشی خودکار",
-									"link": "#"
+									"title": "امکان خاموشی خودکار"
 								},
 								{
-									"title": "امکان شارژ بی‌سیم",
-									"link": "#"
+									"title": "امکان شارژ بی‌سیم"
 								},
 								{
-									"title": "بدون قابلیت ویژه",
-									"link": "#"
+									"title": "بدون قابلیت ویژه"
 								},
 								{
-									"title": "فناوری شارژ سریع کوالکام",
-									"link": "#"
+									"title": "فناوری شارژ سریع کوالکام"
 								},
 								{
-									"title": "فناوری شارژ سریع",
-									"link": "#"
+									"title": "فناوری شارژ سریع"
 								},
 								{
-									"title": "ضد آب و ضد ضربه",
-									"link": "#"
+									"title": "ضد آب و ضد ضربه"
 								}
 							]
 						},
 						{
 							"title": "براساس کلاس وزنی",
-							"link": "#",
 							"items": [
 								{
-									"title": "پاوربانک خیلی سبک",
-									"link": "#"
+									"title": "پاوربانک خیلی سبک"
 								},
 								{
-									"title": "پاوربانک سبک",
-									"link": "#"
+									"title": "پاوربانک سبک"
 								},
 								{
-									"title": "پاوربانک سنگین",
-									"link": "#"
+									"title": "پاوربانک سنگین"
 								},
 								{
-									"title": "پاوربانک معمولی",
-									"link": "#"
+									"title": "پاوربانک معمولی"
 								}
 							]
 						}
@@ -10291,203 +9705,154 @@
 					"parents": [
 						{
 							"title": "تبلت براساس برند",
-							"link": "#",
 							"items": [
 								{
-									"title": "تبلت اپل",
-									"link": "#"
+									"title": "تبلت اپل"
 								},
 								{
-									"title": "تبلت سامسونگ",
-									"link": "#"
+									"title": "تبلت سامسونگ"
 								},
 								{
-									"title": "تبلت شیائومی",
-									"link": "#"
+									"title": "تبلت شیائومی"
 								},
 								{
-									"title": "تبلت مایکروسافت",
-									"link": "#"
+									"title": "تبلت مایکروسافت"
 								},
 								{
-									"title": "تبلت هواوی",
-									"link": "#"
+									"title": "تبلت هواوی"
 								},
 								{
-									"title": "تبلت جی ال ایکس",
-									"link": "#"
+									"title": "تبلت جی ال ایکس"
 								},
 								{
-									"title": "تبلت لنوو",
-									"link": "#"
+									"title": "تبلت لنوو"
 								},
 								{
-									"title": "تبلت قلم دار",
-									"link": "#"
+									"title": "تبلت قلم دار"
 								},
 								{
-									"title": "کتابخوان",
-									"link": "#"
+									"title": "کتابخوان"
 								},
 								{
-									"title": "تبلت آرکاس",
-									"link": "#"
+									"title": "تبلت آرکاس"
 								},
 								{
-									"title": "تبلت آلکاتل",
-									"link": "#"
+									"title": "تبلت آلکاتل"
 								},
 								{
-									"title": "تبلت آمازون",
-									"link": "#"
+									"title": "تبلت آمازون"
 								},
 								{
-									"title": "تبلت اونکسا",
-									"link": "#"
+									"title": "تبلت اونکسا"
 								},
 								{
-									"title": "تبلت اسمارت تاچ",
-									"link": "#"
+									"title": "تبلت اسمارت تاچ"
 								},
 								{
-									"title": "تبلت ایپتک",
-									"link": "#"
+									"title": "تبلت ایپتک"
 								},
 								{
-									"title": "تبلت ایکس ویژن",
-									"link": "#"
+									"title": "تبلت ایکس ویژن"
 								},
 								{
-									"title": "تبلت بک بورد",
-									"link": "#"
+									"title": "تبلت بک بورد"
 								},
 								{
-									"title": "تبلت پرستیژیو",
-									"link": "#"
+									"title": "تبلت پرستیژیو"
 								},
 								{
-									"title": "تبلت بلست",
-									"link": "#"
+									"title": "تبلت بلست"
 								},
 								{
-									"title": "تبلت تواینموس",
-									"link": "#"
+									"title": "تبلت تواینموس"
 								},
 								{
-									"title": "تبلت توشیبا",
-									"link": "#"
+									"title": "تبلت توشیبا"
 								},
 								{
-									"title": "تبلت جی ال ایکس",
-									"link": "#"
+									"title": "تبلت جی ال ایکس"
 								},
 								{
-									"title": "تبلت سامسونگ",
-									"link": "#"
+									"title": "تبلت سامسونگ"
 								},
 								{
-									"title": "تبلت شیائومی",
-									"link": "#"
+									"title": "تبلت شیائومی"
 								},
 								{
-									"title": "تبلت فوجیتسو",
-									"link": "#"
+									"title": "تبلت فوجیتسو"
 								}
 							]
 						},
 						{
 							"title": "تبلت بر اساس حس‌گر",
-							"link": "#",
 							"items": [
 								{
-									"title": "اثر انگشت",
-									"link": "#"
+									"title": "اثر انگشت"
 								},
 								{
-									"title": "اثرانگشت روی قاب پشتی",
-									"link": "#"
+									"title": "اثرانگشت روی قاب پشتی"
 								},
 								{
-									"title": "اثرانگشت روی قاب جلویی",
-									"link": "#"
+									"title": "اثرانگشت روی قاب جلویی"
 								},
 								{
-									"title": "اثرانگشت روی لبه",
-									"link": "#"
+									"title": "اثرانگشت روی لبه"
 								},
 								{
-									"title": "اثرانگشت زیر صفحه نمایش",
-									"link": "#"
+									"title": "اثرانگشت زیر صفحه نمایش"
 								},
 								{
-									"title": "تشخیص آهنربا",
-									"link": "#"
+									"title": "تشخیص آهنربا"
 								},
 								{
-									"title": "روشنایی",
-									"link": "#"
+									"title": "روشنایی"
 								},
 								{
-									"title": "ژیروسکوپ",
-									"link": "#"
+									"title": "ژیروسکوپ"
 								},
 								{
-									"title": "شتاب‌سنج",
-									"link": "#"
+									"title": "شتاب‌سنج"
 								},
 								{
-									"title": "عنبیه چشم",
-									"link": "#"
+									"title": "عنبیه چشم"
 								},
 								{
-									"title": "فشارسنج",
-									"link": "#"
+									"title": "فشارسنج"
 								},
 								{
-									"title": "قطب‌نما",
-									"link": "#"
+									"title": "قطب‌نما"
 								},
 								{
-									"title": "مجاورت",
-									"link": "#"
+									"title": "مجاورت"
 								}
 							]
 						},
 						{
 							"title": "براساس سیستم عامل",
-							"link": "#",
 							"items": [
 								{
-									"title": "بدون سیستم عامل",
-									"link": "#"
+									"title": "بدون سیستم عامل"
 								},
 								{
-									"title": "سیستم عامل اندروید",
-									"link": "#"
+									"title": "سیستم عامل اندروید"
 								},
 								{
-									"title": "سیستم عامل اپل",
-									"link": "#"
+									"title": "سیستم عامل اپل"
 								},
 								{
-									"title": "سیستم عامل فایر",
-									"link": "#"
+									"title": "سیستم عامل فایر"
 								},
 								{
-									"title": "سیستم عامل آی پد",
-									"link": "#"
+									"title": "سیستم عامل آی پد"
 								},
 								{
-									"title": "سیستم عامل میکروسافت",
-									"link": "#"
+									"title": "سیستم عامل میکروسافت"
 								},
 								{
-									"title": "سیستم عامل میکروسافت 10",
-									"link": "#"
+									"title": "سیستم عامل میکروسافت 10"
 								},
 								{
-									"title": "سیستم عامل میکروسافت 11",
-									"link": "#"
+									"title": "سیستم عامل میکروسافت 11"
 								}
 							]
 						}
@@ -10499,189 +9864,144 @@
 					"parents": [
 						{
 							"title": "آل این وان ها",
-							"link": "#",
 							"items": [
 								{
-									"title": "آل این وان لنوو",
-									"link": "#"
+									"title": "آل این وان لنوو"
 								},
 								{
-									"title": "آل این وان ایسوس",
-									"link": "#"
+									"title": "آل این وان ایسوس"
 								},
 								{
-									"title": "آل این وان ام اس آی",
-									"link": "#"
+									"title": "آل این وان ام اس آی"
 								},
 								{
-									"title": "آل این وان اچ پی",
-									"link": "#"
+									"title": "آل این وان اچ پی"
 								},
 								{
-									"title": "آل این وان اپل",
-									"link": "#"
+									"title": "آل این وان اپل"
 								},
 								{
-									"title": "آل این وان اینوورس",
-									"link": "#"
+									"title": "آل این وان اینوورس"
 								},
 								{
-									"title": "آل این وان مایا",
-									"link": "#"
+									"title": "آل این وان مایا"
 								},
 								{
-									"title": "آل این وان مستر تک",
-									"link": "#"
+									"title": "آل این وان مستر تک"
 								}
 							]
 						},
 						{
 							"title": "کامپیوترها",
-							"link": "#",
 							"items": [
 								{
-									"title": "آل این وان",
-									"link": "#"
+									"title": "آل این وان"
 								},
 								{
-									"title": "مینی پی سی",
-									"link": "#"
+									"title": "مینی پی سی"
 								},
 								{
-									"title": "قلم نوری",
-									"link": "#"
+									"title": "قلم نوری"
 								},
 								{
-									"title": "رم ریدر",
-									"link": "#"
+									"title": "رم ریدر"
 								},
 								{
-									"title": "ماوس پد",
-									"link": "#"
+									"title": "ماوس پد"
 								},
 								{
-									"title": "کیس اسمبل شده",
-									"link": "#"
+									"title": "کیس اسمبل شده"
 								}
 							]
 						},
 						{
 							"title": "مانیتورها",
-							"link": "#",
 							"items": [
 								{
-									"title": "مانیتور ایسوس",
-									"link": "#"
+									"title": "مانیتور ایسوس"
 								},
 								{
-									"title": "مانیتور ال جی",
-									"link": "#"
+									"title": "مانیتور ال جی"
 								},
 								{
-									"title": "مانیتور سامسونگ",
-									"link": "#"
+									"title": "مانیتور سامسونگ"
 								},
 								{
-									"title": "مانیتور ام اس آی",
-									"link": "#"
+									"title": "مانیتور ام اس آی"
 								},
 								{
-									"title": "مانیتور لنوو",
-									"link": "#"
+									"title": "مانیتور لنوو"
 								},
 								{
-									"title": "مانیتور جی پلاس",
-									"link": "#"
+									"title": "مانیتور جی پلاس"
 								},
 								{
-									"title": "مانیتور گیمینگ",
-									"link": "#"
+									"title": "مانیتور گیمینگ"
 								},
 								{
-									"title": "مانیتور گیمینگ ایسوس",
-									"link": "#"
+									"title": "مانیتور گیمینگ ایسوس"
 								},
 								{
-									"title": "مانیتور گیمینگ سامسونگ",
-									"link": "#"
+									"title": "مانیتور گیمینگ سامسونگ"
 								},
 								{
-									"title": "مانیتور داهوا",
-									"link": "#"
+									"title": "مانیتور داهوا"
 								},
 								{
-									"title": "مانیتور مایا",
-									"link": "#"
+									"title": "مانیتور مایا"
 								},
 								{
-									"title": "مانیتور 27 اینچ",
-									"link": "#"
+									"title": "مانیتور 27 اینچ"
 								},
 								{
-									"title": "مانیتور ۳۴ اینچ",
-									"link": "#"
+									"title": "مانیتور ۳۴ اینچ"
 								},
 								{
-									"title": "مانیتور 32 اینچ",
-									"link": "#"
+									"title": "مانیتور 32 اینچ"
 								}
 							]
 						},
 						{
 							"title": "قطعات کامپیوتر",
-							"link": "#",
 							"items": [
 								{
-									"title": "پردازنده (CPU)",
-									"link": "#"
+									"title": "پردازنده (CPU)"
 								},
 								{
-									"title": "خنک کننده پردازنده",
-									"link": "#"
+									"title": "خنک کننده پردازنده"
 								},
 								{
-									"title": "کیس کامپیوتر",
-									"link": "#"
+									"title": "کیس کامپیوتر"
 								},
 								{
-									"title": "کارت گرافیک",
-									"link": "#"
+									"title": "کارت گرافیک"
 								},
 								{
-									"title": "مادربرد",
-									"link": "#"
+									"title": "مادربرد"
 								},
 								{
-									"title": "مادربرد",
-									"link": "#"
+									"title": "مادربرد"
 								},
 								{
-									"title": "کارت شبکه",
-									"link": "#"
+									"title": "کارت شبکه"
 								},
 								{
-									"title": "رم کامپیوتر",
-									"link": "#"
+									"title": "رم کامپیوتر"
 								},
 								{
-									"title": "دی وی دی رایتر",
-									"link": "#"
+									"title": "دی وی دی رایتر"
 								},
 								{
-									"title": "حافظه کامپیوتر",
-									"link": "#"
+									"title": "حافظه کامپیوتر"
 								},
 								{
-									"title": "هارد اکسترنال",
-									"link": "#"
+									"title": "هارد اکسترنال"
 								},
 								{
-									"title": "هارد اینترنال",
-									"link": "#"
+									"title": "هارد اینترنال"
 								},
 								{
-									"title": "هارد اینترنال",
-									"link": "#"
+									"title": "هارد اینترنال"
 								}
 							]
 						}
@@ -10691,39 +10011,31 @@
 		},
 		"pages": [
 			{
-				"title": "صفحه اصلی",
-				"link": "http://localhost:3000/output/fa/pages/index.html"
+				"title": "صفحه اصلی"
 			},
 			{
-				"title": "فروشگاه",
-				"link": "http://localhost:3000/output/fa/pages/shop.html"
+				"title": "فروشگاه"
 			},
 			{
 				"title": "انواع صفحات محصول",
 				"items": [
 					{
-						"title": "محصول ساده",
-						"link": "http://localhost:3000/output/fa/pages/simple-product.html"
+						"title": "محصول ساده"
 					},
 					{
-						"title": "محصول متغیر",
-						"link": "http://localhost:3000/output/fa/pages/variable-product.html"
+						"title": "محصول متغیر"
 					},
 					{
-						"title": "محصول خارجی(افیلیت)",
-						"link": "http://localhost:3000/output/fa/pages/external-product.html"
+						"title": "محصول خارجی(افیلیت)"
 					},
 					{
-						"title": "محصول پیگیری",
-						"link": "http://localhost:3000/output/fa/pages/call-product.html"
+						"title": "محصول پیگیری"
 					},
 					{
-						"title": "محصول ناموجود",
-						"link": "http://localhost:3000/output/fa/pages/unavailable-product.html"
+						"title": "محصول ناموجود"
 					},
 					{
-						"title": "محصول رایگان",
-						"link": "http://localhost:3000/output/fa/pages/free-product.html"
+						"title": "محصول رایگان"
 					}
 				]
 			},
@@ -10731,64 +10043,49 @@
 				"title": "دیگر صفحات",
 				"items": [
 					{
-						"title": "صفحه فروشگاه",
-						"link": "http://localhost:3000/output/fa/pages/shop.html"
+						"title": "صفحه فروشگاه"
 					},
 					{
-						"title": "صفحه مقایسه محصول",
-						"link": "http://localhost:3000/output/fa/pages/compare.html"
+						"title": "صفحه مقایسه محصول"
 					},
 					{
-						"title": "صفحه وبلاگ",
-						"link": "http://localhost:3000/output/fa/pages/weblog.html"
+						"title": "صفحه وبلاگ"
 					},
 					{
-						"title": "صفحه نمایش مقاله",
-						"link": "http://localhost:3000/output/fa/pages/article.html"
+						"title": "صفحه نمایش مقاله"
 					},
 					{
-						"title": "صفحه آرشیو مقاله",
-						"link": "http://localhost:3000/output/fa/pages/articles.html"
+						"title": "صفحه آرشیو مقاله"
 					},
 					{
-						"title": "صفحه ورود و ثبت نام",
-						"link": "http://localhost:3000/output/fa/pages/my-account..html"
+						"title": "صفحه ورود و ثبت نام"
 					},
 					{
-						"title": "صفحه شگفت انگیزشو",
-						"link": "http://localhost:3000/output/fa/pages/offers.html"
+						"title": "صفحه شگفت انگیزشو"
 					},
 					{
-						"title": "صفحه سوالات متداول",
-						"link": "http://localhost:3000/output/fa/pages/faq.html"
+						"title": "صفحه سوالات متداول"
 					},
 					{
-						"title": "صفحه سبدخرید خالی",
-						"link": "http://localhost:3000/output/fa/pages/cart1-empty.html"
+						"title": "صفحه سبدخرید خالی"
 					},
 					{
-						"title": "صفحه سبدخرید پر",
-						"link": "http://localhost:3000/output/fa/pages/cart1-full.html"
+						"title": "صفحه سبدخرید پر"
 					},
 					{
-						"title": "صفحه تکمیل خرید ",
-						"link": "http://localhost:3000/output/fa/pages/cart-2.html"
+						"title": "صفحه تکمیل خرید "
 					},
 					{
-						"title": "صفحه پایان خرید",
-						"link": "http://localhost:3000/output/fa/pages/cart4.html"
+						"title": "صفحه پایان خرید"
 					},
 					{
-						"title": "صفحه درباره ما",
-						"link": "http://localhost:3000/output/fa/pages/about-us.html"
+						"title": "صفحه درباره ما"
 					},
 					{
-						"title": "صفحه تماس با ما",
-						"link": "http://localhost:3000/output/fa/pages/contact-us.html"
+						"title": "صفحه تماس با ما"
 					},
 					{
-						"title": "صفحه 404",
-						"link": "http://localhost:3000/output/fa/pages/404.html"
+						"title": "صفحه 404"
 					}
 				]
 			},
@@ -10811,32 +10108,26 @@
 			"features": [
 				{
 					"title": "نام و نام خانوادگی",
-					"link": "#",
 					"icon": "<i class='fa-solid fa-chevron-right txt-size-small'></i>"
 				},
 				{
 					"title": "سفارش‌ها",
-					"link": "#",
 					"icon": "<i class='fa-solid fa-bag-shopping txt-size-mid-title'></i>"
 				},
 				{
 					"title": "آدرس‌ها",
-					"link": "#",
 					"icon": "<i class='fa-solid fa-signs-post txt-size-mid-title'></i>"
 				},
 				{
 					"title": "لیست‌ها",
-					"link": "#",
 					"icon": "<i class='fa-regular fa-heart txt-size-mid-title'></i>"
 				},
 				{
 					"title": "دیدگاه‌ها و پرسش‌ها",
-					"link": "#",
 					"icon": "<i class='fa-regular fa-comment txt-size-mid-title'></i>"
 				},
 				{
 					"title": "خروج از حساب کاربری",
-					"link": "#",
 					"icon": "<i class='fa-solid fa-right-from-bracket txt-size-mid-title'></i>"
 				}
 			]
