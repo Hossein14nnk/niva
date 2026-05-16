@@ -1,13 +1,19 @@
 
-   <div class="card">
-      <div>
+  
+
+      <div class="card">
+      <div class="flex-column justify-content-center">
          <span class="topic"><%= topic %></span>
-         <span class="description"><%= description %></span>
-         <a class="button" href="#">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <span><%= btn %></span>
-         </a>
+        <div class="d-flex flex-row">
+            <a class="button" href="#">
+               <i class="fa-solid fa-cart-shopping"></i>
+               <span><%= btn %></span>
+            </a>
+            <p class="description"><%= description %></p>
+        </div>
       </div>
-      <img src="<%= getMedia(lang, 'pannels/pannel(1).webp', 'images'); %>"  alt="">
+      <img src="<%= getMedia(lang, 'pannels/pannel(1).webp', 'images'); %>">
+
+   </div>
 
    </div>

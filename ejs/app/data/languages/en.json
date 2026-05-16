@@ -848,6 +848,69 @@
 					"subtitle" : "We Are Always With You"
 				}
 			]
+		},
+		"addressBox": {
+			"addressName": "منزل پدری",
+			"postCode": "کد پستی : 22334455666",
+			"address": "مشهد بلوار احمد آباد نبش خیابان عارف 2 پلاک 44 طبقه 3 واحد 20",
+			"recipientName": "امیر رضایی",
+			"phoneNumber": "09121234567",
+			"editButton": "ویرایش",
+			"deleteButton": "حذف"
+		},
+		"shipmentInformation": {
+			"title": "اطلاعات ارسال",
+			"information": {
+				"keyOne": "گیرنده",
+				"valueOne": "محمد احمدی",
+				"keyTwo": "شماره موبایل",
+				"valueTwo": "09907001112",
+				"keyThree": "آدرس",
+				"valueThree": "تهران خیابان ولیعصر بالا تر از میدان ونک خیابان شهید مظفر پلاک 30 واحد 5",
+				"keyFour": "روش ارسال",
+				"valueFour": "پست پیشتاز",
+				"keyFive": "کد رهگیری",
+				"valueFive": "12345678910"
+			},
+			"btnText": "پیگیری مرسوله"
+		},
+		"sidebarMenu": {
+			"profileName": "امیر رضایی",
+			"dateOfMembership": "عضویت از فروردین 1401",
+			"menuList": {
+				"itemOne": "پیشخوان",
+				"itemTwo": "سفارش ها",
+				"itemThree": "علاقه مندی ها",
+				"itemFour": "آدرس ها",
+				"itemFive": "اطلاعات حساب کاربری",
+				"itemSix": "تیکت ها و پشتیبانی"
+			},
+			"btnText": "خروج از حساب"
+		},
+		"ticketInformation": {
+			"profileName": "امیر رضایی",
+			"dateOfMembership": "عضویت از فروردین 1401",
+			"title": "اطلاعات تیکت",
+			"information": {
+				"keyOne": "شماره تیکت",
+				"valueOne": "6007001112",
+				"keyTwo": "مشکل در پرداخت سفارش",
+				"keyThree": "وضعیت",
+				"valueThree": "در انتظار پاسخ",
+				"keyFour": "تاریخ ایجاد",
+				"valueFour": "25/4/1400",
+				"keyFive": "اخرین بروزرسانی",
+				"valueFive": "25/4/1400",
+				"keySix": "دسته بندی",
+				"valueSix": "سفارش و پرداخت"
+			}
+		},
+		"ticketAccess": {
+			"menuList": {
+				"itemOne": "بستن تیکت",
+				"itemTwo": "تغییر موضوع تیکت",
+				"itemThree": "ارسال تیکت جدید"
+			}
 		}
 	},
 	"pages": {
@@ -8614,6 +8677,241 @@
 					}
 				]
 			}
+		},
+		"myInterests":{
+			"components": {
+				"productCards": [
+					{
+						"title": "گوشی موبایل اپل مدل پرومکس دو \nسیم کارت نات اکتیو",
+						"enableLike": true,
+						"enableSwiper": true,
+						"point": 4.7,
+						"send": "ارسال سریع",
+						"price": "80,000,000",
+						"discountPercentage": "10",
+						"dataCountdown": "5:43:50",
+						"colors": [
+							{
+								"color": "#1544E3",
+								"enableBorder": false
+							},
+							{
+								"color": "#3EB580",
+								"enableBorder": false
+							},
+							{
+								"color": "#FFFFFF",
+								"enableBorder": true
+							},
+							{
+								"color": "#021959",
+								"enableBorder": false
+							}
+						]
+					},
+					{
+						"title": "هدفون بی سیم انکر مدل Space One Pro A3062",
+						"enableLike": true,
+						"enableSwiper": true,
+						"point": 4.7,
+						"send": "ارسال سریع",
+						"price": "80,000,000",
+						"discountPercentage": "10",
+						"dataCountdown": "5:43:50",
+						"colors": [
+							{
+								"color": "#1544E3",
+								"enableBorder": false
+							},
+							{
+								"color": "#3EB580",
+								"enableBorder": false
+							},
+							{
+								"color": "#FFFFFF",
+								"enableBorder": true
+							},
+							{
+								"color": "#021959",
+								"enableBorder": false
+							}
+						]
+					},
+					{
+						"title": "ساعت هوشمند شیائومی مدل Redmi Watch 5 Lite",
+						"enableLike": true,
+						"enableSwiper": true,
+						"point": 4.7,
+						"send": "ارسال سریع",
+						"price": "80,000,000",
+						"discountPercentage": "10",
+						"dataCountdown": "5:43:50",
+						"colors": [
+							{
+								"color": "#1544E3",
+								"enableBorder": false
+							},
+							{
+								"color": "#3EB580",
+								"enableBorder": false
+							},
+							{
+								"color": "#FFFFFF",
+								"enableBorder": true
+							},
+							{
+								"color": "#021959",
+								"enableBorder": false
+							}
+						]
+					},
+					{
+						"title": "پلی استیشن 5 اسلیم دیجیتال به همراه دسته اضافه سفید",
+						"enableLike": true,
+						"enableSwiper": true,
+						"point": 4.7,
+						"send": "ارسال سریع",
+						"price": "80,000,000",
+						"discountPercentage": "10",
+						"dataCountdown": "5:43:50",
+						"colors": [
+							{
+								"color": "#1544E3",
+								"enableBorder": false
+							},
+							{
+								"color": "#3EB580",
+								"enableBorder": false
+							},
+							{
+								"color": "#FFFFFF",
+								"enableBorder": true
+							},
+							{
+								"color": "#021959",
+								"enableBorder": false
+							}
+						]
+					},
+					{
+						"title": "لپ تاپ اچ پی 15.6 اینچی مدل Victus 15 FA2082WM i5 13420H",
+						"enableLike": true,
+						"enableSwiper": true,
+						"point": 4.7,
+						"send": "ارسال سریع",
+						"price": "80,000,000",
+						"discountPercentage": "10",
+						"dataCountdown": "5:43:50",
+						"colors": [
+							{
+								"color": "#1544E3",
+								"enableBorder": false
+							},
+							{
+								"color": "#3EB580",
+								"enableBorder": false
+							},
+							{
+								"color": "#FFFFFF",
+								"enableBorder": true
+							},
+							{
+								"color": "#021959",
+								"enableBorder": false
+							}
+						]
+					},
+					{
+						"title": "گوشی موبایل اپل مدل پرومکس دو سیم کارت نات اکتیو",
+						"enableLike": true,
+						"enableSwiper": true,
+						"point": 4.7,
+						"send": "ارسال سریع",
+						"price": "80,000,000",
+						"discountPercentage": "10",
+						"dataCountdown": "5:43:50",
+						"colors": [
+							{
+								"color": "#1544E3",
+								"enableBorder": false
+							},
+							{
+								"color": "#3EB580",
+								"enableBorder": false
+							},
+							{
+								"color": "#FFFFFF",
+								"enableBorder": true
+							},
+							{
+								"color": "#021959",
+								"enableBorder": false
+							}
+						]
+					},
+					{
+						"title": "هدفون بی سیم انکر مدل Space One Pro A3062",
+						"enableLike": true,
+						"enableSwiper": true,
+						"point": 4.7,
+						"send": "ارسال سریع",
+						"price": "80,000,000",
+						"discountPercentage": "10",
+						"dataCountdown": "5:43:50",
+						"colors": [
+							{
+								"color": "#1544E3",
+								"enableBorder": false
+							},
+							{
+								"color": "#3EB580",
+								"enableBorder": false
+							},
+							{
+								"color": "#FFFFFF",
+								"enableBorder": true
+							},
+							{
+								"color": "#021959",
+								"enableBorder": false
+							}
+						]
+					},
+					{
+						"title": "گوشی موبایل اپل مدل پرومکس دو \nسیم کارت نات اکتیو",
+						"enableLike": true,
+						"enableSwiper": true,
+						"point": 4.7,
+						"send": "ارسال سریع",
+						"price": "80,000,000",
+						"discountPercentage": "10",
+						"dataCountdown": "5:43:50",
+						"colors": [
+							{
+								"color": "#1544E3",
+								"enableBorder": false
+							},
+							{
+								"color": "#3EB580",
+								"enableBorder": false
+							},
+							{
+								"color": "#FFFFFF",
+								"enableBorder": true
+							},
+							{
+								"color": "#021959",
+								"enableBorder": false
+							}
+						]
+					}
+				]
+			},
+			"title":"my inerests",
+			"subtitle1":"Niva Store Template Preview ",
+			"subtitle2":"your interests",
+			"next":"Next",
+			"before":"Previous"
 		}
 	},
 	"header": {
