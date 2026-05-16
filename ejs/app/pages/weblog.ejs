@@ -53,7 +53,7 @@
                                 commentCount: latestBlogPosts.latestBlogPost[i].commentCount,
                                 image: getMedia(lang, `weblogs/weblog-${i + 2}.webp`, "images"),
                                 link: latestBlogPosts.latestBlogPost[i].link,
-                                showViewAndReadingTime: latestBlogPosts.latestBlogPost[i].showViewAndReadingTime                  
+                                showViewAndReadingTime: true
                             }); -%>
                         <% } %>
                     </div>
@@ -68,7 +68,7 @@
                                 commentCount: latestBlogPosts.latestBlogPost[i].commentCount,
                                 image: getMedia(lang, `weblogs/weblog-${i + 2}.webp`, "images"),
                                 link: latestBlogPosts.latestBlogPost[i].link,
-                                showViewAndReadingTime: latestBlogPosts.latestBlogPost[i].showViewAndReadingTime                  
+                                showViewAndReadingTime: true
                             }); -%>
                         <% } %>
                     </div>
@@ -102,7 +102,7 @@
                         image: getMedia(lang, `weblogs/weblog-${i + 1}.webp`, "images"),
                         readingTime: newestBlogs[i].readingTime,
                         link: newestBlogs[i].link,
-                        enableBorderBottom: newestBlogs[i].enableBorderBottom
+                        enableBorderBottom: true
                     }); -%>
                 <% } %>
 
@@ -125,7 +125,7 @@
                         commentCount: mostDiscussed[i].commentCount,
                         image: getMedia(lang, `weblogs/weblog-${i + 1}.webp`, "images"),
                         link: mostDiscussed[i].link,
-                        showViewAndReadingTime: mostDiscussed[i].showViewAndReadingTime                  
+                        showViewAndReadingTime: true
                     }); -%>
                 <% } %>
 
@@ -148,7 +148,7 @@
                                 image: getMedia(lang, `weblogs/weblog-${i + 1}.webp`, "images"),
                                 readingTime: techNews[i].readingTime,
                                 link: techNews[i].link,
-                                enableBorderBottom: techNews[i].enableBorderBottom 
+                                enableBorderBottom: true
                             }); -%>
                         <% } %>
                     </div>
@@ -166,7 +166,7 @@
                                 image: getMedia(lang, `weblogs/weblog-${i + 1}.webp`, "images"),
                                 readingTime: SuggestionsBlog[i].readingTime,
                                 link: SuggestionsBlog[i].link,
-                                enableBorderBottom: SuggestionsBlog[i].enableBorderBottom 
+                                enableBorderBottom: true
                             }); -%>
                         <% } %>
                     </div>

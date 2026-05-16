@@ -7,7 +7,7 @@
                     <div class="story-container px-4">
                         <div class="swiper-wrapper">
                             <% for(let i = 0; i < t.pages.home.storyBox.components.stories.length; i++){ -%>
-                                <%- include('../components/story/content.ejs', {story: t.pages.home.storyBox.components.stories[i], enableSwiper: true, image: getMedia(lang, `stories/show-${i + 1}.webp`, 'images')}); %>
+                                <%- include('../components/story/content.ejs', {story: t.pages.home.storyBox.components.stories[i], enableSwiper: true, image: getMedia(lang, `stories/show-${i + 1}.webp`, 'images'), userName: "userName" + i}); %>
                             <%_ } -%>
                         </div>
                     </div>
@@ -24,22 +24,24 @@
         </section>
         <section id="hero" class="section w-100 px-0 py-0 position-relative">
             <div class="container d-flex overflow-hidden w-100 position-relative">
-                <div class="slider slider-loop <%= t.pages.home.hero.enableSliderDraggable ? 'slider-draggable' : null %> d-flex flex-column align-items-center w-100" data-slider-timer="<%= t.pages.home.hero.dataSliderTimer %>">
+                <%_ let enableSliderDraggable = true; -%>
+                <%_ let enableSliderToggles = true; -%>
+                <div class="slider slider-loop <%= enableSliderDraggable ? 'slider-draggable' : null %> d-flex flex-column align-items-center w-100" data-slider-timer="5">
                     <div class="slider-wrapper w-100">
                         <div class="slider-container">
-                        <%_ for(let i = 0; i < t.pages.home.hero.sliders.length; i++){ -%>
-                            <div id="<%= `slider-${i + 1}.webp` %>" class="slider-content d-flex flex-column justify-content-center align-items-center">
+                        <%_ for(let i = 0; i < 2; i++){ -%>
+                            <div id="<%= `slider-${i + 1}` %>" class="slider-content d-flex flex-column justify-content-center align-items-center">
                                 <img src="<%= getMedia(lang, `sliders/hero-${i + 1}.webp`, 'images'); %>" alt="" class="w-100 object-contain" />
                             </div>
                         <%_ } -%>
                         </div>
                     </div>
-                    <%_ if(t.pages.home.hero.enableSliderToggles){ -%>
-                    <div class="slider-toggles position-absolute gap-2 justify-content-start">
-                        <%_ for(let i = 0; i < t.pages.home.hero.sliders.length; i++){ -%>
-                            <div data-slider-id="<%= `slider-${i + 1}.webp` %>" class="pagination slider-toggle aspect-ratio-1x1 radius-all-full"></div>
-                        <%_ } -%>
-                    </div>
+                    <%_ if(enableSliderToggles){ -%>
+                        <div class="slider-toggles position-absolute gap-2 justify-content-start">
+                            <%_ for(let i = 0; i < 2; i++){ -%>
+                                <div data-slider-id="<%= `slider-${i + 1}` %>" class="pagination slider-toggle aspect-ratio-1x1 radius-all-full"></div>
+                            <%_ } -%>
+                        </div>
                     <%_ } -%>
                 </div>
             </div>
@@ -52,7 +54,7 @@
                             <img src="<%= getMedia(lang, 'single/offerpic-1.webp', 'images'); %>" alt="" class="w-90 d-lg-none" />
                             <img src="<%= getMedia(lang, 'single/amazing-text.svg', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
                             <a href="<%- navigation(lang , 'offers.html') %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
-                                <%= t.pages.home.exceptionalOffers.banner.title %>
+                                <%#= t.pages.home.exceptionalOffers.banner.title %>
                                 <i class="fas fa-angle-left"></i>
                             </a>
                         </div>
@@ -61,7 +63,7 @@
                         <div class="offer-card-content">
                             <div class="swiper-wrapper">
                                 <%_ for(let i = 0; i < t.pages.home.exceptionalOffers.components.productCards.length; i++) { -%>
-                                    <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.exceptionalOffers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
+                                    <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.exceptionalOffers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images"), dataCountdown: "5:03:50:1", enableSwiper: true, enableLike: true, enableColors: true}); %>
                                 <%_ } -%>
                             </div>
                         </div>
@@ -94,19 +96,19 @@
                 </div>
                 <div class="d-grid grid-6 grid-xl-3 grid-sm-2 gap-4 w-100">
                     <%_ for(let i = 0; i < 3; i++){ %>
-                        <%- include('../components/category-card/focused-card/content.ejs', {focusedCard: t.pages.home.popularCategories.components.focusedCards[i], image:getMedia(lang, `categories/category-${i + 1}.webp`, 'images') , width: "100px"}); %>
+                        <%- include('../components/category-card/focused-card/content.ejs', {focusedCardImage: getMedia(lang, `categories/category-${i + 1}.webp`, 'images') , width: "100px"}); %>
                     <%_ } %>
                     <div class="block gap-4 flex-column">
                         <%_ for(let i = 3; i < 5; i++){ %>
-                            <%- include('../components/category-card/focused-card/content.ejs', {focusedCard: t.pages.home.popularCategories.components.focusedCards[i], image:getMedia(lang, `categories/category-${i + 1}.webp`, 'images') , width: "60px"}); %>
+                            <%- include('../components/category-card/focused-card/content.ejs', {focusedCardImage: getMedia(lang, `categories/category-${i + 1}.webp`, 'images') , width: "60px"}); %>
                         <%_ } %>
                     </div>
                     <%_ for(let i = 5; i < 6; i++){ %>
-                        <%- include('../components/category-card/focused-card/content.ejs', {focusedCard: t.pages.home.popularCategories.components.focusedCards[i], image:getMedia(lang, `categories/category-${i + 1}.webp`, 'images') , width: "100px"}); %>
+                        <%- include('../components/category-card/focused-card/content.ejs', {focusedCardImage: getMedia(lang, `categories/category-${i + 1}.webp`, 'images') , width: "100px"}); %>
                     <%_ } %>
                     <div class="d-grid grid-2 gap-4">
                         <%_ for(let i = 6; i < 10; i++){ %>
-                            <%- include('../components/category-card/focused-card/content.ejs', {focusedCard: t.pages.home.popularCategories.components.focusedCards[i], image:getMedia(lang, `categories/category-${i + 1}.webp`, 'images') , width: "50px"}); %>
+                            <%- include('../components/category-card/focused-card/content.ejs', {focusedCardImage: getMedia(lang, `categories/category-${i + 1}.webp`, 'images') , width: "50px"}); %>
                         <%_ } %>
                     </div>
                 </div>
@@ -127,7 +129,7 @@
                     <div class="offer-card-content">
                         <div class="swiper-wrapper">
                             <%_ for(let i = 0; i < t.pages.home.bestSellers.components.productCards.length; i++) { -%>
-                                <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.bestSellers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
+                                <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.bestSellers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images"), dataCountdown: "5:03:50:1", enableSwiper: true, enableLike: true, enableColors: true}); %>
                             <%_ } -%>
                         </div>
                     </div>
@@ -148,7 +150,7 @@
                             <img src="<%= getMedia(lang, 'single/offerpic-1.webp', 'images'); %>" alt="" class="w-90 d-lg-none" />
                             <img src="<%= getMedia(lang, 'single/amazing-text.svg', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
                             <a href="<%- navigation(lang , 'offers.html') %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
-                                <%= t.pages.home.laptopOffers.banner.title %>
+                                <%#= t.pages.home.laptopOffers.banner.title %>
                                 <i class="fas fa-angle-left"></i>
                             </a>
                         </div>
@@ -157,7 +159,7 @@
                         <div class="offer-card-content">
                             <div class="swiper-wrapper">
                                 <%_ for(let i = 0; i < t.pages.home.laptopOffers.components.productCards.length; i++) { -%>
-                                    <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.laptopOffers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
+                                    <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.laptopOffers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images"), dataCountdown: "5:03:50:1", enableSwiper: true, enableLike: true, enableColors: true}); %>
                                 <%_ } -%>
                             </div>
                         </div>
@@ -205,7 +207,7 @@
                     <div class="offer-card-content">
                         <div class="swiper-wrapper">
                             <%_ for(let i = 0; i < t.pages.home.economicalProducts.components.productCards.length; i++) { -%>
-                                <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.economicalProducts.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
+                                <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.economicalProducts.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images"), dataCountdown: "5:03:50:1", enableSwiper: true, enableLike: true, enableColors: true}); %>
                             <%_ } -%>
                         </div>
                     </div>
@@ -353,7 +355,7 @@
                             <img src="<%= getMedia(lang, 'single/offerpic-1.webp', 'images'); %>" alt="" class="w-90 d-lg-none" />
                             <img src="<%= getMedia(lang, 'single/amazing-text.svg', 'images'); %>" alt="" class="w-50 d-none d-lg-block" />
                             <a href="<%- navigation(lang , 'offers.html') %>" class="div align-items-center gap-2 on-primary-color font-weight-bold">
-                                <%= t.pages.home.mobileOffers.banner.title %>
+                                <%#= t.pages.home.mobileOffers.banner.title %>
                                 <i class="fas fa-angle-left"></i>
                             </a>
                         </div>
@@ -362,7 +364,7 @@
                         <div class="offer-card-content">
                             <div class="swiper-wrapper">
                                 <%_ for(let i = 0; i < t.pages.home.mobileOffers.components.productCards.length; i++) { -%>
-                                    <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.mobileOffers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
+                                    <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.mobileOffers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images"), dataCountdown: "5:03:50:1", enableSwiper: true, enableLike: true, enableColors: true}); %>
                                 <%_ } -%>
                             </div>
                         </div>
@@ -397,7 +399,7 @@
                     <div class="offer-card-content">
                         <div class="swiper-wrapper">
                             <%_ for(let i = 0; i < t.pages.home.bestMobileSellers.components.productCards.length; i++) { -%>
-                                <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.bestMobileSellers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
+                                <%- include('../components/product-card/full/content.ejs', {productCard: t.pages.home.bestMobileSellers.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images"), dataCountdown: "5:03:50:1", enableSwiper: true, enableLike: true, enableColors: true}); %>
                             <%_ } -%>
                         </div>
                     </div>
@@ -515,9 +517,9 @@
             </div>
         </section>
         <section id="bannerProductSecond" class="section">
-            <img src="./assets/media/images/<%= t.pages.home.bannerProductSecond.src %>" alt="<%= t.pages.home.bannerProductSecond.alt %>" class="w-100 position-relative" />
-            <a href="<%= t.pages.home.bannerProductSecond.link %>" class="d-flex position-absolute banner-icon inset-end-20">
-                <img src="./assets/media/images/<%= t.language %>/homepage/Next-blue -icon.svg" alt="" width="35px" />
+            <img src="<%= getMedia(lang, 'single/best-seller-wrapper.webp', 'images') %>" alt="" class="w-100 position-relative" />
+            <a href="<%= navigation(lang, 'shop.html') %>" class="d-flex position-absolute banner-icon inset-end-20">
+                <img src="<%= getMedia(lang, 'single/Next-blue -icon.svg', 'images') %>" alt="" width="35px" />
             </a>
         </section>
         <section id="weblog" class="section">
@@ -533,7 +535,7 @@
             <div class="container gap-8">
                 <div class="block w-100 justify-content-space-between align-items-center gap-5">
                     <div class="div align-items-center gap-3 horizental-line">
-                        <a href="<%= t.company.logoImage.replaceSimple.link %>">
+                        <a href="">
                             <img src="<%= getMedia(lang, 'single/logo-web-gold.webp', 'images'); %>" alt="" width="30px" />
                         </a>
                         <h2 class="text-color txt-big-title font-weight-bold text-nowrap"><%= t.pages.home.weblog.title %></h2>
@@ -552,7 +554,7 @@
                                 image: getMedia(lang, `articles/article-${i + 1}.webp`, 'images'),
                                 readingTime: techNews[i].readingTime,
                                 link: techNews[i].link,
-                                enableBorderBottom: techNews[i].enableBorderBottom 
+                                enableBorderBottom: true
                             }); -%>
                         <% } %>
                     </div>
@@ -570,7 +572,7 @@
     </main>
 
 <% for(let i = 0; i < t.pages.home.storyBox.components.stories.length; i++){ -%>
-    <%- include('../components/story/dialog-content.ejs', {story: t.pages.home.storyBox.components.stories[i], dataSliderTimer: "7"}); %>
+    <%- include('../components/story/dialog-content.ejs', {story: t.pages.home.storyBox.components.stories[i], dataSliderTimer: "7", userName: "userName" + i}); %>
 <%_ } -%>
 
 <%- include('../layouts/page/dialog.ejs'); %>

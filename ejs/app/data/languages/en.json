@@ -1,32 +1,9 @@
 {
 	"direction": "ltr",
-	"language": "en",
-	"currency": {
-		"place": "suffix",
-		"symbol": "$"
-	},
-	"company": {
-		"name": "niva",
-		"logoImage": {
-			"original": {
-				"src": "fa/header/logo-web1.webp",
-				"alt": "logo original"
-			},
-			"simple": {
-				"src": "fa/logo-web3.webp",
-				"alt": "logo simple"
-			},
-			"replaceSimple": {
-				"src": "fa/homepage/logo-web-gold.webp",
-				"alt": "logo replace simple"
-			}
-		}
-	},
 	"components": {
 		"paymentDetails": {
 			"title": "Insurance",
 			"price": "72,200,000",
-			"number": "0",
 			"advantage": "144 Points",
 			"descriptionAdvantage": "Received upon product purchase",
 			"description": "Received upon product purchase"
@@ -49,16 +26,18 @@
 			"copylink": "Copy Link"
 		},
 		"featureDescriptionBox": {
-			"banner": {
-				"viewFeature": "View Product Features",
-				"send": "Free Shipping for this product",
-				"btnView": "View Guide",
-				"pay": "Installment purchase of this product up to 4 installments",
-				"snappay": "Installment purchase with Snappay"
-			},
 			"text": {
 				"title": "View Product Features",
 				"description": "The iPhone 13 CH is Apple's new flagship mobile phone that has entered the market with several new features and a dual camera. The iPhone 13 display is equipped with a Super Retina panel to provide very desirable images to the user. This display has a very high resolution; so much so that in its 6.1-inch size, it packs about 460 pixels per inch. It is possible to charge the battery of this phone wirelessly. Face detection using the front camera is another feature used in the new Apple iPhone. In terms of hardware, this phone uses the new A15 chip, which has 15 billion transistors and offers desirable heat control so that, in addition to normal tasks, it can support new virtual reality features that Apple is particularly focusing on these days. According to Apple itself, this phone is 50 times faster than its version 12. The processor has a new modular design that has significantly reduced battery consumption, giving you higher battery life. The display quality on the iPhone 13 is 120 Hz and you will witness high quality. Apple has included a GPU in this series of its iPhone phones that is 30 percent faster than its series 12 phones, and this promises that you can run games with heavier and larger graphics and maps. One of the features we see in the iPhone 13 is its cinematic ProRes video recording system, which can revolutionize mobile phone videography. Not active phones become active by inserting internal SIM cards, and unlike the active model, the product seal is not broken. Active Apple brand phones are also like this because due to limitations on some Apple products for Iran, they are officially activated and sealed with a single insertion of a SIM card in neighboring countries, and you should know that this process does not cause any problems regarding the product warranty. European, Japanese, and UAE part numbers are single SIM, and UAE-related part numbers do not support FaceTime either. With the JA (Japan) part number, even in silent mode, the photo shutter sound cannot be muted."
+			},
+			"featureShow": {
+				"title": "View Product Review",
+				"send": "Free shipping available for this item",
+				"buy": {
+					"title": "Installment plan with SnappPay",
+					"description": "Buy in up to 4 interest-free installments",
+					"btn": "View Guide"
+				}
 			}
 		},
 		"productComment": {
@@ -77,18 +56,14 @@
 			"feature5": "Some problems due to the sanctions on dear Iran"
 		},
 		"ratingCard": {
-			"rating": "3.5",
-			"ratingCount": "Number of Ratings",
-			"ratingNumber": "4",
-			"numberPosative": "50",
-			"posative": "Positive",
-			"commentnumberposativde": "2 people",
-			"numberdisintersted": "25",
-			"disintersted": "Neutral",
-			"commentnumberdisintersted": "2 people",
-			"commentnumbernegative": "2 people",
-			"negative": "Negative",
-			"niumbernegative": "5"
+			"ratingCountText": "Number of Ratings",
+			"positiveText": "Positive",
+			"suffixCountRatingComments": "people",
+			"neutralText": "Neutral",
+			"negativeText": "Negative",
+			"descriptionOne": "Total\n Product Reviews",
+			"descriptionTwo": "Total\n Product Reviews",
+			"descriptionThree": "Total\n Product Reviews"
 		},
 		"reportCard": {
 			"optional": {
@@ -99,7 +74,7 @@
 				"description4": "Product description has an issue",
 				"description5": "Product violates the rules",
 				"description6": "Product is unoriginal",
-				"reportbtn": "Report issue in product"
+				"reportBtn": "Report issue in product"
 			},
 			"textual": {
 				"title": "Report lower price",
@@ -117,8 +92,8 @@
 			"description1": "By submitting a review, I agree with the ",
 			"description2": " in Niva.",
 			"low": "Review Publication Rules",
-			"commetregister": "Submit Review",
-			"posative": "Positive Points",
+			"commentRegister": "Submit Review",
+			"positiveText": "Positive Points",
 			"negative": "Negative Points",
 			"description": "Description"
 		},
@@ -130,94 +105,22 @@
 			"isFake": "Unoriginal Product",
 			"hasGuarantee": "Has Guarantee"
 		},
-		"productGallerySlider": {
-			"sliderContents": [
-				{
-					"id": "slider1"
-				},
-				{
-					"id": "slider2"
-				},
-				{
-					"id": "slider3"
-				},
-				{
-					"id": "slider4"
-				},
-				{
-					"id": "slider5"
-				},
-				{
-					"id": "slider6"
-				},
-				{
-					"id": "slider7"
-				},
-				{
-					"id": "slider8"
-				},
-				{
-					"id": "slider9"
-				},
-				{
-					"id": "slider10"
-				}
-			],
-			"sliderToggles": [
-				{
-					"id": "slider1"
-				},
-				{
-					"id": "slider2"
-				},
-				{
-					"id": "slider3"
-				},
-				{
-					"id": "slider4"
-				},
-				{
-					"id": "slider5"
-				},
-				{
-					"id": "slider6"
-				},
-				{
-					"id": "slider7"
-				},
-				{
-					"id": "slider8"
-				},
-				{
-					"id": "slider9"
-				},
-				{
-					"id": "slider10"
-				}
-			]
-		},
 		"weblogCard": {
 			"newestColumn": {
 				"title": "Title",
 				"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 				"date": "Sep 28, 2024",
-				"commentCount": 1,
-				"readingTime": "15 Minutes",
-				"view": 15534,
-				"showViewAndReadingTime": true
+				"readingTime": "15 Minutes"
 			},
 			"newestRow": {
 				"title": "Reasons to Buy the Nothing Phone One",
 				"description": "In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 				"date": "Sep 28, 2024",
-				"commentCount": 1,
-				"readingTime": "15 Minutes",
-				"postView": 1553,
-				"enableBorderBottom": true
+				"readingTime": "15 Minutes"
 			}
 		},
 		"faq": {
-			"question": "I have two accounts in I-Shop, can I merge them?",
+			"question": "I have two accounts in niva, can I merge them?",
 			"answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printers and texts, rather newspapers and magazines in columns and rows, as necessary and for the current conditions of required technology and various applications with the aim of improving practical tools. Many books in the past sixty-three percent, present, and future demand a great understanding of the society and specialists so that with software, more understanding can be created for computer designers, especially creative designers, and leading culture in the Persian language. In this case, one can hope that the entirety and difficulties present in providing solutions and harsh typing conditions will end, and the required time, including typesetting of main achievements and responding to continuous design questions, will basically be utilized."
 		},
 		"dropdown": {
@@ -230,22 +133,16 @@
 		},
 		"article": {
 			"bannerWeblog": {
-				"title": "Reasons to Buy the <br> Nothing Phone",
+				"title": "Reasons to Buy the \n Nothing Phone",
 				"author": "Site Administrator",
 				"date": "Sep 28, 2024",
-				"commentCount": 1,
-				"readingTime": "15 Minutes",
-				"banner": {
-					"src": "fa/component/Rectangle 1036.webp",
-					"alt": ""
-				}
+				"readingTime": "15 Minutes"
 			}
 		},
 		"weblogLastComment": {
 			"name": "Mr. Yaldoughi",
 			"description": "I think the article was interesting and practical. I might also go and buy a Galaxy Ring.",
-			"post": "Complete News of the Samsung Galaxy Ring",
-			"postLink": ""
+			"post": "Complete News of the Samsung Galaxy Ring"
 		},
 		"productSpecifications": {
 			"title": "General Specifications",
@@ -379,27 +276,21 @@
 		},
 		"story": {
 			"title": "Sir, do not buy!!!",
-			"userName": "hosseinKazemi",
-			"enableSwiper": false,
 
 			"contents": [
 				{
 					"profile": {
 						"title": {
-							"text": "hossein kazemi 1"
+							"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 						}
-					},
-					"likeCount": "10",
-					"commentCount": "3"
+					}
 				},
 				{
 					"profile": {
 						"title": {
-							"text": "hossein kazemi 2"
+							"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 						}
-					},
-					"likeCount": "50",
-					"commentCount": "3"
+					}
 				}
 			]
 		},
@@ -407,44 +298,21 @@
 			"title": "watch"
 		},
 		"commodityPack": {
-			"count": 2,
 			"title": "Sony Slim Camouflage PULSE Elite Wireless PlayStation Headset",
 			"price": "80,000,000",
 			"discountPercentage": "10"
 		},
 		"categoryCard": {
-			"focusedCard": {},
 			"labeledCard": {
 				"title": "Powerbank"
 			}
 		},
 		"productCard": {
 			"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-			"enableLike": true,
-			"enableSwiper": false,
-			"point": 4.7,
+
 			"send": "Fast Shipping",
 			"price": "80,000,000",
-			"discountPercentage": "10",
-			"dataCountdown": "5:43:50",
-			"colors": [
-				{
-					"color": "#1544E3",
-					"enableBorder": false
-				},
-				{
-					"color": "#3EB580",
-					"enableBorder": false
-				},
-				{
-					"color": "#FFFFFF",
-					"enableBorder": true
-				},
-				{
-					"color": "#021959",
-					"enableBorder": false
-				}
-			]
+			"discountPercentage": "10"
 		},
 		"seeAll": {
 			"title": "title"
@@ -484,7 +352,7 @@
 				},
 				"listThree": {
 					"title": "About Us",
-					"itemOne": "I-Shop at a Glance",
+					"itemOne": "niva at a Glance",
 					"itemTwo": "Our Goals and Commitments",
 					"itemThree": "Frequently Asked Questions",
 					"itemFour": "Physical Stores",
@@ -638,7 +506,6 @@
 			"latestPrice": "Latest Registered Price ",
 			"price": "10,150,000",
 			"date": "1404.01.09",
-			"image": "product-contact-price.webp",
 			"description": "Call to inquire about price and availability",
 			"button": "Call",
 			"phoneLabel": "Expert Contact Number",
@@ -661,7 +528,7 @@
 			"email": " Your Email ",
 			"smsNotification": "Send SMS to",
 			"phoneNumber": "Your Mobile Phone",
-			"message": " I-Shop Private Messaging System ",
+			"message": " niva Private Messaging System ",
 			"login": " Please log in to your account first"
 		},
 		"descriptionNav": [
@@ -696,7 +563,7 @@
 			"email": " Your Email ",
 			"smsNotification": "Send SMS to",
 			"phoneNumber": "Your Mobile Phone",
-			"message": " I-Shop Private Messaging System ",
+			"message": " niva Private Messaging System ",
 			"login": " Please log in to your account first"
 		},
 		"viewpointCard": {
@@ -911,35 +778,35 @@
 		},
 		"faqs": [
 			{
-				"question": "I have two accounts in I-Shop, can I merge them?",
+				"question": "I have two accounts in niva, can I merge them?",
 				"answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printers and texts, rather newspapers and magazines in columns and rows, as necessary and for the current conditions of required technology and various applications with the aim of improving practical tools. Many books in the past sixty-three percent, present, and future demand a great understanding of the society and specialists so that with software, more understanding can be created for computer designers, especially creative designers, and leading culture in the Persian language. In this case, one can hope that the entirety and difficulties present in providing solutions and harsh typing conditions will end, and the required time, including typesetting of main achievements and responding to continuous design questions, will basically be utilized."
 			},
 			{
-				"question": "I have two accounts in I-Shop, can I merge them?",
+				"question": "I have two accounts in niva, can I merge them?",
 				"answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printers and texts, rather newspapers and magazines in columns and rows, as necessary and for the current conditions of required technology and various applications with the aim of improving practical tools. Many books in the past sixty-three percent, present, and future demand a great understanding of the society and specialists so that with software, more understanding can be created for computer designers, especially creative designers, and leading culture in the Persian language. In this case, one can hope that the entirety and difficulties present in providing solutions and harsh typing conditions will end, and the required time, including typesetting of main achievements and responding to continuous design questions, will basically be utilized."
 			},
 			{
-				"question": "I have two accounts in I-Shop, can I merge them?",
+				"question": "I have two accounts in niva, can I merge them?",
 				"answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printers and texts, rather newspapers and magazines in columns and rows, as necessary and for the current conditions of required technology and various applications with the aim of improving practical tools. Many books in the past sixty-three percent, present, and future demand a great understanding of the society and specialists so that with software, more understanding can be created for computer designers, especially creative designers, and leading culture in the Persian language. In this case, one can hope that the entirety and difficulties present in providing solutions and harsh typing conditions will end, and the required time, including typesetting of main achievements and responding to continuous design questions, will basically be utilized."
 			},
 			{
-				"question": "I have two accounts in I-Shop, can I merge them?",
+				"question": "I have two accounts in niva, can I merge them?",
 				"answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printers and texts, rather newspapers and magazines in columns and rows, as necessary and for the current conditions of required technology and various applications with the aim of improving practical tools. Many books in the past sixty-three percent, present, and future demand a great understanding of the society and specialists so that with software, more understanding can be created for computer designers, especially creative designers, and leading culture in the Persian language. In this case, one can hope that the entirety and difficulties present in providing solutions and harsh typing conditions will end, and the required time, including typesetting of main achievements and responding to continuous design questions, will basically be utilized."
 			},
 			{
-				"question": "I have two accounts in I-Shop, can I merge them?",
+				"question": "I have two accounts in niva, can I merge them?",
 				"answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printers and texts, rather newspapers and magazines in columns and rows, as necessary and for the current conditions of required technology and various applications with the aim of improving practical tools. Many books in the past sixty-three percent, present, and future demand a great understanding of the society and specialists so that with software, more understanding can be created for computer designers, especially creative designers, and leading culture in the Persian language. In this case, one can hope that the entirety and difficulties present in providing solutions and harsh typing conditions will end, and the required time, including typesetting of main achievements and responding to continuous design questions, will basically be utilized."
 			},
 			{
-				"question": "I have two accounts in I-Shop, can I merge them?",
+				"question": "I have two accounts in niva, can I merge them?",
 				"answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printers and texts, rather newspapers and magazines in columns and rows, as necessary and for the current conditions of required technology and various applications with the aim of improving practical tools. Many books in the past sixty-three percent, present, and future demand a great understanding of the society and specialists so that with software, more understanding can be created for computer designers, especially creative designers, and leading culture in the Persian language. In this case, one can hope that the entirety and difficulties present in providing solutions and harsh typing conditions will end, and the required time, including typesetting of main achievements and responding to continuous design questions, will basically be utilized."
 			},
 			{
-				"question": "I have two accounts in I-Shop, can I merge them?",
+				"question": "I have two accounts in niva, can I merge them?",
 				"answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printers and texts, rather newspapers and magazines in columns and rows, as necessary and for the current conditions of required technology and various applications with the aim of improving practical tools. Many books in the past sixty-three percent, present, and future demand a great understanding of the society and specialists so that with software, more understanding can be created for computer designers, especially creative designers, and leading culture in the Persian language. In this case, one can hope that the entirety and difficulties present in providing solutions and harsh typing conditions will end, and the required time, including typesetting of main achievements and responding to continuous design questions, will basically be utilized."
 			},
 			{
-				"question": "I have two accounts in I-Shop, can I merge them?",
+				"question": "I have two accounts in niva, can I merge them?",
 				"answer": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printers and texts, rather newspapers and magazines in columns and rows, as necessary and for the current conditions of required technology and various applications with the aim of improving practical tools. Many books in the past sixty-three percent, present, and future demand a great understanding of the society and specialists so that with software, more understanding can be created for computer designers, especially creative designers, and leading culture in the Persian language. In this case, one can hope that the entirety and difficulties present in providing solutions and harsh typing conditions will end, and the required time, including typesetting of main achievements and responding to continuous design questions, will basically be utilized."
 			}
 		],
@@ -953,66 +820,40 @@
 			"title7": "Editorial Team Suggestion",
 			"title8": "Latest User Reviews",
 			"placeholder": "Search Blog...",
-			"banner": {
-				"src": "fa/weblog/banner_SlideBannerr.webp",
-				"alt": "baner"
-			},
 			"latestBlogPosts": {
 				"firstWeblogArticle": {
-					"title": "Reasons to Buy the <br> Nothing Phone",
+					"title": "Reasons to Buy the \n Nothing Phone",
 					"author": "Site Administrator",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"banner": {
-						"src": "fa/component/Rectangle 1036.webp",
-						"alt": ""
-					}
+					"readingTime": "15 Minutes"
 				},
 				"latestBlogPost": [
 					{
 						"title": "Reasons to Buy the Nothing Phone",
 						"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-						"date": "Sep 28, 2024",
-						"commentCount": 1,
-
-						"showViewAndReadingTime": false
+						"date": "Sep 28, 2024"
 					},
 					{
 						"title": "Reasons to Buy the Nothing Phone",
 						"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-						"date": "Sep 28, 2024",
-						"commentCount": 1,
-
-						"showViewAndReadingTime": false
+						"date": "Sep 28, 2024"
 					},
 					{
 						"title": "Reasons to Buy the Nothing Phone",
 						"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-						"date": "Sep 28, 2024",
-						"commentCount": 1,
-
-						"showViewAndReadingTime": false
+						"date": "Sep 28, 2024"
 					},
 					{
 						"title": "Reasons to Buy the Nothing Phone",
 						"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-						"date": "Sep 28, 2024",
-						"commentCount": 1,
-
-						"showViewAndReadingTime": false
+						"date": "Sep 28, 2024"
 					}
 				],
 				"secondWeblogArticle": {
-					"title": "Reasons to Buy the <br> Nothing Phone",
+					"title": "Reasons to Buy the \n Nothing Phone",
 					"author": "Site Administrator",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"banner": {
-						"src": "fa/component/Rectangle 1036.webp",
-						"alt": ""
-					}
+					"readingTime": "15 Minutes"
 				}
 			},
 			"newestBlogs": [
@@ -1020,99 +861,62 @@
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"postView": 1553,
-
-					"enableBorderBottom": false
+					"readingTime": "15 Minutes"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"postView": 1553,
-
-					"enableBorderBottom": false
+					"readingTime": "15 Minutes"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"postView": 1553,
-
-					"enableBorderBottom": false
+					"readingTime": "15 Minutes"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"postView": 1553,
-
-					"enableBorderBottom": false
+					"readingTime": "15 Minutes"
 				}
 			],
 			"mostDiscussed": [
 				{
 					"title": "Title",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Title",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Title",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Title",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Title",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Title",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Title",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				}
 			],
 			"techNews": [
@@ -1120,31 +924,19 @@
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"postView": 1553,
-
-					"enableBorderBottom": true
+					"readingTime": "15 Minutes"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"postView": 1553,
-
-					"enableBorderBottom": true
+					"readingTime": "15 Minutes"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"postView": 1553,
-
-					"enableBorderBottom": true
+					"readingTime": "15 Minutes"
 				}
 			],
 			"SuggestionsBlog": [
@@ -1152,45 +944,31 @@
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"postView": 1553,
-
-					"enableBorderBottom": true
+					"readingTime": "15 Minutes"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"postView": 1553,
-
-					"enableBorderBottom": true
+					"readingTime": "15 Minutes"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"postView": 1553,
-
-					"enableBorderBottom": true
+					"readingTime": "15 Minutes"
 				}
 			],
 			"weblogLastComments": [
 				{
 					"name": "Mr. Yaldoughi",
 					"description": "I think the article was interesting and practical. I might also go and buy a Galaxy Ring.",
-					"post": "Complete News of the Samsung Galaxy Ring",
-					"postLink": ""
+					"post": "Complete News of the Samsung Galaxy Ring"
 				},
 				{
 					"name": "Mr. Yaldoughi",
 					"description": "I think the article was interesting and practical. I might also go and buy a Galaxy Ring.",
-					"post": "Complete News of the Samsung Galaxy Ring",
-					"postLink": ""
+					"post": "Complete News of the Samsung Galaxy Ring"
 				}
 			]
 		},
@@ -1198,12 +976,10 @@
 			"asideTitle": "Most Visited Articles",
 			"breadcrumbs": [
 				{
-					"name": "Niva Store Template Preview",
-					"url": "../index.html"
+					"name": "Niva Store Template Preview"
 				},
 				{
-					"name": "Technology News",
-					"url": "../articles.html"
+					"name": "Technology News"
 				}
 			],
 			"currentPageName": "Complete News of the Samsung Galaxy Ring",
@@ -1244,13 +1020,11 @@
 				},
 				{
 					"title": "Processor and Processing Power",
-					"descriptions": ["Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.", "In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality."],
-					"image": null
+					"descriptions": ["Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.", "In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality."]
 				},
 				{
 					"title": "Conclusion",
-					"descriptions": ["In this article, we made a detailed comparison between Apple and Asus laptops in various fields. Apple, with its MacBooks, offers superior build quality, beautiful design, powerful performance, and a seamless user experience. Asus, on the other hand, with greater diversity in models and prices, provides more varied options for users with different needs and budgets.", "For buyers looking for high quality, powerful performance, and a seamless user experience who have a sufficient budget, Apple MacBooks are a suitable option. On the other hand, if a user is looking for more variety in models, more diverse prices, and flexibility in choosing hardware and features, Asus laptops are considered good choices.", "In the future, it can be expected that both Apple and Asus will continue to innovate and improve their products. Apple will likely focus on optimizing the M-series chips and further integrating hardware and software, while Asus may continue to offer greater product diversity and innovative technologies. Also, attention to environmental sustainability and data security will be important aspects that will likely be considered in future product development."],
-					"image": null
+					"descriptions": ["In this article, we made a detailed comparison between Apple and Asus laptops in various fields. Apple, with its MacBooks, offers superior build quality, beautiful design, powerful performance, and a seamless user experience. Asus, on the other hand, with greater diversity in models and prices, provides more varied options for users with different needs and budgets.", "For buyers looking for high quality, powerful performance, and a seamless user experience who have a sufficient budget, Apple MacBooks are a suitable option. On the other hand, if a user is looking for more variety in models, more diverse prices, and flexibility in choosing hardware and features, Asus laptops are considered good choices.", "In the future, it can be expected that both Apple and Asus will continue to innovate and improve their products. Apple will likely focus on optimizing the M-series chips and further integrating hardware and software, while Asus may continue to offer greater product diversity and innovative technologies. Also, attention to environmental sustainability and data security will be important aspects that will likely be considered in future product development."]
 				}
 			],
 			"mostViedBlogs": [
@@ -1258,31 +1032,19 @@
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"view": 1553,
-
-					"showViewAndReadingTime": true
+					"readingTime": "15 Minutes"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"view": 1553,
-
-					"showViewAndReadingTime": true
+					"readingTime": "15 Minutes"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
-					"commentCount": 1,
-					"readingTime": "15 Minutes",
-					"view": 1553,
-
-					"showViewAndReadingTime": true
+					"readingTime": "15 Minutes"
 				}
 			],
 			"articlesFaqs": [
@@ -1294,22 +1056,22 @@
 			"socialItems": [
 				{
 					"name": "facebook",
-					"url": "https://facebook.com/sharer/sharer.php?u=${pageUrl}",
+
 					"iconClass": "icon-facebook"
 				},
 				{
 					"name": "twitter",
-					"url": "https://twitter.com/intent/tweet?url=${pageUrl}",
+
 					"iconClass": "icon-twitter"
 				},
 				{
 					"name": "whatsapp",
-					"url": "https://wa.me/?text=${pageUrl}",
+
 					"iconClass": "icon-whatsapp"
 				},
 				{
 					"name": "telegram",
-					"url": "https://t.me/share/url?url=${pageUrl}",
+
 					"iconClass": "icon-telegram"
 				}
 			],
@@ -1317,34 +1079,22 @@
 				{
 					"title": "Title",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Title",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Title",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Title",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				}
 			]
 		},
@@ -1356,66 +1106,42 @@
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				},
 				{
 					"title": "Reasons to Buy the Nothing Phone One",
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-					"date": "Sep 28, 2024",
-					"commentCount": 1,
-
-					"showViewAndReadingTime": false
+					"date": "Sep 28, 2024"
 				}
 			]
 		},
@@ -1596,7 +1322,6 @@
 			},
 			"productBox": {
 				"productQty": {
-					"number": "0",
 					"text": "Product"
 				},
 				"deleteAll": "Delete All"
@@ -1626,378 +1351,217 @@
 					"stories": [
 						{
 							"title": "UNO Lie Cards",
-							"userName": "hosseinKazemi",
-							"enableSwiper": true,
 
 							"contents": [
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "10",
-									"commentCount": "3"
+									}
 								},
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "50",
-									"commentCount": "3"
+									}
 								}
 							]
 						},
 						{
 							"title": "Wireless Earbuds",
-							"userName": "hosseinKazemi",
-							"enableSwiper": true,
 
 							"contents": [
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "50",
-									"commentCount": "3"
+									}
 								},
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "50",
-									"commentCount": "3"
+									}
 								}
 							]
 						},
 						{
 							"title": "Different TSCO",
-							"userName": "hosseinKazemi",
-							"enableSwiper": true,
 
 							"contents": [
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "10",
-									"commentCount": "3"
+									}
 								},
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "50",
-									"commentCount": "3"
+									}
 								}
 							]
 						},
 						{
 							"title": "UNO Lie Cards",
-							"userName": "hosseinKazemi",
-							"enableSwiper": true,
 
 							"contents": [
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "10",
-									"commentCount": "3"
+									}
 								},
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "50",
-									"commentCount": "3"
+									}
 								}
 							]
 						},
 						{
 							"title": "Desktop Heater!",
-							"userName": "hosseinKazemi",
-							"enableSwiper": true,
 
 							"contents": [
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "10",
-									"commentCount": "3"
+									}
 								},
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "50",
-									"commentCount": "3"
+									}
 								}
 							]
 						},
 						{
 							"title": "B-Tools",
-							"userName": "hosseinKazemi",
-							"enableSwiper": true,
 
 							"contents": [
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "10",
-									"commentCount": "3"
+									}
 								},
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "50",
-									"commentCount": "3"
+									}
 								}
 							]
 						},
 						{
 							"title": "Cool Fidget",
-							"userName": "hosseinKazemi",
-							"enableSwiper": true,
 
 							"contents": [
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "10",
-									"commentCount": "3"
+									}
 								},
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "50",
-									"commentCount": "3"
+									}
 								}
 							]
 						},
 						{
 							"title": "Light Baton",
-							"userName": "hosseinKazemi",
-							"enableSwiper": true,
 
 							"contents": [
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "10",
-									"commentCount": "3"
+									}
 								},
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "50",
-									"commentCount": "3"
+									}
 								}
 							]
 						},
 						{
 							"title": "Desktop Heater",
-							"userName": "hosseinKazemi",
-							"enableSwiper": true,
 
 							"contents": [
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 1"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "10",
-									"commentCount": "3"
+									}
 								},
 								{
 									"profile": {
 										"title": {
-											"text": "hossein kazemi 2"
+											"text": "Apple iPhone Pro Max Dual SIM Active Thirteen"
 										}
-									},
-									"likeCount": "50",
-									"commentCount": "3"
+									}
 								}
 							]
 						}
 					]
 				}
 			},
-			"hero": {
-				"dataSliderTimer": 5,
-				"enableSliderDraggable": true,
-				"enableSliderToggles": true,
-				"sliders": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					}
-				]
-			},
 			"exceptionalOffers": {
-				"banner": {
-					"title": "View More",
-
-					"src": "fa/homepage/offerpic-1.webp",
-					"alt": "alt offerpic-1.webp",
-					"responsive": {
-						"src": "fa/homepage/amazing-text.svg",
-						"alt": "alt amazing-text.svg"
-					}
-				},
 				"components": {
 					"productCards": [
 						{
 							"title": "Apple MacBook Air M 13.3-inch Laptop",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Apple MacBook Air M 13.3-inch Laptop",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Apple MacBook Air M 13.3-inch Laptop",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Apple MacBook Air M 13.3-inch Laptop",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						}
 					]
 				}
@@ -2007,8 +1571,7 @@
 				"components": {
 					"seeAll": {
 						"title": "View All"
-					},
-					"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
+					}
 				}
 			},
 			"bestSellers": {
@@ -2017,294 +1580,78 @@
 					"seeAll": {
 						"title": "View All"
 					},
-					"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 					"productCards": [
 						{
 							"title": "Sony Slim Camouflage PlayStation Headset",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Wonk 46mm Smartwatch with Silicone Band",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Apple MacBook Air M 13.3-inch Laptop",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Microsoft Xbox Gaming Console",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Macher MR-56 Gamepad 2-Pack",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						}
 					]
 				}
 			},
 			"laptopOffers": {
-				"banner": {
-					"title": "View More",
-
-					"src": "fa/homepage/offerpic-1.webp",
-					"alt": "alt offerpic-1.webp",
-					"responsive": {
-						"src": "fa/homepage/amazing-text.svg",
-						"alt": "alt amazing-text.svg"
-					}
-				},
 				"components": {
 					"productCards": [
 						{
 							"title": "Apple MacBook Air M 13.3-inch Laptop",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Apple MacBook Air M 13.3-inch Laptop",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Apple MacBook Air M 13.3-inch Laptop",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Apple MacBook Air M 13.3-inch Laptop",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						}
 					]
 				}
-			},
-			"bestsellersCategory": {
-				"banners": [
-					{
-						"src": "fa/homepage/banner-sale.webp",
-						"alt": "alt banner-sale.webp"
-					},
-					{
-						"src": "fa/homepage/banner-sale2.webp",
-						"alt": "alt banner-sale2.webp"
-					},
-					{
-						"src": "fa/homepage/banner-sale3.webp",
-						"alt": "alt banner-sale3.webp"
-					}
-				]
 			},
 			"economicalProducts": {
 				"title": "Most Economical Products",
@@ -2312,147 +1659,41 @@
 					"seeAll": {
 						"title": "View All"
 					},
-					"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 					"productCards": [
 						{
 							"title": "Sony Slim Camouflage PlayStation Headset",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Wonk 46mm Smartwatch with Silicone Band",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Apple MacBook Air M 13.3-inch Laptop",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Microsoft Xbox Gaming Console",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Macher MR-56 Gamepad 2-Pack",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						}
 					]
 				}
@@ -2483,35 +1724,31 @@
 				}
 			},
 			"boxTaste": {
-				"descriptions": "Based on your previous visits, the following categories<br>and products are shown to you",
+				"descriptions": "Based on your previous visits, the following categories\nand products are shown to you",
 				"tasteBoxes": [
 					{
 						"category": {
 							"title": "Mobile",
 							"text": "Based on your taste"
-						},
-						"boxes": []
+						}
 					},
 					{
 						"category": {
 							"title": "Speaker",
 							"text": "Based on your taste"
-						},
-						"boxes": []
+						}
 					},
 					{
 						"category": {
 							"title": "Powerbank",
 							"text": "Based on your taste"
-						},
-						"boxes": []
+						}
 					},
 					{
 						"category": {
 							"title": "Laptop",
 							"text": "Based on your taste"
-						},
-						"boxes": []
+						}
 					}
 				],
 				"components": {
@@ -2523,56 +1760,45 @@
 			"productPackage": {
 				"packageTitle": "Product Package",
 				"packageName": "Gamer Package",
-				"text": "<br>Item",
+				"text": "\nItem",
 				"showItems": {
 					"text": " View Items",
 					"dataAlertTitle": "Products added to cart"
 				},
-				"banner": {
-					"src": "fa/homepage/IMG_20260128_180735_728.webp",
-					"alt": "alt IMG_20260128_180735_728.webp"
-				},
 				"components": {
 					"commodityPacks": [
 						{
-							"count": 2,
-							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
+							"title": "Sony Slim Camouflage PlayStation Headset \n PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"count": 2,
-							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
+							"title": "Sony Slim Camouflage PlayStation Headset \n PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"count": 2,
-							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
+							"title": "Sony Slim Camouflage PlayStation Headset \n PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"count": 2,
-							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
+							"title": "Sony Slim Camouflage PlayStation Headset \n PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"count": 2,
-							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
+							"title": "Sony Slim Camouflage PlayStation Headset \n PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"count": 2,
-							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
+							"title": "Sony Slim Camouflage PlayStation Headset \n PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						},
 						{
-							"count": 2,
-							"title": "Sony Slim Camouflage PlayStation Headset <br> PULSE Elite Wireless",
+							"title": "Sony Slim Camouflage PlayStation Headset \n PULSE Elite Wireless",
 							"price": "80,000,000",
 							"discountPercentage": "0"
 						}
@@ -2580,129 +1806,35 @@
 				}
 			},
 			"mobileOffers": {
-				"banner": {
-					"title": "View More",
-
-					"src": "fa/homepage/offerpic-1.webp",
-					"alt": "alt offerpic-1.webp",
-					"responsive": {
-						"src": "fa/homepage/amazing-text.svg",
-						"alt": "alt amazing-text.svg"
-					}
-				},
 				"components": {
 					"productCards": [
 						{
 							"title": "Xiaomi Redmi Note 13 4G Mobile Phone 256GB Capacity",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Xiaomi Redmi Note 13 4G Mobile Phone 256GB Capacity",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Xiaomi Redmi Note 13 4G Mobile Phone 256GB Capacity",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Xiaomi Redmi Note 13 4G Mobile Phone 256GB Capacity",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						}
 					]
 				}
@@ -2713,154 +1845,44 @@
 					"seeAll": {
 						"title": "View All"
 					},
-					"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 					"productCards": [
 						{
 							"title": "Sony Slim Camouflage PlayStation Headset",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Wonk 46mm Smartwatch with Silicone Band",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Apple MacBook Air M 13.3-inch Laptop",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Microsoft Xbox Gaming Console",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						},
 						{
 							"title": "Macher MR-56 Gamepad 2-Pack",
-							"enableLike": true,
-							"enableSwiper": true,
-							"point": 4.7,
+
 							"send": "Fast Shipping",
 							"price": "80,000,000",
-							"discountPercentage": "10",
-							"dataCountdown": "5:43:50",
-							"colors": [
-								{
-									"color": "#1544E3",
-									"enableBorder": false
-								},
-								{
-									"color": "#3EB580",
-									"enableBorder": false
-								},
-								{
-									"color": "#FFFFFF",
-									"enableBorder": true
-								},
-								{
-									"color": "#021959",
-									"enableBorder": false
-								}
-							]
+							"discountPercentage": "10"
 						}
 					]
 				}
-			},
-			"bannerProduct": {
-				"src": "fa/homepage/best-seller-wrapper.webp",
-				"alt": "alt best-seller-wrapper.webp"
 			},
 			"suggestionCategories": {
 				"title": "Suggested Categories",
@@ -2901,117 +1923,49 @@
 			},
 			"brandWrapper": {
 				"title": "Most Popular Brands",
-				"logos": [
-					{
-						"src": "fa/homepage/logo1.webp",
-						"alt": "alt logo1.webp"
-					},
-					{
-						"src": "fa/homepage/logo2.webp",
-						"alt": "alt logo2.webp"
-					},
-					{
-						"src": "fa/homepage/logo3.webp",
-						"alt": "alt logo3.webp"
-					},
-					{
-						"src": "fa/homepage/logo4.webp",
-						"alt": "alt logo4.webp"
-					},
-					{
-						"src": "fa/homepage/logo5.webp",
-						"alt": "alt logo5.webp"
-					},
-					{
-						"src": "fa/homepage/logo6.webp",
-						"alt": "alt logo6.webp"
-					},
-					{
-						"src": "fa/homepage/logo7.webp",
-						"alt": "alt logo7.webp"
-					},
-					{
-						"src": "fa/homepage/logo2.webp",
-						"alt": "alt logo2.webp"
-					},
-					{
-						"src": "fa/homepage/logo3.webp",
-						"alt": "alt logo3.webp"
-					}
-				],
 				"components": {
 					"seeAll": {
 						"title": "View All"
 					}
 				}
 			},
-			"bannerProductSecond": {
-				"src": "fa/homepage/best-seller-wrapper.webp",
-				"alt": "alt best-seller-wrapper.webp"
-			},
 			"weblog": {
 				"title": "weblog",
 				"components": {
-					"banner": {
-						"src": "fa/weblog/banner_SlideBannerr.webp",
-						"alt": "baner"
-					},
 					"latestBlogPosts": {
 						"firstWeblogArticle": {
-							"title": "Reasons to Buy the <br> Nothing Phone",
+							"title": "Reasons to Buy the \n Nothing Phone",
 							"author": "Site Administrator",
 							"date": "Sep 28, 2024",
-							"commentCount": 1,
-							"readingTime": "15 Minutes",
-							"banner": {
-								"src": "fa/component/Rectangle 1036.webp",
-								"alt": ""
-							}
+							"readingTime": "15 Minutes"
 						},
 						"latestBlogPost": [
 							{
 								"title": "Reasons to Buy the Nothing Phone",
 								"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-								"date": "Sep 28, 2024",
-								"commentCount": 1,
-
-								"showViewAndReadingTime": false
+								"date": "Sep 28, 2024"
 							},
 							{
 								"title": "Reasons to Buy the Nothing Phone",
 								"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-								"date": "Sep 28, 2024",
-								"commentCount": 1,
-
-								"showViewAndReadingTime": false
+								"date": "Sep 28, 2024"
 							},
 							{
 								"title": "Reasons to Buy the Nothing Phone",
 								"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-								"date": "Sep 28, 2024",
-								"commentCount": 1,
-
-								"showViewAndReadingTime": false
+								"date": "Sep 28, 2024"
 							},
 							{
 								"title": "Reasons to Buy the Nothing Phone",
 								"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-								"date": "Sep 28, 2024",
-								"commentCount": 1,
-
-								"showViewAndReadingTime": false
+								"date": "Sep 28, 2024"
 							}
 						],
 						"secondWeblogArticle": {
-							"title": "Reasons to Buy the <br> Nothing Phone",
+							"title": "Reasons to Buy the \n Nothing Phone",
 							"author": "Site Administrator",
 							"date": "Sep 28, 2024",
-							"commentCount": 1,
-							"readingTime": "15 Minutes",
-							"banner": {
-								"src": "fa/component/Rectangle 1036.webp",
-								"alt": ""
-							}
+							"readingTime": "15 Minutes"
 						}
 					},
 					"newestBlogs": [
@@ -3019,99 +1973,62 @@
 							"title": "Reasons to Buy the Nothing Phone One",
 							"description": " In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 							"date": "Sep 28, 2024",
-							"commentCount": 1,
-							"readingTime": "15 Minutes",
-							"postView": 1553,
-
-							"enableBorderBottom": false
+							"readingTime": "15 Minutes"
 						},
 						{
 							"title": "Reasons to Buy the Nothing Phone One",
 							"description": " In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 							"date": "Sep 28, 2024",
-							"commentCount": 1,
-							"readingTime": "15 Minutes",
-							"postView": 1553,
-
-							"enableBorderBottom": false
+							"readingTime": "15 Minutes"
 						},
 						{
 							"title": "Reasons to Buy the Nothing Phone One",
 							"description": " In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 							"date": "Sep 28, 2024",
-							"commentCount": 1,
-							"readingTime": "15 Minutes",
-							"postView": 1553,
-
-							"enableBorderBottom": false
+							"readingTime": "15 Minutes"
 						},
 						{
 							"title": "Reasons to Buy the Nothing Phone One",
 							"description": " In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 							"date": "Sep 28, 2024",
-							"commentCount": 1,
-							"readingTime": "15 Minutes",
-							"postView": 1553,
-
-							"enableBorderBottom": false
+							"readingTime": "15 Minutes"
 						}
 					],
 					"mostDiscussed": [
 						{
 							"title": "Title",
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-							"date": "Sep 28, 2024",
-							"commentCount": 1,
-
-							"showViewAndReadingTime": false
+							"date": "Sep 28, 2024"
 						},
 						{
 							"title": "Title",
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-							"date": "Sep 28, 2024",
-							"commentCount": 1,
-
-							"showViewAndReadingTime": false
+							"date": "Sep 28, 2024"
 						},
 						{
 							"title": "Title",
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-							"date": "Sep 28, 2024",
-							"commentCount": 1,
-
-							"showViewAndReadingTime": false
+							"date": "Sep 28, 2024"
 						},
 						{
 							"title": "Title",
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-							"date": "Sep 28, 2024",
-							"commentCount": 1,
-
-							"showViewAndReadingTime": false
+							"date": "Sep 28, 2024"
 						},
 						{
 							"title": "Title",
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-							"date": "Sep 28, 2024",
-							"commentCount": 1,
-
-							"showViewAndReadingTime": false
+							"date": "Sep 28, 2024"
 						},
 						{
 							"title": "Title",
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-							"date": "Sep 28, 2024",
-							"commentCount": 1,
-
-							"showViewAndReadingTime": false
+							"date": "Sep 28, 2024"
 						},
 						{
 							"title": "Title",
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
-							"date": "Sep 28, 2024",
-							"commentCount": 1,
-
-							"showViewAndReadingTime": false
+							"date": "Sep 28, 2024"
 						}
 					],
 					"techNews": [
@@ -3119,31 +2036,19 @@
 							"title": "Reasons to Buy the Nothing Phone One",
 							"description": " In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 							"date": "Sep 28, 2024",
-							"commentCount": 1,
-							"readingTime": "15 Minutes",
-							"postView": 1553,
-
-							"enableBorderBottom": true
+							"readingTime": "15 Minutes"
 						},
 						{
 							"title": "Reasons to Buy the Nothing Phone One",
 							"description": " In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 							"date": "Sep 28, 2024",
-							"commentCount": 1,
-							"readingTime": "15 Minutes",
-							"postView": 1553,
-
-							"enableBorderBottom": true
+							"readingTime": "15 Minutes"
 						},
 						{
 							"title": "Reasons to Buy the Nothing Phone One",
 							"description": " In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 							"date": "Sep 28, 2024",
-							"commentCount": 1,
-							"readingTime": "15 Minutes",
-							"postView": 1553,
-
-							"enableBorderBottom": true
+							"readingTime": "15 Minutes"
 						}
 					],
 					"SuggestionsBlog": [
@@ -3151,45 +2056,31 @@
 							"title": "Reasons to Buy the Nothing Phone One",
 							"description": " In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 							"date": "Sep 28, 2024",
-							"commentCount": 1,
-							"readingTime": "15 Minutes",
-							"postView": 1553,
-
-							"enableBorderBottom": true
+							"readingTime": "15 Minutes"
 						},
 						{
 							"title": "Reasons to Buy the Nothing Phone One",
 							"description": " In today's advanced world of technology, laptops play a fundamental role In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 							"date": "Sep 28, 2024",
-							"commentCount": 1,
-							"readingTime": "15 Minutes",
-							"postView": 1553,
-
-							"enableBorderBottom": true
+							"readingTime": "15 Minutes"
 						},
 						{
 							"title": "Reasons to Buy the Nothing Phone One",
 							"description": " In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment.",
 							"date": "Sep 28, 2024",
-							"commentCount": 1,
-							"readingTime": "15 Minutes",
-							"postView": 1553,
-
-							"enableBorderBottom": true
+							"readingTime": "15 Minutes"
 						}
 					],
 					"weblogLastComments": [
 						{
 							"name": "Mr. Yaldoughi",
 							"description": "I think the article was interesting and practical. I might also go and buy a Galaxy Ring.",
-							"post": "Complete News of the Samsung Galaxy Ring",
-							"postLink": ""
+							"post": "Complete News of the Samsung Galaxy Ring"
 						},
 						{
 							"name": "Mr. Yaldoughi",
 							"description": "I think the article was interesting and practical. I might also go and buy a Galaxy Ring.",
-							"post": "Complete News of the Samsung Galaxy Ring",
-							"postLink": ""
+							"post": "Complete News of the Samsung Galaxy Ring"
 						}
 					]
 				}
@@ -3213,9 +2104,7 @@
 			"paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printers and texts, rather newspapers and magazines in columns and rows, as necessary and for the current conditions of required technology and various applications with the aim of improving practical tools. Many books in the past sixty-three percent, present, and future demand a great understanding of the society and specialists so that with software, more understanding can be created for computer designers, especially creative designers, and leading culture in the Persian language. In this case, one can hope that the entirety and difficulties present in providing solutions and harsh typing conditions will end, and the required time, including typesetting of main achievements and responding to continuous design questions, will basically be utilized. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Printers and texts, rather newspapers and magazines in columns and rows, as necessary and for the current conditions of required technology and various applications with the aim of improving practical tools. Many books in the past sixty-three percent, present, and future demand a great understanding of the society and specialists so that with software, more understanding can be created for computer designers, especially creative designers, and leading culture in the Persian language. In this case, one can hope that the entirety and difficulties present in providing solutions and harsh typing conditions will end, and the required time, including typesetting of main achievements and responding to continuous design questions, will basically be utilized."
 		},
 		"contactUs": {
-			"title": "I-Shop",
-			"imgLogo": "logo-web3.webp",
-			"src": "../assets/media/images/",
+			"title": "niva",
 			"form": {
 				"name": "Full Name",
 				"email": "Email (Optional)",
@@ -3247,240 +2136,63 @@
 				"productCards": [
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Anker Space One Pro A3062 Wireless Headphones",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Xiaomi Redmi Watch 5 Lite Smartwatch",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "PlayStation 5 Slim Digital with Extra White Controller",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "HP 15.6-inch Victus 15 FA2082WM i5 13420H Laptop",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual SIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Anker Space One Pro A3062 Wireless Headphones",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					}
 				]
 			},
 			"offerWrapper": {
-				"number": "6",
 				"title": "product",
 				"button": "Load More"
 			}
@@ -3536,182 +2248,49 @@
 				"productCards": [
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Anker Space One Pro A3062 Wireless Headphones",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Xiaomi Redmi Watch 5 Lite Smartwatch",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "PlayStation 5 Slim Digital with Extra White Controller",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "HP 15.6-inch Victus 15 FA2082WM i5 13420H Laptop",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual SIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					}
 				],
 				"category": {
 					"categoryCards": {
-						"focusedCards": [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}],
 						"labeledCards": [
 							{
 								"title": "Mobile"
@@ -3756,7 +2335,6 @@
 					},
 					"color": {
 						"title": "Color",
-						"number": "6",
 						"list": [
 							{
 								"item": "Blue"
@@ -3780,89 +2358,68 @@
 					},
 					"brand": {
 						"title": "Brand",
-						"number": "9",
 						"list": [
 							{
-								"item": "Apple",
-								"num": "5"
+								"item": "Apple"
 							},
 							{
-								"item": "Snowa",
-								"num": "0"
+								"item": "Snowa"
 							},
 							{
-								"item": "LG",
-								"num": "3"
+								"item": "LG"
 							},
 							{
-								"item": "Persil",
-								"num": "3"
+								"item": "Persil"
 							},
 							{
-								"item": "Daewoo",
-								"num": "0"
+								"item": "Daewoo"
 							},
 							{
-								"item": "Sony",
-								"num": "0"
+								"item": "Sony"
 							},
 							{
-								"item": "Xiaomi",
-								"num": "8"
+								"item": "Xiaomi"
 							},
 							{
-								"item": "Old",
-								"num": "0"
+								"item": "Old"
 							},
 							{
-								"item": "Mahya",
-								"num": "0"
+								"item": "Mahya"
 							}
 						]
 					},
 					"category": {
 						"title": "Category",
-						"number": "10",
 						"list": [
 							{
-								"item": "Mobile",
-								"num": "11"
+								"item": "Mobile"
 							},
 							{
-								"item": " Speaker",
-								"num": "8"
+								"item": " Speaker"
 							},
 							{
-								"item": "Powerbank",
-								"num": "0"
+								"item": "Powerbank"
 							},
 							{
-								"item": "Tablet",
-								"num": "8"
+								"item": "Tablet"
 							},
 							{
-								"item": "Smartwatch",
-								"num": "8"
+								"item": "Smartwatch"
 							},
 							{
-								"item": " Computer",
-								"num": "4"
+								"item": " Computer"
 							},
 							{
-								"item": " Gaming Console",
-								"num": "8"
+								"item": " Gaming Console"
 							},
 							{
-								"item": " Laptop",
-								"num": "6"
+								"item": " Laptop"
 							},
 							{
-								"item": " Phone Case",
-								"num": "8"
+								"item": " Phone Case"
 							},
 							{
-								"item": " Headphone",
-								"num": "3"
+								"item": " Headphone"
 							}
 						]
 					},
@@ -3905,13 +2462,6 @@
 						"title": "Most Expensive"
 					}
 				]
-			},
-			"pageNumber": {
-				"next": "Next",
-				"before": "Previous",
-				"number1": "1",
-				"number2": "2",
-				"number3": "3"
 			}
 		},
 		"variableProduct": {
@@ -3941,85 +2491,15 @@
 				"video": "Product Video",
 				"catalog": "Product Catalog"
 			},
-			"productGallerySlider": {
-				"sliderContents": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					},
-					{
-						"id": "slider3"
-					},
-					{
-						"id": "slider4"
-					},
-					{
-						"id": "slider5"
-					},
-					{
-						"id": "slider6"
-					},
-					{
-						"id": "slider7"
-					},
-					{
-						"id": "slider8"
-					},
-					{
-						"id": "slider9"
-					},
-					{
-						"id": "slider10"
-					}
-				],
-				"sliderToggles": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					},
-					{
-						"id": "slider3"
-					},
-					{
-						"id": "slider4"
-					},
-					{
-						"id": "slider5"
-					},
-					{
-						"id": "slider6"
-					},
-					{
-						"id": "slider7"
-					},
-					{
-						"id": "slider8"
-					},
-					{
-						"id": "slider9"
-					},
-					{
-						"id": "slider10"
-					}
-				]
-			},
 			"ratingCard": {
-				"rating": "3.5",
-				"ratingCount": "Number of Ratings ",
-				"ratingNumber": "4",
-				"numberPosative": "50",
-				"posative": "Positive",
-				"commentnumberposativde": "2 people",
-				"numberdisintersted": "25",
-				"disintersted": "Neutral",
-				"commentnumberdisintersted": "2 people",
-				"commentnumbernegative": "2 people",
-				"negative": "Negative",
-				"niumbernegative": "5",
+				"ratingCountText": "Number of Ratings ",
+
+				"positiveText": "Positive",
+				"suffixCountRatingComments": "people",
+
+				"neutralText": "Neutral",
+
+				"negativeText": "Negative",
 				"descriptionOne": "Total\n Product Reviews",
 				"descriptionTwo": "Total\n Product Reviews",
 				"descriptionThree": "Total\n Product Reviews"
@@ -4065,16 +2545,18 @@
 				"description": "Returning a product in the mobile category with a reason is only accepted if the product seal has not been opened. All Digikala phones have a registry guarantee. If there is a registry problem, you can return the purchased phone after the legal 30-day period."
 			},
 			"featureDescriptionBox": {
-				"banner": {
-					"viewFeature": "View Product Features",
-					"send": "Free Shipping for this product",
-					"btnView": "View Guide",
-					"pay": "Installment purchase of this product up to 4 installments",
-					"snappay": "Installment purchase with Snappay"
-				},
 				"text": {
 					"title": "View Product Features",
 					"description": "The iPhone 13 CH is Apple's new flagship mobile phone that has entered the market with several new features and a dual camera. The iPhone 13 display is equipped with a Super Retina panel to provide very desirable images to the user. This display has a very high resolution; so much so that in its 6.1-inch size, it packs about 460 pixels per inch. It is possible to charge the battery of this phone wirelessly. Face detection using the front camera is another feature used in the new Apple iPhone. In terms of hardware, this phone uses the new A15 chip, which has 15 billion transistors and offers desirable heat control so that, in addition to normal tasks, it can support new virtual reality features that Apple is particularly focusing on these days. According to Apple itself, this phone has a speed 50 times that of its version 12. The processor has a new modular design that has significantly reduced battery consumption, giving you greater battery life. The display quality on the iPhone 13 is 120 Hz and you will witness high quality. Apple has included a GPU in this series of its iPhone phones that is 30 percent faster than its series 12 phones, and this promises that you can run games with heavier and larger graphics and maps. One of the features we see in the iPhone 13 is its cinematic ProRes video recording system, which can revolutionize mobile phone videography. Not active phones become active by inserting internal SIM cards, and unlike the active model, the product seal is not broken. Active Apple brand phones are also like this because due to limitations on some Apple products for Iran, they are officially activated and sealed with a single insertion of a SIM card in neighboring countries, and you should know that this process does not cause any problems regarding the product warranty. European, Japanese, and UAE part numbers are single SIM, and UAE-related part numbers do not support FaceTime either. With the JA (Japan) part number, even in silent mode, the photo shutter sound cannot be muted."
+				},
+				"featureShow": {
+					"title": "View Product Review",
+					"send": "Free shipping available for this item",
+					"buy": {
+						"title": "Installment plan with SnappPay",
+						"description": "Buy in up to 4 interest-free installments",
+						"btn": "View Guide"
+					}
 				}
 			},
 			"reviews": {
@@ -4210,148 +2692,38 @@
 			"productCard": [
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				}
 			],
 			"comentedLink": {
@@ -4461,8 +2833,7 @@
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
 
-					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-					"imgTwo": "1954.webp"
+					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Camera",
@@ -4540,119 +2911,31 @@
 				"productCards": [
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					}
 				]
 			}
@@ -4684,85 +2967,15 @@
 				"video": "Product Video",
 				"catalog": "Product Catalog"
 			},
-			"productGallerySlider": {
-				"sliderContents": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					},
-					{
-						"id": "slider3"
-					},
-					{
-						"id": "slider4"
-					},
-					{
-						"id": "slider5"
-					},
-					{
-						"id": "slider6"
-					},
-					{
-						"id": "slider7"
-					},
-					{
-						"id": "slider8"
-					},
-					{
-						"id": "slider9"
-					},
-					{
-						"id": "slider10"
-					}
-				],
-				"sliderToggles": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					},
-					{
-						"id": "slider3"
-					},
-					{
-						"id": "slider4"
-					},
-					{
-						"id": "slider5"
-					},
-					{
-						"id": "slider6"
-					},
-					{
-						"id": "slider7"
-					},
-					{
-						"id": "slider8"
-					},
-					{
-						"id": "slider9"
-					},
-					{
-						"id": "slider10"
-					}
-				]
-			},
 			"ratingCard": {
-				"rating": "3.5",
-				"ratingCount": "Number of Ratings ",
-				"ratingNumber": "4",
-				"numberPosative": "50",
-				"posative": "Positive",
-				"commentnumberposativde": "2 people",
-				"numberdisintersted": "25",
-				"disintersted": "Neutral",
-				"commentnumberdisintersted": "2 people",
-				"commentnumbernegative": "2 people",
-				"negative": "Negative",
-				"niumbernegative": "5",
+				"ratingCountText": "Number of Ratings ",
+
+				"positiveText": "Positive",
+				"suffixCountRatingComments": "people",
+
+				"neutralText": "Neutral",
+
+				"negativeText": "Negative",
 				"descriptionOne": "Total\n Product Reviews",
 				"descriptionTwo": "Total\n Product Reviews",
 				"descriptionThree": "Total\n Product Reviews"
@@ -4808,16 +3021,18 @@
 				"description": "Returning a product in the mobile category with a reason is only accepted if the product seal has not been opened. All Digikala phones have a registry guarantee. If there is a registry problem, you can return the purchased phone after the legal 30-day period."
 			},
 			"featureDescriptionBox": {
-				"banner": {
-					"viewFeature": "View Product Features",
-					"send": "Free Shipping for this product",
-					"btnView": "View Guide",
-					"pay": "Installment purchase of this product up to 4 installments",
-					"snappay": "Installment purchase with Snappay"
-				},
 				"text": {
 					"title": "View Product Features",
 					"description": "The iPhone 13 CH is Apple's new flagship mobile phone that has entered the market with several new features and a dual camera. The iPhone 13 display is equipped with a Super Retina panel to provide very desirable images to the user. This display has a very high resolution; so much so that in its 6.1-inch size, it packs about 460 pixels per inch. It is possible to charge the battery of this phone wirelessly. Face detection using the front camera is another feature used in the new Apple iPhone. In terms of hardware, this phone uses the new A15 chip, which has 15 billion transistors and offers desirable heat control so that, in addition to normal tasks, it can support new virtual reality features that Apple is particularly focusing on these days. According to Apple itself, this phone has a speed 50 times that of its version 12. The processor has a new modular design that has significantly reduced battery consumption, giving you greater battery life. The display quality on the iPhone 13 is 120 Hz and you will witness high quality. Apple has included a GPU in this series of its iPhone phones that is 30 percent faster than its series 12 phones, and this promises that you can run games with heavier and larger graphics and maps. One of the features we see in the iPhone 13 is its cinematic ProRes video recording system, which can revolutionize mobile phone videography. Not active phones become active by inserting internal SIM cards, and unlike the active model, the product seal is not broken. Active Apple brand phones are also like this because due to limitations on some Apple products for Iran, they are officially activated and sealed with a single insertion of a SIM card in neighboring countries, and you should know that this process does not cause any problems regarding the product warranty. European, Japanese, and UAE part numbers are single SIM, and UAE-related part numbers do not support FaceTime either. With the JA (Japan) part number, even in silent mode, the photo shutter sound cannot be muted."
+				},
+				"featureShow": {
+					"title": "View Product Review",
+					"send": "Free shipping available for this item",
+					"buy": {
+						"title": "Installment plan with SnappPay",
+						"description": "Buy in up to 4 interest-free installments",
+						"btn": "View Guide"
+					}
 				}
 			},
 			"reviews": {
@@ -4875,7 +3090,6 @@
 				"latestPrice": "Latest Registered Price ",
 				"price": "10,150,000",
 				"date": "1404.01.09",
-				"image": "product-contact-price.webp",
 				"description": "Call to inquire about price and availability",
 				"Button": "Call",
 				"phoneLabel": "Expert Contact Number",
@@ -4948,148 +3162,38 @@
 			"productCard": [
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				}
 			],
 			"comentedLink": {
@@ -5199,8 +3303,7 @@
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
 
-					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-					"imgTwo": "1954.webp"
+					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Camera",
@@ -5278,119 +3381,31 @@
 				"productCards": [
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					}
 				]
 			}
@@ -5422,85 +3437,15 @@
 				"video": "Product Video",
 				"catalog": "Product Catalog"
 			},
-			"productGallerySlider": {
-				"sliderContents": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					},
-					{
-						"id": "slider3"
-					},
-					{
-						"id": "slider4"
-					},
-					{
-						"id": "slider5"
-					},
-					{
-						"id": "slider6"
-					},
-					{
-						"id": "slider7"
-					},
-					{
-						"id": "slider8"
-					},
-					{
-						"id": "slider9"
-					},
-					{
-						"id": "slider10"
-					}
-				],
-				"sliderToggles": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					},
-					{
-						"id": "slider3"
-					},
-					{
-						"id": "slider4"
-					},
-					{
-						"id": "slider5"
-					},
-					{
-						"id": "slider6"
-					},
-					{
-						"id": "slider7"
-					},
-					{
-						"id": "slider8"
-					},
-					{
-						"id": "slider9"
-					},
-					{
-						"id": "slider10"
-					}
-				]
-			},
 			"ratingCard": {
-				"rating": "3.5",
-				"ratingCount": "Number of Ratings ",
-				"ratingNumber": "4",
-				"numberPosative": "50",
-				"posative": "Positive",
-				"commentnumberposativde": "2 people",
-				"numberdisintersted": "25",
-				"disintersted": "Neutral",
-				"commentnumberdisintersted": "2 people",
-				"commentnumbernegative": "2 people",
-				"negative": "Negative",
-				"niumbernegative": "5",
+				"ratingCountText": "Number of Ratings ",
+
+				"positiveText": "Positive",
+				"suffixCountRatingComments": "people",
+
+				"neutralText": "Neutral",
+
+				"negativeText": "Negative",
 				"descriptionOne": "Total\n Product Reviews",
 				"descriptionTwo": "Total\n Product Reviews",
 				"descriptionThree": "Total\n Product Reviews"
@@ -5546,16 +3491,18 @@
 				"description": "Returning a product in the mobile category with a reason is only accepted if the product seal has not been opened. All Digikala phones have a registry guarantee. If there is a registry problem, you can return the purchased phone after the legal 30-day period."
 			},
 			"featureDescriptionBox": {
-				"banner": {
-					"viewFeature": "View Product Features",
-					"send": "Free Shipping for this product",
-					"btnView": "View Guide",
-					"pay": "Installment purchase of this product up to 4 installments",
-					"snappay": "Installment purchase with Snappay"
-				},
 				"text": {
 					"title": "View Product Features",
 					"description": "The iPhone 13 CH is Apple's new flagship mobile phone that has entered the market with several new features and a dual camera. The iPhone 13 display is equipped with a Super Retina panel to provide very desirable images to the user. This display has a very high resolution; so much so that in its 6.1-inch size, it packs about 460 pixels per inch. It is possible to charge the battery of this phone wirelessly. Face detection using the front camera is another feature used in the new Apple iPhone. In terms of hardware, this phone uses the new A15 chip, which has 15 billion transistors and offers desirable heat control so that, in addition to normal tasks, it can support new virtual reality features that Apple is particularly focusing on these days. According to Apple itself, this phone has a speed 50 times that of its version 12. The processor has a new modular design that has significantly reduced battery consumption, giving you greater battery life. The display quality on the iPhone 13 is 120 Hz and you will witness high quality. Apple has included a GPU in this series of its iPhone phones that is 30 percent faster than its series 12 phones, and this promises that you can run games with heavier and larger graphics and maps. One of the features we see in the iPhone 13 is its cinematic ProRes video recording system, which can revolutionize mobile phone videography. Not active phones become active by inserting internal SIM cards, and unlike the active model, the product seal is not broken. Active Apple brand phones are also like this because due to limitations on some Apple products for Iran, they are officially activated and sealed with a single insertion of a SIM card in neighboring countries, and you should know that this process does not cause any problems regarding the product warranty. European, Japanese, and UAE part numbers are single SIM, and UAE-related part numbers do not support FaceTime either. With the JA (Japan) part number, even in silent mode, the photo shutter sound cannot be muted."
+				},
+				"featureShow": {
+					"title": "View Product Review",
+					"send": "Free shipping available for this item",
+					"buy": {
+						"title": "Installment plan with SnappPay",
+						"description": "Buy in up to 4 interest-free installments",
+						"btn": "View Guide"
+					}
 				}
 			},
 			"reviews": {
@@ -5615,7 +3562,7 @@
 				"email": " Your Email ",
 				"smsNotification": "Send SMS to",
 				"phoneNumber": "Your Mobile Phone",
-				"message": " I-Shop Private Messaging System ",
+				"message": " niva Private Messaging System ",
 				"login": " Please log in to your account first"
 			},
 			"rattingSection": {
@@ -5685,148 +3632,38 @@
 			"productCard": [
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				}
 			],
 			"comentedLink": {
@@ -5936,8 +3773,7 @@
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
 
-					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-					"imgTwo": "1954.webp"
+					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Camera",
@@ -6015,119 +3851,31 @@
 				"productCards": [
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					}
 				]
 			}
@@ -6159,85 +3907,15 @@
 				"video": "Product Video",
 				"catalog": "Product Catalog"
 			},
-			"productGallerySlider": {
-				"sliderContents": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					},
-					{
-						"id": "slider3"
-					},
-					{
-						"id": "slider4"
-					},
-					{
-						"id": "slider5"
-					},
-					{
-						"id": "slider6"
-					},
-					{
-						"id": "slider7"
-					},
-					{
-						"id": "slider8"
-					},
-					{
-						"id": "slider9"
-					},
-					{
-						"id": "slider10"
-					}
-				],
-				"sliderToggles": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					},
-					{
-						"id": "slider3"
-					},
-					{
-						"id": "slider4"
-					},
-					{
-						"id": "slider5"
-					},
-					{
-						"id": "slider6"
-					},
-					{
-						"id": "slider7"
-					},
-					{
-						"id": "slider8"
-					},
-					{
-						"id": "slider9"
-					},
-					{
-						"id": "slider10"
-					}
-				]
-			},
 			"ratingCard": {
-				"rating": "3.5",
-				"ratingCount": "Number of Ratings ",
-				"ratingNumber": "4",
-				"numberPosative": "50",
-				"posative": "Positive",
-				"commentnumberposativde": "2 people",
-				"numberdisintersted": "25",
-				"disintersted": "Neutral",
-				"commentnumberdisintersted": "2 people",
-				"commentnumbernegative": "2 people",
-				"negative": "Negative",
-				"niumbernegative": "5",
+				"ratingCountText": "Number of Ratings ",
+
+				"positiveText": "Positive",
+				"suffixCountRatingComments": "people",
+
+				"neutralText": "Neutral",
+
+				"negativeText": "Negative",
 				"descriptionOne": "Total\n Product Reviews",
 				"descriptionTwo": "Total\n Product Reviews",
 				"descriptionThree": "Total\n Product Reviews"
@@ -6283,16 +3961,18 @@
 				"description": "Returning a product in the mobile category with a reason is only accepted if the product seal has not been opened. All Digikala phones have a registry guarantee. If there is a registry problem, you can return the purchased phone after the legal 30-day period."
 			},
 			"featureDescriptionBox": {
-				"banner": {
-					"viewFeature": "View Product Features",
-					"send": "Free Shipping for this product",
-					"btnView": "View Guide",
-					"pay": "Installment purchase of this product up to 4 installments",
-					"snappay": "Installment purchase with Snappay"
-				},
 				"text": {
 					"title": "View Product Features",
 					"description": "The iPhone 13 CH is Apple's new flagship mobile phone that has entered the market with several new features and a dual camera. The iPhone 13 display is equipped with a Super Retina panel to provide very desirable images to the user. This display has a very high resolution; so much so that in its 6.1-inch size, it packs about 460 pixels per inch. It is possible to charge the battery of this phone wirelessly. Face detection using the front camera is another feature used in the new Apple iPhone. In terms of hardware, this phone uses the new A15 chip, which has 15 billion transistors and offers desirable heat control so that, in addition to normal tasks, it can support new virtual reality features that Apple is particularly focusing on these days. According to Apple itself, this phone has a speed 50 times that of its version 12. The processor has a new modular design that has significantly reduced battery consumption, giving you greater battery life. The display quality on the iPhone 13 is 120 Hz and you will witness high quality. Apple has included a GPU in this series of its iPhone phones that is 30 percent faster than its series 12 phones, and this promises that you can run games with heavier and larger graphics and maps. One of the features we see in the iPhone 13 is its cinematic ProRes video recording system, which can revolutionize mobile phone videography. Not active phones become active by inserting internal SIM cards, and unlike the active model, the product seal is not broken. Active Apple brand phones are also like this because due to limitations on some Apple products for Iran, they are officially activated and sealed with a single insertion of a SIM card in neighboring countries, and you should know that this process does not cause any problems regarding the product warranty. European, Japanese, and UAE part numbers are single SIM, and UAE-related part numbers do not support FaceTime either. With the JA (Japan) part number, even in silent mode, the photo shutter sound cannot be muted."
+				},
+				"featureShow": {
+					"title": "View Product Review",
+					"send": "Free shipping available for this item",
+					"buy": {
+						"title": "Installment plan with SnappPay",
+						"description": "Buy in up to 4 interest-free installments",
+						"btn": "View Guide"
+					}
 				}
 			},
 			"reviews": {
@@ -6423,148 +4103,38 @@
 			"productCard": [
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				}
 			],
 			"comentedLink": {
@@ -6674,8 +4244,7 @@
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
 
-					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-					"imgTwo": "1954.webp"
+					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Camera",
@@ -6753,119 +4322,31 @@
 				"productCards": [
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					}
 				]
 			}
@@ -6897,85 +4378,15 @@
 				"video": "Product Video",
 				"catalog": "Product Catalog"
 			},
-			"productGallerySlider": {
-				"sliderContents": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					},
-					{
-						"id": "slider3"
-					},
-					{
-						"id": "slider4"
-					},
-					{
-						"id": "slider5"
-					},
-					{
-						"id": "slider6"
-					},
-					{
-						"id": "slider7"
-					},
-					{
-						"id": "slider8"
-					},
-					{
-						"id": "slider9"
-					},
-					{
-						"id": "slider10"
-					}
-				],
-				"sliderToggles": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					},
-					{
-						"id": "slider3"
-					},
-					{
-						"id": "slider4"
-					},
-					{
-						"id": "slider5"
-					},
-					{
-						"id": "slider6"
-					},
-					{
-						"id": "slider7"
-					},
-					{
-						"id": "slider8"
-					},
-					{
-						"id": "slider9"
-					},
-					{
-						"id": "slider10"
-					}
-				]
-			},
 			"ratingCard": {
-				"rating": "3.5",
-				"ratingCount": "Number of Ratings ",
-				"ratingNumber": "4",
-				"numberPosative": "50",
-				"posative": "Positive",
-				"commentnumberposativde": "2 people",
-				"numberdisintersted": "25",
-				"disintersted": "Neutral",
-				"commentnumberdisintersted": "2 people",
-				"commentnumbernegative": "2 people",
-				"negative": "Negative",
-				"niumbernegative": "5",
+				"ratingCountText": "Number of Ratings ",
+
+				"positiveText": "Positive",
+				"suffixCountRatingComments": "people",
+
+				"neutralText": "Neutral",
+
+				"negativeText": "Negative",
 				"descriptionOne": "Total\n Product Reviews",
 				"descriptionTwo": "Total\n Product Reviews",
 				"descriptionThree": "Total\n Product Reviews"
@@ -7021,16 +4432,18 @@
 				"description": "Returning a product in the mobile category with a reason is only accepted if the product seal has not been opened. All Digikala phones have a registry guarantee. If there is a registry problem, you can return the purchased phone after the legal 30-day period."
 			},
 			"featureDescriptionBox": {
-				"banner": {
-					"viewFeature": "View Product Features",
-					"send": "Free Shipping for this product",
-					"btnView": "View Guide",
-					"pay": "Installment purchase of this product up to 4 installments",
-					"snappay": "Installment purchase with Snappay"
-				},
 				"text": {
 					"title": "View Product Features",
 					"description": "The iPhone 13 CH is Apple's new flagship mobile phone that has entered the market with several new features and a dual camera. The iPhone 13 display is equipped with a Super Retina panel to provide very desirable images to the user. This display has a very high resolution; so much so that in its 6.1-inch size, it packs about 460 pixels per inch. It is possible to charge the battery of this phone wirelessly. Face detection using the front camera is another feature used in the new Apple iPhone. In terms of hardware, this phone uses the new A15 chip, which has 15 billion transistors and offers desirable heat control so that, in addition to normal tasks, it can support new virtual reality features that Apple is particularly focusing on these days. According to Apple itself, this phone has a speed 50 times that of its version 12. The processor has a new modular design that has significantly reduced battery consumption, giving you greater battery life. The display quality on the iPhone 13 is 120 Hz and you will witness high quality. Apple has included a GPU in this series of its iPhone phones that is 30 percent faster than its series 12 phones, and this promises that you can run games with heavier and larger graphics and maps. One of the features we see in the iPhone 13 is its cinematic ProRes video recording system, which can revolutionize mobile phone videography. Not active phones become active by inserting internal SIM cards, and unlike the active model, the product seal is not broken. Active Apple brand phones are also like this because due to limitations on some Apple products for Iran, they are officially activated and sealed with a single insertion of a SIM card in neighboring countries, and you should know that this process does not cause any problems regarding the product warranty. European, Japanese, and UAE part numbers are single SIM, and UAE-related part numbers do not support FaceTime either. With the JA (Japan) part number, even in silent mode, the photo shutter sound cannot be muted."
+				},
+				"featureShow": {
+					"title": "View Product Review",
+					"send": "Free shipping available for this item",
+					"buy": {
+						"title": "Installment plan with SnappPay",
+						"description": "Buy in up to 4 interest-free installments",
+						"btn": "View Guide"
+					}
 				}
 			},
 			"reviews": {
@@ -7162,148 +4575,38 @@
 			"productCard": [
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				}
 			],
 			"comentedLink": {
@@ -7413,8 +4716,7 @@
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
 
-					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-					"imgTwo": "1954.webp"
+					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Camera",
@@ -7492,119 +4794,31 @@
 				"productCards": [
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					}
 				]
 			}
@@ -7636,85 +4850,15 @@
 				"video": "Product Video",
 				"catalog": "Product Catalog"
 			},
-			"productGallerySlider": {
-				"sliderContents": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					},
-					{
-						"id": "slider3"
-					},
-					{
-						"id": "slider4"
-					},
-					{
-						"id": "slider5"
-					},
-					{
-						"id": "slider6"
-					},
-					{
-						"id": "slider7"
-					},
-					{
-						"id": "slider8"
-					},
-					{
-						"id": "slider9"
-					},
-					{
-						"id": "slider10"
-					}
-				],
-				"sliderToggles": [
-					{
-						"id": "slider1"
-					},
-					{
-						"id": "slider2"
-					},
-					{
-						"id": "slider3"
-					},
-					{
-						"id": "slider4"
-					},
-					{
-						"id": "slider5"
-					},
-					{
-						"id": "slider6"
-					},
-					{
-						"id": "slider7"
-					},
-					{
-						"id": "slider8"
-					},
-					{
-						"id": "slider9"
-					},
-					{
-						"id": "slider10"
-					}
-				]
-			},
 			"ratingCard": {
-				"rating": "3.5",
-				"ratingCount": "Number of Ratings ",
-				"ratingNumber": "4",
-				"numberPosative": "50",
-				"posative": "Positive",
-				"commentnumberposativde": "2 people",
-				"numberdisintersted": "25",
-				"disintersted": "Neutral",
-				"commentnumberdisintersted": "2 people",
-				"commentnumbernegative": "2 people",
-				"negative": "Negative",
-				"niumbernegative": "5",
+				"ratingCountText": "Number of Ratings ",
+
+				"positiveText": "Positive",
+				"suffixCountRatingComments": "people",
+
+				"neutralText": "Neutral",
+
+				"negativeText": "Negative",
 				"descriptionOne": "Total\n Product Reviews",
 				"descriptionTwo": "Total\n Product Reviews",
 				"descriptionThree": "Total\n Product Reviews"
@@ -7760,16 +4904,18 @@
 				"description": "Returning a product in the mobile category with a reason is only accepted if the product seal has not been opened. All Digikala phones have a registry guarantee. If there is a registry problem, you can return the purchased phone after the legal 30-day period."
 			},
 			"featureDescriptionBox": {
-				"banner": {
-					"viewFeature": "View Product Features",
-					"send": "Free Shipping for this product",
-					"btnView": "View Guide",
-					"pay": "Installment purchase of this product up to 4 installments",
-					"snappay": "Installment purchase with Snappay"
-				},
 				"text": {
 					"title": "View Product Features",
 					"description": "The iPhone 13 CH is Apple's new flagship mobile phone that has entered the market with several new features and a dual camera. The iPhone 13 display is equipped with a Super Retina panel to provide very desirable images to the user. This display has a very high resolution; so much so that in its 6.1-inch size, it packs about 460 pixels per inch. It is possible to charge the battery of this phone wirelessly. Face detection using the front camera is another feature used in the new Apple iPhone. In terms of hardware, this phone uses the new A15 chip, which has 15 billion transistors and offers desirable heat control so that, in addition to normal tasks, it can support new virtual reality features that Apple is particularly focusing on these days. According to Apple itself, this phone has a speed 50 times that of its version 12. The processor has a new modular design that has significantly reduced battery consumption, giving you greater battery life. The display quality on the iPhone 13 is 120 Hz and you will witness high quality. Apple has included a GPU in this series of its iPhone phones that is 30 percent faster than its series 12 phones, and this promises that you can run games with heavier and larger graphics and maps. One of the features we see in the iPhone 13 is its cinematic ProRes video recording system, which can revolutionize mobile phone videography. Not active phones become active by inserting internal SIM cards, and unlike the active model, the product seal is not broken. Active Apple brand phones are also like this because due to limitations on some Apple products for Iran, they are officially activated and sealed with a single insertion of a SIM card in neighboring countries, and you should know that this process does not cause any problems regarding the product warranty. European, Japanese, and UAE part numbers are single SIM, and UAE-related part numbers do not support FaceTime either. With the JA (Japan) part number, even in silent mode, the photo shutter sound cannot be muted."
+				},
+				"featureShow": {
+					"title": "View Product Review",
+					"send": "Free shipping available for this item",
+					"buy": {
+						"title": "Installment plan with SnappPay",
+						"description": "Buy in up to 4 interest-free installments",
+						"btn": "View Guide"
+					}
 				}
 			},
 			"reviews": {
@@ -7901,148 +5047,38 @@
 			"productCard": [
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				},
 				{
 					"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-					"enableLike": true,
-					"enableSwiper": false,
-					"point": 4.7,
+
 					"send": "Fast Shipping",
 					"price": "80,000,000",
-					"discountPercentage": "10",
-					"dataCountdown": "5:43:50",
-
-					"colors": [
-						{
-							"color": "#1544E3",
-							"enableBorder": false
-						},
-						{
-							"color": "#3EB580",
-							"enableBorder": false
-						},
-						{
-							"color": "#FFFFFF",
-							"enableBorder": true
-						},
-						{
-							"color": "#021959",
-							"enableBorder": false
-						}
-					]
+					"discountPercentage": "10"
 				}
 			],
 			"comentedLink": {
@@ -8152,8 +5188,7 @@
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
 
-					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-					"imgTwo": "1954.webp"
+					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Camera",
@@ -8231,119 +5266,31 @@
 				"productCards": [
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					},
 					{
 						"title": "Apple iPhone Pro Max Dual \nSIM Not Active",
-						"enableLike": true,
-						"enableSwiper": true,
-						"point": 4.7,
+
 						"send": "Fast Shipping",
 						"price": "80,000,000",
-						"discountPercentage": "10",
-						"dataCountdown": "5:43:50",
-
-						"colors": [
-							{
-								"color": "#1544E3",
-								"enableBorder": false
-							},
-							{
-								"color": "#3EB580",
-								"enableBorder": false
-							},
-							{
-								"color": "#FFFFFF",
-								"enableBorder": true
-							},
-							{
-								"color": "#021959",
-								"enableBorder": false
-							}
-						]
+						"discountPercentage": "10"
 					}
 				]
 			}
@@ -9934,8 +6881,7 @@
 		},
 		"login": {
 			"title": "Login | Register",
-			"loggedIn": true,
-			"name": "hossein kazemi",
+			"name": "user name",
 			"features": [
 				{
 					"title": "Full Name",
@@ -9991,7 +6937,7 @@
 			"product": {
 				"name": "Apple iPhone Pro Max Dual SIM Not Active"
 			},
-			"shairText": "a",
+			"shairText": "Share this product with your friends!",
 			"socialMediaOne": "Facebook",
 			"socialMediaTwo": "WhatsApp",
 			"socialMediaThree": "Telegram",
@@ -10003,8 +6949,7 @@
 			}
 		},
 		"videoProduct": {
-			"title": "Product Intro Video",
-			"video": "video.mp4"
+			"title": "Product Intro Video"
 		},
 		"chartProduct": {
 			"title": "Product Price Chart"

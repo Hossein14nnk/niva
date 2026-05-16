@@ -20,7 +20,7 @@
                             commentCount: mostViedBlogs[i].commentCount,
                             image: getMedia(lang, `articles/article-${i + 1}.webp`, 'images'),
                             link: mostViedBlogs[i].link,
-                            showViewAndReadingTime: mostViedBlogs[i].showViewAndReadingTime                  
+                            showViewAndReadingTime: true
                         }); -%>
                     <% } %>
                 </div>
@@ -157,7 +157,7 @@
                         commentCount: mostDiscussed[i].commentCount,
                         image: getMedia(lang, `articles/article-${i + 1}.webp`, 'images'),
                         link: mostDiscussed[i].link,
-                        showViewAndReadingTime: mostDiscussed[i].showViewAndReadingTime                  
+                        showViewAndReadingTime: true
                     }); -%>
                 <% } %>
             </article>
