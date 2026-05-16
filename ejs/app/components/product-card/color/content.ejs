@@ -1,6 +1,20 @@
+<%_ let colors = [
+	{
+		color: "#1544E3"
+	},
+	{
+		color: "#3EB580"
+	},
+	{
+		color: "#FFFFFF"
+	},
+	{
+		color: "#021959"
+	}
+]; -%>
 <div class="product-card <%= enableSwiper ? 'swiper-slide' : null %>">
 	<div class="logo-container">
-		<a class="logo" href="<%= t.company.logoImage.simple.link %>">
+		<a class="logo" href="<%= navigation(lang, 'index.html') %>">
 			<img class="w-100" src="<%= getMedia(lang, 'single/logo-web3.webp', 'images'); %>" alt="" />
 		</a>
 	</div>
@@ -11,9 +25,9 @@
 			</svg>
 		</div>
 		<div class="product-colors d-flex flex-column gap-1">
-			<% for(let i = 0; i < productCard.colors.length; i++){ %>
-				<%_ let enableBorder = productCard.colors[i].enableBorder ? "border-color bw-1 border-style-solid" : "" -%>
-				<span class="<%= enableBorder %>" style="background-color: <%= productCard.colors[i].color %>"></span>
+			<% for(let i = 0; i < colors.length; i++){ %>
+				<%_ let enableBorder = (typeof colors[i].enableBorder != 'undefined' && enableBorder == true) ? "border-color bw-1 border-style-solid" : "" -%>
+				<span class="<%= enableBorder %>" style="background-color: <%= colors[i].color %>""></span>
 			<% } %>
 		</div>
 		<a href="#" class="image-box">

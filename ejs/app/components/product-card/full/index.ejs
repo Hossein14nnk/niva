@@ -1,7 +1,7 @@
 <%- include('../../../layouts/component/head.ejs', {pageName: "product-card - full", level: 1}); %>
 
 <div class="d-grid grid-4">
-    <%- include('content.ejs', {productCard: t.components.productCard, image: getMedia(lang, "products/mobile-1.webp", "images")}); %>
+    <%- include('content.ejs', {productCard: t.components.productCard, image: getMedia(lang, "products/mobile-1.webp", "images"), dataCountdown: "5:03:50:1", enableSwiper: true, enableLike: true, enableColors: true}); %>
 </div>
 
 <%- include('../../../layouts/component/foot.ejs'); %>

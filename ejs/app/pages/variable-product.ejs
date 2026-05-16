@@ -71,7 +71,7 @@
 								<% } %>
 							</div>
 							<%- include('../components/feature-description-box/text/content.ejs', {text: t.pages.variableProduct.featureDescriptionBox.text}); %>
-							<%- include('../components/feature-description-box/banner/content.ejs', {banner: t.pages.variableProduct.featureDescriptionBox.banner, image: getMedia(lang, 'single/snapp-pay.webp', 'images')}); %>
+							<%- include('../components/feature-description-box/feature-show/content.ejs', {featureShow: t.pages.variableProduct.featureDescriptionBox.featureShow, image: getMedia(lang, 'single/snapp-pay.webp', 'images')}); %>
 							<%- include('../components/return-conditions/content.ejs', {returnConditions: t.pages.variableProduct.returnConditions}); %>
 						</div>
 					</div>
@@ -117,7 +117,7 @@
 								<div class="offer-card-content">
 									<div class="swiper-wrapper">
 										<%_ for(let i = 0; i < t.pages.variableProduct.cardContainer.productCards.length; i++) { -%>
-											<%- include('../components/product-card/full/content.ejs', {productCard: t.pages.variableProduct.cardContainer.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
+											<%- include('../components/product-card/full/content.ejs', {productCard: t.pages.variableProduct.cardContainer.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images"), dataCountdown: "5:03:50:1", enableSwiper: true, enableLike: true, enableColors: true}); %>
 										<%_ } -%>
 									</div>
 								</div>

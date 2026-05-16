@@ -1,6 +1,6 @@
 <div class="cargofree d-flex flex-column gap-5">
     <div class="d-flex w-100 align-items-center justify-content-space-between">
-        <span class="txt-size-big secondary-text-color"><%= banner.viewFeature %></span>
+        <span class="txt-size-big secondary-text-color"><%= featureShow.title %></span>
         <div class="w-50 bt-style-solid bw-1 border-color"></div>
         <a href=""> <svg xmlns=" http://www.w3.org/2000/svg " width="12 " height="3 " viewBox="0 0 12 3 " fill="none ">
                 <path d="M12 1.5C12 2.32843 11.3284 3 10.5 3C9.67157 3 9 2.32843 9 1.5C9 0.671573 9.67157 0 10.5 0C11.3284 0 12 0.671573 12 1.5Z " fill="#BFC5D5 "></path>
@@ -90,13 +90,13 @@
                 </linearGradient>
             </defs>
         </svg>
-        <p class="text-color font-weight-bold txt-size-title"><%= banner.send %></p>
+        <p class="text-color font-weight-bold txt-size-title"><%= featureShow.send %></p>
     </div>
     <div class="d-flex align-items-center text-wrap bg-secondary-color px-8 py-8 radius-all-medium gap-3 justify-content-space-between">
         <div class="d-flex flex-column txt-size-normal align-items-start gap-2">
-            <span class="font-weight-bold text-color"><%= banner.snappay %></span>
-            <span class="txt-size-high-title font-weight-bold text-color line-height-3"><%= banner.pay %></span>
-            <a style="background-color: #0087f8;" class="font-weight-bold secondary-color txt-size-title px-2 py-2 radius-all-small "><%= banner.btnView %></a>
+            <span class="font-weight-bold text-color"><%= featureShow.buy.title %></span>
+            <span class="txt-size-high-title font-weight-bold text-color line-height-3"><%= featureShow.buy.description %></span>
+            <a style="background-color: #0087f8;" class="font-weight-bold secondary-color txt-size-title px-2 py-2 radius-all-small "><%= featureShow.buy.btn %></a>
         </div>
         <img src="<%= image %>" alt="">
     </div>

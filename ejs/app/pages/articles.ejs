@@ -26,7 +26,7 @@
                         commentCount: articles.components[i].commentCount,
                         image: getMedia(lang, `articles/article-${i + 1}.webp`, "images"),
                         link: navigation(lang,"article.html"),
-                        showViewAndReadingTime: articles.components[i].showViewAndReadingTime                  
+                        showViewAndReadingTime: true
                     }); -%>
                 <% } %>
             </article>
