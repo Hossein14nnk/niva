@@ -288,7 +288,7 @@ const componentJson = {
     ],
     "lovely-product": [
         {
-            "code": "<div class=\"card\">\r\n      <div>\r\n         <span class=\"topic\">محصولات مورد علاقه‌ات را از دست نده!</span>\r\n         <span class=\"description\">قیمت ها ممکنه تغییر کنن. زودتر خریدت رو نهایی کن</span>\r\n         <a class=\"button\" href=\"#\">\r\n            <i class=\"fa-solid fa-cart-shopping\"></i>\r\n            <span>مشاهده سبد خرید</span>\r\n         </a>\r\n      </div>\r\n      <img src=\"./assets/media/images/fa/pannels/pannel(1).webp\">\r\n\r\n   </div>",
+            "code": "<div class=\"card\">\r\n      <div class=\"flex-column justify-content-center\">\r\n         <span class=\"topic\">محصولات مورد علاقه‌ات را از دست نده!</span>\r\n        <div class=\"d-flex flex-row\">\r\n            <a class=\"button\" href=\"#\">\r\n               <i class=\"fa-solid fa-cart-shopping\"></i>\r\n               <span>مشاهده سبد خرید</span>\r\n            </a>\r\n            <p class=\"description\">قیمت ها ممکنه تغییر کنن. زودتر خریدت رو نهایی کن</p>\r\n        </div>\r\n      </div>\r\n      <img src=\"./assets/media/images/fa/pannels/pannel(1).webp\">\r\n\r\n   </div>",
             "icon": "",
             "category": "pannel"
         }

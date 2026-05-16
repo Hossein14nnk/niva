@@ -1,10 +1,12 @@
-<%- include('../layouts/page/head.ejs', {pageName: "articles"}); -%>
+<%- include('../layouts/page/head.ejs', {pageName: "offer"}); -%>
 		<main>
 			<section id="offer-wrapper" class="section align-items-center justify-content-start gap-8">
 				<p class="text-color txt-size-title font-weight-bold align-self-start"><%= t.pages.offer.offerWrapper.number %> <span class="on-secondary-color font-weight-bold opacity-5 pr-1"><%= t.pages.offer.offerWrapper.title %></span></p>
 				<div class="container d-grid grid-4 gap-3 w-100 grid-lg-3 grid-sm-2 align-items-stretch">
 					<% for(let i = 0; i < t.pages.offer.components.productCards.length; i++) { -%>
-						<%- include('../components/product-card/full/content.ejs', {productCard: t.pages.offer.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
+						<%- include('../components/product-card/full/content.ejs', {
+							productCard: t.pages.offer.components.productCards[i],
+							image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
 					<%_ } -%>
 				</div>
 				<a href="<%- navigation(lang , 'index.html') %>" class="bg-btn-hover on-primary-color py-3 px-6 radius-all-small txt-size-title font-weight-bold align-self-center bg-primary-color"><%= t.pages.offer.offerWrapper.button %></a>
