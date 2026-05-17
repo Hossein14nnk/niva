@@ -1,0 +1,18 @@
+@use "../../../../sass/kernel/" as *;
+
+.ticket-information {
+    box-shadow: 0 0 10px 0 #cacaca;
+}
+
+.ticket-information .profile-box {
+    width: 70px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.ticket-information .profile-box>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

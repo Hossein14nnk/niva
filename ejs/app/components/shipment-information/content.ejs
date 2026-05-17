@@ -1,0 +1,30 @@
+<div class="shipment-information d-flex flex-column align-items-start gap-2 px-3 py-3 radius-all-medium">
+    <div class="d-flex flex-row gap-1 align-items-center">
+        <i class="fa-regular fa-box-open"></i>
+        <h3 class="txt-size-title font-weight-bold"><%= shipmentInformation.title %></h3>
+    </div>
+    <div class="d-flex flex-column align-items-start gap-1">
+        <span class="txt-size-normal font-weight-bold"><%= shipmentInformation.information.keyOne %></span>
+        <span class="secondary-text-color txt-size-normal font-weight-bold"><%= shipmentInformation.information.valueOne %></span>
+    </div>
+    <div class="d-flex flex-column align-items-start gap-1">
+        <span class="txt-size-normal font-weight-bold"><%= shipmentInformation.information.keyTwo %></span>
+        <span class="secondary-text-color txt-size-normal font-weight-bold"><%= shipmentInformation.information.valueTwo %></span>
+    </div>
+    <div class="d-flex flex-column align-items-start gap-1">
+        <span class="txt-size-normal font-weight-bold"><%= shipmentInformation.information.keyThree %></span>
+        <span class="secondary-text-color txt-size-normal font-weight-bold"><%= shipmentInformation.information.valueThree %></span>
+    </div>
+    <div class="d-flex flex-column align-items-start gap-1">
+        <span class="txt-size-normal font-weight-bold"><%= shipmentInformation.information.keyFour %></span>
+        <span class="secondary-text-color txt-size-normal font-weight-bold"><%= shipmentInformation.information.valueFour %></span>
+    </div>
+    <div class="d-flex flex-column align-items-start gap-1">
+        <span class="txt-size-normal font-weight-bold"><%= shipmentInformation.information.keyFive %></span>
+        <span class="secondary-text-color txt-size-normal font-weight-bold"><%= shipmentInformation.information.valueFive %></span>
+    </div>
+    <button class="w-100 py-2 bw-1 border-primary-color border-style-solid radius-all-small d-flex align-items-center justify-content-center gap-1 bg-transparent-color">
+        <i class="fa-regular fa-truck primary-color"></i>
+        <span class="primary-color txt-size-normal font-weight-bold"><%= shipmentInformation.btnText %></span>
+    </button>
+</div>
