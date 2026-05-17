@@ -8,12 +8,12 @@
 						<span class="txt-size-normal secondary-text-color"><%= t.pages.shop.archiveHeader.title %></span>
 					</div>
 				</div>
-				<span class="txt-size-normal secondary-text-color font-weight-bold"> <%= t.pages.shop.archiveHeader.number %></span>
+				<span class="txt-size-normal secondary-text-color font-weight-bold">3</span>
 			</div>
 			<section id="category" class="section w-100 align-items-start pb-4 pt-5 overflow-x-scroll">
 				<div class="container flex-row justify-content-start align-items-center gap-3">
 					<% for(let i = 0; i < t.pages.shop.components.category.categoryCards.labeledCards.length; i++) { -%>
-						<%- include('../components/category-card/labeled-card/content.ejs', {labeledCard:  t.pages.shop.components.category.categoryCards.labeledCards[i]}); %>
+						<%- include('../components/category-card/labeled-card/content.ejs', {labeledCard:  t.pages.shop.components.category.categoryCards.labeledCards[i], image: getMedia(lang, `categories/category-${i + 1}.webp`, "images")}); %>
 					<%_ } -%>
 				</div>
 			</section>
@@ -34,7 +34,7 @@
 										<div class="div align-items-center justify-content-space-between py-3 w-100">
 											<p class="txt-size-mid-title text-color font-weight-bold"><%= t.pages.shop.aside.filters.color.title %></p>
 											<div class="div align-items-center gap-4">
-												<p class="txt-size-mid-title text-color font-weight-bold"><%= t.pages.shop.aside.filters.color.number %></p>
+												<p class="txt-size-mid-title text-color font-weight-bold">5</p>
 												<div class="vertical-line"></div>
 												<i class="fa-solid fa-chevron-down chevron-down font-weight-bold txt-size-big on-secondary-color"></i>
 											</div>
@@ -95,7 +95,7 @@
 										<div class="div align-items-center justify-content-space-between py-3 w-100">
 											<p class="txt-size-mid-title text-color font-weight-bold"><%= t.pages.shop.aside.filters.brand.title %></p>
 											<div class="div align-items-center gap-4">
-												<p class="txt-size-mid-title text-color font-weight-bold"><%= t.pages.shop.aside.filters.brand.number %></p>
+												<p class="txt-size-mid-title text-color font-weight-bold">6</p>
 												<div class="vertical-line"></div>
 												<div class="div justify-content-center align-items-center">
 													<i class="fa-solid fa-chevron-down chevron-down font-weight-bold txt-size-big on-secondary-color"></i>
@@ -110,63 +110,63 @@
 													<input type="checkbox" id="blue-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.brand.list[0].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.brand.list[0].num %></p>
+												<p class="secondary-text-color txt-size-normal">0</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="red-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.brand.list[1].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.brand.list[1].num %></p>
+												<p class="secondary-text-color txt-size-normal">1</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="yellow-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.brand.list[2].item %> </span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.brand.list[2].num %></p>
+												<p class="secondary-text-color txt-size-normal">2</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="green-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.brand.list[3].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.brand.list[3].num %></p>
+												<p class="secondary-text-color txt-size-normal">3</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="white-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.brand.list[4].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.brand.list[4].num %></p>
+												<p class="secondary-text-color txt-size-normal">4</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="black-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.brand.list[5].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.brand.list[5].num %></p>
+												<p class="secondary-text-color txt-size-normal">5</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="white-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.brand.list[6].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.brand.list[6].num %></p>
+												<p class="secondary-text-color txt-size-normal">6</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="white-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"> <%= t.pages.shop.aside.filters.brand.list[7].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.brand.list[7].num %></p>
+												<p class="secondary-text-color txt-size-normal">7</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="white-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"> <%= t.pages.shop.aside.filters.brand.list[8].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.brand.list[8].num %></p>
+												<p class="secondary-text-color txt-size-normal">8</p>
 											</div>
 										</div>
 									</div>
@@ -180,7 +180,7 @@
 										<div class="div align-items-center justify-content-space-between py-3 w-100">
 											<p class="txt-size-mid-title text-color font-weight-bold"> <%= t.pages.shop.aside.filters.category.title %></p>
 											<div class="div align-items-center gap-4">
-												<p class="txt-size-mid-title text-color font-weight-bold"><%= t.pages.shop.aside.filters.category.number %></p>
+												<p class="txt-size-mid-title text-color font-weight-bold">4</p>
 												<div class="vertical-line"></div>
 												<div class="div justify-content-center align-items-center">
 													<i class="fa-solid fa-chevron-down chevron-down font-weight-bold txt-size-big on-secondary-color"></i>
@@ -195,70 +195,70 @@
 													<input type="checkbox" id="blue-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.category.list[0].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.category.list[0].num %></p>
+												<p class="secondary-text-color txt-size-normal">0</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="red-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.category.list[1].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.category.list[1].num %></p>
+												<p class="secondary-text-color txt-size-normal">1</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="yellow-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.category.list[2].item %> </span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.category.list[2].num %></p>
+												<p class="secondary-text-color txt-size-normal">2</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="green-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.category.list[3].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.category.list[3].num %></p>
+												<p class="secondary-text-color txt-size-normal">3</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="white-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.category.list[4].item %> </span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.category.list[4].num %></p>
+												<p class="secondary-text-color txt-size-normal">4</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="black-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.category.list[5].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.category.list[5].num %></p>
+												<p class="secondary-text-color txt-size-normal">5</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="white-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"> <%= t.pages.shop.aside.filters.category.list[6].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.category.list[6].num %></p>
+												<p class="secondary-text-color txt-size-normal">6</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="white-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"> <%= t.pages.shop.aside.filters.category.list[7].item %> </span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.category.list[7].num %></p>
+												<p class="secondary-text-color txt-size-normal">7</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="white-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color">  <%= t.pages.shop.aside.filters.category.list[8].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.category.list[8].num %></p>
+												<p class="secondary-text-color txt-size-normal">8</p>
 											</div>
 											<div class="div align-items-center justify-content-space-between">
 												<div class="div align-items-center gap-3">
 													<input type="checkbox" id="white-color" class="color-alarm" />
 													<span class="txt-size-normal font-weight-bold text-color"><%= t.pages.shop.aside.filters.category.list[9].item %></span>
 												</div>
-												<p class="secondary-text-color txt-size-normal"><%= t.pages.shop.aside.filters.category.list[9].num %></p>
+												<p class="secondary-text-color txt-size-normal">9</p>
 											</div>
 										</div>
 									</div>
@@ -400,7 +400,7 @@
 						<div class="div page one d-grid grid-3 gap-4 grid-xl-3 grid-lg-2 grid-md-2 align-items-stretch">
 
 							<% for(let i = 0; i < t.pages.shop.components.productCards.length; i++) { -%>
-								<%- include('../components/product-card/full/content.ejs', {productCard: t.pages.shop.components.productCards[i], image: getMedia(lang, `products/mobile-${i + 1}.webp`, "images")}); %>
+								<%- include('../components/product-card/full/content.ejs', {productCard: t.pages.shop.components.productCards[i], image: getMedia(lang, `products/laptop-${i + 1}.webp`, "images"), dataCountdown: "5:03:50:1", enableSwiper: true, enableLike: true, enableColors: true}); %>
 							<%_ } -%>
 
 						</div>
@@ -430,13 +430,5 @@
 			</section>
 		</main>
 
-		
-
-		
-
-		<script src="../assets/vendors/swiper/swiper-bundle-min.js"></script>
-		<script src="../assets/js/mizchin.min.js"></script>
-		<script src="../assets/js/header.js"></script>
-	<%- include('../layouts/page/dialog.ejs'); %>
+<%- include('../layouts/page/dialog.ejs'); %>
 <%- include('../layouts/page/foot.ejs'); %>
-

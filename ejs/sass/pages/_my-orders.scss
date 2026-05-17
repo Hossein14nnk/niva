@@ -5,11 +5,11 @@
 #my-orders .box-shadow{
     box-shadow: 0px 0px 7px var(--shadow);
 }
-
-@media screen and (width < 1400px) {
-    #my-orders .grid-template {
+#my-orders .grid-template {
     grid-template-columns: 1fr 4fr;
 }
+
+@media screen and (width < 1400px) {    
 }
 
 @media screen and (width < 1200px) {

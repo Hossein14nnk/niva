@@ -1918,11 +1918,18 @@ header .profile > div {
   box-shadow: 0px 0px 7px var(--shadow);
 }
 
+<<<<<<< HEAD
 @media screen and (width < 1400px) {
   #my-orders .grid-template {
     grid-template-columns: 1fr 4fr;
   }
 }
+=======
+#my-orders .grid-template {
+  grid-template-columns: 1fr 4fr;
+}
+
+>>>>>>> 36c0d5ace84558ff7d34d12a6f50cc699dba7894
 @media screen and (width < 1200px) {
   #my-orders .grid-template {
     grid-template-columns: 1fr 3fr;
@@ -1938,6 +1945,7 @@ header .profile > div {
     grid-template-columns: 1fr;
   }
 }
+<<<<<<< HEAD
 #my-address .box-shadow {
   box-shadow: 0px 0px 7px var(--shadow);
 }
@@ -1953,16 +1961,45 @@ header .profile > div {
 }
 @media screen and (width < 1200px) {
   #my-address.grid-template {
+=======
+#my-orders .switcher.active {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+#my-orders .box-shadow {
+  box-shadow: 0px 0px 7px var(--shadow);
+}
+
+#my-orders .grid-template {
+  grid-template-columns: 1fr 4fr;
+}
+
+.contaner-feature {
+  grid-template-columns: 2fr 1fr;
+}
+
+@media screen and (width < 1200px) {
+  #my-orders .grid-template {
+>>>>>>> 36c0d5ace84558ff7d34d12a6f50cc699dba7894
     grid-template-columns: 1fr 3fr;
   }
 }
 @media screen and (width < 768px) {
+<<<<<<< HEAD
   #my-address.grid-template {
+=======
+  #my-orders .grid-template {
+>>>>>>> 36c0d5ace84558ff7d34d12a6f50cc699dba7894
     grid-template-columns: 1fr 2fr;
   }
 }
 @media screen and (width < 576px) {
+<<<<<<< HEAD
   #my-address.grid-template {
+=======
+  #my-orders .grid-template {
+>>>>>>> 36c0d5ace84558ff7d34d12a6f50cc699dba7894
     grid-template-columns: 1fr;
   }
 }
