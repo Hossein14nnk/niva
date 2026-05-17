@@ -802,28 +802,47 @@
 		}, 
 		"pannel": {
 			"lovelyProduct": {
-				"topic" : "Don't miss out on your favorite products!",
-				"description" : "Prices may change. Finalize your purchase soon",
-				"btn" : "View Cart"
+				"topic": "Don't miss out on your favorite products!",
+				"description": "Prices may change. Finalize your purchase soon",
+				"btn": "View cart"
 			},
 			"featurs": [
 				{
-					"title" : "7-Day Money Back Guarantee",
-					"subtitle" : "Risk-Free Purchase"
+					"title": "7-day return guarantee",
+					"subtitle": "Risk-free purchase"
 				},
 				{
-					"title" : "Guaranteed Authenticity",
-					"subtitle" : "Safe and Secure Purchase"
+					"title": "Guaranteed authenticity",
+					"subtitle": "Safe and secure purchase"
 				},
 				{
-					"title" : "Fast Shipping",
-					"subtitle" : "Nationwide"
+					"title": "Fast shipping",
+					"subtitle": "Nationwide"
 				},
 				{
-					"title" : "24-Hour Support",
-					"subtitle" : "We Are Always With You"
+					"title": "24-hour support",
+					"subtitle": "We are always with you"
 				}
-			]
+			],
+			"ticket":
+					{
+						"subject": "Problem with payment for order",
+						"ticket": "#TK-12350255",
+						"gategory": {
+						"icon": "fa-cart-shopping",
+						"txt": "Order and Payment"
+					},
+						"status": "Awaiting response",
+						"response": {
+						"agent": "-",
+						"date": ""
+					},
+						"time": {
+						"dayTime": "1401/04/25",
+						"houre": "16:45"
+					},
+					"button": "View Ticket"
+				}
 		}
 	},
 	"pages": {
@@ -8590,7 +8609,291 @@
 					}
 				]
 			}
+		},
+		"adminPnnel" : {
+			"title" : "User Dashboard",
+			"subtitle" : "Welcome to your user panel.",
+			"table": {
+			"fillttes" :{
+			"title": "Order Number",
+			"subtitle" : "Registration Date"
+			},
+			"topics" :{
+				"orderNumber": "Order Number",
+				"date" : "Registration Date",
+				"price": "Amount",
+				"status": "Status",
+				"btn": {
+				"txt": "View Details"
+				}
+			},
+			"items" : [
+				{
+				"orderNumber": "1235889",
+				"date" : "1401/10/12",
+				"price": "2,450,000Toman",
+				"status": "Delivered",
+				"btn": {
+					"txt": "View Details"
+					}
+				},
+				{
+				"orderNumber": "1235888",
+				"date" : "1401/10/10",
+				"price": "1,480,000Toman",
+				"status": "Sent",
+				"btn": {
+					"txt": "View details"
+					}
+				},
+				{
+				"orderNumber": "1235887",
+				"date" : "1401/10/10",
+				"price": "3,750,000Toman",
+				"status": "Processing",
+				"btn": {
+					"txt": "View details"
+					}
+				}	
+			]
+		},
+		"offerCard" : {
+			"title" : "Your exclusive discount code",
+			"subtitle" : "Enjoy special discounts for loyal customers"
+			}
+		},
+
+
+		"ticketsSuporting" : {
+			"title" : "Tickets and Support",
+			"subtitle" : "Your tickets and support request status",
+			"table": {
+				"fillttes" :
+					{
+					"all": {
+					"txt" : "All tickets",
+					"num" : "12"
+					},
+					"expectant": {
+					"txt" : "Awaiting response",
+					"num" : "3"
+					},
+					"responsed": {
+					"txt": "Order and payment",
+					"num": "fa-cart-shopping"
+					},
+					"closed": {
+					"txt": "Order and payment",
+					"num": "fa-cart-shopping"
+					}
+					},
+				"topics" :
+					{
+					"subject": "Topic",
+					"tk": "Ticket",
+					"category": "Category",
+					"status": "Status",
+					"response": "Last response",
+					"time": "Created date"
+					},
+				"item" : [
+						{
+						"subject": "Problem with payment for order",
+						"tk": "#TK-12350255",
+						"gategory": {
+						"icon": "fa-cart-shopping",
+						"txt": "Order and payment"
+						},
+						"status": "Awaiting response",
+						"response": {
+						"agent": "-",
+						"date": ""
+						},
+						"time": {
+						"dayTime": "1401/04/25",
+						"houre": "16:45"
+						},
+						"button": "View ticket"
+						},
+						{
+						"subject": "Question about shipping time",
+						"tk": "#TK-12350254",
+						"gategory": {
+						"icon": "fa-cart-shopping",
+						"txt": "Shipping and delivery"
+						},
+						"status": "Answered",
+						"response": {
+						"agent": "Amir Rezaei",
+						"date": "1402/02/02 - 14:25"
+						},
+						"time": {
+						"dayTime": "1401/02/04",
+						"houre": "14:25"
+						},
+						"button": "View Ticket"
+						},
+						{
+						"subject": "Return Request",
+						"tk": "#TK-12350253",
+						"category": {
+						"icon": "fa-cart-shopping",
+						"txt": "Returns and Returns"
+						},
+						"status": "Awaiting Response",
+						"response": {
+						"agent": "-",
+						"date": ""
+						},
+						"time": {
+						"dayTime": "1401/04/25",
+						"houre": "16:45"
+						},
+						"button": "View Ticket"
+						},
+						{
+						"subject": "Problem Logging Into Account",
+						"tk": "#TK-12350252",
+						"category": {
+						"icon": "fa-cart-shopping",
+						"txt": "Account"
+						},
+						"status": "Closed",
+						"response": {
+						"agent": "Support Team",
+						"date": "17:00 - 1401/04/11"
+						},
+						"time": {
+						"dayTime": "1401/04/11",
+						"houre": "16:45"
+						},
+						"button": "View Ticket"
+						},
+						{
+						"subject": "Question about product",
+						"tk": "#TK-12350251",
+						"gategory": {
+						"icon": "fa-cart-shopping",
+						"txt": "Product Information"
+						},
+						"status": "Answered",
+						"response": {
+						"agent": "Amir Rezaei",
+						"date": "10:00 - 1401/03/18"
+						},
+						"time": {
+						"dayTime": "1401/03/17",
+						"houre": "16:45"
+						},
+						"button": "View Ticket"
+						}
+					],
+				"newTickets" : {
+					"title" : "Have a question?",
+					"subtitle" : "Didn't find your answer? Submit a new ticket and we'll get back to you as soon as possible.",
+					"btn": "Submit a new ticket"
+				}
+			}
+		},
+
+
+
+		"allOrders" : {
+			"fillttes" :
+				{
+				"all": "All orders",
+				"expectant": "Awaiting payment",
+				"processing": "Processing",
+				"sended": "Sent",
+				"deliverd": "Delivered",
+				"canceld": "Cancelled"
+				},
+			"topics" :
+				{
+				"subject": "Topic",
+				"date": "Registration date",
+				"price": "Amount",
+				"status": "Status",
+				"pay-way": "Payment method",
+				"count": "Number of products",
+				"function": "Operation"
+				},
+			"table": {
+				"item": [
+					{
+					"orderNumber": "1235889",
+					"date" : "1401/10/12",
+					"price": "2,450,000Toman",
+					"status": "Delivered",
+					"pay-way": "Bank transfer",
+					"count": "3 products",
+					"btn": {
+					"txt": "View details"
+					}
+					},
+					{
+					"orderNumber": "1235888",
+					"date" : "1401/10/10",
+					"price": "1,480,000Toman",
+					"status": "Sent",
+					"pay-way": "Pay on site",
+					"count": "1 product",
+					"btn": {
+					"txt": "View details"
+					}
+					},
+					{
+					"orderNumber": "1235887",
+					"date" : "1401/10/10",
+					"price": "3,750,000Toman",
+					"status": "Processing",
+					"pay-way": "Wallet",
+					"count": "2 products",
+					"btn": {
+					"txt": "View details"
+					}
+					},
+					{
+					"orderNumber": "1235886",
+					"date" : "1401/10/8",
+					"price": "2,450,000Toman",
+					"status": "Awaiting payment",
+					"pay-way": "Bank transfer",
+					"count": "4 products",
+					"btn": {
+					"txt": "View details"
+					}
+					},
+					{
+					"orderNumber": "1235885",
+					"date" : "1401/10/5",
+					"price": "990,000Toman",
+					"status": "Cancelled",
+					"pay-way": "Wallet",
+					"count": "2 products",
+					"btn": {
+					"txt": "View details"
+					}
+					},
+					{
+					"orderNumber": "1235884",
+					"date" : "1401/10/1",
+					"price": "1,450,000Toman",
+					"status": "Delivered",
+					"pay-way": "Bank transfer",
+					"count": "1 product",
+					"btn": {
+					"txt": "View details"
+					}
+					}
+				]
+			}
 		}
+
+
+
+
+
 	},
 	"header": {
 		"search": {

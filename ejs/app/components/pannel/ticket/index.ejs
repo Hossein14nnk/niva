@@ -1,0 +1,21 @@
+<%- include('../../../layouts/component/head.ejs' , {pageName : "ticket", level : 1}); -%>
+
+<div class="d-grid grid-2">
+       <%- include('content.ejs'  , 
+       {
+        subject : t.components.pannel.ticket.subject ,
+        ticket : t.components.pannel.ticket.ticket ,
+        txt : t.components.pannel.ticket.gategory.txt ,
+        status : t.components.pannel.ticket.status ,
+        agent : t.components.pannel.ticket.response.agent ,
+        date : t.components.pannel.ticket.response.date ,
+        dayTime : t.components.pannel.ticket.time.dayTime ,
+        houre : t.components.pannel.ticket.time.houre ,
+        button : t.components.pannel.ticket.button 
+       }); -%>
+       
+</div>
+
+<%- include('../../../layouts/component/foot.ejs'); -%>
+
+

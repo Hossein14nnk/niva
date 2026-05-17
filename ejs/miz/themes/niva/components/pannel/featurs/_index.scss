@@ -22,9 +22,9 @@
             }
         }
 
-        img {
+        .fa-solid {
             width: 40px;
-            @extend .radius-all-normal , .py-1 , .px-1 , .d-flex , .justify-content-center , .align-items-center , .bg-primary-light-color , .border-primary-dark-color , .bw-1 , .border-style-solid ;
+            @extend .radius-all-normal , .py-1 , .px-1 , .d-flex , .justify-content-center , .align-items-center , .bg-primary-light-color , .border-primary-dark-color , .bw-1 , .border-style-solid , .aspect-ratio-1x1 , .primary-dark-color ;
         }
 
     } 
@@ -34,5 +34,13 @@
         background: var(--border);
         
     }
+
+    
     
 }
+
+@media screen and (width < 576px) {
+        #my-orders .grid-template {
+            grid-template-columns: 1fr;
+        }
+    }
