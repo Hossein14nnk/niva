@@ -1,0 +1,115 @@
+<%- include('../layouts/page/head.ejs', {pageName: "ticket-details" , header: false}); -%>
+
+    <main id="ticket-details">
+        <section id="" class="section box gap-10 align-items-start d-grid grid-template">
+            <aside class="d-grid grid-1 gap-6">
+                <%- include('../components/ticket-information/content.ejs', {ticketInformation: t.components.ticketInformation}); -%>
+                <%- include('../components/ticket-access/content.ejs', {ticketAccess: t.components.ticketAccess}); -%>
+            </aside>
+            <div class="container gap-6">
+                <div class="block w-100 flex-row align-items-stretch justify-content-space-between">
+                    <div class="d-flex flex-column gap-2">
+                        <div class="d-flex flex-row gap-1 align-items-center">
+                            <i class="fa-regular fa-headset txt-size-mid-title"></i>
+                            <h3 class="font-weight-semi-bold txt-size-high-title"><%= t.pages.ticketDetails.title %></h3>
+                        </div>
+                        <span class="txt-size-title secondary-text-color font-weight-semi-bold"><%= t.pages.ticketDetails.subtitle %></span>
+                    </div>
+                    <div class="d-flex flex-column justify-content-space-between align-items-start w-fit-content">
+                        <span class="txt-size-normal secondary-text-color font-weight-semi-bold"><%= t.pages.ticketDetails.category %></span>
+                        <a href="#" class="d-flex flex-row align-items-center gap-2 bw-1 border-style-solid px-2 py-1 radius-all-small">
+                            <span class="txt-size-big font-weight-medium"><%= t.pages.ticketDetails.backToListBtn %></span>
+                            <i class="fa-regular fa-arrow-left pb-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="box-shadow block flex-column w-100 radius-all-medium px-6 py-6 gap-6 w-100">
+                    <div class="div d-grid grid-3 w-100 bb-style-solid bw-1 pb-5 border-color">
+                        <div class="div flex-column gap-1 align-items-start">
+                            <span class="secondary-text-color txt-size-title font-weight-semi-bold"><%= t.pages.ticketDetails.ticketInformation.keyOne %></span>
+                            <span class="txt-size-big font-weight-medium"><%= t.pages.ticketDetails.ticketInformation.valueOne %></span>
+                        </div>
+                        <div class="div flex-column gap-1 align-items-start">
+                            <span class="secondary-text-color txt-size-title font-weight-semi-bold"><%= t.pages.ticketDetails.ticketInformation.keyTwo %></span>
+                            <span class="txt-size-big font-weight-medium"><%= t.pages.ticketDetails.ticketInformation.valueTwo %></span>
+                        </div>
+                        <div class="div flex-column align-items-start">
+                            <span class="secondary-text-color txt-size-title font-weight-semi-bold"><%= t.pages.ticketDetails.ticketInformation.keyThree %></span>
+                            <span class="px-2 py-1 radius-all-extra-small bw-1 border-style-solid txt-size-big font-weight-bold bg-warning-light-color border-warning-regular-color warning-dark-color"><%= t.pages.ticketDetails.ticketInformation.valueThree %></span>
+                        </div>
+                    </div>
+                    <div class="div flex-column gap-3 w-100">
+                        <%- include('../components/tiket/user-tiket/content.ejs', {userTiket: t.components.tiket.userTiket}); -%>
+                        <%- include('../components/tiket/admin-tiket/content.ejs', {adminTiket: t.components.tiket.adminTiket}); -%>
+                        <div class="div flex-column gap-3 w-100 bw-1 border-style-solid border-color px-3 py-3 radius-all-small">
+                            <div class="div w-100">
+                                <input type="text" placeholder="<%= t.pages.ticketDetails.sendMessageBox.placeholder %>" class="w-100 outline-unset bw-0">
+                                <input type="file" id="file" hidden>
+                                <label for="file">
+                                    <i class="fa-solid fa-paperclip"></i>
+                                </label>
+                            </div>
+                            <div class="div w-100 justify-content-space-between align-items-center">
+                                <span class="txt-size-big secondary-text-color font-weight-medium"><%= t.pages.ticketDetails.sendMessageBox.limitationText %></span>
+                                <button class="d-flex flex-row align-items-center gap-2 bg-primary-light-color py-1 px-3 radius-all-small bw-1 border-style-solid border-primary-color">
+                                    <i class="fa-regular fa-paper-plane primary-color"></i>
+                                    <span class="primary-color txt-size-big font-weight-semi-bold"><%= t.pages.ticketDetails.sendMessageBox.sendBtn %></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="" class="section box">
+            <div
+                class="container d-grid grid-4 grid-lg-2 justify-items-center justify-items-lg-start gap-lg-3 w-100 py-5 px-15 px-xl-10 px-lg-5 radius-all-medium box-shadow">
+                <div class="d-flex flex-row align-items-center gap-5 w-fit-content">
+                    <div
+                        class="icon-box aspect-ratio-1x1 radius-all-small px-3 d-flex align-items-center justify-content-center">
+                        <i class="fa-regular fa-shield-check primary-color txt-size-big-title"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span class="txt-size-title font-weight-semi-bold">ضمانت اصالت کالا</span>
+                        <span class="txt-size-big font-weight-medium secondary-text-color">خرید مطمین و اصل</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row align-items-center gap-5 w-fit-content">
+                    <div
+                        class="icon-box aspect-ratio-1x1 radius-all-small px-3 d-flex align-items-center justify-content-center">
+                        <i class="fa-regular fa-headset primary-color txt-size-big-title"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span class="txt-size-title font-weight-semi-bold">پشنیبانی 24 ساعته</span>
+                        <span class="txt-size-big font-weight-medium secondary-text-color">از طریق تیکت و تماس</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row align-items-center gap-5 w-fit-content">
+                    <div
+                        class="icon-box aspect-ratio-1x1 radius-all-small px-3 d-flex align-items-center justify-content-center">
+                        <i class="fa-regular fa-truck primary-color txt-size-big-title"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span class="txt-size-title font-weight-semi-bold">ارسال سریع</span>
+                        <span class="txt-size-big font-weight-medium secondary-text-color">به سراسر کشور</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row align-items-center gap-5 w-fit-content">
+                    <div
+                        class="icon-box aspect-ratio-1x1 radius-all-small px-3 d-flex align-items-center justify-content-center">
+                        <i class="fa-regular fa-money-bill-transfer primary-color txt-size-big-title"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span class="txt-size-title font-weight-semi-bold">7 روز ضمانت بازگشت وجه</span>
+                        <span class="txt-size-big font-weight-medium secondary-text-color">بازگشت بدون قید و شرط</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <%- include('../layouts/page/foot.ejs', {footer: false}); -%>

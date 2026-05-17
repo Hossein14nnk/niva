@@ -1,0 +1,140 @@
+<%- include('../layouts/page/head.ejs', {pageName: "add-ticket" , header: false}); -%>
+
+
+<main id="add-ticket">
+    <section id="" class="section box gap-10 align-items-start d-grid grid-template">
+        <aside>
+            <%- include('../components/sidebar-menu/content.ejs', {sidebarMenu: t.components.sidebarMenu}); -%>
+        </aside>
+        <div class="container gap-6">
+            <div class="d-flex w-100 flex-row align-items-start justify-content-space-between">
+                <div class="d-flex flex-column gap-1">
+                    <div class="d-flex flex-row gap-1 align-items-center">
+                        <i class="fa-regular fa-circle-plus txt-size-mid-title"></i>
+                        <h3 class="font-weight-semi-bold txt-size-high-title"><%= t.pages.addTicket.title %></h3>
+                    </div>
+                    <span class="txt-size-title secondary-text-color font-weight-semi-bold"><%= t.pages.addTicket.subtitle %></span>
+                </div>
+                <span class="txt-size-normal secondary-text-color font-weight-semi-bold"><%= t.pages.addTicket.category %></span>
+            </div>
+
+            <form class="box-shadow block flex-column w-100 radius-all-medium px-6 py-6 gap-6">
+                <div class="div w-100 d-grid grid-2 grid-lg-1 gap-6">
+                    <div class="div flex-column w-100 gap-2">
+                        <span class="txt-size-title font-weight-medium"><%= t.pages.addTicket.form.partOne.title %></span>
+                        <select name="ticket-subject" class="py-1 radius-all-small w-100 secondary-text-color">
+                            <option disabled hidden selected><%= t.pages.addTicket.form.partOne.selectPlaceholder %></option>
+                            <option><%= t.pages.addTicket.form.partOne.optionOne %></option>
+                            <option><%= t.pages.addTicket.form.partOne.optionTwo %></option>
+                        </select>
+                    </div>
+                    <div class="div flex-column w-100 gap-2">
+                        <span class="txt-size-title font-weight-medium"><%= t.pages.addTicket.form.partTwo.title %></span>
+                        <select name="ticket-subject" class="py-1 radius-all-small w-100 secondary-text-color">
+                            <option disabled hidden selected><%= t.pages.addTicket.form.partTwo.selectPlaceholder %></option>
+                            <option><%= t.pages.addTicket.form.partTwo.optionOne %></option>
+                            <option><%= t.pages.addTicket.form.partTwo.optionTwo %></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="div w-100 flex-column gap-3">
+                    <span class="txt-size-title font-weight-medium"><%= t.pages.addTicket.form.partThree.title %></span>
+                    <div class="d-grid grid-4 grid-lg-2 px-10 px-lg-5">
+                        <div class="d-flex flex-row align-items-start gap-3">
+                            <input type="radio" name="priority" id="one">
+                            <label for="one" class="d-flex flex-column gap-1">
+                                <span class="txt-size-title font-weight-bold"><%= t.pages.addTicket.form.partThree.radioOne.textOne %></span>
+                                <span class="txt-size-normal font-weight-medium secondary-text-color"><%= t.pages.addTicket.form.partThree.radioOne.textTwo %></span>
+                            </label>
+                        </div>
+                        <div class="d-flex flex-row align-items-start gap-3">
+                            <input type="radio" name="priority" id="two">
+                            <label for="two" class="d-flex flex-column gap-1">
+                                <span class="txt-size-title font-weight-bold"><%= t.pages.addTicket.form.partThree.radioTwo.textOne %></span>
+                                <span class="txt-size-normal font-weight-medium secondary-text-color"><%= t.pages.addTicket.form.partThree.radioTwo.textTwo %></span>
+                            </label>
+                        </div>
+                        <div class="d-flex flex-row align-items-start gap-3">
+                            <input type="radio" name="priority" id="three">
+                            <label for="three" class="d-flex flex-column gap-1">
+                                <span class="txt-size-title font-weight-bold"><%= t.pages.addTicket.form.partThree.radioThree.textOne %></span>
+                                <span class="txt-size-normal font-weight-medium secondary-text-color"><%= t.pages.addTicket.form.partThree.radioThree.textTwo %></span>
+                            </label>
+                        </div>
+                        <div class="d-flex flex-row align-items-start gap-3">
+                            <input type="radio" name="priority" id="four">
+                            <label for="four" class="d-flex flex-column gap-1">
+                                <span class="txt-size-title font-weight-bold"><%= t.pages.addTicket.form.partThree.radioFour.textOne %></span>
+                                <span class="txt-size-normal font-weight-medium secondary-text-color"><%= t.pages.addTicket.form.partThree.radioFour.textTwo %></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="div flex-column w-100 gap-2">
+                    <span class="txt-size-title font-weight-medium"><%= t.pages.addTicket.form.partFour.title %></span>
+                    <textarea name="description" class="w-100 radius-all-small bw-0 px-3 py-2" placeholder="<%= t.pages.addTicket.form.partFour.fieldPlaceholder %>"></textarea>
+                </div>
+                <div class="div flex-column w-100 gap-2">
+                    <span class="txt-size-title font-weight-medium"><%= t.pages.addTicket.form.partFive.title %></span>
+                    <input type="file" id="file" hidden>
+                    <label for="file" class="file-input w-100 border-primary-color bw-1 border-style-solid radius-all-small d-flex flex-column justify-content-center align-items-center gap-1">
+                        <i class="fa-light fa-cloud-arrow-up primary-color txt-size-big-title"></i>
+                        <span class="txt-size-mid-title font-weight-medium"><%= t.pages.addTicket.form.partFive.fileInputPlaceholder.textOne.partOne %><span class="primary-color"><%= t.pages.addTicket.form.partFive.fileInputPlaceholder.textOne.partTwo %></span></span>
+                        <span class="txt-size-mid-title font-weight-medium secondary-text-color"><%= t.pages.addTicket.form.partFive.fileInputPlaceholder.textTwo %></span>
+                    </label>
+                    <span class="txt-size-big secondary-text-color font-weight-medium"><%= t.pages.addTicket.form.partFive.allowedFormatsText %></span>
+                </div>
+                <input type="submit" id="submit" hidden>
+                <label for="submit" class="d-flex flex-row align-items-center justify-content-center gap-3 px-4 py-2 radius-all-small bg-button-color align-self-end">
+                    <i class="fa-solid fa-paper-plane button-text-color"></i>
+                    <span class="txt-size-title font-weight-medium button-text-color"><%= t.pages.addTicket.form.submitBtn %></span>
+                </label>
+            </form>
+        </div>
+    </section>
+    <section id="" class="section box">
+        <div class="container d-grid grid-4 grid-lg-2 justify-items-center justify-items-lg-start gap-lg-3 w-100 py-5 px-15 px-xl-10 px-lg-5 radius-all-medium box-shadow">
+            <div class="d-flex flex-row align-items-center gap-5 w-fit-content">
+                <div class="icon-box aspect-ratio-1x1 radius-all-small px-3 d-flex align-items-center justify-content-center">
+                    <i class="fa-regular fa-shield-check primary-color txt-size-big-title"></i>
+                </div>
+                <div class="d-flex flex-column">
+                    <span class="txt-size-title font-weight-semi-bold">ضمانت اصالت کالا</span>
+                    <span class="txt-size-big font-weight-medium secondary-text-color">خرید مطمین و اصل</span>
+                </div>
+            </div>
+            
+            <div class="d-flex flex-row align-items-center gap-5 w-fit-content">
+                <div class="icon-box aspect-ratio-1x1 radius-all-small px-3 d-flex align-items-center justify-content-center">
+                    <i class="fa-regular fa-headset primary-color txt-size-big-title"></i>
+                </div>
+                <div class="d-flex flex-column">
+                    <span class="txt-size-title font-weight-semi-bold">پشنیبانی 24 ساعته</span>
+                    <span class="txt-size-big font-weight-medium secondary-text-color">از طریق تیکت و تماس</span>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row align-items-center gap-5 w-fit-content">
+                <div class="icon-box aspect-ratio-1x1 radius-all-small px-3 d-flex align-items-center justify-content-center">
+                    <i class="fa-regular fa-truck primary-color txt-size-big-title"></i>
+                </div>
+                <div class="d-flex flex-column">
+                    <span class="txt-size-title font-weight-semi-bold">ارسال سریع</span>
+                    <span class="txt-size-big font-weight-medium secondary-text-color">به سراسر کشور</span>
+                </div>
+            </div>
+            
+            <div class="d-flex flex-row align-items-center gap-5 w-fit-content">
+                <div class="icon-box aspect-ratio-1x1 radius-all-small px-3 d-flex align-items-center justify-content-center">
+                    <i class="fa-regular fa-money-bill-transfer primary-color txt-size-big-title"></i>
+                </div>
+                <div class="d-flex flex-column">
+                    <span class="txt-size-title font-weight-semi-bold">7 روز ضمانت بازگشت وجه</span>
+                    <span class="txt-size-big font-weight-medium secondary-text-color">بازگشت بدون قید و شرط</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<%- include('../layouts/page/foot.ejs', {footer: false}); -%>

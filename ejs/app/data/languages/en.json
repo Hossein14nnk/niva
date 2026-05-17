@@ -26,6 +26,38 @@
 		}
 	},
 	"components": {
+		"orderProduct": {
+			"title": "Order products",
+			"productLabel": "Products",
+			"unitPriceLabel": "Unit price",
+			"numbetLabel": "Quantity",
+			"totalLabel": "Total",
+			"product": [
+				{
+					"title": "X10 model smartwatch",
+					"feauture": "Color: Black",
+					"feauturetwo": "18-month warranty",
+					"price": "1,690,000 toman",
+					"number": "1",
+					"total": "1,690,000 toman"
+				},
+				{
+					"title": "Pro 4 model wireless headphones",
+					"feauture": "Color: White",
+					"feauturetwo": "12-month warranty",
+					"price": "790,000 toman",
+					"total": "790,000 toman"
+				}
+			],
+			"subTotal": "Subtotal",
+			"subTotalPrice": "2,480,000 toman",
+			"shippingCost": "Shipping cost",
+			"shippingCostPrice": "0 toman",
+			"discountCode": "Discount code  (fsws-2dasj)",
+			"discountCodePrice": "0 toman",
+			"amountPayable": "Amount payable",
+			"amountPayablePrice": "2,480,000 toman"
+		},
 		"paymentDetails": {
 			"title": "Insurance",
 			"price": "72,200,000",
@@ -228,7 +260,10 @@
 			"basic": [
 				{
 					"title": "Title",
-					"items": ["Active", "Inactive"]
+					"items": [
+						"Active",
+						"Inactive"
+					]
 				}
 			]
 		},
@@ -386,7 +421,6 @@
 			"title": "Sir, do not buy!!!",
 			"userName": "hosseinKazemi",
 			"enableSwiper": false,
-
 			"contents": [
 				{
 					"profile": {
@@ -797,63 +831,119 @@
 			"soldOut": "Sold Out: 1400",
 			"remaining": "Remaining: 13875 ",
 			"add": "add to cart",
-			"alert":"added to your cart",
-			"price":"Free"
+			"alert": "added to your cart",
+			"price": "Free"
+		},
+		"tiket": {
+			"adminTiket": {
+				"title": " Niva support",
+				"subtitle": " Support team",
+				"description1": "Hello, dear Amir Rezaei.",
+				"description2": "Thank you for contacting us.",
+				"description3": "Please make sure your internet connection is working and try the payment gateway again.",
+				"description4": "If the problem persists, please send us a screenshot of the error.",
+				"date": "11:35 - 1401/04/25",
+				"replay": "Answer support"
+			},
+			"userTiket": {
+				"title": " you",
+				"subtitle": "amir rezaee",
+				"description": "I am getting an error when paying for my order and the payment is not going through. Please help.",
+				"date": "10:30 - 1401/04/25",
+				"replay": "your message"
+			}
+		},
+		"advisement": {
+			"title": "Need more guidance?",
+			"description": "See our FAQ and contact support.",
+			"button": "View faq"
+		},
+		"pannel": {
+			"lovelyProduct": {
+				"topic": "Don't miss out on your favorite products!",
+				"description": "Prices may change. Finalize your purchase soon",
+				"btn": "View Cart"
+			},
+			"featurs": [
+				{
+					"title": "7-Day Money Back Guarantee",
+					"subtitle": "Risk-Free Purchase"
+				},
+				{
+					"title": "Guaranteed Authenticity",
+					"subtitle": "Safe and Secure Purchase"
+				},
+				{
+					"title": "Fast Shipping",
+					"subtitle": "Nationwide"
+				},
+				{
+					"title": "24-Hour Support",
+					"subtitle": "We Are Always With You"
+				}
+			]
 		},
 		"addressBox": {
-			"addressName": "منزل پدری",
-			"postCode": "کد پستی : 22334455666",
-			"address": "مشهد بلوار احمد آباد نبش خیابان عارف 2 پلاک 44 طبقه 3 واحد 20",
-			"recipientName": "امیر رضایی",
+			"addressName": "Paternal Home",
+			"postCode": "Postal Code: 22334455666",
+			"address": "Mashhad, Ahmad Abad Blvd, corner of Aref St 2, No. 44, 3rd Floor, Unit 20",
+			"recipientName": "Amir Rezaei",
 			"phoneNumber": "09121234567",
-			"editButton": "ویرایش",
-			"deleteButton": "حذف"
+			"editButton": "Edit",
+			"deleteButton": "Delete"
 		},
 		"shipmentInformation": {
-			"title": "اطلاعات ارسال",
+			"title": "Shipment Information",
 			"information": {
-				"keyOne": "گیرنده",
-				"valueOne": "محمد احمدی",
-				"keyTwo": "شماره موبایل",
+				"keyOne": "Recipient",
+				"valueOne": "Mohammad Ahmadi",
+				"keyTwo": "Mobile Number",
 				"valueTwo": "09907001112",
-				"keyThree": "آدرس",
-				"valueThree": "تهران خیابان ولیعصر بالا تر از میدان ونک خیابان شهید مظفر پلاک 30 واحد 5",
-				"keyFour": "روش ارسال",
-				"valueFour": "پست پیشتاز",
-				"keyFive": "کد رهگیری",
+				"keyThree": "Address",
+				"valueThree": "Tehran, Valiasr Street, above Vanak Square, Shahid Mozaffar St, No. 30, Unit 5",
+				"keyFour": "Shipping Method",
+				"valueFour": "Express Post",
+				"keyFive": "Tracking Code",
 				"valueFive": "12345678910"
 			},
-			"btnText": "پیگیری مرسوله"
+			"btnText": "Track Shipment"
 		},
 		"sidebarMenu": {
-			"profileName": "امیر رضایی",
-			"dateOfMembership": "عضویت از فروردین 1401",
+			"profileName": "Amir Rezaei",
+			"dateOfMembership": "Member since Farvardin 1401",
 			"menuList": {
-				"itemOne": "پیشخوان",
-				"itemTwo": "سفارش ها",
-				"itemThree": "علاقه مندی ها",
-				"itemFour": "آدرس ها",
-				"itemFive": "اطلاعات حساب کاربری",
-				"itemSix": "تیکت ها و پشتیبانی"
+				"itemOne": "Dashboard",
+				"itemTwo": "Orders",
+				"itemThree": "Favorites",
+				"itemFour": "Addresses",
+				"itemFive": "Account Information",
+				"itemSix": "Tickets & Support"
 			},
-			"btnText": "خروج از حساب"
+			"btnText": "Logout"
 		},
 		"ticketInformation": {
-			"profileName": "امیر رضایی",
-			"dateOfMembership": "عضویت از فروردین 1401",
-			"title": "اطلاعات تیکت",
+			"profileName": "Amir Rezaei",
+			"dateOfMembership": "Member since Farvardin 1401",
+			"title": "Ticket Information",
 			"information": {
-				"keyOne": "شماره تیکت",
+				"keyOne": "Ticket Number",
 				"valueOne": "6007001112",
-				"keyTwo": "مشکل در پرداخت سفارش",
-				"keyThree": "وضعیت",
-				"valueThree": "در انتظار پاسخ",
-				"keyFour": "تاریخ ایجاد",
-				"valueFour": "25/4/1400",
-				"keyFive": "اخرین بروزرسانی",
-				"valueFive": "25/4/1400",
-				"keySix": "دسته بندی",
-				"valueSix": "سفارش و پرداخت"
+				"keyTwo": "Payment Issue for Order",
+				"keyThree": "Status",
+				"valueThree": "Awaiting Response",
+				"keyFour": "Creation Date",
+				"valueFour": "1400/4/25",
+				"keyFive": "Last Update",
+				"valueFive": "1400/4/25",
+				"keySix": "Category",
+				"valueSix": "Order & Payment"
+			}
+		},
+		"ticketAccess": {
+			"menuList": {
+				"itemOne": "Close Ticket",
+				"itemTwo": "Change Ticket Subject",
+				"itemThree": "Submit New Ticket"
 			}
 		}
 	},
@@ -1021,7 +1111,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": false
 				},
@@ -1032,7 +1121,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": false
 				},
@@ -1043,7 +1131,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": false
 				},
@@ -1054,7 +1141,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": false
 				}
@@ -1065,7 +1151,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1074,7 +1159,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1083,7 +1167,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1092,7 +1175,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1101,7 +1183,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1110,7 +1191,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1119,7 +1199,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				}
@@ -1132,7 +1211,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				},
@@ -1143,7 +1221,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				},
@@ -1154,7 +1231,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				}
@@ -1167,7 +1243,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				},
@@ -1178,7 +1253,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				},
@@ -1189,7 +1263,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"postView": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"enableBorderBottom": true
 				}
@@ -1239,32 +1312,58 @@
 			"content": [
 				{
 					"title": "Complete News of the Samsung Galaxy Ring",
-					"descriptions": ["In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment."]
+					"descriptions": [
+						"In today's advanced world of technology, laptops play a fundamental role in our daily and professional lives, and choosing a suitable laptop significantly affects users' productivity, creativity, and even entertainment."
+					]
 				},
 				{
 					"title": "Netbox Mobo Edition Android Box, Cheap Smart TV",
-					"descriptions": ["Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.", "The purpose of this comparison is to accurately and comprehensively review two top brands in the laptop industry. We not only address technical and functional specifications, but also consider aspects such as user experience, design, price, and purchase value. This comparison helps audiences make a suitable choice according to their needs and lifestyle with a better understanding of each brand's features. Also, this review can serve as a buying guide for individuals who are evaluating available options in the market."]
+					"descriptions": [
+						"Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.",
+						"The purpose of this comparison is to accurately and comprehensively review two top brands in the laptop industry. We not only address technical and functional specifications, but also consider aspects such as user experience, design, price, and purchase value. This comparison helps audiences make a suitable choice according to their needs and lifestyle with a better understanding of each brand's features. Also, this review can serve as a buying guide for individuals who are evaluating available options in the market."
+					]
 				},
 				{
 					"title": "History of Apple Company",
-					"descriptions": ["Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.", "In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality.", "In the following decades, Apple faced ups and downs, but with the return of Steve Jobs in 1997, a new era of innovation and success began. The introduction of the iMac, iPod, iPhone, and then iPad, turned Apple into one of the pioneers of the tech industry. In the field of laptops, MacBooks defined new standards with their unique design, high build quality, and powerful performance."]
+					"descriptions": [
+						"Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.",
+						"In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality.",
+						"In the following decades, Apple faced ups and downs, but with the return of Steve Jobs in 1997, a new era of innovation and success began. The introduction of the iMac, iPod, iPhone, and then iPad, turned Apple into one of the pioneers of the tech industry. In the field of laptops, MacBooks defined new standards with their unique design, high build quality, and powerful performance."
+					]
 				},
 				{
 					"title": "Comparison of Exterior Design",
-					"descriptions": ["Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.", "In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality.", "Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.", "In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality."]
+					"descriptions": [
+						"Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.",
+						"In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality.",
+						"Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.",
+						"In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality."
+					]
 				},
 				{
 					"title": "Ergonomic Features",
-					"descriptions": ["Asus, which was founded in Taiwan in 1989, initially started as a motherboard manufacturing company. Over time, by developing its products in various fields of technology, mobile, and of course laptops, Asus was able to", "Focusing on innovation and providing quality products, Asus was able to consolidate its position in the competitive global market. In the laptop sector, Asus covered the needs of various users, including professionals, students, and gamers, by introducing different series such as ZenBook, VivoBook, and ROG (Republic of Gamers). Asus has also been a pioneer in producing convertible laptops and ultrabooks.", "Key developments in laptop manufacturing from the 1990s to the present include significant advances in various fields such as hardware, software, design, and connectivity features. Among these developments are the reduction in weight and size of laptops, increased processing power, improved display quality, and increased battery life. Also, with advancements in wireless technologies and connectivity, laptops have become highly connected and versatile devices.", "Meanwhile, Apple and Asus have each uniquely played an important role in these developments. Apple with a focus on design, build quality, and hardware-software integration, and Asus with a focus on innovation, product diversity, and competitive pricing, have each been influential in their own right."]
+					"descriptions": [
+						"Asus, which was founded in Taiwan in 1989, initially started as a motherboard manufacturing company. Over time, by developing its products in various fields of technology, mobile, and of course laptops, Asus was able to",
+						"Focusing on innovation and providing quality products, Asus was able to consolidate its position in the competitive global market. In the laptop sector, Asus covered the needs of various users, including professionals, students, and gamers, by introducing different series such as ZenBook, VivoBook, and ROG (Republic of Gamers). Asus has also been a pioneer in producing convertible laptops and ultrabooks.",
+						"Key developments in laptop manufacturing from the 1990s to the present include significant advances in various fields such as hardware, software, design, and connectivity features. Among these developments are the reduction in weight and size of laptops, increased processing power, improved display quality, and increased battery life. Also, with advancements in wireless technologies and connectivity, laptops have become highly connected and versatile devices.",
+						"Meanwhile, Apple and Asus have each uniquely played an important role in these developments. Apple with a focus on design, build quality, and hardware-software integration, and Asus with a focus on innovation, product diversity, and competitive pricing, have each been influential in their own right."
+					]
 				},
 				{
 					"title": "Processor and Processing Power",
-					"descriptions": ["Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.", "In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality."],
+					"descriptions": [
+						"Apple, as one of the most recognized names in the technology industry, is known for its innovative designs and high build quality. The company's products, including MacBooks, have always been associated with high standards of quality and performance. On the other hand, Asus, a Taiwanese brand, by offering products with competitive pricing and high diversity in models, has been able to gain a significant position in the global market. Focusing on innovation and offering products with diverse features, Asus provides numerous options for all types of users.",
+						"In the 1980s, Apple revolutionized the computer industry by introducing the Macintosh, which was the first personal computer with a graphical user interface and a mouse. This device not only introduced new standards in computer design and usability, but also demonstrated Apple's focus on innovation and quality."
+					],
 					"image": null
 				},
 				{
 					"title": "Conclusion",
-					"descriptions": ["In this article, we made a detailed comparison between Apple and Asus laptops in various fields. Apple, with its MacBooks, offers superior build quality, beautiful design, powerful performance, and a seamless user experience. Asus, on the other hand, with greater diversity in models and prices, provides more varied options for users with different needs and budgets.", "For buyers looking for high quality, powerful performance, and a seamless user experience who have a sufficient budget, Apple MacBooks are a suitable option. On the other hand, if a user is looking for more variety in models, more diverse prices, and flexibility in choosing hardware and features, Asus laptops are considered good choices.", "In the future, it can be expected that both Apple and Asus will continue to innovate and improve their products. Apple will likely focus on optimizing the M-series chips and further integrating hardware and software, while Asus may continue to offer greater product diversity and innovative technologies. Also, attention to environmental sustainability and data security will be important aspects that will likely be considered in future product development."],
+					"descriptions": [
+						"In this article, we made a detailed comparison between Apple and Asus laptops in various fields. Apple, with its MacBooks, offers superior build quality, beautiful design, powerful performance, and a seamless user experience. Asus, on the other hand, with greater diversity in models and prices, provides more varied options for users with different needs and budgets.",
+						"For buyers looking for high quality, powerful performance, and a seamless user experience who have a sufficient budget, Apple MacBooks are a suitable option. On the other hand, if a user is looking for more variety in models, more diverse prices, and flexibility in choosing hardware and features, Asus laptops are considered good choices.",
+						"In the future, it can be expected that both Apple and Asus will continue to innovate and improve their products. Apple will likely focus on optimizing the M-series chips and further integrating hardware and software, while Asus may continue to offer greater product diversity and innovative technologies. Also, attention to environmental sustainability and data security will be important aspects that will likely be considered in future product development."
+					],
 					"image": null
 				}
 			],
@@ -1276,7 +1375,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"view": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": true
 				},
@@ -1287,7 +1385,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"view": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": true
 				},
@@ -1298,7 +1395,6 @@
 					"commentCount": 1,
 					"readingTime": "15 Minutes",
 					"view": 1553,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": true
 				}
@@ -1337,7 +1433,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1346,7 +1441,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1355,7 +1449,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1364,7 +1457,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				}
@@ -1380,7 +1472,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1389,7 +1480,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1398,7 +1488,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1407,7 +1496,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1416,7 +1504,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1425,7 +1512,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1434,7 +1520,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				},
@@ -1443,7 +1528,6 @@
 					"description": "The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 					"date": "Sep 28, 2024",
 					"commentCount": 1,
-
 					"link": "./output/fa/pages/article.html",
 					"showViewAndReadingTime": false
 				}
@@ -1658,7 +1742,6 @@
 							"title": "UNO Lie Cards",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-
 							"contents": [
 								{
 									"profile": {
@@ -1686,7 +1769,6 @@
 							"title": "Wireless Earbuds",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-
 							"contents": [
 								{
 									"profile": {
@@ -1714,7 +1796,6 @@
 							"title": "Different TSCO",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-
 							"contents": [
 								{
 									"profile": {
@@ -1742,7 +1823,6 @@
 							"title": "UNO Lie Cards",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-
 							"contents": [
 								{
 									"profile": {
@@ -1770,7 +1850,6 @@
 							"title": "Desktop Heater!",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-
 							"contents": [
 								{
 									"profile": {
@@ -1798,7 +1877,6 @@
 							"title": "B-Tools",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-
 							"contents": [
 								{
 									"profile": {
@@ -1826,7 +1904,6 @@
 							"title": "Cool Fidget",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-
 							"contents": [
 								{
 									"profile": {
@@ -1854,7 +1931,6 @@
 							"title": "Light Baton",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-
 							"contents": [
 								{
 									"profile": {
@@ -1882,7 +1958,6 @@
 							"title": "Desktop Heater",
 							"userName": "hosseinKazemi",
 							"enableSwiper": true,
-
 							"contents": [
 								{
 									"profile": {
@@ -3160,7 +3235,7 @@
 				"link": "#"
 			},
 			"weblog": {
-				"title":"weblog",
+				"title": "weblog",
 				"components": {
 					"banner": {
 						"src": "fa/weblog/banner_SlideBannerr.webp",
@@ -3185,7 +3260,6 @@
 								"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 								"date": "Sep 28, 2024",
 								"commentCount": 1,
-
 								"link": "./output/fa/pages/article.html",
 								"showViewAndReadingTime": false
 							},
@@ -3194,7 +3268,6 @@
 								"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 								"date": "Sep 28, 2024",
 								"commentCount": 1,
-
 								"link": "./output/fa/pages/article.html",
 								"showViewAndReadingTime": false
 							},
@@ -3203,7 +3276,6 @@
 								"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 								"date": "Sep 28, 2024",
 								"commentCount": 1,
-
 								"link": "./output/fa/pages/article.html",
 								"showViewAndReadingTime": false
 							},
@@ -3212,7 +3284,6 @@
 								"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 								"date": "Sep 28, 2024",
 								"commentCount": 1,
-
 								"link": "./output/fa/pages/article.html",
 								"showViewAndReadingTime": false
 							}
@@ -3238,7 +3309,6 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": false
 						},
@@ -3249,7 +3319,6 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": false
 						},
@@ -3260,7 +3329,6 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": false
 						},
@@ -3271,7 +3339,6 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": false
 						}
@@ -3282,7 +3349,6 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
@@ -3291,7 +3357,6 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
@@ -3300,7 +3365,6 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
@@ -3309,7 +3373,6 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
@@ -3318,7 +3381,6 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
@@ -3327,7 +3389,6 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						},
@@ -3336,7 +3397,6 @@
 							"description": " The reasons to buy the Nothing Phone 1 are very compelling. Given the avant-garde design, powerful hardware, and reasonable price, the Nothing phone provides sufficient reasons for the user to purchase.",
 							"date": "Sep 28, 2024",
 							"commentCount": 1,
-
 							"link": "./output/fa/pages/article.html",
 							"showViewAndReadingTime": false
 						}
@@ -3349,7 +3409,6 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						},
@@ -3360,7 +3419,6 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						},
@@ -3371,7 +3429,6 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						}
@@ -3384,7 +3441,6 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						},
@@ -3395,7 +3451,6 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						},
@@ -3406,7 +3461,6 @@
 							"commentCount": 1,
 							"readingTime": "15 Minutes",
 							"postView": 1553,
-
 							"link": "./output/fa/pages/article.html",
 							"enableBorderBottom": true
 						}
@@ -3487,7 +3541,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3516,7 +3569,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3545,7 +3597,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3574,7 +3625,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3603,7 +3653,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3632,7 +3681,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3661,7 +3709,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3690,7 +3737,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3776,7 +3822,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3805,7 +3850,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3834,7 +3878,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3863,7 +3906,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3892,7 +3934,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -3921,7 +3962,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4491,7 +4531,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -4520,7 +4559,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -4549,7 +4587,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -4578,7 +4615,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -4607,7 +4643,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -4728,13 +4763,11 @@
 				{
 					"title": "Review and Analysis",
 					"description": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
-
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
 					"imgTwo": "1954.webp"
 				},
@@ -4821,7 +4854,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4850,7 +4882,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4879,7 +4910,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -4908,7 +4938,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -5144,7 +5173,6 @@
 					}
 				]
 			},
-
 			"callProductCo": {
 				"latestPrice": "Latest Registered Price ",
 				"price": "10,150,000",
@@ -5229,7 +5257,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -5258,7 +5285,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -5287,7 +5313,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -5316,7 +5341,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -5345,7 +5369,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -5466,13 +5489,11 @@
 				{
 					"title": "Review and Analysis",
 					"description": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
-
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
 					"imgTwo": "1954.webp"
 				},
@@ -5559,7 +5580,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -5588,7 +5608,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -5617,7 +5636,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -5646,7 +5664,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -5966,7 +5983,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -5995,7 +6011,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6024,7 +6039,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6053,7 +6067,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6082,7 +6095,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6203,13 +6215,11 @@
 				{
 					"title": "Review and Analysis",
 					"description": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
-
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
 					"imgTwo": "1954.webp"
 				},
@@ -6296,7 +6306,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -6325,7 +6334,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -6354,7 +6362,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -6383,7 +6390,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -6704,7 +6710,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6733,7 +6738,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6762,7 +6766,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6791,7 +6794,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6820,7 +6822,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -6941,13 +6942,11 @@
 				{
 					"title": "Review and Analysis",
 					"description": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
-
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
 					"imgTwo": "1954.webp"
 				},
@@ -7034,7 +7033,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7063,7 +7061,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7092,7 +7089,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7121,7 +7117,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7366,8 +7361,8 @@
 				"soldOut": "Sold Out: 1400",
 				"remaining": "Remaining: 13875 ",
 				"add": "add to cart",
-				"alert":"added to your cart",
-				"price":"Free"
+				"alert": "added to your cart",
+				"price": "Free"
 			},
 			"rattingSection": {
 				"head": "User Ratings and Reviews",
@@ -7443,7 +7438,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -7472,7 +7466,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -7501,7 +7494,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -7530,7 +7522,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -7559,7 +7550,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -7680,13 +7670,11 @@
 				{
 					"title": "Review and Analysis",
 					"description": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
-
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
 					"imgTwo": "1954.webp"
 				},
@@ -7773,7 +7761,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7802,7 +7789,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7831,7 +7817,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -7860,7 +7845,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -8182,7 +8166,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -8211,7 +8194,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -8240,7 +8222,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -8269,7 +8250,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -8298,7 +8278,6 @@
 					"price": "80,000,000",
 					"discountPercentage": "10",
 					"dataCountdown": "5:43:50",
-
 					"colors": [
 						{
 							"color": "#1544E3",
@@ -8419,13 +8398,11 @@
 				{
 					"title": "Review and Analysis",
 					"description": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
-
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen."
 				},
 				{
 					"title": "Attractive Design",
 					"description": "Apple is not very willing to change its successful designs and prefers to maintain its successful and attractive design language. The iPhone 13 also benefits from a similar design to its previous generation. On the front view, we see the familiar notch and cutout of previous series, which this time has a smaller width compared to the iPhone 12 screen notch. On the back view, we also see the placement of two camera sensors which, unlike the iPhone 12 model, are placed diagonally with an LED flash in a square cutout. This is while the two camera sensors on the back of the iPhone 12 are placed next to each other in a columnar layout.",
-
 					"descriptionTwo": "Undoubtedly, Xiaomi Mi 11 Ultra is one of the flagship smartphones available in the market that can provide very good and wonderful performance in various sections. At first glance, you will completely realize that you are facing a powerful and flagship smartphone. Attractive and even different design that has given a special visual appeal to this smartphone. On the front view, you see a uniform and very beautiful display equipped with an Infinity-O notch design. The circular notch cutout at the top left corner of the screen houses the selfie camera sensor. The curvature of the screen on the sides has also minimized the bezels, and ultimately 91.4% of the front view is dedicated to the screen. The fingerprint sensor, as a very practical security feature, is placed under the screen, and according to tests, you should know that this optical sensor can provide very fast performance in unlocking the screen.",
 					"imgTwo": "1954.webp"
 				},
@@ -8512,7 +8489,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -8541,7 +8517,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -8570,7 +8545,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -8599,7 +8573,6 @@
 						"price": "80,000,000",
 						"discountPercentage": "10",
 						"dataCountdown": "5:43:50",
-
 						"colors": [
 							{
 								"color": "#1544E3",
@@ -8620,6 +8593,119 @@
 						]
 					}
 				]
+			}
+		},
+		"addTicket": {
+			"title": "Add New Ticket",
+			"subtitle": "Share your question or problem with us",
+			"category": "Home > Tickets & Support > Tickets > Add New Ticket",
+			"form": {
+				"partOne": {
+					"title": "Ticket Subject",
+					"selectPlaceholder": "Select appropriate subject",
+					"optionOne": "Payment Issue",
+					"optionTwo": "Delivery Delay"
+				},
+				"partTwo": {
+					"title": "Category",
+					"selectPlaceholder": "Select appropriate category",
+					"optionOne": "Payment",
+					"optionTwo": "Shipping"
+				},
+				"partThree": {
+					"title": "Priority",
+					"radioOne": {
+						"textOne": "Low",
+						"textTwo": "Respond in usual time"
+					},
+					"radioTwo": {
+						"textOne": "Medium",
+						"textTwo": "Respond in shortest time"
+					},
+					"radioThree": {
+						"textOne": "High",
+						"textTwo": "Urgent response"
+					},
+					"radioFour": {
+						"textOne": "Very High",
+						"textTwo": "Immediate and important response"
+					}
+				},
+				"partFour": {
+					"title": "Description of the problem or question",
+					"fieldPlaceholder": "Please describe your problem or question in detail..."
+				},
+				"partFive": {
+					"title": "Attach File (Optional)",
+					"fileInputPlaceholder": {
+						"textOne": {
+							"partOne": "Drag your file here or click to ",
+							"partTwo": "select"
+						},
+						"textTwo": "Maximum file size 5MB"
+					},
+					"allowedFormatsText": "Allowed formats: txt, docx, doc, pdf, png, jpeg, jpg"
+				},
+				"submitBtn": "Submit Ticket"
+			}
+		},
+		"ticketDetails": {
+			"title": "View Ticket",
+			"subtitle": "Details and conversations related to your ticket",
+			"category": "Home > Tickets & Support > View Ticket",
+			"backToListBtn": "Back to Ticket List",
+			"ticketInformation": {
+				"keyOne": "Ticket Subject",
+				"valueOne": "Payment issue for order",
+				"keyTwo": "Ticket Number",
+				"valueTwo": "#tk-1401-0012",
+				"keyThree": "Status",
+				"valueThree": "Awaiting Response"
+			},
+			"sendMessageBox": {
+				"placeholder": "Write your message...",
+				"limitationText": "Use the attach button to send a file (Max allowed size: 5MB)",
+				"sendBtn": "Send"
+			}
+		},
+		"orderDetails": {
+			"title": "Order Details",
+			"subtitle": "Complete information and status of your order",
+			"category": "Home > Orders > Order Details",
+			"orderInformation": {
+				"keyOne": "Order Number",
+				"valueOne": "586545",
+				"keyTwo": "Order Registration Date",
+				"valueTwo": "1404/5/10 - 10:30",
+				"keyThree": "Payment Method",
+				"valueThree": "Bank Gateway",
+				"keyFour": "Order Status",
+				"valueFour": "Delivered",
+				"keyFive": "Total Amount",
+				"valueFive": "2,480,000"
+			},
+			"orderStatusBox": {
+				"title": "Order Status",
+				"stepOne": {
+					"text": "Order Placed",
+					"date": "10:30 - 1405/06/25"
+				},
+				"stepTwo": {
+					"text": "Processing",
+					"date": "10:30 - 1405/06/25"
+				},
+				"stepThree": {
+					"text": "Shipped",
+					"date": "10:30 - 1405/06/25"
+				},
+				"stepFour": {
+					"text": "In Transit",
+					"date": "10:30 - 1405/06/25"
+				},
+				"stepFive": {
+					"text": "Delivered",
+					"date": "10:30 - 1405/06/25"
+				}
 			}
 		}
 	},

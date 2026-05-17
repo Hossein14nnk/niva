@@ -1,0 +1,62 @@
+<div class="order-product p-5 radius-all-medium w-100">
+    <h3 class="mis-3 txt-size-title font-weight-bold pb-2"><%= orderProduct.title %></h3>
+    <div class="d-grid">
+        <div class="">
+            <div class="d-grid grid-2-1 py-3 bw-1 bb-style-solid border-color">
+                <span class="mis-3"><%= orderProduct.productLabel %></span>
+                <span><%= orderProduct.unitPriceLabel %></span>
+                <span><%= orderProduct.numbetLabel %></span>
+                <span><%= orderProduct.totalLabel %></span>
+            </div>
+
+            <div class="d-grid grid-2-1 align-items-center bw-1 bb-style-solid border-color py-4">
+                <div class="d-flex align-items-center">
+                    <img src="<%= getMedia(lang, 'single/6b118a2528d22b67e3e8489c937005bd8144aea2_1754236725.webp', 'images'); %>"
+                        alt="">
+                    <div class="d-flex flex-column gap-1">
+                        <h3 class="txt-size-title"><%= orderProduct.product[0].title %></h3>
+                        <span class="txt-size-big secondary-text-color"><%= orderProduct.product[0].feauture %></span>
+                        <span class="txt-size-big secondary-text-color"><%= orderProduct.product[0].feauturetwo %></span>
+                    </div>
+                </div>
+                <span class="txt-size-big secondary-text-color"><%= orderProduct.product[0].price %></span>
+                <span class="txt-size-big secondary-text-color"><%= orderProduct.product[0].number %></span>
+                <span class="txt-size-big secondary-text-color"><%= orderProduct.product[0].total %></span>
+            </div>
+
+           <div class="d-grid grid-2-1 align-items-center py-4">
+                <div class="d-flex align-items-center">
+                    <img src="<%= getMedia(lang, 'single/d780d81440ddfd8041040ca4c06d7b9c039d3cfc_1774099280.webp', 'images'); %>"
+                        alt="">
+                    <div class="d-flex flex-column gap-1">
+                        <h3 class="txt-size-title"><%= orderProduct.product[1].title %></h3>
+                        <span class="txt-size-big secondary-text-color"><%= orderProduct.product[1].feauture %></span>
+                        <span class="txt-size-big secondary-text-color"><%= orderProduct.product[1].feauturetwo %></span>
+                    </div>
+                </div>
+                <span class="txt-size-big secondary-text-color"><%= orderProduct.product[1].price %></span>
+                <span class="txt-size-big secondary-text-color"><%= orderProduct.product[1].number %></span>
+                <span class="txt-size-big secondary-text-color"><%= orderProduct.product[1].total %></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="d-flex flex-column bw-1 border-style-solid border-color radius-all-normal">
+        <div class="d-flex justify-content-space-between px-1 bw-1 border-color bb-style-solid py-3 px-4">
+            <span class="txt-size-big secondary-text-color"><%= orderProduct.subTotal %></span>
+            <span class="txt-size-big secondary-text-color"><%= orderProduct.subTotalPrice %></span>
+        </div>
+        <div class="d-flex justify-content-space-between px-1 bw-1 border-color bb-style-solid py-3 px-4">
+            <span class="txt-size-big secondary-text-color"><%= orderProduct.shippingCost %></span>
+            <span class="txt-size-big secondary-text-color"><%= orderProduct.shippingCostPrice %></span>
+        </div>
+        <div class="d-flex justify-content-space-between px-1 bw-1 border-color bb-style-solid py-3 px-4">
+            <span class="txt-size-big secondary-text-color"><%= orderProduct.discountCode %></span>
+            <span class="txt-size-big secondary-text-color green-color"><%= orderProduct.iscountCodePrice %></span>
+        </div>
+        <div class="d-flex justify-content-space-between py-3 px-4">
+            <span class="txt-size-title"><%= orderProduct.amountPayable %></span>
+            <span class="txt-size-mid-title primary-color font-weight-bold"> <%= orderProduct.amountPayablePrice %></span>
+        </div>
+    </div>
+</div>

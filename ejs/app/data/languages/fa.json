@@ -26,6 +26,38 @@
 		}
 	},
 	"components": {
+		"orderProduct": {
+			"title": "محصولات سفارش",
+			"productLabel": "محصولات",
+			"unitPriceLabel": "قیمت واحد",
+			"numbetLabel": "تعداد",
+			"totalLabel": "مجموع",
+			"product": [
+				{
+					"title": "ساعت هوشمند مدل x10",
+					"feauture": "رنگ: مشکی",
+					"feauturetwo": "گارانتی 18 ماهه",
+					"price": "1,690,000 تومان",
+					"number": "1",
+					"total": "1,690,000 تومان"
+				},
+				{
+					"title": "هدفون بی سیم مدل Pro 4",
+					"feauture": "رنگ: سفید",
+					"feauturetwo": "گارانتی 12 ماهه",
+					"price": "790,000 تومان",
+					"total": "790,000 تومان"
+				}
+			],
+			"subTotal": "جمع جزئی",
+			"subTotalPrice": "2,480,000 تومان",
+			"shippingCost": "هزینه ارسال",
+			"shippingCostPrice": "0 تومان",
+			"discountCode": "کد تخفیف  (fsws-2dasj)",
+			"discountCodePrice": "0 تومان",
+			"amountPayable": "کد تخفیف ",
+			"amountPayablePrice": "2,480,000 تومان"
+		},
 		"paymentDetails": {
 			"title": "بیمه ",
 			"price": "72,200,000",
@@ -804,6 +836,55 @@
 			"add": "افزودن به سبد خرید",
 			"alert": "به سبد خرید شما اضافه شد",
 			"price": "رایگان"
+		},
+		"tiket": {
+			"adminTiket": {
+				"title": "پشتیبانی نیوا",
+				"subtitle": "تیم پشتیبانی ",
+				"description1": " سلام امیر رضایی عزیز .",
+				"description2": " ممنون که با ما در ارتباط هستید.",
+				"description3": " لطفا از اتصال اینترنت خود مطمئن شوید و مجددااز درگاه پرداخت استفاده کنید.",
+				"description4": " در صورت ادامه مشکل لطفا اسکرین شات خطا را برای ما ارسال کنید.",
+				"date": "11:35 - 1401/04/25",
+				"replay": "پاسخ پشتیبانی"
+			},
+			"userTiket": {
+				"title": " شما",
+				"subtitle": "امیر رضایی ",
+				"description": "سلام من هنگام پرداخت سفارش با خطا مواجه میشم و پرداخت انجام نمیشه لطفا راهنمایی کنید.",
+				"date": "10:30 - 1401/04/25",
+				"replay": "پیام شما"
+			}
+		},
+		"advisement": {
+			"title": "نیاز به راهنمایی بیشتر دارید؟",
+			"description": "پرسش های متداول ما را ببینید و با پشتیبانی درارتباط باشید",
+			"button": "مشاهده سوالات متداول"
+		},
+		"pannel": {
+			"lovelyProduct": {
+				"topic": "محصولات مورد علاقه‌ات را از دست نده!",
+				"description": "قیمت ها ممکنه تغییر کنن. زودتر خریدت رو نهایی کن",
+				"btn": "مشاهده سبد خرید"
+			},
+			"featurs": [
+				{
+					"title": "7 روز ضمانت بازگشت",
+					"subtitle": "خرید بدون ریسک"
+				},
+				{
+					"title": "ضمانت اصالت کالا",
+					"subtitle": "خرید مطمئن و امن"
+				},
+				{
+					"title": "ارسال سریع",
+					"subtitle": "به سراسر کشور"
+				},
+				{
+					"title": "پشتیبانی 24 ساعته",
+					"subtitle": "همیشه در کنار شما هستیم"
+				}
+			]
 		},
 		"addressBox": {
 			"addressName": "منزل پدری",
@@ -8518,6 +8599,119 @@
 						]
 					}
 				]
+			}
+		},
+		"addTicket": {
+			"title": "افزودن تیکت جدید",
+			"subtitle": "سوال یا مشکل خود را با ما در میان بگذارید",
+			"category": "خانه > تیکت ها و پشتیبانی > تیکت ها > افزودن تیکت جدید",
+			"form": {
+				"partOne": {
+					"title": "موضوع تیکت",
+					"selectPlaceholder": "موضوع مناسب را انتخاب کنید",
+					"optionOne": "مشکل در پرداخت",
+					"optionTwo": "دیرکرد تحویل"
+				},
+				"partTwo": {
+					"title": "دسته بندی",
+					"selectPlaceholder": "دسته بندی مناسب را انتخاب کنید",
+					"optionOne": "پرداخت",
+					"optionTwo": "ارسال"
+				},
+				"partThree": {
+					"title": "اولویت",
+					"radioOne": {
+						"textOne": "کم",
+						"textTwo": "پاسخ در زمان معمول"
+					},
+					"radioTwo": {
+						"textOne": "متوسط",
+						"textTwo": "پاسخ در کوتاه ترین زمان"
+					},
+					"radioThree": {
+						"textOne": "زیاد",
+						"textTwo": "پاسخ فوری"
+					},
+					"radioFour": {
+						"textOne": "خیلی زیاد",
+						"textTwo": "پاسخ فوری و مهم"
+					}
+				},
+				"partFour": {
+					"title": "شرح مشکل یا سوال",
+					"fieldPlaceholder": "لطفا مشکل یا سوال خود را با جزییات توضیح دهید..."
+				},
+				"partFive": {
+					"title": "ضمیمه فایل(اختیاری)",
+					"fileInputPlaceholder": {
+						"textOne": {
+							"partOne": "فایل خود را اینجا بکشید یا برای ",
+							"partTwo": "انتخاب کلیک کنید"
+						},
+						"textTwo": "حداکثر حجم فایل 5 مگابایت"
+					},
+					"allowedFormatsText": "فرمت های مجاز : txt, docx, doc, pdf, png, jpeg, jpg"
+				},
+				"submitBtn": "ارسال تیکت"
+			}
+		},
+		"ticketDetails": {
+			"title": "مشاهده تیکت",
+			"subtitle": "جزییات و گفتگو های مربوط به تیکت شما",
+			"category": "خانه > تیکت ها و پشتیبانی > مشاهده تیکت",
+			"backToListBtn": "بازگشت به لیست تیکت ها",
+			"ticketInformation": {
+				"keyOne": "موضوع تیکت",
+				"valueOne": "مشکل در پرداخت سفارش",
+				"keyTwo": "شماره تیکت",
+				"valueTwo": "#tk-1401-0012",
+				"keyThree": "وضعیت",
+				"valueThree": "در انتظار پاسخ"
+			},
+			"sendMessageBox": {
+				"placeholder": "پیام خود را بنویسید...",
+				"limitationText": "برای ارسال فایل از دکمه ضمیمه استفاده کنید(حداکثر حجم مجاز: 5 مگابایت)",
+				"sendBtn": "ارسال"
+			}
+		},
+		"orderDetails": {
+			"title": "جزییات سفارش",
+			"subtitle": "اطلاعات کامل و وضعیت سفارش شما",
+			"category": "خانه > سفارش ها > جزییات سفارش",
+			"orderInformation": {
+				"keyOne": "شماره سفارش",
+				"valueOne": "586545",
+				"keyTwo": "تاریخ ثبت سفارش",
+				"valueTwo": "1404/5/10 - 10:30",
+				"keyThree": "روش پرداخت",
+				"valueThree": "درگاه بانکی",
+				"keyFour": "وضعیت سفارش",
+				"valueFour": "تحویل شده",
+				"keyFive": "مبلغ کل",
+				"valueFive": "2,480,000"
+			},
+			"orderStatusBox": {
+				"title": "وضعیت سفارش",
+				"stepOne":{
+					"text": "ثبت سفارش",
+					"date": "10:30 - 1405/06/25"
+				},
+				"stepTwo":{
+					"text": "درحال پردازش",
+					"date": "10:30 - 1405/06/25"
+				},
+				"stepThree":{
+					"text": "ارسال شده",
+					"date": "10:30 - 1405/06/25"
+				},
+				"stepFour":{
+					"text": "در حال حمل",
+					"date": "10:30 - 1405/06/25"
+				},
+				"stepFive":{
+					"text": "تحویل شده",
+					"date": "10:30 - 1405/06/25"
+				}
 			}
 		}
 	},

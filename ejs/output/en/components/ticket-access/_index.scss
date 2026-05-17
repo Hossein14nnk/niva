@@ -1,22 +1,22 @@
 @use "../../../../sass/kernel/" as *;
 
-.ticket-information {
+.ticket-access {
     box-shadow: 0 0 10px 0 #cacaca;
 }
 
-.ticket-information .menu-box>a:hover {
-    background-color: #e8064680;
+.ticket-access>a:hover {
+    background-color: #e8064637;
     border-radius: 5px;
 }
 
-.ticket-information .menu-box>a {
+.ticket-access>a {
     transition: all 300ms;
 }
 
-.ticket-information .menu-box>a:hover>* {
+.ticket-access>a:hover>* {
     color: var(--primary);
 }
 
-.ticket-information .menu-box>a>* {
+.ticket-access>a>* {
     transition: all 300ms;
 }

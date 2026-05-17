@@ -1,0 +1,21 @@
+@use "../../../../sass/kernel/" as *;
+
+
+.order-product {
+
+    box-shadow: 0 0 10px 0 #cacaca;
+
+    img {
+        width: 20%;
+        height: auto;
+    }
+
+    .green-color {
+        color: #02B74A;
+    }
+
+    .grid-2-1 {
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+    }
+}
+

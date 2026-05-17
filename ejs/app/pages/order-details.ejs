@@ -1,0 +1,151 @@
+<%- include('../layouts/page/head.ejs', {pageName: "order-details" , header: false}); -%>
+
+
+    <main id="order-details">
+        <section id="" class="section box gap-10 align-items-start d-grid grid-template">
+            <aside>
+                <%- include('../components/sidebar-menu/content.ejs', {sidebarMenu: t.components.sidebarMenu}); -%>
+            </aside>
+            <div class="container gap-6">
+                <div class="d-flex w-100 flex-row align-items-start justify-content-space-between">
+                    <div class="d-flex flex-column gap-1">
+                        <div class="d-flex flex-row gap-1 align-items-center">
+                            <i class="fa-regular fa-circle-plus txt-size-mid-title"></i>
+                            <h3 class="font-weight-semi-bold txt-size-high-title">
+                                <%= t.pages.orderDetails.title %>
+                            </h3>
+                        </div>
+                        <span class="txt-size-title secondary-text-color font-weight-semi-bold">
+                            <%= t.pages.orderDetails.subtitle %>
+                        </span>
+                    </div>
+                    <span class="txt-size-normal secondary-text-color font-weight-semi-bold">
+                        <%= t.pages.orderDetails.category %>
+                    </span>
+                </div>
+
+                <div class="box-shadow block flex-column w-100 radius-all-medium px-6 py-6 gap-6">
+                    <div class="div d-grid grid-5 w-100 bb-style-solid bw-1 pb-5 border-color justify-items-center">
+                        <div class="div flex-column gap-1 align-items-start">
+                            <span class="secondary-text-color txt-size-title font-weight-semi-bold"><%= t.pages.orderDetails.orderInformation.keyOne %></span>
+                            <span class="txt-size-big font-weight-medium primary-color"><%= t.pages.orderDetails.orderInformation.valueOne %></span>
+                        </div>
+                        <div class="div flex-column gap-1 align-items-start">
+                            <span class="secondary-text-color txt-size-title font-weight-semi-bold"><%= t.pages.orderDetails.orderInformation.keyTwo %></span>
+                            <span class="txt-size-big font-weight-medium"><%= t.pages.orderDetails.orderInformation.valueTwo %></span>
+                        </div>
+                        <div class="div flex-column gap-1 align-items-start">
+                            <span class="secondary-text-color txt-size-title font-weight-semi-bold"><%= t.pages.orderDetails.orderInformation.keyThree %></span>
+                            <span class="txt-size-big font-weight-medium"><%= t.pages.orderDetails.orderInformation.valueThree %></span>
+                        </div>
+                        <div class="div flex-column gap-0 align-items-start">
+                            <span class="secondary-text-color txt-size-title font-weight-semi-bold"><%= t.pages.orderDetails.orderInformation.keyFour %></span>
+                            <span class="px-2 py-1 radius-all-extra-small bw-1 border-style-solid txt-size-big font-weight-bold bg-success-light-color border-success-regular-color success-dark-color"><%= t.pages.orderDetails.orderInformation.valueFour %></span>
+                        </div>
+                        <div class="div flex-column gap-1 align-items-start">
+                            <span class="secondary-text-color txt-size-title font-weight-semi-bold"><%= t.pages.orderDetails.orderInformation.keyFive %></span>
+                            <span class="txt-size-big font-weight-medium"><%= t.pages.orderDetails.orderInformation.valueFive %></span>
+                        </div>
+                    </div>
+                    <div class="div flex-column gap-10 w-100">
+                        <span class="txt-size-title font-weight-medium"><%= t.pages.orderDetails.orderStatusBox.title %></span>
+                        <div class="div flex-column align-items-center">
+                            <div class="line"></div>
+                            <div class="steps-box div justify-content-space-between w-100 align-items-center">
+                                <div class="div flex-column align-items-center gap-1">
+                                    <div class="py-2 aspect-ratio-1x1 border-primary-color bw-2 border-style-solid d-flex align-items-center justify-content-center radius-all-small bg-color">
+                                        <i class="fa-regular fa-file-invoice primary-color"></i>
+                                    </div>
+                                    <span class="txt-size-title font-weight-semi-bold"><%= t.pages.orderDetails.orderStatusBox.stepOne.text %></span>
+                                    <span class="txt-size-big font-weight-medium"><%= t.pages.orderDetails.orderStatusBox.stepOne.date %></span>
+                                </div>
+                                <div class="div flex-column align-items-center gap-1">
+                                    <div class="py-2 aspect-ratio-1x1 border-primary-color bw-2 border-style-solid d-flex align-items-center justify-content-center radius-all-small bg-color">
+                                        <i class="fa-regular fa-gear primary-color"></i>
+                                    </div>
+                                    <span class="txt-size-title font-weight-semi-bold"><%= t.pages.orderDetails.orderStatusBox.stepTwo.text %></span>
+                                    <span class="txt-size-big font-weight-medium"><%= t.pages.orderDetails.orderStatusBox.stepTwo.date %></span>
+                                </div>
+                                <div class="div flex-column align-items-center gap-1">
+                                    <div class="py-2 aspect-ratio-1x1 border-primary-color bw-2 border-style-solid d-flex align-items-center justify-content-center radius-all-small bg-color">
+                                        <i class="fa-regular fa-box primary-color"></i>
+                                    </div>
+                                    <span class="txt-size-title font-weight-semi-bold"><%= t.pages.orderDetails.orderStatusBox.stepThree.text %></span>
+                                    <span class="txt-size-big font-weight-medium"><%= t.pages.orderDetails.orderStatusBox.stepThree.date %></span>
+                                </div>
+                                <div class="div flex-column align-items-center gap-1">
+                                    <div class="py-2 aspect-ratio-1x1 border-primary-color bw-2 border-style-solid d-flex align-items-center justify-content-center radius-all-small bg-color">
+                                        <i class="fa-regular fa-truck primary-color"></i>
+                                    </div>
+                                    <span class="txt-size-title font-weight-semi-bold"><%= t.pages.orderDetails.orderStatusBox.stepOne.text %></span>
+                                    <span class="txt-size-big font-weight-medium"><%= t.pages.orderDetails.orderStatusBox.stepOne.date %></span>
+                                </div>
+                                <div class="div flex-column align-items-center gap-1">
+                                    <div class="py-2 aspect-ratio-1x1 border-primary-color bw-2 border-style-solid d-flex align-items-center justify-content-center radius-all-full bg-color">
+                                        <i class="fa-regular fa-check primary-color"></i>
+                                    </div>
+                                    <span class="txt-size-title font-weight-semi-bold"><%= t.pages.orderDetails.orderStatusBox.stepFive.text %></span>
+                                    <span class="txt-size-big font-weight-medium"><%= t.pages.orderDetails.orderStatusBox.stepFive.date %></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="block d-grid grid-2-3 grid-xl-1 w-100 gap-6">
+                    <%- include('../components/shipment-information/content.ejs', {shipmentInformation: t.components.shipmentInformation}); -%>
+                    <%- include('../components/order-product/content.ejs', {orderProduct: t.components.orderProduct}); -%>
+                </div>
+            </div>
+        </section>
+        <section id="" class="section box">
+            <div
+                class="container d-grid grid-4 grid-lg-2 justify-items-center justify-items-lg-start gap-lg-3 w-100 py-5 px-15 px-xl-10 px-lg-5 radius-all-medium box-shadow">
+                <div class="d-flex flex-row align-items-center gap-5 w-fit-content">
+                    <div
+                        class="icon-box aspect-ratio-1x1 radius-all-small px-3 d-flex align-items-center justify-content-center">
+                        <i class="fa-regular fa-shield-check primary-color txt-size-big-title"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span class="txt-size-title font-weight-semi-bold">ضمانت اصالت کالا</span>
+                        <span class="txt-size-big font-weight-medium secondary-text-color">خرید مطمین و اصل</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row align-items-center gap-5 w-fit-content">
+                    <div
+                        class="icon-box aspect-ratio-1x1 radius-all-small px-3 d-flex align-items-center justify-content-center">
+                        <i class="fa-regular fa-headset primary-color txt-size-big-title"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span class="txt-size-title font-weight-semi-bold">پشنیبانی 24 ساعته</span>
+                        <span class="txt-size-big font-weight-medium secondary-text-color">از طریق تیکت و تماس</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row align-items-center gap-5 w-fit-content">
+                    <div
+                        class="icon-box aspect-ratio-1x1 radius-all-small px-3 d-flex align-items-center justify-content-center">
+                        <i class="fa-regular fa-truck primary-color txt-size-big-title"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span class="txt-size-title font-weight-semi-bold">ارسال سریع</span>
+                        <span class="txt-size-big font-weight-medium secondary-text-color">به سراسر کشور</span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row align-items-center gap-5 w-fit-content">
+                    <div
+                        class="icon-box aspect-ratio-1x1 radius-all-small px-3 d-flex align-items-center justify-content-center">
+                        <i class="fa-regular fa-money-bill-transfer primary-color txt-size-big-title"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span class="txt-size-title font-weight-semi-bold">7 روز ضمانت بازگشت وجه</span>
+                        <span class="txt-size-big font-weight-medium secondary-text-color">بازگشت بدون قید و شرط</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <%- include('../layouts/page/foot.ejs', {footer: false}); -%>

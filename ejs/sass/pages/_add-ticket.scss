@@ -1,0 +1,62 @@
+#add-ticket .switcher.active {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+#add-ticket .box-shadow {
+    box-shadow: 0 0 10px 0 #cacaca;
+}
+
+#add-ticket .grid-template {
+    grid-template-columns: 1fr 4fr;
+}
+
+#add-ticket form select{
+    outline-color: var(--secondary-text);
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+#add-ticket form input{
+    width: 15px;
+    height: 15px;
+    accent-color: var(--primary);
+}
+
+#add-ticket form textarea{
+    outline-color: var(--secondary-text);
+    outline-style: solid;
+    outline-width: 1px;
+    height: 110px;
+}
+
+#add-ticket form .file-input{
+    height: 110px;
+    box-shadow: inset 0 0 10px 0 rgba(255,0,0,.1);
+}
+
+#add-ticket .icon-box{
+    background-color: rgba(255,0,0,.1);
+}
+
+@media screen and (width < 1400px) {}
+
+@media screen and (width < 1200px) {
+    #add-ticket .grid-template {
+        grid-template-columns: 1fr 3fr;
+    }
+}
+
+@media screen and (width < 992px) {}
+
+@media screen and (width < 768px) {
+    #add-ticket .grid-template {
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+@media screen and (width < 576px) {
+    #add-ticket .grid-template {
+        grid-template-columns: 1fr;
+    }
+}
